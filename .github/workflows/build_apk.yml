@@ -1,0 +1,61 @@
+name: Build Android APK
+
+# Manual only: Actions tab > "Build Android APK" > Run workflow.
+on:
+  workflow_dispatch:
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      # The repository variable API_BASE_URL wins; otherwise this default is used.
+      API_BASE_URL: ${{ vars.API_BASE_URL || 'http://192.168.1.177:8080' }}
+      APP_API_KEY: ${{ secrets.APP_API_KEY }}
+    steps:
+      - name: Check the server address
+        run: |
+          if [ -z "$API_BASE_URL" ]; then
+            echo "::error::Missing variable API_BASE_URL. Settings > Secrets and variables > Actions > Variables > New repository variable."
+            exit 1
+          fi
+          case "$API_BASE_URL" in
+            https://*) ;;
+            http://*) echo "::warning::API_BASE_URL is plain http: fine for a home network test, use https for real users." ;;
+            *) echo "::error::API_BASE_URL must start with http:// or https://"; exit 1 ;;
+          esac
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Create the Android project, permissions, minSdk, app name
+        run: |
+          flutter create . --platforms=android --project-name nihongo_salem --org com.nihongo.salem
+          sh tool/setup_platforms.sh
+
+      - run: flutter pub get
+
+      - name: Run the tests
+        run: flutter test
+
+      - name: "Build APK (test build, simulated subscription)"
+        run: |
+          flutter build apk --release \
+            --dart-define=MOCK_PURCHASES=true \
+            --dart-define=API_BASE_URL="$API_BASE_URL" \
+            --dart-define=APP_API_KEY="$APP_API_KEY"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nihongo-salem-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
+          retention-days: 30

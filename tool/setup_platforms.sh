@@ -15,6 +15,10 @@ if [ -f "$MANIFEST" ]; then
     fi
   done
   sed -i.bak 's#android:label="[^"]*"#android:label="نيهونغو مع سالم"#' "$MANIFEST"
+  # Test builds may talk to a plain-http server on the home network (Android blocks that by default).
+  if ! grep -q usesCleartextTraffic "$MANIFEST"; then
+    sed -i.bak 's#<application#<application android:usesCleartextTraffic="true"#' "$MANIFEST"
+  fi
   rm -f "$MANIFEST.bak"
 else
   echo "Missing $MANIFEST - run 'flutter create . --platforms=android,ios' first." >&2
