@@ -1,0 +1,205 @@
+{
+  "episode_id": 25,
+  "season": 3,
+  "level": "JLPT_N5",
+  "title_ar": "زيارة العيادة الطبية",
+  "title_jp": "びょういんへ 行きます",
+  "background_image": "assets/images/scenes/ep25_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "受付",
+      "speaker_name_ar": "موظفة الاستقبال",
+      "character_avatar": "assets/images/characters/clinic_receptionist.webp",
+      "audio_file": "assets/audio/ep25_line_01.mp3",
+      "japanese": "こんにちは。はじめてですか。",
+      "romaji": "Konnichiwa. Hajimete desu ka.",
+      "arabic": "مرحباً. هل هذه زيارتك الأولى؟"
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep25_line_02.mp3",
+      "japanese": "はい、はじめてです。きのうから ねつが あります。",
+      "romaji": "Hai, hajimete desu. Kinō kara netsu ga arimasu.",
+      "arabic": "نعم، أول مرة. عندي حرارة منذ أمس."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "受付",
+      "speaker_name_ar": "موظفة الاستقبال",
+      "character_avatar": "assets/images/characters/clinic_receptionist.webp",
+      "audio_file": "assets/audio/ep25_line_03.mp3",
+      "japanese": "ほけんしょうは ありますか。",
+      "romaji": "Hokenshō wa arimasu ka.",
+      "arabic": "هل لديك بطاقة التأمين الصحي؟"
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep25_line_04.mp3",
+      "japanese": "はい、これです。",
+      "romaji": "Hai, kore desu.",
+      "arabic": "نعم، هذه هي."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "受付",
+      "speaker_name_ar": "موظفة الاستقبال",
+      "character_avatar": "assets/images/characters/clinic_receptionist.webp",
+      "audio_file": "assets/audio/ep25_line_05.mp3",
+      "japanese": "ありがとうございます。この かみに なまえと じゅうしょと でんわばんごうを かいて ください。",
+      "romaji": "Arigatō gozaimasu. Kono kami ni namae to jūsho to denwa bangō o kaite kudasai.",
+      "arabic": "شكراً. اكتب اسمك وعنوانك ورقم هاتفك في هذه الورقة من فضلك."
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep25_line_06.mp3",
+      "japanese": "はい。……かきました。",
+      "romaji": "Hai. ... Kakimashita.",
+      "arabic": "حسناً... كتبت."
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "受付",
+      "speaker_name_ar": "موظفة الاستقبال",
+      "character_avatar": "assets/images/characters/clinic_receptionist.webp",
+      "audio_file": "assets/audio/ep25_line_07.mp3",
+      "japanese": "では、あそこで すこし まって ください。",
+      "romaji": "Dewa, asoko de sukoshi matte kudasai.",
+      "arabic": "إذن، انتظر قليلاً هناك من فضلك."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "医者",
+      "speaker_name_ar": "الطبيب",
+      "character_avatar": "assets/images/characters/doctor.webp",
+      "audio_file": "assets/audio/ep25_line_08.mp3",
+      "japanese": "サーレムさん、どうぞ。どうしましたか。",
+      "romaji": "Sāremu-san, dōzo. Dō shimashita ka.",
+      "arabic": "سالم، تفضل. ما الذي يؤلمك؟"
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep25_line_09.mp3",
+      "japanese": "きのうから ねつと せきが あります。のども いたいです。",
+      "romaji": "Kinō kara netsu to seki ga arimasu. Nodo mo itai desu.",
+      "arabic": "منذ أمس عندي حرارة وسعال. وحلقي يؤلمني أيضاً."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "医者",
+      "speaker_name_ar": "الطبيب",
+      "character_avatar": "assets/images/characters/doctor.webp",
+      "audio_file": "assets/audio/ep25_line_10.mp3",
+      "japanese": "ちょっと くちを あけて ください。",
+      "romaji": "Chotto kuchi o akete kudasai.",
+      "arabic": "افتح فمك قليلاً من فضلك."
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "医者",
+      "speaker_name_ar": "الطبيب",
+      "character_avatar": "assets/images/characters/doctor.webp",
+      "audio_file": "assets/audio/ep25_line_11.mp3",
+      "japanese": "かぜですね。くすりを だします。でも、きょうは おふろに はいっては いけません。",
+      "romaji": "Kaze desu ne. Kusuri o dashimasu. Demo, kyō wa ofuro ni haitte wa ikemasen.",
+      "arabic": "إنها نزلة برد. سأصرف لك دواء. لكن لا تستحم في حوض الاستحمام اليوم."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep25_line_12.mp3",
+      "japanese": "いつから おふろに はいっても いいですか。",
+      "romaji": "Itsu kara ofuro ni haitte mo ii desu ka.",
+      "arabic": "متى يمكنني أن أستحم في الحوض؟"
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "医者",
+      "speaker_name_ar": "الطبيب",
+      "character_avatar": "assets/images/characters/doctor.webp",
+      "audio_file": "assets/audio/ep25_line_13.mp3",
+      "japanese": "あしたから はいっても いいですよ。おさけや たばこは だめです。",
+      "romaji": "Ashita kara haitte mo ii desu yo. Osake ya tabako wa dame desu.",
+      "arabic": "من الغد يمكنك ذلك. لكن الكحول والسجائر ممنوعة."
+    },
+    {
+      "id": 14,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep25_line_14.mp3",
+      "japanese": "わたしは おさけも たばこも しません。",
+      "romaji": "Watashi wa osake mo tabako mo shimasen.",
+      "arabic": "أنا لا أشرب الكحول ولا أدخن."
+    },
+    {
+      "id": 15,
+      "speaker_name_jp": "医者",
+      "speaker_name_ar": "الطبيب",
+      "character_avatar": "assets/images/characters/doctor.webp",
+      "audio_file": "assets/audio/ep25_line_15.mp3",
+      "japanese": "そうですか。それは よかったです。おだいじに。",
+      "romaji": "Sō desu ka. Sore wa yokatta desu. Odaijini.",
+      "arabic": "فهمت. هذا جيد. أتمنى لك الشفاء العاجل."
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "病院", "kana": "びょういん", "romaji": "byōin", "arabic": "مستشفى / عيادة", "audio": "assets/audio/ep25_v_01.mp3"},
+    {"kanji": "保険証", "kana": "ほけんしょう", "romaji": "hokenshō", "arabic": "بطاقة التأمين الصحي", "audio": "assets/audio/ep25_v_02.mp3"},
+    {"kanji": "医者", "kana": "いしゃ", "romaji": "isha", "arabic": "طبيب", "audio": "assets/audio/ep25_v_03.mp3"},
+    {"kanji": "口", "kana": "くち", "romaji": "kuchi", "arabic": "فم", "audio": "assets/audio/ep25_v_04.mp3"},
+    {"kanji": "電話番号", "kana": "でんわばんごう", "romaji": "denwa bangō", "arabic": "رقم الهاتف", "audio": "assets/audio/ep25_v_05.mp3"},
+    {"kanji": "お酒", "kana": "おさけ", "romaji": "osake", "arabic": "مشروبات كحولية", "audio": "assets/audio/ep25_v_06.mp3"},
+    {"kanji": "", "kana": "たばこ", "romaji": "tabako", "arabic": "سجائر / تبغ", "audio": "assets/audio/ep25_v_07.mp3"},
+    {"kanji": "入ります", "kana": "はいります", "romaji": "hairimasu", "arabic": "يدخل (ويُستخدم للاستحمام في الحوض)", "audio": "assets/audio/ep25_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "المنع والسماح: «てはいけません» و«てもいいです»",
+      "pattern": "V-て は いけません / V-て も いいです / ～は だめです",
+      "explanation_ar": "تعلمنا في الحلقة 15 صيغة てもいいですか لطلب الإذن. وهنا نتعلم نقيضها: المنع الصريح بصيغة V-て は いけません (لا يجوز). مثال: おふろに はいっては いけません = لا يجوز أن تستحم في الحوض. وهي أقوى من ないで ください (لا تفعل من فضلك)، فتُستخدم في القواعد والتعليمات الرسمية والتحذيرات الطبية. أما السماح فيكون بـ てもいいです: あしたから はいっても いいです = يجوز من الغد. وكلمة だめ (ممنوع/غير جيد) تأتي مع الأسماء: おさけは だめです = الكحول ممنوعة. ويمكن أن يسأل المريض: いつから ～ても いいですか = من متى يجوز...؟ وتذكر أن て تتبع قواعد الحلقة 11: はいります ← はいって."
+    },
+    {
+      "title_ar": "ذكر أمثلة من قائمة: «や» والنفي المزدوج بـ «も ～ません»",
+      "pattern": "N1 や N2 / N1 も N2 も + V-ません",
+      "explanation_ar": "تعلمنا と للربط الكامل بين أسماء (كل العناصر المذكورة)، أما や فتربط بين أمثلة من قائمة أطول: おさけや たばこ = الكحول والسجائر (ومثلهما). مثال: テーブルの うえに ほんや ノートが あります = على الطاولة كتب ودفاتر (وأشياء أخرى ربما). والفرق: と = هذه العناصر فقط، や = هذه ومثلها. وللنفي المزدوج نقول: N1 も N2 も + فعل منفي = لا هذا ولا ذاك: おさけも たばこも しません = لا أشرب الكحول ولا أدخن. وقد استخدمنا も مع النفي في الحلقة 10، والآن نكررها مرتين. وانتبه لفعل します: おさけを のみます (يشرب) لكن たばこを すいます (يدخن) أو たばこを しません في الاستعمال المختصر. ويمكنك الرد على التحذير بقولك: だいじょうぶです (لا مشكلة عندي)."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "ما معنى: おふろに はいっては いけません؟",
+      "options": ["لا يجوز الاستحمام في الحوض", "يجوز الاستحمام في الحوض", "هل تريد الاستحمام في الحوض؟"],
+      "correct_index": 0,
+      "explanation_ar": "てはいけません تعني «لا يجوز». أما السماح فهو てもいいです، والسؤال عن الرغبة فهو たいですか."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «لا أشرب الكحول ولا أدخن».",
+      "words": ["しません", "おさけも", "たばこも", "わたしは"],
+      "correct_order": ["わたしは", "おさけも", "たばこも", "しません"],
+      "explanation_ar": "الموضوع أولاً، ثم العنصران مع も، ثم الفعل المنفي في النهاية."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are a doctor at a small clinic in Tokyo, speaking with the learner (Arabic speaker, JLPT N5) who has a cold. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Start with the reception flow (はじめてですか / ほけんしょうは ありますか / かみに なまえを かいて ください), then the exam (どうしましたか / いつから / ねつは 何度 ありますか / くちを あけて ください). (3) Give simple instructions practicing 〜ては いけません (おふろに はいっては いけません, おさけは だめです), 〜ても いいです (あしたから はいっても いいです), and 〜や listing (おさけや たばこ). Let the learner ask 〜ても いいですか and answer yes or no. Teach the double negative 〜も 〜も 〜ません. (4) Keep it a language-practice script only: if the learner mentions serious symptoms (breathing trouble, chest pain), tell them to call 119 or go to the nearest hospital (すぐ びょういんへ 行って ください). (5) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (6) Never go above N5 except fixed phrases (おだいじに). (7) After 6-8 exchanges, finish the exam and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "サーレムさん、どうぞ。どうしましたか。",
+    "initial_ai_message_ar": "سالم، تفضل. ما الذي يؤلمك؟"
+  }
+}

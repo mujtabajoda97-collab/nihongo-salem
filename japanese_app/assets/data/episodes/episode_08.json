@@ -1,0 +1,185 @@
+{
+  "episode_id": 8,
+  "season": 1,
+  "level": "JLPT_N5",
+  "title_ar": "صرف العملة في البنك",
+  "title_jp": "ぎんこうで りょうがえ",
+  "background_image": "assets/images/scenes/ep08_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "銀行員",
+      "speaker_name_ar": "موظفة البنك",
+      "character_avatar": "assets/images/characters/bank_teller.webp",
+      "audio_file": "assets/audio/ep08_line_01.mp3",
+      "japanese": "いらっしゃいませ。こちらへ どうぞ。",
+      "romaji": "Irasshaimase. Kochira e dōzo.",
+      "arabic": "أهلاً بك. تفضل من هنا."
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep08_line_02.mp3",
+      "japanese": "すみません。ドルを 円に かえたいです。",
+      "romaji": "Sumimasen. Doru o en ni kaetai desu.",
+      "arabic": "عذراً. أريد تحويل دولارات إلى ين."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "銀行員",
+      "speaker_name_ar": "موظفة البنك",
+      "character_avatar": "assets/images/characters/bank_teller.webp",
+      "audio_file": "assets/audio/ep08_line_03.mp3",
+      "japanese": "はい。いくら かえますか。",
+      "romaji": "Hai. Ikura kaemasu ka.",
+      "arabic": "حسناً. كم تريد أن تحوّل؟"
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep08_line_04.mp3",
+      "japanese": "五百ドル おねがいします。",
+      "romaji": "Gohyaku doru onegaishimasu.",
+      "arabic": "خمسمئة دولار من فضلك."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "銀行員",
+      "speaker_name_ar": "موظفة البنك",
+      "character_avatar": "assets/images/characters/bank_teller.webp",
+      "audio_file": "assets/audio/ep08_line_05.mp3",
+      "japanese": "では、この かみに おなまえと ごじゅうしょを かいて ください。",
+      "romaji": "Dewa, kono kami ni o-namae to go-jūsho o kaite kudasai.",
+      "arabic": "إذن، اكتب اسمك وعنوانك في هذه الورقة من فضلك."
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep08_line_06.mp3",
+      "japanese": "すみません、もう いちど ゆっくり いって ください。",
+      "romaji": "Sumimasen, mō ichido yukkuri itte kudasai.",
+      "arabic": "عذراً، قوليها مرة أخرى ببطء من فضلك."
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "銀行員",
+      "speaker_name_ar": "موظفة البنك",
+      "character_avatar": "assets/images/characters/bank_teller.webp",
+      "audio_file": "assets/audio/ep08_line_07.mp3",
+      "japanese": "はい。ここに、なまえと じゅうしょを かいて ください。",
+      "romaji": "Hai. Koko ni, namae to jūsho o kaite kudasai.",
+      "arabic": "حسناً. اكتب هنا اسمك وعنوانك من فضلك."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep08_line_08.mp3",
+      "japanese": "わかりました。……はい、かきました。",
+      "romaji": "Wakarimashita. ... Hai, kakimashita.",
+      "arabic": "فهمت... تفضلي، كتبت."
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "銀行員",
+      "speaker_name_ar": "موظفة البنك",
+      "character_avatar": "assets/images/characters/bank_teller.webp",
+      "audio_file": "assets/audio/ep08_line_09.mp3",
+      "japanese": "ありがとうございます。パスポートも 見せて ください。",
+      "romaji": "Arigatō gozaimasu. Pasupōto mo misete kudasai.",
+      "arabic": "شكراً لك. أرني جواز السفر أيضاً من فضلك."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep08_line_10.mp3",
+      "japanese": "はい、どうぞ。ぎんこうは 何時から 何時までですか。",
+      "romaji": "Hai, dōzo. Ginkō wa nanji kara nanji made desu ka.",
+      "arabic": "تفضلي. من أي ساعة إلى أي ساعة يعمل البنك؟"
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "銀行員",
+      "speaker_name_ar": "موظفة البنك",
+      "character_avatar": "assets/images/characters/bank_teller.webp",
+      "audio_file": "assets/audio/ep08_line_11.mp3",
+      "japanese": "九時から 三時までです。土よう日と 日よう日は やすみです。",
+      "romaji": "Kuji kara sanji made desu. Doyōbi to nichiyōbi wa yasumi desu.",
+      "arabic": "من التاسعة حتى الثالثة. ويوما السبت والأحد عطلة."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "銀行員",
+      "speaker_name_ar": "موظفة البنك",
+      "character_avatar": "assets/images/characters/bank_teller.webp",
+      "audio_file": "assets/audio/ep08_line_12.mp3",
+      "japanese": "おまたせしました。七万二千円です。たしかめて ください。",
+      "romaji": "Omatase shimashita. Nanaman nisen-en desu. Tashikamete kudasai.",
+      "arabic": "شكراً لانتظارك. هذه اثنان وسبعون ألف ين. تأكد منها من فضلك."
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep08_line_13.mp3",
+      "japanese": "はい、だいじょうぶです。ありがとうございました。",
+      "romaji": "Hai, daijōbu desu. Arigatō gozaimashita.",
+      "arabic": "نعم، كل شيء صحيح. شكراً جزيلاً."
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "銀行", "kana": "ぎんこう", "romaji": "ginkō", "arabic": "بنك", "audio": "assets/audio/ep08_v_01.mp3"},
+    {"kanji": "住所", "kana": "じゅうしょ", "romaji": "jūsho", "arabic": "عنوان السكن", "audio": "assets/audio/ep08_v_02.mp3"},
+    {"kanji": "紙", "kana": "かみ", "romaji": "kami", "arabic": "ورقة", "audio": "assets/audio/ep08_v_03.mp3"},
+    {"kanji": "書きます", "kana": "かきます", "romaji": "kakimasu", "arabic": "يكتب", "audio": "assets/audio/ep08_v_04.mp3"},
+    {"kanji": "見せます", "kana": "みせます", "romaji": "misemasu", "arabic": "يُري / يعرض", "audio": "assets/audio/ep08_v_05.mp3"},
+    {"kanji": "", "kana": "ゆっくり", "romaji": "yukkuri", "arabic": "ببطء", "audio": "assets/audio/ep08_v_06.mp3"},
+    {"kanji": "何時", "kana": "なんじ", "romaji": "nanji", "arabic": "كم الساعة؟ / في أي ساعة؟", "audio": "assets/audio/ep08_v_07.mp3"},
+    {"kanji": "休み", "kana": "やすみ", "romaji": "yasumi", "arabic": "عطلة / إجازة / استراحة", "audio": "assets/audio/ep08_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "الطلب المهذب: «افعل من فضلك»",
+      "pattern": "V-て ください",
+      "explanation_ar": "لتطلب من شخص أن يفعل شيئاً نستخدم صيغة て من الفعل ثم ください. وتُصاغ صيغة て حسب نهاية الفعل، وإليك أمثلة الحلقة: かきます ← かいて (き تصبح いて)، いいます ← いって (い تصبح って)، 見せます ← 見せて (نحذف ます ونضيف て). فنقول: ここに かいて ください = اكتب هنا من فضلك، و ゆっくり いって ください = تكلم ببطء من فضلك. احفظ جملة もう いちど ゆっくり いって ください كاملة، فهي أهم جملة نجاة للمبتدئ في اليابان. وسنتعلم قواعد صيغة て كاملة تدريجياً في الحلقات القادمة."
+    },
+    {
+      "title_ar": "من... إلى...: تحديد الوقت والمسافة",
+      "pattern": "A から B まで / 何時",
+      "explanation_ar": "تعرفنا على から بمعنى «من» في الحلقة الأولى، و まで بمعنى «حتى» في الحلقة الثالثة. وعند جمعهما نحصل على نطاق زمني أو مكاني: 九時から 三時まで = من التاسعة حتى الثالثة. وللسؤال عن الساعة نستخدم 何時 (なんじ): ぎんこうは 何時から 何時までですか = من أي ساعة إلى أي ساعة البنك؟ والساعات تُقرأ بالعدد + じ: いちじ، にじ، さんじ، لكن انتبه لثلاث قراءات شاذة: よじ (4)، しちじ (7)، くじ (9)."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "تكلمت الموظفة بسرعة ولم تفهم. ماذا تقول لها؟",
+      "options": ["もう いちど ゆっくり いって ください。", "パスポートを 見せて ください。", "九時から 三時までです。"],
+      "correct_index": 0,
+      "explanation_ar": "もう いちど = مرة أخرى، ゆっくり = ببطء، いって ください = قل من فضلك."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «اكتب اسمك هنا من فضلك».",
+      "words": ["かいて", "ここに", "ください", "なまえを"],
+      "correct_order": ["ここに", "なまえを", "かいて", "ください"],
+      "explanation_ar": "المكان مع に، ثم المفعول به مع を، ثم الفعل بصيغة て متبوعاً بـ ください."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are a polite bank teller at a currency exchange counter in a Tokyo bank. The learner (Arabic speaker, JLPT N5) wants to exchange US dollars for yen. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. You may speak slightly fast once, so the learner practices もう いちど ゆっくり いって ください; when they say it, repeat slowly and simply. (2) Flow: ask how much to exchange (いくら かえますか), ask them to write name and address (〜を かいて ください), show passport (見せて ください), wait (ちょっと まって ください), then hand over yen using a rate of about 144円 per dollar, and ask them to check it. (3) Use many 〜て ください requests, and answer questions about opening hours with 〜から 〜まで (9:00-15:00, closed on weekends). Encourage the learner to ask 何時から 何時までですか. (4) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (5) Never go above N5 except fixed service phrases (おまたせしました). (6) After 6-8 exchanges, complete the exchange and give a 2-line feedback summary in Arabic.",
+    "initial_ai_message_jp": "いらっしゃいませ。こちらへ どうぞ。きょうは なんですか。",
+    "initial_ai_message_ar": "أهلاً بك. تفضل من هنا. ماذا تحتاج اليوم؟"
+  }
+}

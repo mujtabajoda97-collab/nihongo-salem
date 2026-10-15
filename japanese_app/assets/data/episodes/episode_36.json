@@ -1,0 +1,70 @@
+{
+  "episode_id": 36,
+  "season": 4,
+  "level": "JLPT_N5",
+  "title_ar": "التخطيط لرحلة إلى جبل فوجي ومقارنة وسائل النقل",
+  "title_jp": "ふじさんへ 行きましょう",
+  "background_image": "assets/images/scenes/ep36_bg.webp",
+  "dialogues": [
+    {"id": 1, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep36_line_01.mp3", "japanese": "らいしゅうの どようびに ふじさんへ 行きませんか。", "romaji": "Raishū no doyōbi ni Fujisan e ikimasen ka.", "arabic": "ما رأيكم أن نذهب إلى جبل فوجي السبت القادم؟"},
+    {"id": 2, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep36_line_02.mp3", "japanese": "いいですね! ふじさんを 見に 行きたいです。", "romaji": "Ii desu ne! Fujisan o mi ni ikitai desu.", "arabic": "رائع! أريد الذهاب لرؤية جبل فوجي."},
+    {"id": 3, "speaker_name_jp": "ケンタ", "speaker_name_ar": "كينتا", "character_avatar": "assets/images/characters/kenta.webp", "audio_file": "assets/audio/ep36_line_03.mp3", "japanese": "どうやって 行きますか。バスですか、でんしゃですか。", "romaji": "Dō yatte ikimasu ka. Basu desu ka, densha desu ka.", "arabic": "كيف نذهب؟ بالحافلة أم بالقطار؟"},
+    {"id": 4, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep36_line_04.mp3", "japanese": "バスと でんしゃと どちらが はやいですか。", "romaji": "Basu to densha to dochira ga hayai desu ka.", "arabic": "أيهما أسرع، الحافلة أم القطار؟"},
+    {"id": 5, "speaker_name_jp": "ケンタ", "speaker_name_ar": "كينتا", "character_avatar": "assets/images/characters/kenta.webp", "audio_file": "assets/audio/ep36_line_05.mp3", "japanese": "しらべます。……バスは 二じかんぐらい、でんしゃは 二じかんはんぐらいです。", "romaji": "Shirabemasu. ... Basu wa nijikan gurai, densha wa nijikan han gurai desu.", "arabic": "سأبحث. الحافلة حوالي ساعتين، والقطار حوالي ساعتين ونصف."},
+    {"id": 6, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep36_line_06.mp3", "japanese": "バスと でんしゃと どちらが やすいですか。", "romaji": "Basu to densha to dochira ga yasui desu ka.", "arabic": "أيهما أرخص، الحافلة أم القطار؟"},
+    {"id": 7, "speaker_name_jp": "ケンタ", "speaker_name_ar": "كينتا", "character_avatar": "assets/images/characters/kenta.webp", "audio_file": "assets/audio/ep36_line_07.mp3", "japanese": "バスの ほうが やすいです。バスは 二千円、でんしゃは 三千円ぐらいです。", "romaji": "Basu no hō ga yasui desu. Basu wa nisen-en, densha wa sanzen-en gurai desu.", "arabic": "الحافلة أرخص. الحافلة ألفا ين، والقطار حوالي ثلاثة آلاف."},
+    {"id": 8, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep36_line_08.mp3", "japanese": "じゃ、バスに しましょう。バスは どこから のりますか。", "romaji": "Ja, basu ni shimashō. Basu wa doko kara norimasu ka.", "arabic": "إذن لنختر الحافلة. من أين نركبها؟"},
+    {"id": 9, "speaker_name_jp": "ケンタ", "speaker_name_ar": "كينتا", "character_avatar": "assets/images/characters/kenta.webp", "audio_file": "assets/audio/ep36_line_09.mp3", "japanese": "しんじゅくえきの バスターミナルです。あさ 八じの バスに のりましょう。", "romaji": "Shinjuku-eki no basu tāminaru desu. Asa hachiji no basu ni norimashō.", "arabic": "من محطة الحافلات في شينجوكو. لنركب حافلة الثامنة صباحاً."},
+    {"id": 10, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep36_line_10.mp3", "japanese": "ふじさんは さむいですから、あたたかい ふくを もって 行って ください。", "romaji": "Fujisan wa samui desu kara, atatakai fuku o motte itte kudasai.", "arabic": "جبل فوجي بارد، لذا خذوا معكم ملابس دافئة."},
+    {"id": 11, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep36_line_11.mp3", "japanese": "わかりました。ごはんは どうしますか。", "romaji": "Wakarimashita. Gohan wa dō shimasu ka.", "arabic": "فهمت. وماذا عن الطعام؟"},
+    {"id": 12, "speaker_name_jp": "ケンタ", "speaker_name_ar": "كينتا", "character_avatar": "assets/images/characters/kenta.webp", "audio_file": "assets/audio/ep36_line_12.mp3", "japanese": "おべんとうか レストランか、どちらも いいですね。", "romaji": "Obentō ka resutoran ka, dochira mo ii desu ne.", "arabic": "إما وجبة محمولة أو مطعم، كلاهما جيد."},
+    {"id": 13, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep36_line_13.mp3", "japanese": "わたしは おべんとうが いいです。ぶたにくが はいって いませんから。", "romaji": "Watashi wa obentō ga ii desu. Butaniku ga haitte imasen kara.", "arabic": "أفضّل الوجبة المحمولة. لأنها خالية من لحم الخنزير."},
+    {"id": 14, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep36_line_14.mp3", "japanese": "わかりました。みんなで おべんとうを つくりましょう。", "romaji": "Wakarimashita. Minna de obentō o tsukurimashō.", "arabic": "حسناً. لنحضّر الوجبات معاً."},
+    {"id": 15, "speaker_name_jp": "ケンタ", "speaker_name_ar": "كينتا", "character_avatar": "assets/images/characters/kenta.webp", "audio_file": "assets/audio/ep36_line_15.mp3", "japanese": "たのしみですね!", "romaji": "Tanoshimi desu ne!", "arabic": "إنني متحمس!"}
+  ],
+  "vocabulary": [
+    {"kanji": "富士山", "kana": "ふじさん", "romaji": "Fujisan", "arabic": "جبل فوجي", "audio": "assets/audio/ep36_v_01.mp3"},
+    {"kanji": "", "kana": "バス", "romaji": "basu", "arabic": "حافلة", "audio": "assets/audio/ep36_v_02.mp3"},
+    {"kanji": "調べます", "kana": "しらべます", "romaji": "shirabemasu", "arabic": "يبحث / يتحقق", "audio": "assets/audio/ep36_v_03.mp3"},
+    {"kanji": "", "kana": "バスターミナル", "romaji": "basu tāminaru", "arabic": "محطة الحافلات", "audio": "assets/audio/ep36_v_04.mp3"},
+    {"kanji": "お弁当", "kana": "おべんとう", "romaji": "obentō", "arabic": "وجبة محمولة / علبة غداء", "audio": "assets/audio/ep36_v_05.mp3"},
+    {"kanji": "持って行きます", "kana": "もっていきます", "romaji": "motte ikimasu", "arabic": "يأخذ معه", "audio": "assets/audio/ep36_v_06.mp3"},
+    {"kanji": "温かい", "kana": "あたたかい", "romaji": "atatakai", "arabic": "دافئ", "audio": "assets/audio/ep36_v_07.mp3"},
+    {"kanji": "楽しみ", "kana": "たのしみ", "romaji": "tanoshimi", "arabic": "شيء نتطلع إليه / متحمس", "audio": "assets/audio/ep36_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "المقارنة بين شيئين: «A と B と どちらが ～ですか»",
+      "pattern": "A と B と どちらが adj ですか / A の ほうが adj です / どちらも ～",
+      "explanation_ar": "تعلمنا في الحلقة 13 جملة المقارنة B より A の ほうが. وهنا نتعلم طرح السؤال عن مقارنة بين شيئين: バスと でんしゃと どちらが はやいですか = أيهما أسرع، الحافلة أم القطار؟ والجواب بذكر الأفضل: バスの ほうが はやいです (الحافلة أسرع). وإن كان الاثنان متساويين: どちらも ～です = كلاهما ～، أو للنفي どちらも ～ません = لا هذا ولا ذاك. ولاحظ أن どちら تستعمل مع شيئين فقط، أما مع ثلاثة فأكثر فنستخدم なにが / どれが (الحلقة 23: いちばん). ويمكن استبدال adj بفعل: どちらが すきですか = أيهما تحب أكثر؟"
+    },
+    {
+      "title_ar": "الاختيار بين خيارين: «A か B» والتوصل لقرار «に します»",
+      "pattern": "N1 か N2 / N に しましょう",
+      "explanation_ar": "الأداة か بين اسمين تعني «أو»: バスですか、でんしゃですか = حافلة أم قطار؟ ويمكن اختصارها: バスか でんしゃ = الحافلة أو القطار. وفي القرارات الجماعية نقترح بـ N に しましょう (لنختر ...): バスに しましょう = لنختر الحافلة. وتعلمنا に します في الحلقة 13 عند الطلب في المطعم، وهي نفسها هنا للقرارات. وللحديث عن الطعام: おべんとうか レストランか、どちらも いいですね = إما وجبة محمولة أو مطعم، كلاهما جيد. وتأتي どちらも مع كلمة موجبة بمعنى «كلاهما»، ومع منفي بمعنى «لا هذا ولا ذاك». وتذكر عبارة たのしみですね للتعبير عن الحماس لحدث قادم."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "كيف تسأل: «أيهما أرخص، الحافلة أم القطار؟»",
+      "options": ["バスと でんしゃと どちらが やすいですか。", "バスは でんしゃが やすいですか。", "バスと でんしゃが どちらを やすいですか。"],
+      "correct_index": 0,
+      "explanation_ar": "الصيغة الثابتة: A と B と どちらが adj ですか."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «الحافلة أرخص».",
+      "words": ["やすいです", "ほうが", "バスの"],
+      "correct_order": ["バスの", "ほうが", "やすいです"],
+      "explanation_ar": "الجواب بصيغة A の ほうが adj です."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are Kenta, a cheerful Japanese university student planning a day trip to Mt. Fuji with the learner (Arabic speaker, JLPT N5). RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Plan together: day, time, how to get there (バスか でんしゃか), compare the options (time, price) using fake approximate data (バスは 二じかん・二千円ぐらい、でんしゃは 二じかんはん・三千円ぐらい), where to board, what to bring (あたたかい ふく), and food. Respect that the learner avoids pork and alcohol: suggest obentō or fish/vegetable options. (3) Make the learner practice A と B と どちらが ～ですか, A の ほうが ～です, どちらも ～, A か B, N に しましょう, and 〜に 行きたいです (ふじさんを 見に 行きたいです). (4) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (5) Never go above N5. (6) After 6-8 exchanges, confirm the plan and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "らいしゅうの どようびに ふじさんへ 行きませんか。",
+    "initial_ai_message_ar": "ما رأيك أن نذهب إلى جبل فوجي السبت القادم؟"
+  }
+}

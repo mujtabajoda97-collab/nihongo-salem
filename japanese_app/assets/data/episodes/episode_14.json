@@ -1,0 +1,195 @@
+{
+  "episode_id": 14,
+  "season": 2,
+  "level": "JLPT_N5",
+  "title_ar": "مكتب البريد",
+  "title_jp": "ゆうびんきょくで にもつを おくります",
+  "background_image": "assets/images/scenes/ep14_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "局員",
+      "speaker_name_ar": "موظف البريد",
+      "character_avatar": "assets/images/characters/post_clerk.webp",
+      "audio_file": "assets/audio/ep14_line_01.mp3",
+      "japanese": "いらっしゃいませ。",
+      "romaji": "Irasshaimase.",
+      "arabic": "أهلاً بك."
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep14_line_02.mp3",
+      "japanese": "すみません。この にもつを ドバイへ おくりたいです。",
+      "romaji": "Sumimasen. Kono nimotsu o Dobai e okuritai desu.",
+      "arabic": "عذراً. أريد إرسال هذا الطرد إلى دبي."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "局員",
+      "speaker_name_ar": "موظف البريد",
+      "character_avatar": "assets/images/characters/post_clerk.webp",
+      "audio_file": "assets/audio/ep14_line_03.mp3",
+      "japanese": "はい。なかに なにが ありますか。",
+      "romaji": "Hai. Naka ni nani ga arimasu ka.",
+      "arabic": "حسناً. ماذا يوجد بداخله؟"
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep14_line_04.mp3",
+      "japanese": "ほんと おかしが あります。",
+      "romaji": "Hon to okashi ga arimasu.",
+      "arabic": "يوجد كتب وحلويات."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "局員",
+      "speaker_name_ar": "موظف البريد",
+      "character_avatar": "assets/images/characters/post_clerk.webp",
+      "audio_file": "assets/audio/ep14_line_05.mp3",
+      "japanese": "ひこうきと ふね、どちらで おくりますか。",
+      "romaji": "Hikōki to fune, dochira de okurimasu ka.",
+      "arabic": "بالطائرة أم بالسفينة؟ بأيهما سترسل؟"
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep14_line_06.mp3",
+      "japanese": "ひこうきと ふねと、どちらが はやいですか。",
+      "romaji": "Hikōki to fune to, dochira ga hayai desu ka.",
+      "arabic": "الطائرة أم السفينة، أيهما أسرع؟"
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "局員",
+      "speaker_name_ar": "موظف البريد",
+      "character_avatar": "assets/images/characters/post_clerk.webp",
+      "audio_file": "assets/audio/ep14_line_07.mp3",
+      "japanese": "ひこうきの ほうが はやいです。ふねの ほうが やすいです。",
+      "romaji": "Hikōki no hō ga hayai desu. Fune no hō ga yasui desu.",
+      "arabic": "الطائرة أسرع. والسفينة أرخص."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep14_line_08.mp3",
+      "japanese": "ひこうきは 何日 かかりますか。",
+      "romaji": "Hikōki wa nannichi kakarimasu ka.",
+      "arabic": "كم يوماً تستغرق بالطائرة؟"
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "局員",
+      "speaker_name_ar": "موظف البريد",
+      "character_avatar": "assets/images/characters/post_clerk.webp",
+      "audio_file": "assets/audio/ep14_line_09.mp3",
+      "japanese": "五日ぐらい かかります。ふねは 一か月ぐらいです。",
+      "romaji": "Itsuka gurai kakarimasu. Fune wa ikkagetsu gurai desu.",
+      "arabic": "حوالي خمسة أيام. والسفينة حوالي شهر."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep14_line_10.mp3",
+      "japanese": "じゃ、ひこうきで おねがいします。いくらですか。",
+      "romaji": "Ja, hikōki de onegaishimasu. Ikura desu ka.",
+      "arabic": "إذن، بالطائرة من فضلك. كم السعر؟"
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "局員",
+      "speaker_name_ar": "موظف البريد",
+      "character_avatar": "assets/images/characters/post_clerk.webp",
+      "audio_file": "assets/audio/ep14_line_11.mp3",
+      "japanese": "五千二百円です。この かみに ドバイの じゅうしょを かいて ください。",
+      "romaji": "Gosen nihyaku-en desu. Kono kami ni Dobai no jūsho o kaite kudasai.",
+      "arabic": "خمسة آلاف ومئتا ين. اكتب عنوان دبي في هذه الورقة من فضلك."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep14_line_12.mp3",
+      "japanese": "はい。……かきました。あと、はがきを 三まい ください。",
+      "romaji": "Hai. ... Kakimashita. Ato, hagaki o sanmai kudasai.",
+      "arabic": "حسناً... كتبت. وأيضاً، أعطني ثلاث بطاقات بريدية من فضلك."
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "局員",
+      "speaker_name_ar": "موظف البريد",
+      "character_avatar": "assets/images/characters/post_clerk.webp",
+      "audio_file": "assets/audio/ep14_line_13.mp3",
+      "japanese": "はい。ぜんぶで 二百五十五円です。",
+      "romaji": "Hai. Zenbu de nihyaku gojūgo-en desu.",
+      "arabic": "حسناً. المجموع مئتان وخمسة وخمسون يناً."
+    },
+    {
+      "id": 14,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep14_line_14.mp3",
+      "japanese": "ありがとうございました。",
+      "romaji": "Arigatō gozaimashita.",
+      "arabic": "شكراً جزيلاً."
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "郵便局", "kana": "ゆうびんきょく", "romaji": "yūbinkyoku", "arabic": "مكتب البريد", "audio": "assets/audio/ep14_v_01.mp3"},
+    {"kanji": "荷物", "kana": "にもつ", "romaji": "nimotsu", "arabic": "طرد / أمتعة", "audio": "assets/audio/ep14_v_02.mp3"},
+    {"kanji": "葉書", "kana": "はがき", "romaji": "hagaki", "arabic": "بطاقة بريدية", "audio": "assets/audio/ep14_v_03.mp3"},
+    {"kanji": "送ります", "kana": "おくります", "romaji": "okurimasu", "arabic": "يرسل", "audio": "assets/audio/ep14_v_04.mp3"},
+    {"kanji": "飛行機", "kana": "ひこうき", "romaji": "hikōki", "arabic": "طائرة", "audio": "assets/audio/ep14_v_05.mp3"},
+    {"kanji": "船", "kana": "ふね", "romaji": "fune", "arabic": "سفينة", "audio": "assets/audio/ep14_v_06.mp3"},
+    {"kanji": "何日", "kana": "なんにち", "romaji": "nannichi", "arabic": "كم يوماً؟", "audio": "assets/audio/ep14_v_07.mp3"},
+    {"kanji": "お菓子", "kana": "おかし", "romaji": "okashi", "arabic": "حلويات", "audio": "assets/audio/ep14_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "الإرسال: الوجهة والمستلم ووسيلة النقل",
+      "pattern": "[مكان] へ N を おくります / [شخص] に N を おくります / [وسيلة] で",
+      "explanation_ar": "فعل おくります (يرسل) يستخدم مع عدة أدوات: الشيء المرسل مع を، والمكان الوجهة مع へ، والشخص المستلم مع に، ووسيلة الإرسال مع で. أمثلة: ドバイへ にもつを おくります = أرسل طرداً إلى دبي، ははに はがきを おくります = أرسل لأمي بطاقة بريدية، ひこうきで おくります = أرسله بالطائرة. ويمكن الجمع بين أكثر من أداة في جملة واحدة: ひこうきで ははに にもつを おくります. وعند الرغبة نحول الفعل إلى صيغة たい التي تعلمناها: おくりたいです = أريد أن أرسل. وللمقارنة بين الوسيلتين نستخدم قاعدة الحلقة السابقة: ひこうきの ほうが はやいです."
+    },
+    {
+      "title_ar": "المدة الزمنية: كم يستغرق؟",
+      "pattern": "どのくらい / 何日 / 何週間 かかりますか — [مدة] かかります",
+      "explanation_ar": "للسؤال عن المدة التي يستغرقها شيء نستخدم かかります (يستغرق) مع كلمة السؤال: 何日 かかりますか = كم يوماً يستغرق؟ أو どのくらい かかりますか = كم من الوقت تقريباً؟ ويُجاب بالمدة مباشرة دون أداة: 五日 かかります، ويمكن إضافة ぐらい (حوالي): 五日ぐらい かかります. ولعدّ الأيام نستخدم صيغاً خاصة: いちにち (1)، ふつか (2)، みっか (3)، よっか (4)، いつか (5)، むいか (6)، なのか (7)، ようか (8)، ここのか (9)، とおか (10)، وبعد العاشر نقول じゅういちにち وهكذا. وللأسابيع: いっしゅうかん (1)، にしゅうかん (2)، وللشهور: いっかげつ (1)، にかげつ (2). ونفس الصيغ الخاصة بالأيام تُستخدم للتواريخ في الشهر."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "كيف تقول: «أرسل الطرد بالطائرة»؟",
+      "options": ["ひこうきで にもつを おくります。", "ひこうきを にもつで おくります。", "ひこうきに にもつを おくります。"],
+      "correct_index": 0,
+      "explanation_ar": "وسيلة النقل تأخذ الأداة で، والشيء المرسل يأخذ を. أما に فتُستخدم للمستلم من الأشخاص."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «أريد أن أرسل هذا الطرد إلى دبي».",
+      "words": ["おくりたいです", "ドバイへ", "この にもつを"],
+      "correct_order": ["この にもつを", "ドバイへ", "おくりたいです"],
+      "explanation_ar": "الشيء المرسل مع を، ثم الوجهة مع へ، ثم الفعل بصيغة たいです في النهاية."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are a friendly clerk at a Japanese post office (ゆうびんきょく). The learner (Arabic speaker, JLPT N5) wants to send a package and buy postcards. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Flow: ask what they want to send and where (どこへ おくりますか), what is inside (なかに なにが ありますか), whether to send by air or ship (ひこうきと ふね、どちらで おくりますか), explain time (ひこうき 5日ぐらい, ふね 1か月ぐらい) and price (ひこうき 5,200円, ふね 3,000円), ask them to write the address (かいて ください), then sell postcards (はがき 1まい 85円). (3) Make the learner practice おくります with へ / に / で / を, comparisons (ひこうきの ほうが はやいです), and duration questions with 何日 / どのくらい かかりますか and day counters (みっか, いつか, とおか). (4) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (5) Never go above N5 except fixed service phrases. (6) After 6-8 exchanges, finish the transaction and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "いらっしゃいませ。なにを おくりますか。",
+    "initial_ai_message_ar": "أهلاً بك. ماذا تريد أن ترسل؟"
+  }
+}

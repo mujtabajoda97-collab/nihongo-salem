@@ -1,0 +1,71 @@
+{
+  "episode_id": 33,
+  "season": 4,
+  "level": "JLPT_N5",
+  "title_ar": "مقابلة العمل بدوام جزئي",
+  "title_jp": "アルバイトの めんせつ",
+  "background_image": "assets/images/scenes/ep33_bg.webp",
+  "dialogues": [
+    {"id": 1, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep33_line_01.mp3", "japanese": "しつれいします。サーレムです。きょうは よろしく おねがいします。", "romaji": "Shitsurei shimasu. Sāremu desu. Kyō wa yoroshiku onegai shimasu.", "arabic": "عن إذنك. أنا سالم. أشكرك على المقابلة اليوم."},
+    {"id": 2, "speaker_name_jp": "店長", "speaker_name_ar": "مدير المتجر", "character_avatar": "assets/images/characters/store_manager.webp", "audio_file": "assets/audio/ep33_line_02.mp3", "japanese": "どうぞ、すわって ください。じゃ、じこしょうかいを おねがいします。", "romaji": "Dōzo, suwatte kudasai. Ja, jikoshōkai o onegai shimasu.", "arabic": "تفضل بالجلوس. إذن، عرّف بنفسك من فضلك."},
+    {"id": 3, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep33_line_03.mp3", "japanese": "わたしは サーレムです。ドバイから きました。はたちです。", "romaji": "Watashi wa Sāremu desu. Dobai kara kimashita. Hatachi desu.", "arabic": "أنا سالم. جئت من دبي. عمري عشرون سنة."},
+    {"id": 4, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep33_line_04.mp3", "japanese": "日本語を べんきょうしに 日本へ きました。いま、がっこうで べんきょうして います。", "romaji": "Nihongo o benkyō shi ni Nihon e kimashita. Ima, gakkō de benkyō shite imasu.", "arabic": "جئت إلى اليابان لدراسة اللغة اليابانية. وأدرس الآن في المدرسة."},
+    {"id": 5, "speaker_name_jp": "店長", "speaker_name_ar": "مدير المتجر", "character_avatar": "assets/images/characters/store_manager.webp", "audio_file": "assets/audio/ep33_line_05.mp3", "japanese": "どうして うちの コンビニで はたらきたいですか。", "romaji": "Dōshite uchi no konbini de hatarakitai desu ka.", "arabic": "لماذا تريد العمل في كومبيننا؟"},
+    {"id": 6, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep33_line_06.mp3", "japanese": "えきから ちかいですから、がっこうの あとで 来る ことが できます。", "romaji": "Eki kara chikai desu kara, gakkō no ato de kuru koto ga dekimasu.", "arabic": "لأنه قريب من المحطة، أستطيع المجيء بعد المدرسة."},
+    {"id": 7, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep33_line_07.mp3", "japanese": "それに、おきゃくさんと 日本語で はなしたいです。", "romaji": "Soreni, okyakusan to Nihongo de hanashitai desu.", "arabic": "وأيضاً أريد التحدث مع الزبائن باليابانية."},
+    {"id": 8, "speaker_name_jp": "店長", "speaker_name_ar": "مدير المتجر", "character_avatar": "assets/images/characters/store_manager.webp", "audio_file": "assets/audio/ep33_line_08.mp3", "japanese": "いいですね。いつ はたらく ことが できますか。", "romaji": "Ii desu ne. Itsu hataraku koto ga dekimasu ka.", "arabic": "جيد. متى تستطيع العمل؟"},
+    {"id": 9, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep33_line_09.mp3", "japanese": "げつようびと すいようびと きんようびの ごご 四じから 八じまで できます。", "romaji": "Getsuyōbi to suiyōbi to kin'yōbi no gogo yoji kara hachiji made dekimasu.", "arabic": "أستطيع أيام الاثنين والأربعاء والجمعة من الرابعة إلى الثامنة مساءً."},
+    {"id": 10, "speaker_name_jp": "店長", "speaker_name_ar": "مدير المتجر", "character_avatar": "assets/images/characters/store_manager.webp", "audio_file": "assets/audio/ep33_line_10.mp3", "japanese": "どようびと にちようびは どうですか。", "romaji": "Doyōbi to nichiyōbi wa dō desu ka.", "arabic": "وماذا عن السبت والأحد؟"},
+    {"id": 11, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep33_line_11.mp3", "japanese": "どようびは だいじょうぶですが、にちようびは ちょっと……。", "romaji": "Doyōbi wa daijōbu desu ga, nichiyōbi wa chotto ...", "arabic": "السبت لا بأس به، لكن الأحد صعب بعض الشيء."},
+    {"id": 12, "speaker_name_jp": "店長", "speaker_name_ar": "مدير المتجر", "character_avatar": "assets/images/characters/store_manager.webp", "audio_file": "assets/audio/ep33_line_12.mp3", "japanese": "わかりました。サーレムさんの しゅみは なんですか。", "romaji": "Wakarimashita. Sāremu-san no shumi wa nan desu ka.", "arabic": "فهمت. ما هي هوايتك يا سالم؟"},
+    {"id": 13, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep33_line_13.mp3", "japanese": "しゅみは 日本の えいがを 見る ことです。", "romaji": "Shumi wa Nihon no eiga o miru koto desu.", "arabic": "هوايتي مشاهدة الأفلام اليابانية."},
+    {"id": 14, "speaker_name_jp": "店長", "speaker_name_ar": "مدير المتجر", "character_avatar": "assets/images/characters/store_manager.webp", "audio_file": "assets/audio/ep33_line_14.mp3", "japanese": "コンビニで はたらいた ことが ありますか。", "romaji": "Konbini de hataraita koto ga arimasu ka.", "arabic": "هل سبق أن عملت في كومبيني؟"},
+    {"id": 15, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep33_line_15.mp3", "japanese": "いいえ、ありません。でも、がんばります。", "romaji": "Iie, arimasen. Demo, ganbarimasu.", "arabic": "لا، لم أعمل. لكنني سأبذل جهدي."},
+    {"id": 16, "speaker_name_jp": "店長", "speaker_name_ar": "مدير المتجر", "character_avatar": "assets/images/characters/store_manager.webp", "audio_file": "assets/audio/ep33_line_16.mp3", "japanese": "わかりました。らいしゅうの げつようびから 来て ください。", "romaji": "Wakarimashita. Raishū no getsuyōbi kara kite kudasai.", "arabic": "حسناً. تعال من يوم الاثنين القادم."}
+  ],
+  "vocabulary": [
+    {"kanji": "自己紹介", "kana": "じこしょうかい", "romaji": "jikoshōkai", "arabic": "تعريف بالنفس", "audio": "assets/audio/ep33_v_01.mp3"},
+    {"kanji": "趣味", "kana": "しゅみ", "romaji": "shumi", "arabic": "هواية", "audio": "assets/audio/ep33_v_02.mp3"},
+    {"kanji": "映画", "kana": "えいが", "romaji": "eiga", "arabic": "فيلم", "audio": "assets/audio/ep33_v_03.mp3"},
+    {"kanji": "来週", "kana": "らいしゅう", "romaji": "raishū", "arabic": "الأسبوع القادم", "audio": "assets/audio/ep33_v_04.mp3"},
+    {"kanji": "頑張ります", "kana": "がんばります", "romaji": "ganbarimasu", "arabic": "يبذل جهده", "audio": "assets/audio/ep33_v_05.mp3"},
+    {"kanji": "近い", "kana": "ちかい", "romaji": "chikai", "arabic": "قريب", "audio": "assets/audio/ep33_v_06.mp3"},
+    {"kanji": "", "kana": "それに", "romaji": "sore ni", "arabic": "وأيضاً / علاوة على ذلك", "audio": "assets/audio/ep33_v_07.mp3"},
+    {"kanji": "曜日", "kana": "ようび", "romaji": "yōbi", "arabic": "يوم (من أيام الأسبوع)", "audio": "assets/audio/ep33_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "الغرض من الذهاب أو المجيء: «V-ます (الجذر) + に きます / いきます»",
+      "pattern": "V-ます(الجذر) / N + に + いきます・きます・かえります",
+      "explanation_ar": "للتعبير عن سبب الذهاب أو المجيء إلى مكان ما نضع الغرض قبل に ثم فعل حركة (いきます، きます، かえります). والغرض إما فعل بدون ます (الجذر): べんきょうしに きました = جئت لأدرس، أو اسم فعلي: かいものに いきます = أذهب للتسوق. مثال كامل: 日本語を べんきょうしに 日本へ きました = جئت إلى اليابان لدراسة اليابانية. وللأفعال العادية: たべます ← たべに いきます (أذهب لأتناول الطعام)، みます ← みに いきます (أذهب لأشاهد). وتذكر أن اسم الفعل مع します (مثل べんきょうします) يمكن حذف します وإضافة に مباشرة."
+    },
+    {
+      "title_ar": "التعبير عن الهواية: «しゅみは V-る ことです»",
+      "pattern": "しゅみは V (الصيغة المعجمية) + ことです / N です",
+      "explanation_ar": "لوصف هوايتك نقول: しゅみは + اسم أو فعل بالصيغة المعجمية + ことです. مثال: しゅみは えいがです = هوايتي الأفلام (اسم)، しゅみは えいがを 見る ことです = هوايتي مشاهدة الأفلام (فعل). وهذه الطريقة أدق لأنها تعطي فعلاً محدداً: しゅみは りょうりを つくる ことです = هوايتي طبخ الطعام. والسؤال: しゅみは なんですか. وفي مقابلات العمل تُعدّ هذه الجملة جزءاً شائعاً من التعريف بالنفس بعد ذكر الاسم والبلد والعمر."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "ما معنى: 日本語を べんきょうしに 日本へ きました؟",
+      "options": ["جئت إلى اليابان لدراسة اليابانية", "درست اليابانية في اليابان أمس", "سأدرس اليابانية بعد المدرسة"],
+      "correct_index": 0,
+      "explanation_ar": "V-ます (الجذر) + に يدل على الغرض من الحركة، والفعل きました يدل على المجيء."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «هوايتي مشاهدة الأفلام».",
+      "words": ["ことです", "しゅみは", "見る", "えいがを"],
+      "correct_order": ["しゅみは", "えいがを", "見る", "ことです"],
+      "explanation_ar": "しゅみは أولاً، ثم الجملة الفعلية بالصيغة المعجمية، وتنتهي بـ ことです."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are the manager (てんちょう) of a Japanese convenience store interviewing the learner (Arabic speaker, JLPT N5) for a part-time job. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Run a realistic short interview: self-introduction (じこしょうかいを おねがいします), why Japan (なんで 日本へ きましたか), why this store (どうして はたらきたいですか), available days and hours (いつ はたらく ことが できますか), hobby (しゅみは なんですか), and experience (はたらいた ことが ありますか). (3) Make the learner practice 〜に きました (べんきょうしに きました), しゅみは 〜ことです, 〜ことが できます and 〜から reasons. (4) Be friendly and respectful of their faith (do not push work on days or tasks they decline; accept polite refusals like ちょっと……). (5) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (6) Never go above N5. (7) After 6-8 exchanges, announce the result (ごうかくです、らいしゅうから 来て ください) and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "どうぞ、すわって ください。じゃ、じこしょうかいを おねがいします。",
+    "initial_ai_message_ar": "تفضل بالجلوس. إذن، عرّف بنفسك من فضلك."
+  }
+}

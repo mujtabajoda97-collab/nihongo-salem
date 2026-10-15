@@ -1,0 +1,195 @@
+{
+  "episode_id": 7,
+  "season": 1,
+  "level": "JLPT_N5",
+  "title_ar": "متجر الـ 100 ين Daiso",
+  "title_jp": "ダイソーで かいもの",
+  "background_image": "assets/images/scenes/ep07_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep07_line_01.mp3",
+      "japanese": "サーレムさん、ここは ダイソーです。ぜんぶ 百円ですよ。",
+      "romaji": "Sāremu-san, koko wa Daisō desu. Zenbu hyaku-en desu yo.",
+      "arabic": "سالم، هذا متجر دايسو. كل شيء بمئة ين."
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep07_line_02.mp3",
+      "japanese": "ほんとうですか!すごいですね。",
+      "romaji": "Hontō desu ka! Sugoi desu ne.",
+      "arabic": "حقاً؟! هذا رائع."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep07_line_03.mp3",
+      "japanese": "はい。でも、ぜいきんが ありますから、百十円です。",
+      "romaji": "Hai. Demo, zeikin ga arimasu kara, hyakujū-en desu.",
+      "arabic": "نعم. لكن بسبب الضريبة، السعر مئة وعشرة ين."
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep07_line_04.mp3",
+      "japanese": "わかりました。わたしは コップと おさらが ほしいです。",
+      "romaji": "Wakarimashita. Watashi wa koppu to osara ga hoshii desu.",
+      "arabic": "فهمت. أنا أريد أكواباً وصحوناً."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep07_line_05.mp3",
+      "japanese": "コップは あそこです。どの コップが いいですか。",
+      "romaji": "Koppu wa asoko desu. Dono koppu ga ii desu ka.",
+      "arabic": "الأكواب هناك. أي كوب يعجبك؟"
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep07_line_06.mp3",
+      "japanese": "あの あおい コップが いいです。",
+      "romaji": "Ano aoi koppu ga ii desu.",
+      "arabic": "ذاك الكوب الأزرق جميل."
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep07_line_07.mp3",
+      "japanese": "いくつ かいますか。",
+      "romaji": "Ikutsu kaimasu ka.",
+      "arabic": "كم واحداً ستشتري؟"
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep07_line_08.mp3",
+      "japanese": "二つ かいます。おさらも 三つ かいます。",
+      "romaji": "Futatsu kaimasu. Osara mo mittsu kaimasu.",
+      "arabic": "سأشتري اثنين. وسأشتري ثلاثة صحون أيضاً."
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep07_line_09.mp3",
+      "japanese": "おはしは どうですか。",
+      "romaji": "Ohashi wa dō desu ka.",
+      "arabic": "وماذا عن عيدان الأكل؟"
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep07_line_10.mp3",
+      "japanese": "あ、おはしも ほしいです。どれが いいですか。",
+      "romaji": "A, ohashi mo hoshii desu. Dore ga ii desu ka.",
+      "arabic": "آه، أريد عيدان أكل أيضاً. أيّها أفضل؟"
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep07_line_11.mp3",
+      "japanese": "これは どうですか。かわいいですよ。",
+      "romaji": "Kore wa dō desu ka. Kawaii desu yo.",
+      "arabic": "ما رأيك بهذه؟ إنها لطيفة."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep07_line_12.mp3",
+      "japanese": "いいですね。それに します。",
+      "romaji": "Ii desu ne. Sore ni shimasu.",
+      "arabic": "جميلة. سآخذ هذه."
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep07_line_13.mp3",
+      "japanese": "じゃ、レジへ 行きましょう。ぜんぶで 六つですね。",
+      "romaji": "Ja, reji e ikimashō. Zenbu de muttsu desu ne.",
+      "arabic": "إذن، لنذهب إلى الصندوق. المجموع ست قطع."
+    },
+    {
+      "id": 14,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep07_line_14.mp3",
+      "japanese": "六百六十円ですね。やすいです!",
+      "romaji": "Roppyaku rokujū-en desu ne. Yasui desu!",
+      "arabic": "ستمئة وستون يناً. إنه رخيص!"
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "全部", "kana": "ぜんぶ", "romaji": "zenbu", "arabic": "الكل / جميعاً", "audio": "assets/audio/ep07_v_01.mp3"},
+    {"kanji": "お皿", "kana": "おさら", "romaji": "osara", "arabic": "صحن", "audio": "assets/audio/ep07_v_02.mp3"},
+    {"kanji": "お箸", "kana": "おはし", "romaji": "ohashi", "arabic": "عيدان الأكل", "audio": "assets/audio/ep07_v_03.mp3"},
+    {"kanji": "青い", "kana": "あおい", "romaji": "aoi", "arabic": "أزرق", "audio": "assets/audio/ep07_v_04.mp3"},
+    {"kanji": "安い", "kana": "やすい", "romaji": "yasui", "arabic": "رخيص", "audio": "assets/audio/ep07_v_05.mp3"},
+    {"kanji": "買います", "kana": "かいます", "romaji": "kaimasu", "arabic": "يشتري", "audio": "assets/audio/ep07_v_06.mp3"},
+    {"kanji": "", "kana": "いくつ", "romaji": "ikutsu", "arabic": "كم عدداً؟", "audio": "assets/audio/ep07_v_07.mp3"},
+    {"kanji": "本当", "kana": "ほんとう", "romaji": "hontō", "arabic": "حقيقي / حقاً", "audio": "assets/audio/ep07_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "العدّ الياباني العام: ひとつ، ふたつ، みっつ...",
+      "pattern": "N を [عدد + つ] V / いくつ",
+      "explanation_ar": "لليابانية نظام عدّ خاص بالأشياء العامة يُستخدم عندما لا تعرف وحدة العدّ المناسبة، وهو من واحد إلى عشرة: ひとつ (1)، ふたつ (2)، みっつ (3)، よっつ (4)، いつつ (5)، むっつ (6)، ななつ (7)، やっつ (8)، ここのつ (9)، とお (10). والسؤال عنه بـ いくつ = كم واحداً؟ ويأتي العدد بعد الأداة وقبل الفعل مباشرة: おさらを 三つ かいます = سأشتري ثلاثة صحون. وفي المتاجر يكفي أن تقول: これを 二つ ください."
+    },
+    {
+      "title_ar": "أي واحد؟ この / その / あの / どの و どれ",
+      "pattern": "この・その・あの・どの + N / どれ",
+      "explanation_ar": "تعلمنا في الحلقة الثانية これ/それ/あれ وهي تقف وحدها مكان الاسم. أما この/その/あの فلا تقف وحدها أبداً، بل يجب أن يأتي بعدها اسم: あの コップ = ذاك الكوب، この おさら = هذا الصحن. ومن نفس العائلة كلمتا السؤال: どれ = أيّها (تقف وحدها): どれが いいですか، و どの + اسم = أي...؟: どの コップが いいですか = أي كوب أفضل؟ لاحظ أن أدوات السؤال تأخذ が وليس は."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "قالت لك البائعة: みっつですね. كم قطعة اشتريت؟",
+      "options": ["2", "3", "6"],
+      "correct_index": 1,
+      "explanation_ar": "みっつ تعني ثلاثة في نظام العدّ العام. أما ふたつ فهي اثنان، و むっつ ستة."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «ذاك الكوب الأزرق جميل».",
+      "words": ["いいです", "あの", "コップが", "あおい"],
+      "correct_order": ["あの", "あおい", "コップが", "いいです"],
+      "explanation_ar": "اسم الإشارة あの أولاً، ثم الصفة あおい، ثم الاسم مع が، ثم いいです في النهاية."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are Yuki, a friendly Japanese university student shopping with the learner at Daiso (a 100-yen shop) in Tokyo. The learner (Arabic speaker, JLPT N5) needs household items for their new room. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Explain that most items are 100円 (110円 with tax). Ask what they need for their room (コップ, おさら, おはし, タオル, かさ, etc.). (3) Make the learner practice native counters (ひとつ〜とお) by asking いくつ かいますか, and practice choosing with どれ / どの〜 / この・その・あの〜 and colors (あかい, あおい, しろい, くろい). (4) Keep a running count and at the end ask the learner to calculate the total in Japanese (ぜんぶで いくらですか). (5) If the learner misuses counters or uses この without a noun, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (6) Never go above N5. (7) After 6-8 exchanges, go to the register (レジへ 行きましょう) and give a 2-line feedback summary in Arabic.",
+    "initial_ai_message_jp": "サーレムさん、ダイソーですよ。なにが ほしいですか。",
+    "initial_ai_message_ar": "سالم، هذا دايسو. ماذا تريد أن تشتري؟"
+  }
+}

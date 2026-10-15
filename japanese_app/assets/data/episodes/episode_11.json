@@ -1,0 +1,185 @@
+{
+  "episode_id": 11,
+  "season": 2,
+  "level": "JLPT_N5",
+  "title_ar": "الروتين الصباحي",
+  "title_jp": "まいあさの ルーティーン",
+  "background_image": "assets/images/scenes/ep11_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep11_line_01.mp3",
+      "japanese": "おはようございます、サーレムさん。まいあさ 何時に おきますか。",
+      "romaji": "Ohayō gozaimasu, Sāremu-san. Maiasa nanji ni okimasu ka.",
+      "arabic": "صباح الخير يا سالم. في أي ساعة تستيقظ كل صباح؟"
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep11_line_02.mp3",
+      "japanese": "六時に おきます。",
+      "romaji": "Rokuji ni okimasu.",
+      "arabic": "أستيقظ في السادسة."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep11_line_03.mp3",
+      "japanese": "六時ですか!はやいですね。わたしは 七時に おきます。",
+      "romaji": "Rokuji desu ka! Hayai desu ne. Watashi wa shichiji ni okimasu.",
+      "arabic": "السادسة؟! مبكر جداً. أنا أستيقظ في السابعة."
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep11_line_04.mp3",
+      "japanese": "まず おきて、かおを あらいます。それから シャワーを あびて、あさごはんを たべます。",
+      "romaji": "Mazu okite, kao o araimasu. Sorekara shawā o abite, asagohan o tabemasu.",
+      "arabic": "أولاً أستيقظ وأغسل وجهي. ثم أستحم وأتناول الفطور."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep11_line_05.mp3",
+      "japanese": "あさごはんは なにを たべますか。",
+      "romaji": "Asagohan wa nani o tabemasu ka.",
+      "arabic": "ماذا تأكل في الفطور؟"
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep11_line_06.mp3",
+      "japanese": "パンと たまごを たべて、コーヒーを のみます。ケンタさんは?",
+      "romaji": "Pan to tamago o tabete, kōhī o nomimasu. Kenta-san wa?",
+      "arabic": "آكل الخبز والبيض ثم أشرب القهوة. وأنت يا كينتا؟"
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep11_line_07.mp3",
+      "japanese": "ぼくは ごはんと みそしるです。",
+      "romaji": "Boku wa gohan to misoshiru desu.",
+      "arabic": "أنا آكل الأرز وشوربة الميسو."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep11_line_08.mp3",
+      "japanese": "何時に うちを でますか。",
+      "romaji": "Nanji ni uchi o demasu ka.",
+      "arabic": "في أي ساعة تخرج من البيت؟"
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep11_line_09.mp3",
+      "japanese": "八時はんに でます。えきまで あるいて 十分ぐらいです。",
+      "romaji": "Hachiji-han ni demasu. Eki made aruite juppun gurai desu.",
+      "arabic": "أخرج في الثامنة والنصف. والمشي إلى المحطة يستغرق حوالي عشر دقائق."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep11_line_10.mp3",
+      "japanese": "わたしも 八時はんに でます。がっこうまで でんしゃで 三十分です。",
+      "romaji": "Watashi mo hachiji-han ni demasu. Gakkō made densha de sanjuppun desu.",
+      "arabic": "أنا أيضاً أخرج في الثامنة والنصف. والمدرسة تبعد ثلاثين دقيقة بالقطار."
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep11_line_11.mp3",
+      "japanese": "そうですか。よるは 何時に ねますか。",
+      "romaji": "Sō desu ka. Yoru wa nanji ni nemasu ka.",
+      "arabic": "فهمت. وفي أي ساعة تنام ليلاً؟"
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep11_line_12.mp3",
+      "japanese": "十二時ごろ ねます。日本語を べんきょうしてから ねます。",
+      "romaji": "Jūniji goro nemasu. Nihongo o benkyō shite kara nemasu.",
+      "arabic": "أنام حوالي الثانية عشرة. أنام بعد أن أدرس اليابانية."
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep11_line_13.mp3",
+      "japanese": "すごいですね!",
+      "romaji": "Sugoi desu ne!",
+      "arabic": "هذا رائع!"
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "毎朝", "kana": "まいあさ", "romaji": "maiasa", "arabic": "كل صباح", "audio": "assets/audio/ep11_v_01.mp3"},
+    {"kanji": "起きます", "kana": "おきます", "romaji": "okimasu", "arabic": "يستيقظ", "audio": "assets/audio/ep11_v_02.mp3"},
+    {"kanji": "寝ます", "kana": "ねます", "romaji": "nemasu", "arabic": "ينام", "audio": "assets/audio/ep11_v_03.mp3"},
+    {"kanji": "朝ご飯", "kana": "あさごはん", "romaji": "asagohan", "arabic": "فطور", "audio": "assets/audio/ep11_v_04.mp3"},
+    {"kanji": "浴びます", "kana": "あびます", "romaji": "abimasu", "arabic": "يستحم (بالدش)", "audio": "assets/audio/ep11_v_05.mp3"},
+    {"kanji": "出ます", "kana": "でます", "romaji": "demasu", "arabic": "يخرج", "audio": "assets/audio/ep11_v_06.mp3"},
+    {"kanji": "歩きます", "kana": "あるきます", "romaji": "arukimasu", "arabic": "يمشي", "audio": "assets/audio/ep11_v_07.mp3"},
+    {"kanji": "顔", "kana": "かお", "romaji": "kao", "arabic": "وجه", "audio": "assets/audio/ep11_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "ربط الأفعال المتتابعة بصيغة «て»",
+      "pattern": "V1-て、V2-て、V3-ます / V-て から V",
+      "explanation_ar": "لوصف تسلسل أفعال (فعلت هذا ثم هذا ثم هذا) نحول كل فعل ما عدا الأخير إلى صيغة て ونترك الأخير بصيغة ます، فيدل الزمن على الجملة كلها: おきて、シャワーを あびて、たべます = أستيقظ وأستحم ثم آكل. وقواعد تكوين て: (1) أفعال المجموعة الثانية: نحذف ます ونضيف て: おきます ← おきて، たべます ← たべて، あびます ← あびて. (2) أفعال المجموعة الأولى: نحوّل حسب نهاية جذع الفعل: い/ち/り ← って (あいます ← あって)، み/び/に ← んで (のみます ← のんで)، き ← いて (あるきます ← あるいて، かきます ← かいて)، ぎ ← いで، し ← して. (3) شاذ: します ← して، きます ← きて، 行きます ← 行って. وللتأكيد على الترتيب: V-て から V = «بعد أن أفعل... أفعل»: べんきょうしてから ねます = أنام بعد أن أدرس."
+    },
+    {
+      "title_ar": "التعبير عن الوقت: に، ごろ، はん، ぐらい، で",
+      "pattern": "[ساعة] に / [ساعة] ごろ / [ساعة] はん / [مدة] ぐらい / [وسيلة] で",
+      "explanation_ar": "للوقت المحدد نستخدم に بعد الساعة: 六時に おきます = أستيقظ في السادسة. وإذا كان الوقت تقريبياً نضيف ごろ ولا نحتاج に غالباً: 十二時ごろ ねます = أنام حوالي الثانية عشرة. ونصف الساعة يُقال はん: 八時はん = الثامنة والنصف. أما مدة الزمن (كم يستغرق) فلا نستخدم معها に بل نضيف ぐらい (حوالي): 十分ぐらい = حوالي عشر دقائق. وكلمات التكرار مثل まいあさ (كل صباح) و まいにち (كل يوم) لا تأخذ に. وللوسيلة نستخدم で: でんしゃで = بالقطار، لكن المشي يُقال あるいて (بصيغة て وليس で)."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "ما صيغة て الصحيحة للفعل のみます (يشرب)؟",
+      "options": ["のんで", "のみて", "のって"],
+      "correct_index": 0,
+      "explanation_ar": "أفعال المجموعة الأولى التي ينتهي جذعها بـ み تتحول إلى んで، فنقول のんで."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «أخرج من البيت في الثامنة والنصف».",
+      "words": ["でます", "八時はんに", "うちを"],
+      "correct_order": ["八時はんに", "うちを", "でます"],
+      "explanation_ar": "الوقت مع に أولاً، ثم المكان الذي نخرج منه مع الأداة を، ثم الفعل في النهاية."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are Kenta, a friendly Japanese housemate chatting in the kitchen in the morning with the learner (Arabic speaker, JLPT N5). RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Ask about the learner's daily routine step by step (何時に おきますか / あさごはんは なにを たべますか / 何時に うちを でますか / よるは 何時に ねますか) and share your own routine (wake 7:00, leave 8:30, walk 10 minutes to the station). (3) Push the learner to connect actions with the て-form (おきて、シャワーを あびて、たべます) and 〜てから, and to use correct time expressions (に, ごろ, はん, ぐらい, で for transport, no に with まいあさ). (4) If the learner makes a て-form mistake (for example のみて instead of のんで), naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (5) Never go above N5. (6) After 6-8 exchanges, wish them a good day (いってらっしゃい) and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "おはようございます、サーレムさん。まいあさ 何時に おきますか。",
+    "initial_ai_message_ar": "صباح الخير يا سالم. في أي ساعة تستيقظ كل صباح؟"
+  }
+}

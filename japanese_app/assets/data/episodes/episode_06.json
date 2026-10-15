@@ -1,0 +1,185 @@
+{
+  "episode_id": 6,
+  "season": 1,
+  "level": "JLPT_N5",
+  "title_ar": "شراء شريحة هاتف وإنترنت",
+  "title_jp": "SIMカードが ほしいです",
+  "background_image": "assets/images/scenes/ep06_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظفة متجر الهواتف",
+      "character_avatar": "assets/images/characters/phone_shop_staff.webp",
+      "audio_file": "assets/audio/ep06_line_01.mp3",
+      "japanese": "いらっしゃいませ。",
+      "romaji": "Irasshaimase.",
+      "arabic": "أهلاً وسهلاً بك."
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep06_line_02.mp3",
+      "japanese": "すみません。SIMカードが ほしいです。",
+      "romaji": "Sumimasen. Shimu kādo ga hoshii desu.",
+      "arabic": "عذراً. أريد شريحة SIM."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظفة متجر الهواتف",
+      "character_avatar": "assets/images/characters/phone_shop_staff.webp",
+      "audio_file": "assets/audio/ep06_line_03.mp3",
+      "japanese": "はい。でんわも インターネットも つかいますか。",
+      "romaji": "Hai. Denwa mo intānetto mo tsukaimasu ka.",
+      "arabic": "حسناً. هل ستستخدم الاتصال والإنترنت معاً؟"
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep06_line_04.mp3",
+      "japanese": "いいえ、インターネットだけ つかいます。",
+      "romaji": "Iie, intānetto dake tsukaimasu.",
+      "arabic": "لا، سأستخدم الإنترنت فقط."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظفة متجر الهواتف",
+      "character_avatar": "assets/images/characters/phone_shop_staff.webp",
+      "audio_file": "assets/audio/ep06_line_05.mp3",
+      "japanese": "わかりました。この プランは 一か月 二千円です。",
+      "romaji": "Wakarimashita. Kono puran wa ikkagetsu nisen-en desu.",
+      "arabic": "فهمت. هذه الباقة بألفي ين شهرياً."
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep06_line_06.mp3",
+      "japanese": "YouTubeを たくさん 見たいです。大きい プランは ありますか。",
+      "romaji": "YouTube o takusan mitai desu. Ōkii puran wa arimasu ka.",
+      "arabic": "أريد أن أشاهد يوتيوب كثيراً. هل توجد باقة أكبر؟"
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظفة متجر الهواتف",
+      "character_avatar": "assets/images/characters/phone_shop_staff.webp",
+      "audio_file": "assets/audio/ep06_line_07.mp3",
+      "japanese": "はい、あります。こちらは 一か月 四千円です。",
+      "romaji": "Hai, arimasu. Kochira wa ikkagetsu yonsen-en desu.",
+      "arabic": "نعم، توجد. هذه بأربعة آلاف ين شهرياً."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep06_line_08.mp3",
+      "japanese": "じゃ、それに します。",
+      "romaji": "Ja, sore ni shimasu.",
+      "arabic": "إذن، سآخذ هذه."
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظفة متجر الهواتف",
+      "character_avatar": "assets/images/characters/phone_shop_staff.webp",
+      "audio_file": "assets/audio/ep06_line_09.mp3",
+      "japanese": "ありがとうございます。パスポートを おねがいします。",
+      "romaji": "Arigatō gozaimasu. Pasupōto o onegaishimasu.",
+      "arabic": "شكراً لك. جواز السفر من فضلك."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep06_line_10.mp3",
+      "japanese": "はい、どうぞ。きょう すぐ つかいたいです。",
+      "romaji": "Hai, dōzo. Kyō sugu tsukaitai desu.",
+      "arabic": "تفضلي. أريد أن أستخدمها اليوم فوراً."
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظفة متجر الهواتف",
+      "character_avatar": "assets/images/characters/phone_shop_staff.webp",
+      "audio_file": "assets/audio/ep06_line_11.mp3",
+      "japanese": "だいじょうぶです。十分ぐらい かかります。",
+      "romaji": "Daijōbu desu. Jippun gurai kakarimasu.",
+      "arabic": "لا مشكلة. سيستغرق الأمر حوالي عشر دقائق."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظفة متجر الهواتف",
+      "character_avatar": "assets/images/characters/phone_shop_staff.webp",
+      "audio_file": "assets/audio/ep06_line_12.mp3",
+      "japanese": "おまたせしました。はい、できました。どうぞ。",
+      "romaji": "Omatase shimashita. Hai, dekimashita. Dōzo.",
+      "arabic": "شكراً لانتظارك. تم الأمر. تفضل."
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep06_line_13.mp3",
+      "japanese": "わあ、はやいですね!ありがとうございます。",
+      "romaji": "Waa, hayai desu ne! Arigatō gozaimasu.",
+      "arabic": "واو، إنه سريع! شكراً جزيلاً."
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "電話", "kana": "でんわ", "romaji": "denwa", "arabic": "هاتف / مكالمة", "audio": "assets/audio/ep06_v_01.mp3"},
+    {"kanji": "使います", "kana": "つかいます", "romaji": "tsukaimasu", "arabic": "يستخدم", "audio": "assets/audio/ep06_v_02.mp3"},
+    {"kanji": "見ます", "kana": "みます", "romaji": "mimasu", "arabic": "يرى / يشاهد", "audio": "assets/audio/ep06_v_03.mp3"},
+    {"kanji": "欲しい", "kana": "ほしい", "romaji": "hoshii", "arabic": "مرغوب فيه (أريد شيئاً)", "audio": "assets/audio/ep06_v_04.mp3"},
+    {"kanji": "一か月", "kana": "いっかげつ", "romaji": "ikkagetsu", "arabic": "شهر واحد (مدة)", "audio": "assets/audio/ep06_v_05.mp3"},
+    {"kanji": "大きい", "kana": "おおきい", "romaji": "ōkii", "arabic": "كبير", "audio": "assets/audio/ep06_v_06.mp3"},
+    {"kanji": "速い", "kana": "はやい", "romaji": "hayai", "arabic": "سريع", "audio": "assets/audio/ep06_v_07.mp3"},
+    {"kanji": "今日", "kana": "きょう", "romaji": "kyō", "arabic": "اليوم", "audio": "assets/audio/ep06_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "أريد شيئاً: التعبير عن الرغبة في اسم",
+      "pattern": "N が ほしいです",
+      "explanation_ar": "عندما تريد شيئاً (اسماً) تستخدم ほしいです، وهي في الأصل صفة تعني «مرغوب فيه». ولذلك تأتي قبلها الأداة が وليس を: SIMカードが ほしいです = أريد شريحة SIM. ومثلها: あたらしい スマホが ほしいです = أريد هاتفاً ذكياً جديداً. وللسؤال: なにが ほしいですか = ماذا تريد؟ تنبيه ثقافي: لا تستخدم ほしいですか لتعرض شيئاً على شخص أعلى منك مقاماً، فهي مباشرة جداً في هذا السياق."
+    },
+    {
+      "title_ar": "أريد أن أفعل: صيغة «たい»",
+      "pattern": "V(جذع ます) + たいです",
+      "explanation_ar": "عندما تريد أن تفعل شيئاً (فعلاً) تحذف ます من الفعل وتضيف たいです: 見ます ← 見たいです = أريد أن أشاهد، つかいます ← つかいたいです = أريد أن أستخدم، 行きます ← 行きたいです = أريد أن أذهب. والأداة قبل المفعول تبقى を غالباً: YouTubeを 見たいです. وللنفي: 見たくないです = لا أريد أن أشاهد. الفرق باختصار: ほしい للأشياء، و たい للأفعال. وفي الحوار أيضاً كلمة だけ وتعني «فقط»: インターネットだけ = الإنترنت فقط."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "كيف تقول: «أريد أن أشاهد يوتيوب»؟",
+      "options": ["YouTubeを 見たいです。", "YouTubeが ほしいです。", "YouTubeを 見ます。"],
+      "correct_index": 0,
+      "explanation_ar": "المشاهدة فعل، لذلك نستخدم صيغة たい: 見ます ← 見たいです. أما ほしい فللأشياء، و 見ます تعني «أشاهد» دون رغبة."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «أريد شريحة SIM».",
+      "words": ["ほしいです", "SIMカード", "が"],
+      "correct_order": ["SIMカード", "が", "ほしいです"],
+      "explanation_ar": "مع ほしいです نستخدم الأداة が بعد الشيء المرغوب فيه، وليس を."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are a friendly staff member at a mobile phone shop in Tokyo selling prepaid SIM cards to foreigners. The learner (Arabic speaker, JLPT N5) needs a SIM card. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Ask what they need: calls and/or internet (でんわも インターネットも つかいますか), how they will use it, and offer 2-3 plans with monthly prices (一か月 〜円) and sizes (大きい / 小さい プラン). (3) Push the learner to use 〜が ほしいです for things and 〜たいです for actions (e.g., 見たいです, つかいたいです, 話したいです). Ask questions like なにが ほしいですか and なにを したいですか. (4) Ask for their passport and say setup takes about 10 minutes. (5) If the learner confuses ほしい and たい, or uses を with ほしい, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (6) Never go above N5 except fixed shop phrases. (7) After 6-8 exchanges, hand over the SIM (できました) and give a 2-line feedback summary in Arabic.",
+    "initial_ai_message_jp": "いらっしゃいませ。なにが ほしいですか。",
+    "initial_ai_message_ar": "أهلاً بك. ماذا تريد؟"
+  }
+}

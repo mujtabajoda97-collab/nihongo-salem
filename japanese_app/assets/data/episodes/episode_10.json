@@ -1,0 +1,185 @@
+{
+  "episode_id": 10,
+  "season": 1,
+  "level": "JLPT_N5",
+  "title_ar": "عشاء الترحيب والحديث عن الهوايات",
+  "title_jp": "かんげいパーティーと しゅみ",
+  "background_image": "assets/images/scenes/ep10_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep10_line_01.mp3",
+      "japanese": "サーレムさん、ようこそ!かんぱい!",
+      "romaji": "Sāremu-san, yōkoso! Kanpai!",
+      "arabic": "أهلاً بك يا سالم! نخب صحتك!"
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep10_line_02.mp3",
+      "japanese": "ありがとうございます。いただきます!",
+      "romaji": "Arigatō gozaimasu. Itadakimasu!",
+      "arabic": "شكراً جزيلاً. بسم الله (عبارة تُقال قبل الأكل)!"
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "山田さん",
+      "speaker_name_ar": "السيدة يامادا",
+      "character_avatar": "assets/images/characters/yamada.webp",
+      "audio_file": "assets/audio/ep10_line_03.mp3",
+      "japanese": "どうぞ たくさん たべて ください。日本の りょうりは すきですか。",
+      "romaji": "Dōzo takusan tabete kudasai. Nihon no ryōri wa suki desu ka.",
+      "arabic": "تفضل، كُل كثيراً من فضلك. هل تحب الطعام الياباني؟"
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep10_line_04.mp3",
+      "japanese": "はい、すきです。でも、さしみは あまり すきじゃ ありません。",
+      "romaji": "Hai, suki desu. Demo, sashimi wa amari suki ja arimasen.",
+      "arabic": "نعم، أحبه. لكنني لا أحب الساشيمي (السمك النيء) كثيراً."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep10_line_05.mp3",
+      "japanese": "そうですか。サーレムさんの しゅみは なんですか。",
+      "romaji": "Sō desu ka. Sāremu-san no shumi wa nan desu ka.",
+      "arabic": "فهمت. ما هي هوايتك يا سالم؟"
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep10_line_06.mp3",
+      "japanese": "しゅみは サッカーです。",
+      "romaji": "Shumi wa sakkā desu.",
+      "arabic": "هوايتي كرة القدم."
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep10_line_07.mp3",
+      "japanese": "サッカーですか!じょうずですか。",
+      "romaji": "Sakkā desu ka! Jōzu desu ka.",
+      "arabic": "كرة القدم؟! هل أنت ماهر فيها؟"
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep10_line_08.mp3",
+      "japanese": "はい、じょうずです。ドバイで よく サッカーを しました。",
+      "romaji": "Hai, jōzu desu. Dobai de yoku sakkā o shimashita.",
+      "arabic": "نعم، ماهر. كنت ألعب كرة القدم كثيراً في دبي."
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep10_line_09.mp3",
+      "japanese": "いいですね!ぼくの しゅみは りょうりです。でも、あまり じょうずじゃ ありません。",
+      "romaji": "Ii desu ne! Boku no shumi wa ryōri desu. Demo, amari jōzu ja arimasen.",
+      "arabic": "رائع! هوايتي الطبخ. لكنني لست ماهراً فيه كثيراً."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep10_line_10.mp3",
+      "japanese": "でも、ケンタさんの カレーは おいしいですよ。",
+      "romaji": "Demo, Kenta-san no karē wa oishii desu yo.",
+      "arabic": "لكن الكاري الذي يعدّه كينتا لذيذ."
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep10_line_11.mp3",
+      "japanese": "ありがとう!サーレムさん、こんどの 日よう日に いっしょに サッカーを しませんか。",
+      "romaji": "Arigatō! Sāremu-san, kondo no nichiyōbi ni issho ni sakkā o shimasen ka.",
+      "arabic": "شكراً! سالم، ما رأيك أن نلعب كرة القدم معاً يوم الأحد القادم؟"
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep10_line_12.mp3",
+      "japanese": "いいですね。ぜひ!",
+      "romaji": "Ii desu ne. Zehi!",
+      "arabic": "فكرة جميلة. بكل سرور!"
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "山田さん",
+      "speaker_name_ar": "السيدة يامادا",
+      "character_avatar": "assets/images/characters/yamada.webp",
+      "audio_file": "assets/audio/ep10_line_13.mp3",
+      "japanese": "わたしも 見に 行きたいです。",
+      "romaji": "Watashi mo mi ni ikitai desu.",
+      "arabic": "وأنا أريد أن أذهب لأشاهدكم."
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "趣味", "kana": "しゅみ", "romaji": "shumi", "arabic": "هواية", "audio": "assets/audio/ep10_v_01.mp3"},
+    {"kanji": "料理", "kana": "りょうり", "romaji": "ryōri", "arabic": "طعام / طبخ", "audio": "assets/audio/ep10_v_02.mp3"},
+    {"kanji": "好き", "kana": "すき", "romaji": "suki", "arabic": "محبوب / أحب", "audio": "assets/audio/ep10_v_03.mp3"},
+    {"kanji": "上手", "kana": "じょうず", "romaji": "jōzu", "arabic": "ماهر", "audio": "assets/audio/ep10_v_04.mp3"},
+    {"kanji": "下手", "kana": "へた", "romaji": "heta", "arabic": "ضعيف في (غير ماهر)", "audio": "assets/audio/ep10_v_05.mp3"},
+    {"kanji": "", "kana": "おいしい", "romaji": "oishii", "arabic": "لذيذ", "audio": "assets/audio/ep10_v_06.mp3"},
+    {"kanji": "今度", "kana": "こんど", "romaji": "kondo", "arabic": "المرة القادمة / قريباً", "audio": "assets/audio/ep10_v_07.mp3"},
+    {"kanji": "", "kana": "あまり", "romaji": "amari", "arabic": "ليس كثيراً (مع النفي)", "audio": "assets/audio/ep10_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "الحب والمهارة: すき / じょうず مع «が» ونفيهما",
+      "pattern": "N が すきです / じょうずです / へたです / すきじゃ ありません",
+      "explanation_ar": "للتعبير عن حبك لشيء أو مهارتك فيه نستخدم صفات من نوع な مثل すき (محبوب) و じょうず (ماهر) و へた (ضعيف)، ويأتي قبلها الشيء بالأداة が وليس を: サッカーが すきです = أحب كرة القدم، サッカーが じょうずです = أنا ماهر في كرة القدم. وهذه الصفات لا تنتهي بـ い، لذلك لها نفي مختلف عن صفات い: نستبدل です بـ じゃ ありません: すきじゃ ありません = لا أحب، じょうずじゃ ありません = لست ماهراً. وكلمة あまり تُلطّف النفي وتعني «ليس كثيراً»: あまり すきじゃ ありません. وللسؤال عن الهواية: しゅみは なんですか = ما هوايتك؟"
+    },
+    {
+      "title_ar": "الدعوة المهذبة: «هل تريد أن...؟»",
+      "pattern": "V-ませんか / V-ましょう",
+      "explanation_ar": "تعلمنا V-ますか للسؤال العادي، أما V-ませんか (بصيغة النفي) فهي دعوة مهذبة للشخص ليفعل شيئاً معك، ومعناها «ما رأيك أن نفعل...؟». مثال: いっしょに サッカーを しませんか = ما رأيك أن نلعب كرة القدم معاً؟ ويُجاب عليها بالقبول: いいですね。ぜひ! أو いいですね。しましょう (فكرة جيدة، لنفعل). وللاعتذار بلطف: すみません、ちょっと…… (آسف، عندي ظرف). والفرق بين الصيغتين أن ませんか تترك للمخاطَب حرية الرفض، بينما ましょう تقال عادة بعد الاتفاق أو عند اقتراح واثق."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "كيف تقول: «لا أحب الساشيمي كثيراً»؟",
+      "options": ["さしみは あまり すきじゃ ありません。", "さしみが あまり すきです。", "さしみを あまり すきじゃ ありません。"],
+      "correct_index": 0,
+      "explanation_ar": "النفي مع すき يكون بـ じゃ ありません، و あまり تتطلب نفياً. الخيار الثاني لا يحتوي على نفي، والثالث يستخدم を مع すき وهذا خطأ، فالأداة الصحيحة مع すき هي が أو は للموضوع."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «ما رأيك أن نلعب كرة القدم معاً؟».",
+      "words": ["しませんか", "いっしょに", "サッカーを"],
+      "correct_order": ["いっしょに", "サッカーを", "しませんか"],
+      "explanation_ar": "いっしょに (معاً) ثم المفعول به مع を، ثم الفعل بصيغة ませんか في النهاية."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are Kenta, a cheerful Japanese housemate hosting a welcome dinner for the learner (Arabic speaker, JLPT N5) at the share house. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Start with かんぱい and いただきます, then chat about food and hobbies: ask しゅみは なんですか, なにが すきですか, 〜は じょうずですか. (3) Make the learner practice 〜が すき/きらい/じょうず/へた, and the negative 〜じゃ ありません with あまり. Share your own opinions too (e.g., you love ramen, you are not good at singing). (4) Invite them to do something together with 〜ませんか (いっしょに 〜ませんか) and accept or politely refuse their invitations in return, so they practice both directions (いいですね / すみません、ちょっと…). (5) If the learner uses を instead of が with すき or じょうず, or confuses い-adjective and な-adjective negation, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (6) Never go above N5. (7) After 6-8 exchanges, end warmly and give a 2-line feedback summary in Arabic.",
+    "initial_ai_message_jp": "サーレムさん、かんぱい!日本の りょうりは どうですか。",
+    "initial_ai_message_ar": "سالم، نخب صحتك! ما رأيك في الطعام الياباني؟"
+  }
+}

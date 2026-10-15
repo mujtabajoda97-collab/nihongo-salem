@@ -1,0 +1,71 @@
+{
+  "episode_id": 34,
+  "season": 4,
+  "level": "JLPT_N5",
+  "title_ar": "أول يوم تدريب في العمل",
+  "title_jp": "しごとの はじめての 日",
+  "background_image": "assets/images/scenes/ep34_bg.webp",
+  "dialogues": [
+    {"id": 1, "speaker_name_jp": "サトウ", "speaker_name_ar": "ساتو (الزميل الأقدم)", "character_avatar": "assets/images/characters/senpai_sato.webp", "audio_file": "assets/audio/ep34_line_01.mp3", "japanese": "はじめまして。サトウです。きょうから わたしが おしえます。", "romaji": "Hajimemashite. Satō desu. Kyō kara watashi ga oshiemasu.", "arabic": "تشرفنا. أنا ساتو. سأدرّبك من اليوم."},
+    {"id": 2, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep34_line_02.mp3", "japanese": "サーレムです。よろしく おねがいします。", "romaji": "Sāremu desu. Yoroshiku onegai shimasu.", "arabic": "أنا سالم. أشكرك على مساعدتي."},
+    {"id": 3, "speaker_name_jp": "サトウ", "speaker_name_ar": "ساتو (الزميل الأقدم)", "character_avatar": "assets/images/characters/senpai_sato.webp", "audio_file": "assets/audio/ep34_line_03.mp3", "japanese": "まず、この せいふくを きて ください。", "romaji": "Mazu, kono seifuku o kite kudasai.", "arabic": "أولاً، البس هذا الزي الرسمي من فضلك."},
+    {"id": 4, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep34_line_04.mp3", "japanese": "はい。……きました。", "romaji": "Hai. ... Kimashita.", "arabic": "حسناً... لبست."},
+    {"id": 5, "speaker_name_jp": "サトウ", "speaker_name_ar": "ساتو (الزميل الأقدم)", "character_avatar": "assets/images/characters/senpai_sato.webp", "audio_file": "assets/audio/ep34_line_05.mp3", "japanese": "つぎに、てを あらって ください。しごとの まえに、いつも あらわなければ なりません。", "romaji": "Tsugi ni, te o aratte kudasai. Shigoto no mae ni, itsumo arawanakereba narimasen.", "arabic": "ثم اغسل يديك. يجب أن تغسلهما دائماً قبل العمل."},
+    {"id": 6, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep34_line_06.mp3", "japanese": "わかりました。", "romaji": "Wakarimashita.", "arabic": "فهمت."},
+    {"id": 7, "speaker_name_jp": "サトウ", "speaker_name_ar": "ساتو (الزميل الأقدم)", "character_avatar": "assets/images/characters/senpai_sato.webp", "audio_file": "assets/audio/ep34_line_07.mp3", "japanese": "おきゃくさんが 来ましたね。大きい こえで「いらっしゃいませ」と 言わなければ なりません。", "romaji": "Okyakusan ga kimashita ne. Ōkii koe de 'irasshaimase' to iwanakereba narimasen.", "arabic": "جاء زبون. يجب أن تقول «أهلاً بك» بصوت عالٍ."},
+    {"id": 8, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep34_line_08.mp3", "japanese": "いらっしゃいませ!", "romaji": "Irasshaimase!", "arabic": "أهلاً بك!"},
+    {"id": 9, "speaker_name_jp": "サトウ", "speaker_name_ar": "ساتو (الزميل الأقدم)", "character_avatar": "assets/images/characters/senpai_sato.webp", "audio_file": "assets/audio/ep34_line_09.mp3", "japanese": "いいですね。つぎは レジです。まず、しょうひんの バーコードを ピッと します。", "romaji": "Ii desu ne. Tsugi wa reji desu. Mazu, shōhin no bākōdo o pi to shimasu.", "arabic": "جيد. التالي هو الكاشير. أولاً، امسح الباركود الخاص بالمنتج."},
+    {"id": 10, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep34_line_10.mp3", "japanese": "どうやって おかねを もらいますか。", "romaji": "Dō yatte okane o moraimasu ka.", "arabic": "كيف أستلم النقود؟"},
+    {"id": 11, "speaker_name_jp": "サトウ", "speaker_name_ar": "ساتو (الزميل الأقدم)", "character_avatar": "assets/images/characters/senpai_sato.webp", "audio_file": "assets/audio/ep34_line_11.mp3", "japanese": "おかねを もらって、「千円 おあずかりします」と 言って ください。", "romaji": "Okane o moratte, 'sen-en oazukari shimasu' to itte kudasai.", "arabic": "استلم النقود وقل: «استلمت ألف ين» من فضلك."},
+    {"id": 12, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep34_line_12.mp3", "japanese": "千円 おあずかりします。つぎに おつりですね。", "romaji": "Sen-en oazukari shimasu. Tsugi ni otsuri desu ne.", "arabic": "استلمت ألف ين. ثم الباقي، صحيح؟"},
+    {"id": 13, "speaker_name_jp": "サトウ", "speaker_name_ar": "ساتو (الزميل الأقدم)", "character_avatar": "assets/images/characters/senpai_sato.webp", "audio_file": "assets/audio/ep34_line_13.mp3", "japanese": "そうです。おつりを わたして、さいごに「ありがとうございました」と 言います。", "romaji": "Sō desu. Otsuri o watashite, saigo ni 'arigatō gozaimashita' to iimasu.", "arabic": "صحيح. تسلّم الباقي، وفي النهاية تقول «شكراً لك»."},
+    {"id": 14, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep34_line_14.mp3", "japanese": "ふくろは どう 言いますか。", "romaji": "Fukuro wa dō iimasu ka.", "arabic": "كيف أسأل عن الكيس؟"},
+    {"id": 15, "speaker_name_jp": "サトウ", "speaker_name_ar": "ساتو (الزميل الأقدم)", "character_avatar": "assets/images/characters/senpai_sato.webp", "audio_file": "assets/audio/ep34_line_15.mp3", "japanese": "「ふくろは いりますか」と 言って ください。", "romaji": "'Fukuro wa irimasu ka' to itte kudasai.", "arabic": "قل «هل تحتاج كيساً؟»."},
+    {"id": 16, "speaker_name_jp": "サトウ", "speaker_name_ar": "ساتو (الزميل الأقدم)", "character_avatar": "assets/images/characters/senpai_sato.webp", "audio_file": "assets/audio/ep34_line_16.mp3", "japanese": "じょうずですよ。しごとの なかで ケータイを つかっては いけません。", "romaji": "Jōzu desu yo. Shigoto no naka de kētai o tsukatte wa ikemasen.", "arabic": "أحسنت. لا يجوز استخدام الهاتف أثناء العمل."}
+  ],
+  "vocabulary": [
+    {"kanji": "先輩", "kana": "せんぱい", "romaji": "senpai", "arabic": "زميل أقدم / مُدرّب", "audio": "assets/audio/ep34_v_01.mp3"},
+    {"kanji": "制服", "kana": "せいふく", "romaji": "seifuku", "arabic": "زي رسمي", "audio": "assets/audio/ep34_v_02.mp3"},
+    {"kanji": "", "kana": "レジ", "romaji": "reji", "arabic": "الكاشير", "audio": "assets/audio/ep34_v_03.mp3"},
+    {"kanji": "袋", "kana": "ふくろ", "romaji": "fukuro", "arabic": "كيس", "audio": "assets/audio/ep34_v_04.mp3"},
+    {"kanji": "声", "kana": "こえ", "romaji": "koe", "arabic": "صوت", "audio": "assets/audio/ep34_v_05.mp3"},
+    {"kanji": "教えます", "kana": "おしえます", "romaji": "oshiemasu", "arabic": "يُعلّم / يرشد", "audio": "assets/audio/ep34_v_06.mp3"},
+    {"kanji": "着ます", "kana": "きます", "romaji": "kimasu", "arabic": "يلبس (قميصاً / زياً)", "audio": "assets/audio/ep34_v_07.mp3"},
+    {"kanji": "言います", "kana": "いいます", "romaji": "iimasu", "arabic": "يقول", "audio": "assets/audio/ep34_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "التعبير عن الواجب: «V-ない + なければ なりません»",
+      "pattern": "V-ない (الجذر المنفي) + なければ なりません",
+      "explanation_ar": "للتعبير عن الواجب أو القاعدة الملزمة (يجب أن...) نحذف い من الصيغة المنفية العادية ونضيف ければ なりません. أولاً صيغة ない العادية: あらいます ← あらわない، いいます ← いわない، たべます ← たべない، します ← しない. ثم: あらわなければ なりません = يجب أن أغسل، 大きい こえで 言わなければ なりません = يجب أن أقول بصوت عالٍ. وللأفعال الشائعة: いかなければ なりません (يجب أن أذهب)، しなければ なりません (يجب أن أفعل). ملاحظة: هذه الصيغة تُدرَّس عادةً في مستوى N4، لكنها ضرورية جداً في بيئة العمل، فتعلمها هنا كعبارة جاهزة. وفي الاستعمال اليومي المختصر تسمع: いかなきゃ (يجب أن أذهب)."
+    },
+    {
+      "title_ar": "ترتيب الخطوات وسؤال الطريقة: «まず・つぎに・さいごに» و«どうやって»",
+      "pattern": "まず → つぎに / それから → さいごに / どうやって V-ますか",
+      "explanation_ar": "لشرح خطوات العمل أو التدريب نستخدم كلمات الترتيب: まず (أولاً)، つぎに (ثم / بعد ذلك)، それから (ثم)، さいごに (وأخيراً). مثال: まず、せいふくを きて ください。つぎに、てを あらって ください。 والسؤال عن طريقة فعل شيء: どうやって V-ますか = كيف أفعل...؟ مثال: どうやって おかねを もらいますか = كيف أستلم النقود؟ والجواب غالباً بصيغة て: おかねを もらって、「～」と 言って ください. وتذكر أن 「～」と 言います تعني «يقول ...» وتستخدم لنقل العبارات الجاهزة مثل 「いらっしゃいませ」と 言います."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "كيف تقول: «يجب أن أغسل يدي قبل العمل»؟",
+      "options": ["しごとの まえに てを あらわなければ なりません。", "しごとの まえに てを あらっては いけません。", "しごとの まえに てを あらいたいです。"],
+      "correct_index": 0,
+      "explanation_ar": "なければ なりません تعبّر عن الواجب. أما てはいけません فهي للمنع، وたいです للرغبة."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «أولاً، البس الزي الرسمي من فضلك».",
+      "words": ["きて", "ください", "せいふくを", "まず"],
+      "correct_order": ["まず", "せいふくを", "きて", "ください"],
+      "explanation_ar": "كلمة الترتيب まず أولاً، ثم المفعول به، ثم الفعل بصيغة て، ثم ください."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are Sato, a friendly senior coworker (せんぱい) training the learner (Arabic speaker, JLPT N5) on their first day at a Japanese convenience store. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Teach the cashier workflow step by step using まず / つぎに / さいごに: put on the uniform (せいふくを きて ください), wash hands, greet (「いらっしゃいませ」と 言って ください), scan items, take money (「千円 おあずかりします」), give change (おつり), ask about a bag (「ふくろは いりますか」), and thank (「ありがとうございました」). Play the customer yourself for short role-plays. (3) Make the learner practice 〜なければ なりません (てを あらわなければ なりません) — mention this pattern is slightly above N5 and teach it as a work rule phrase — and ask how to do things with どうやって. (4) Be encouraging (じょうずですよ). Respect that the learner avoids pork and alcohol: do not assign handling tasks that conflict if they decline. (5) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (6) After 6-8 exchanges, finish the training and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "サーレムさん、きょうから よろしく おねがいします。まず、この せいふくを きて ください。",
+    "initial_ai_message_ar": "سالم، أهلاً بك من اليوم. أولاً، البس هذا الزي الرسمي من فضلك."
+  }
+}

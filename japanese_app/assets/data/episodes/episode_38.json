@@ -1,0 +1,70 @@
+{
+  "episode_id": 38,
+  "season": 4,
+  "level": "JLPT_N5",
+  "title_ar": "شراء الهدايا التذكارية وتغليفها",
+  "title_jp": "おみやげを かいます",
+  "background_image": "assets/images/scenes/ep38_bg.webp",
+  "dialogues": [
+    {"id": 1, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep38_line_01.mp3", "japanese": "ユキさん、かぞくに おみやげを かいたいです。", "romaji": "Yuki-san, kazoku ni omiyage o kaitai desu.", "arabic": "يوكي، أريد شراء هدايا لعائلتي."},
+    {"id": 2, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep38_line_02.mp3", "japanese": "いいですね。なにが いいですか。", "romaji": "Ii desu ne. Nani ga ii desu ka.", "arabic": "جميل. ماذا تفضّل؟"},
+    {"id": 3, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep38_line_03.mp3", "japanese": "おかしと おちゃが いいです。", "romaji": "Okashi to ocha ga ii desu.", "arabic": "أفضّل الحلويات والشاي."},
+    {"id": 4, "speaker_name_jp": "店員", "speaker_name_ar": "بائعة الهدايا", "character_avatar": "assets/images/characters/omiyage_clerk.webp", "audio_file": "assets/audio/ep38_line_04.mp3", "japanese": "いらっしゃいませ。ごゆっくり どうぞ。", "romaji": "Irasshaimase. Goyukkuri dōzo.", "arabic": "أهلاً بك. خذ وقتك."},
+    {"id": 5, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep38_line_05.mp3", "japanese": "すみません。この おかしは いくらですか。", "romaji": "Sumimasen. Kono okashi wa ikura desu ka.", "arabic": "عفواً. كم سعر هذه الحلوى؟"},
+    {"id": 6, "speaker_name_jp": "店員", "speaker_name_ar": "بائعة الهدايا", "character_avatar": "assets/images/characters/omiyage_clerk.webp", "audio_file": "assets/audio/ep38_line_06.mp3", "japanese": "ひとつ 八百円です。", "romaji": "Hitotsu happyaku-en desu.", "arabic": "الواحدة بثمانمئة ين."},
+    {"id": 7, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep38_line_07.mp3", "japanese": "この おちゃと あの おちゃは おなじ ねだんですか。", "romaji": "Kono ocha to ano ocha wa onaji nedan desu ka.", "arabic": "هل هذا الشاي وذلك الشاي بنفس السعر؟"},
+    {"id": 8, "speaker_name_jp": "店員", "speaker_name_ar": "بائعة الهدايا", "character_avatar": "assets/images/characters/omiyage_clerk.webp", "audio_file": "assets/audio/ep38_line_08.mp3", "japanese": "いいえ、ちがいます。こちらは 千円、あちらは 千五百円です。", "romaji": "Iie, chigaimasu. Kochira wa sen-en, achira wa sengohyaku-en desu.", "arabic": "لا، يختلفان. هذا بألف ين، وذاك بألف وخمسمئة."},
+    {"id": 9, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep38_line_09.mp3", "japanese": "この おかしには ぶたにくや ゼラチンが はいって いますか。", "romaji": "Kono okashi ni wa butaniku ya zerachin ga haitte imasu ka.", "arabic": "هل تحتوي هذه الحلوى على لحم الخنزير أو الجيلاتين؟"},
+    {"id": 10, "speaker_name_jp": "店員", "speaker_name_ar": "بائعة الهدايا", "character_avatar": "assets/images/characters/omiyage_clerk.webp", "audio_file": "assets/audio/ep38_line_10.mp3", "japanese": "いいえ、はいって いません。", "romaji": "Iie, haitte imasen.", "arabic": "لا، لا تحتوي عليها."},
+    {"id": 11, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep38_line_11.mp3", "japanese": "よかった。じゃ、おかしを 三つと、千円の おちゃを ふたつ ください。", "romaji": "Yokatta. Ja, okashi o mittsu to, sen-en no ocha o futatsu kudasai.", "arabic": "جيد. إذن ثلاث حلويات وكيسين من الشاي بألف ين."},
+    {"id": 12, "speaker_name_jp": "店員", "speaker_name_ar": "بائعة الهدايا", "character_avatar": "assets/images/characters/omiyage_clerk.webp", "audio_file": "assets/audio/ep38_line_12.mp3", "japanese": "ぜんぶで 四千四百円です。", "romaji": "Zenbu de yonsen yonhyaku-en desu.", "arabic": "المجموع أربعة آلاف وأربعمئة ين."},
+    {"id": 13, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep38_line_13.mp3", "japanese": "プレゼントですから、きれいに つつんで ください。", "romaji": "Purezento desu kara, kirei ni tsutsunde kudasai.", "arabic": "لأنها هدية، غلّفها بشكل جميل من فضلك."},
+    {"id": 14, "speaker_name_jp": "店員", "speaker_name_ar": "بائعة الهدايا", "character_avatar": "assets/images/characters/omiyage_clerk.webp", "audio_file": "assets/audio/ep38_line_14.mp3", "japanese": "かしこまりました。ふくろも ひとつ いかがですか。", "romaji": "Kashikomarimashita. Fukuro mo hitotsu ikaga desu ka.", "arabic": "حاضر. وهل تريد كيساً أيضاً؟"},
+    {"id": 15, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep38_line_15.mp3", "japanese": "はい、おねがいします。みんなで 食べますから、きっと よろこびますね。", "romaji": "Hai, onegai shimasu. Minna de tabemasu kara, kitto yorokobimasu ne.", "arabic": "نعم من فضلك. سنأكلها معاً، وأظن أن الجميع سيفرح."}
+  ],
+  "vocabulary": [
+    {"kanji": "お菓子", "kana": "おかし", "romaji": "okashi", "arabic": "حلويات / وجبات خفيفة", "audio": "assets/audio/ep38_v_01.mp3"},
+    {"kanji": "お茶", "kana": "おちゃ", "romaji": "ocha", "arabic": "شاي", "audio": "assets/audio/ep38_v_02.mp3"},
+    {"kanji": "値段", "kana": "ねだん", "romaji": "nedan", "arabic": "السعر", "audio": "assets/audio/ep38_v_03.mp3"},
+    {"kanji": "同じ", "kana": "おなじ", "romaji": "onaji", "arabic": "نفس / مماثل", "audio": "assets/audio/ep38_v_04.mp3"},
+    {"kanji": "違います", "kana": "ちがいます", "romaji": "chigaimasu", "arabic": "يختلف / خطأ", "audio": "assets/audio/ep38_v_05.mp3"},
+    {"kanji": "全部", "kana": "ぜんぶ", "romaji": "zenbu", "arabic": "الكل / المجموع", "audio": "assets/audio/ep38_v_06.mp3"},
+    {"kanji": "包みます", "kana": "つつみます", "romaji": "tsutsumimasu", "arabic": "يغلّف", "audio": "assets/audio/ep38_v_07.mp3"},
+    {"kanji": "", "kana": "プレゼント", "romaji": "purezento", "arabic": "هدية", "audio": "assets/audio/ep38_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "التشابه والاختلاف: «おなじ» و«ちがいます»",
+      "pattern": "A と B は おなじ N です / A と B は ちがいます",
+      "explanation_ar": "لمقارنة شيئين من حيث التطابق نقول: A と B は おなじ + اسم です. مثال: この おちゃと あの おちゃは おなじ ねだんですか = هل هذا الشاي وذلك الشاي بنفس السعر؟ ولاحظ أن おなじ تأتي مباشرة قبل الاسم بدون な (فنقول おなじ ねだん وليس おなじな ねだん)، وهذا استثناء مهم. والجواب المنفي: いいえ、ちがいます = لا، يختلفان (أو: لا، هذا خطأ). وعند الحديث عن الاختلاف نقول: A と B は ちがいます. ويمكن استخدام ちがいます للتصحيح أيضاً: ちがいます、これは ごひゃくえんです = لا، هذا بخمسمئة ين."
+    },
+    {
+      "title_ar": "المجموع والكمية: «ぜんぶで» و«みんなで» و«ひとつ・ふたつ・みっつ»",
+      "pattern": "ぜんぶで N です / みんなで V / N を ひとつ・ふたつ・みっつ ください",
+      "explanation_ar": "الأداة で بعد كمية أو مجموعة تعني «بمجموع / معاً / ككل»: ぜんぶで 四千四百円です = المجموع أربعة آلاف وأربعمئة ين، みんなで 食べます = نأكل معاً، ひとりで いきます = أذهب وحدي. أما لطلب كمية معينة بدون وحدة محددة نستخدم أرقام الأشياء العامة: ひとつ، ふたつ، みっつ، よっつ، いつつ (حتى 10 = とお). ويوضع الرقم بعد المفعول به مباشرة: おかしを みっつ ください = ثلاث حلويات من فضلك. وللتغليف نقول: きれいに つつんで ください = غلّفها بشكل جميل من فضلك، وهذه الجملة مفيدة جداً عند شراء الهدايا."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "ما الصيغة الصحيحة؟ この おちゃと あの おちゃは ＿＿ ねだんです。",
+      "options": ["おなじ", "おなじな", "おなじの"],
+      "correct_index": 0,
+      "explanation_ar": "おなじ تأتي مباشرة قبل الاسم بدون な أو の."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «ثلاث حلويات من فضلك».",
+      "words": ["ください", "おかしを", "みっつ"],
+      "correct_order": ["おかしを", "みっつ", "ください"],
+      "explanation_ar": "المفعول به أولاً، ثم العدد، ثم ください."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are a friendly clerk at a souvenir shop (おみやげや) near Mt. Fuji. The learner (Arabic speaker, JLPT N5) wants gifts for their family. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Show products (おかし, おちゃ, てぬぐい, キーホルダー) with fake prices and answer price questions (ひとつ 八百円です). Answer ingredient questions honestly using a fake label (ぶたにくは はいって いません); never claim a product is certified halal. (3) Make the learner practice おなじ / ちがいます (この おちゃと あの おちゃは おなじ ねだんですか), counters (ひとつ, ふたつ, みっつ), ぜんぶで / みんなで, きれいに つつんで ください, and いくらですか. Compute the total correctly. (4) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (5) Never go above N5 except fixed service phrases. (6) After 6-8 exchanges, wrap the gifts and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "いらっしゃいませ。ごゆっくり どうぞ。",
+    "initial_ai_message_ar": "أهلاً بك. خذ وقتك."
+  }
+}

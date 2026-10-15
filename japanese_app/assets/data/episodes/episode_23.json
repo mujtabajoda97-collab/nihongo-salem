@@ -1,0 +1,205 @@
+{
+  "episode_id": 23,
+  "season": 3,
+  "level": "JLPT_N5",
+  "title_ar": "الطقس وشراء مظلة",
+  "title_jp": "てんきと かさ",
+  "background_image": "assets/images/scenes/ep23_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep23_line_01.mp3",
+      "japanese": "あ、あめが ふって います。",
+      "romaji": "A, ame ga futte imasu.",
+      "arabic": "آه، إنها تمطر."
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep23_line_02.mp3",
+      "japanese": "ほんとうですね。あさは はれでした。",
+      "romaji": "Hontō desu ne. Asa wa hare deshita.",
+      "arabic": "فعلاً. كان الصباح مشمساً."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep23_line_03.mp3",
+      "japanese": "ドバイでは あまり あめが ふりません。",
+      "romaji": "Dobai de wa amari ame ga furimasen.",
+      "arabic": "في دبي لا تمطر كثيراً."
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep23_line_04.mp3",
+      "japanese": "そうですか。日本は 六月に よく あめが ふります。",
+      "romaji": "Sō desu ka. Nihon wa rokugatsu ni yoku ame ga furimasu.",
+      "arabic": "حقاً؟ في اليابان تمطر كثيراً في شهر يونيو."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep23_line_05.mp3",
+      "japanese": "あしたも あめでしょうか。",
+      "romaji": "Ashita mo ame deshō ka.",
+      "arabic": "هل ستمطر غداً أيضاً يا ترى؟"
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep23_line_06.mp3",
+      "japanese": "あしたは くもりでしょう。でも、ごごからは はれでしょう。",
+      "romaji": "Ashita wa kumori deshō. Demo, gogo kara wa hare deshō.",
+      "arabic": "غداً سيكون الجو غائماً على الأرجح. لكن من بعد الظهر سيكون مشمساً."
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep23_line_07.mp3",
+      "japanese": "かさが ありませんから、コンビニで かいます。",
+      "romaji": "Kasa ga arimasen kara, konbini de kaimasu.",
+      "arabic": "ليست عندي مظلة، لذلك سأشتري واحدة من الكومبيني."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep23_line_08.mp3",
+      "japanese": "すみません。かさは どこに ありますか。",
+      "romaji": "Sumimasen. Kasa wa doko ni arimasu ka.",
+      "arabic": "عذراً. أين توجد المظلات؟"
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظف المتجر",
+      "character_avatar": "assets/images/characters/konbini_clerk.webp",
+      "audio_file": "assets/audio/ep23_line_09.mp3",
+      "japanese": "あそこに あります。ビニールがさは 五百円です。大きい かさは 千円です。",
+      "romaji": "Asoko ni arimasu. Biniru-gasa wa gohyaku-en desu. Ōkii kasa wa sen-en desu.",
+      "arabic": "هناك. المظلة الشفافة بخمسمئة ين. والمظلة الكبيرة بألف ين."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep23_line_10.mp3",
+      "japanese": "大きい かさに します。",
+      "romaji": "Ōkii kasa ni shimasu.",
+      "arabic": "سآخذ المظلة الكبيرة."
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep23_line_11.mp3",
+      "japanese": "わたしも かさを かいます。あおいのが ほしいです。",
+      "romaji": "Watashi mo kasa o kaimasu. Aoi no ga hoshii desu.",
+      "arabic": "وأنا سأشتري مظلة أيضاً. أريد الزرقاء."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep23_line_12.mp3",
+      "japanese": "ユキさん、日本は 一年で いつが いちばん さむいですか。",
+      "romaji": "Yuki-san, Nihon wa ichinen de itsu ga ichiban samui desu ka.",
+      "arabic": "يوكي، في أي وقت من السنة يكون الجو أبرد في اليابان؟"
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep23_line_13.mp3",
+      "japanese": "二月が いちばん さむいです。ゆきも ふります。",
+      "romaji": "Nigatsu ga ichiban samui desu. Yuki mo furimasu.",
+      "arabic": "فبراير هو أبرد شهر. وتتساقط الثلوج أيضاً."
+    },
+    {
+      "id": 14,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep23_line_14.mp3",
+      "japanese": "ゆきですか!見たいです。ドバイでは 八月が いちばん あついです。",
+      "romaji": "Yuki desu ka! Mitai desu. Dobai de wa hachigatsu ga ichiban atsui desu.",
+      "arabic": "ثلج؟! أريد أن أراه. وفي دبي أغسطس هو أحر شهر."
+    },
+    {
+      "id": 15,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep23_line_15.mp3",
+      "japanese": "八月は 日本も あついですよ。でも、ドバイの ほうが あついでしょう。",
+      "romaji": "Hachigatsu wa Nihon mo atsui desu yo. Demo, Dobai no hō ga atsui deshō.",
+      "arabic": "أغسطس حار في اليابان أيضاً. لكن دبي أحرّ على الأرجح."
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "天気", "kana": "てんき", "romaji": "tenki", "arabic": "طقس", "audio": "assets/audio/ep23_v_01.mp3"},
+    {"kanji": "雨", "kana": "あめ", "romaji": "ame", "arabic": "مطر", "audio": "assets/audio/ep23_v_02.mp3"},
+    {"kanji": "傘", "kana": "かさ", "romaji": "kasa", "arabic": "مظلة", "audio": "assets/audio/ep23_v_03.mp3"},
+    {"kanji": "晴れ", "kana": "はれ", "romaji": "hare", "arabic": "جو مشمس / صحو", "audio": "assets/audio/ep23_v_04.mp3"},
+    {"kanji": "曇り", "kana": "くもり", "romaji": "kumori", "arabic": "غائم", "audio": "assets/audio/ep23_v_05.mp3"},
+    {"kanji": "雪", "kana": "ゆき", "romaji": "yuki", "arabic": "ثلج", "audio": "assets/audio/ep23_v_06.mp3"},
+    {"kanji": "寒い", "kana": "さむい", "romaji": "samui", "arabic": "بارد (جو)", "audio": "assets/audio/ep23_v_07.mp3"},
+    {"kanji": "暑い", "kana": "あつい", "romaji": "atsui", "arabic": "حار (جو) — لاحظ الفرق عن 熱い (ساخن عند اللمس)", "audio": "assets/audio/ep23_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "الطقس والتوقع: «ふります» و«でしょう»",
+      "pattern": "あめが ふります / ふって います / N でしょう",
+      "explanation_ar": "للحديث عن هطول المطر أو الثلج نستخدم الفعل ふります (يسقط) مع الأداة が: あめが ふります = تمطر، ゆきが ふります = يتساقط الثلج. وللحدث الجاري الآن نستخدم V-て います: あめが ふって います = تمطر الآن. وللحديث عن الحالة العامة نستخدم ですが: きょうは はれです = اليوم صحو. وللتوقع والاحتمال نضيف でしょう بدل です، وتعني «على الأرجح/يُحتمل»: あしたは くもりでしょう = غداً سيكون غائماً على الأرجح. وللسؤال عن التوقع: あしたも あめでしょうか = هل ستمطر غداً أيضاً؟ ومع صفات い نضيف でしょう بعد الصفة: ドバイの ほうが あついでしょう = دبي أحرّ على الأرجح. ومع الأفعال: ふるでしょう (سيمطر) سنتعلمها لاحقاً."
+    },
+    {
+      "title_ar": "صيغة التفضيل العليا: «いちばん»",
+      "pattern": "[نطاق] で [N] が いちばん [صفة] です / [سؤال] が いちばん [صفة] ですか",
+      "explanation_ar": "للتعبير عن «الأكثر/الأفضل» بين مجموعة نستخدم いちばん (رقم واحد) قبل الصفة. ونحدد النطاق بـ で: 一年で (خلال السنة)، クラスで (في الفصل)، 日本で (في اليابان). مثال: 一年で 二月が いちばん さむいです = في السنة، فبراير هو الأبرد. وللسؤال نستخدم كلمة السؤال المناسبة: 一年で いつが いちばん さむいですか = متى يكون الجو أبرد في السنة؟ クラスで だれが いちばん じょうずですか = من الأفضل في الفصل؟ ويمكن ألّا نحدد النطاق: なにが いちばん すきですか = ما أكثر ما تحب؟ ولا تنسَ الفرق بين المقارنة بين اثنين (より ～の ほうが) وبين أكثر من اثنين (いちばん)."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "ماذا تعني: あしたは はれでしょう؟",
+      "options": ["غداً سيكون الجو مشمساً على الأرجح", "غداً الجو مشمس بالتأكيد", "كان الجو مشمساً أمس"],
+      "correct_index": 0,
+      "explanation_ar": "でしょう تدل على التوقع والاحتمال وليس اليقين. أما اليقين فيكون بـ です، والماضي بـ でした."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «في السنة، فبراير هو الأبرد».",
+      "words": ["さむいです", "二月が", "いちばん", "一年で"],
+      "correct_order": ["一年で", "二月が", "いちばん", "さむいです"],
+      "explanation_ar": "النطاق مع で أولاً، ثم الشيء مع が، ثم いちばん، ثم الصفة في النهاية."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are Yuki, a friendly Japanese university student standing with the learner (Arabic speaker, JLPT N5) at a konbini entrance on a rainy day. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Start by noticing the rain (あめが ふって いますね) and ask about the weather in the learner's country (ドバイは あめが ふりますか / いま あついですか). (3) Make the learner practice weather vocabulary (はれ, くもり, あめ, ゆき), the forecast form 〜でしょう (あしたは あめでしょう), and the superlative いちばん with the scope marker で (一年で いつが いちばん あついですか / 日本で どこが いちばん すきですか). Compare countries with 〜の ほうが. (4) Help them buy an umbrella in the konbini (かさは どこに ありますか / 大きい かさに します). (5) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (6) Never go above N5. (7) After 6-8 exchanges, wish them a good day and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "あ、あめが ふって いますね。かさは ありますか。",
+    "initial_ai_message_ar": "آه، إنها تمطر. هل معك مظلة؟"
+  }
+}

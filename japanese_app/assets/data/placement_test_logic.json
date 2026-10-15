@@ -1,0 +1,192 @@
+{
+  "test_id": "placement_n5_v1",
+  "version": "1.0",
+  "level": "JLPT_N5",
+  "title_ar": "اختبار تحديد المستوى",
+  "title_jp": "レベルチェック",
+  "instructions_ar": "أجب عن 10 أسئلة قصيرة لنعرف من أين تبدأ. الأسئلة تزداد صعوبة تدريجياً. إذا لم تعرف الإجابة، اختر «لا أعرف» ولا تخمّن، حتى تكون النتيجة دقيقة.",
+  "settings": {
+    "question_count": 10,
+    "shuffle_options": true,
+    "allow_skip": true,
+    "skip_label_ar": "لا أعرف",
+    "skip_counts_as": "incorrect",
+    "show_feedback_after_each_question": false,
+    "show_review_at_end": true
+  },
+  "scoring": {
+    "points_per_correct": 1,
+    "points_per_incorrect": 0,
+    "max_score": 10,
+    "placement_rules": [
+      {
+        "min_score": 0,
+        "max_score": 3,
+        "start_episode": 1,
+        "start_season": 1,
+        "label_ar": "مبتدئ تماماً",
+        "message_ar": "بداية رائعة! ستبدأ رحلتك مع سالم من لحظة وصوله إلى مطار ناريتا (الحلقة 1)، وستتعلم التحيات والتعريف بالنفس والأساسيات خطوة بخطوة."
+      },
+      {
+        "min_score": 4,
+        "max_score": 7,
+        "start_episode": 11,
+        "start_season": 2,
+        "label_ar": "مبتدئ لديه أساس",
+        "message_ar": "لديك أساس جيد! ستبدأ من الحلقة 11 (الموسم الثاني) حيث نتعلم صيغة て وسرد الروتين اليومي والتنقل في المدينة. يمكنك دائماً الرجوع إلى حلقات الموسم الأول للمراجعة."
+      },
+      {
+        "min_score": 8,
+        "max_score": 10,
+        "start_episode": 21,
+        "start_season": 3,
+        "label_ar": "متوسط في مستوى N5",
+        "message_ar": "ممتاز! مستواك متقدم في N5. ستبدأ من الحلقة 21 (الموسم الثالث) في مدرسة اللغة، مع قواعد مثل السماح والمنع والخبرة السابقة. يمكنك مراجعة الحلقات السابقة متى شئت."
+      }
+    ],
+    "fallback_rule": {
+      "description": "If the score cannot be computed (e.g. the test was interrupted), start from episode 1.",
+      "start_episode": 1
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": 1,
+      "skill": "greetings",
+      "skill_ar": "التحيات",
+      "type": "multiple_choice",
+      "question_ar": "الساعة 8 صباحاً وقابلت صديقك. ماذا تقول له؟",
+      "prompt_jp": "",
+      "options": ["おはようございます", "こんばんは", "おやすみなさい"],
+      "correct_index": 0,
+      "explanation_ar": "おはようございます تحية الصباح. こんばんは تحية المساء، وおやすみなさい تعني «تصبح على خير».",
+      "related_episode": 1
+    },
+    {
+      "id": 2,
+      "difficulty": 1,
+      "skill": "greetings",
+      "skill_ar": "التعريف بالنفس",
+      "type": "multiple_choice",
+      "question_ar": "أكمل جملة التعريف بالنفس: «تشرفت بمعرفتك، أنا سالم».",
+      "prompt_jp": "はじめまして。サーレム＿＿。",
+      "options": ["です", "ます", "を"],
+      "correct_index": 0,
+      "explanation_ar": "نقول: [الاسم] です للتعريف بالنفس. ます تأتي في نهاية الأفعال فقط، وを أداة للمفعول به.",
+      "related_episode": 1
+    },
+    {
+      "id": 3,
+      "difficulty": 1,
+      "skill": "particles",
+      "skill_ar": "أدوات الربط",
+      "type": "multiple_choice",
+      "question_ar": "اختر الأداة الصحيحة: «أشرب القهوة».",
+      "prompt_jp": "コーヒー＿＿ のみます。",
+      "options": ["を", "に", "へ"],
+      "correct_index": 0,
+      "explanation_ar": "المفعول به (الشيء الذي نشربه) يأخذ الأداة を.",
+      "related_episode": 5
+    },
+    {
+      "id": 4,
+      "difficulty": 1,
+      "skill": "prices",
+      "skill_ar": "الأسعار",
+      "type": "multiple_choice",
+      "question_ar": "ما معنى هذا السؤال؟",
+      "prompt_jp": "これは いくらですか。",
+      "options": ["كم سعر هذا؟", "ما هذا؟", "أين هذا؟"],
+      "correct_index": 0,
+      "explanation_ar": "いくら تعني «كم السعر». أما «ما هذا؟» فهي これは なんですか، و«أين؟» どこですか.",
+      "related_episode": 2
+    },
+    {
+      "id": 5,
+      "difficulty": 2,
+      "skill": "prices",
+      "skill_ar": "الأسعار والأرقام",
+      "type": "multiple_choice",
+      "question_ar": "قال لك البائع السعر التالي. كم المبلغ؟",
+      "prompt_jp": "せんごひゃくえんです。",
+      "options": ["1,500 ين", "15,000 ين", "150 ين"],
+      "correct_index": 0,
+      "explanation_ar": "せん = 1000، ごひゃく = 500، فالمجموع 1500 ين. أما 15,000 فهي いちまんごせん، و150 هي ひゃくごじゅう.",
+      "related_episode": 7
+    },
+    {
+      "id": 6,
+      "difficulty": 2,
+      "skill": "movement_verbs",
+      "skill_ar": "أفعال الحركة",
+      "type": "multiple_choice",
+      "question_ar": "اختر الأداة الصحيحة: «أذهب إلى المحطة».",
+      "prompt_jp": "えき＿＿ 行きます。",
+      "options": ["へ", "を", "で"],
+      "correct_index": 0,
+      "explanation_ar": "أفعال الحركة مثل 行きます تأخذ へ (أو に) للدلالة على الاتجاه.",
+      "related_episode": 3
+    },
+    {
+      "id": 7,
+      "difficulty": 2,
+      "skill": "movement_verbs",
+      "skill_ar": "أفعال الحركة",
+      "type": "multiple_choice",
+      "question_ar": "انتهى يومك في المدرسة وأنت عائد إلى بيتك. أي فعل تستخدم؟",
+      "prompt_jp": "うちへ ＿＿。",
+      "options": ["かえります", "きます", "いきます"],
+      "correct_index": 0,
+      "explanation_ar": "かえります = يعود (إلى بيته أو بلده). きます = يأتي (نحو المتكلم)، いきます = يذهب (بعيداً عن المتكلم).",
+      "related_episode": 3
+    },
+    {
+      "id": 8,
+      "difficulty": 2,
+      "skill": "particles",
+      "skill_ar": "أدوات الربط",
+      "type": "multiple_choice",
+      "question_ar": "اختر الأداة الصحيحة: «أدرس في المكتبة».",
+      "prompt_jp": "としょかん＿＿ べんきょうします。",
+      "options": ["で", "に", "を"],
+      "correct_index": 0,
+      "explanation_ar": "مكان حدوث الفعل يأخذ で. أما に فتأتي مع الوجود (あります/います) أو الوجهة.",
+      "related_episode": 19
+    },
+    {
+      "id": 9,
+      "difficulty": 3,
+      "skill": "te_form",
+      "skill_ar": "صيغة الطلب て",
+      "type": "multiple_choice",
+      "question_ar": "اطلب بأدب: «اكتب اسمك من فضلك». (الفعل: かきます)",
+      "prompt_jp": "なまえを ＿＿ ください。",
+      "options": ["かいて", "かって", "かきて"],
+      "correct_index": 0,
+      "explanation_ar": "الأفعال المنتهية بـ きます تتحول في صيغة て إلى いて: かきます ← かいて. أما かって فهي من かいます (يشتري).",
+      "related_episode": 8
+    },
+    {
+      "id": 10,
+      "difficulty": 3,
+      "skill": "te_form",
+      "skill_ar": "صيغة الطلب て",
+      "type": "multiple_choice",
+      "question_ar": "اطلب بأدب: «اذهب إلى المحطة من فضلك». (الفعل: いきます)",
+      "prompt_jp": "えきへ ＿＿ ください。",
+      "options": ["いって", "いきて", "いいて"],
+      "correct_index": 0,
+      "explanation_ar": "いきます فعل شاذ: صيغة て منه هي いって (وليس いいて مثل باقي أفعال きます).",
+      "related_episode": 11
+    }
+  ],
+  "result_screen": {
+    "title_ar": "نتيجتك",
+    "score_template_ar": "أجبت إجابة صحيحة عن {score} من {max_score} أسئلة.",
+    "skills_breakdown": true,
+    "skills_breakdown_note_ar": "نعرض لك المهارات التي أخطأت فيها مع رقم الحلقة التي تشرحها، لتراجعها إن أردت.",
+    "cta_ar": "ابدأ من الحلقة {start_episode}",
+    "secondary_cta_ar": "أفضّل البدء من الحلقة 1"
+  }
+}

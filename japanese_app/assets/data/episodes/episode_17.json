@@ -1,0 +1,195 @@
+{
+  "episode_id": 17,
+  "season": 2,
+  "level": "JLPT_N5",
+  "title_ar": "التأخر عن الموعد والاعتذار",
+  "title_jp": "おそく なって すみません",
+  "background_image": "assets/images/scenes/ep17_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep17_line_01.mp3",
+      "japanese": "サーレムさん、こっちです!",
+      "romaji": "Sāremu-san, kocchi desu!",
+      "arabic": "سالم، نحن هنا!"
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep17_line_02.mp3",
+      "japanese": "ユキさん、ミナさん、すみません!おそく なりました。",
+      "romaji": "Yuki-san, Mina-san, sumimasen! Osoku narimashita.",
+      "arabic": "يوكي، مينا، آسف جداً! لقد تأخرت."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "ミナ",
+      "speaker_name_ar": "مينا",
+      "character_avatar": "assets/images/characters/mina.webp",
+      "audio_file": "assets/audio/ep17_line_03.mp3",
+      "japanese": "だいじょうぶです。はじめまして。ミナです。",
+      "romaji": "Daijōbu desu. Hajimemashite. Mina desu.",
+      "arabic": "لا بأس. تشرفنا. أنا مينا."
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep17_line_04.mp3",
+      "japanese": "はじめまして。サーレムです。どうぞ よろしく おねがいします。",
+      "romaji": "Hajimemashite. Sāremu desu. Dōzo yoroshiku onegaishimasu.",
+      "arabic": "تشرفنا. أنا سالم. يسعدني التعرف عليكِ."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep17_line_05.mp3",
+      "japanese": "三十分 まちましたよ。どうしましたか。",
+      "romaji": "Sanjuppun machimashita yo. Dō shimashita ka.",
+      "arabic": "انتظرناك نصف ساعة. ماذا حدث؟"
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep17_line_06.mp3",
+      "japanese": "ちがう でんしゃに のりました。そして、みちが わかりませんでした。",
+      "romaji": "Chigau densha ni norimashita. Soshite, michi ga wakarimasen deshita.",
+      "arabic": "ركبت قطاراً خاطئاً. ثم لم أعرف الطريق."
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "ミナ",
+      "speaker_name_ar": "مينا",
+      "character_avatar": "assets/images/characters/mina.webp",
+      "audio_file": "assets/audio/ep17_line_07.mp3",
+      "japanese": "そうですか。たいへんでしたね。",
+      "romaji": "Sō desu ka. Taihen deshita ne.",
+      "arabic": "فهمت. لقد كان الأمر صعباً عليك."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep17_line_08.mp3",
+      "japanese": "はい。でも、スマホで ちずを 見ましたから、ここへ きました。",
+      "romaji": "Hai. Demo, sumaho de chizu o mimashita kara, koko e kimashita.",
+      "arabic": "نعم. لكنني نظرت إلى الخريطة في الهاتف فوصلت إلى هنا."
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep17_line_09.mp3",
+      "japanese": "ちょっと おなかが すきましたね。",
+      "romaji": "Chotto onaka ga sukimashita ne.",
+      "arabic": "لقد جعت قليلاً."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep17_line_10.mp3",
+      "japanese": "わたしも おなかが すきました。あの カフェに 入りませんか。",
+      "romaji": "Watashi mo onaka ga sukimashita. Ano kafe ni hairimasen ka.",
+      "arabic": "وأنا أيضاً جائع. ما رأيكم أن ندخل ذلك المقهى؟"
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "ミナ",
+      "speaker_name_ar": "مينا",
+      "character_avatar": "assets/images/characters/mina.webp",
+      "audio_file": "assets/audio/ep17_line_11.mp3",
+      "japanese": "いいですね。きのう ともだちと 行きました。",
+      "romaji": "Ii desu ne. Kinō tomodachi to ikimashita.",
+      "arabic": "فكرة جميلة. ذهبت إليه أمس مع صديقة."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "ミナ",
+      "speaker_name_ar": "مينا",
+      "character_avatar": "assets/images/characters/mina.webp",
+      "audio_file": "assets/audio/ep17_line_12.mp3",
+      "japanese": "ケーキが おいしかったです。",
+      "romaji": "Kēki ga oishikatta desu.",
+      "arabic": "كانت الكعكة لذيذة."
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep17_line_13.mp3",
+      "japanese": "ケーキですか。いいですね!",
+      "romaji": "Kēki desu ka. Ii desu ne!",
+      "arabic": "كعكة؟ رائع!"
+    },
+    {
+      "id": 14,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep17_line_14.mp3",
+      "japanese": "じゃ、行きましょう!",
+      "romaji": "Ja, ikimashō!",
+      "arabic": "إذن، هيا بنا!"
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "遅い", "kana": "おそい", "romaji": "osoi", "arabic": "متأخر / بطيء", "audio": "assets/audio/ep17_v_01.mp3"},
+    {"kanji": "待ちます", "kana": "まちます", "romaji": "machimasu", "arabic": "ينتظر", "audio": "assets/audio/ep17_v_02.mp3"},
+    {"kanji": "乗ります", "kana": "のります", "romaji": "norimasu", "arabic": "يركب", "audio": "assets/audio/ep17_v_03.mp3"},
+    {"kanji": "大変", "kana": "たいへん", "romaji": "taihen", "arabic": "صعب / مرهق / مشكلة كبيرة", "audio": "assets/audio/ep17_v_04.mp3"},
+    {"kanji": "", "kana": "おなか", "romaji": "onaka", "arabic": "بطن (おなかが すきます = يجوع)", "audio": "assets/audio/ep17_v_05.mp3"},
+    {"kanji": "地図", "kana": "ちず", "romaji": "chizu", "arabic": "خريطة", "audio": "assets/audio/ep17_v_06.mp3"},
+    {"kanji": "", "kana": "ケーキ", "romaji": "kēki", "arabic": "كعكة", "audio": "assets/audio/ep17_v_07.mp3"},
+    {"kanji": "違う", "kana": "ちがう", "romaji": "chigau", "arabic": "مختلف / خاطئ", "audio": "assets/audio/ep17_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "الماضي المهذب: الأفعال والأسماء والصفات",
+      "pattern": "V-ました / V-ませんでした / N・な-adj でした / い-adj かったです",
+      "explanation_ar": "الماضي المهذب في اليابانية له أربع حالات. (1) الأفعال: نحوّل ます إلى ました في الإثبات، وإلى ませんでした في النفي: まちます ← まちました (انتظرت)، わかりません ← わかりませんでした (لم أفهم/لم أعرف). (2) الأسماء وصفات な: نحوّل です إلى でした، والنفي じゃ ありませんでした: たいへんでした = كان صعباً. (3) صفات い: نحذف い الأخيرة ونضيف かったです: おいしい ← おいしかったです (كان لذيذاً)، والنفي くなかったです: おいしくなかったです (لم يكن لذيذاً). (4) الصفة いい شاذة: いい ← よかったです، よくなかったです. وكلمات الماضي المصاحبة: きのう (أمس)، せんしゅう (الأسبوع الماضي)، さっき (قبل قليل)."
+    },
+    {
+      "title_ar": "ذكر السبب بـ «から» وفعل «なります»",
+      "pattern": "[جملة] + から、[نتيجة] / い-adj くなります / な-adj・N になります",
+      "explanation_ar": "الأداة から بعد جملة كاملة تعني «لأن» أو «بسبب»، وتأتي في آخر جملة السبب لا في أولها: ちずを 見ましたから、ここへ きました = لأنني نظرت إلى الخريطة، وصلت إلى هنا. ويمكن أيضاً ذكر النتيجة أولاً: ここへ きました。ちずを 見ましたから。 وهذا مختلف عن から التي تعني «من» بعد الأسماء. أما なります فتعني «يصبح/يتحول» وتتصل بالصفة: صفات い نحذف い ونضيف くなります: おそい ← おそく なります (يتأخر)، さむい ← さむく なります (يصبح بارداً)، وصفات な والأسماء نضيف になります: げんきに なります (يتحسن)، ともだちに なります (يصبح صديقاً). وعبارة おそく なりました (لقد تأخرت) هي الطريقة الطبيعية للاعتذار عن التأخر، وتأتي بعدها すみません."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "ما معنى: ケーキが おいしかったです؟",
+      "options": ["كانت الكعكة لذيذة", "الكعكة لذيذة", "لم تكن الكعكة لذيذة"],
+      "correct_index": 0,
+      "explanation_ar": "おいしかったです هي صيغة الماضي المهذب لصفة おいしい. أما نفيها فهو おいしくなかったです."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «ركبت قطاراً خاطئاً».",
+      "words": ["のりました", "でんしゃに", "ちがう"],
+      "correct_order": ["ちがう", "でんしゃに", "のりました"],
+      "explanation_ar": "الصفة ちがう قبل الاسم でんしゃ، ثم الأداة に مع فعل のります، ثم الفعل بصيغة الماضي في النهاية."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are Yuki, a friendly Japanese university student. The learner (Arabic speaker, JLPT N5) has arrived 30 minutes late to a meeting at Hachiko exit. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Start by asking what happened (どうしましたか), then react naturally (たいへんでしたね) and ask follow-up questions about their trip in the PAST tense (何時に うちを でましたか / どの でんしゃに のりましたか / 食べましたか). (3) Make the learner practice: apologizing (おそく なって すみません / おそく なりました), past polite verbs (〜ました / 〜ませんでした), past of い-adjectives (〜かったです / よかったです) and nouns/な-adjectives (〜でした), reasons with 〜から, and 〜く / 〜に なります. (4) Ask about yesterday (きのうは なにを しましたか) to force more past-tense answers. (5) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (6) Never go above N5. (7) After 6-8 exchanges, suggest going to a cafe together (カフェに 行きましょう) and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "サーレムさん、どうしましたか。三十分 まちましたよ。",
+    "initial_ai_message_ar": "سالم، ماذا حدث؟ لقد انتظرناك نصف ساعة."
+  }
+}

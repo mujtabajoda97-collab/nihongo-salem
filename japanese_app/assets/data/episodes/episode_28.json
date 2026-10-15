@@ -1,0 +1,205 @@
+{
+  "episode_id": 28,
+  "season": 3,
+  "level": "JLPT_N5",
+  "title_ar": "زيارة معبد أساكوسا: المسموح والممنوع",
+  "title_jp": "あさくさの おてら",
+  "background_image": "assets/images/scenes/ep28_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep28_line_01.mp3",
+      "japanese": "ここが あさくさの せんそうじです。ひとが たくさん いますね。",
+      "romaji": "Koko ga Asakusa no Sensōji desu. Hito ga takusan imasu ne.",
+      "arabic": "هذا معبد سينسوجي في أساكوسا. هناك ناس كثيرون."
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep28_line_02.mp3",
+      "japanese": "ほんとうですね。みんな しゃしんを とって います。",
+      "romaji": "Hontō desu ne. Minna shashin o totte imasu.",
+      "arabic": "فعلاً. الجميع يلتقطون الصور."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep28_line_03.mp3",
+      "japanese": "サーレムさんは 日本の てらに 行った ことが ありますか。",
+      "romaji": "Sāremu-san wa Nihon no tera ni itta koto ga arimasu ka.",
+      "arabic": "سالم، هل سبق أن زرت معبداً في اليابان؟"
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep28_line_04.mp3",
+      "japanese": "いいえ、ありません。はじめてです。",
+      "romaji": "Iie, arimasen. Hajimete desu.",
+      "arabic": "لا، لم يحدث. هذه أول مرة."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep28_line_05.mp3",
+      "japanese": "じゃ、まず あそこで てを あらいましょう。",
+      "romaji": "Ja, mazu asoko de te o araimashō.",
+      "arabic": "إذن، لنغسل أيدينا أولاً هناك."
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep28_line_06.mp3",
+      "japanese": "てを あらってから、おまいりしますか。",
+      "romaji": "Te o aratte kara, omairi shimasu ka.",
+      "arabic": "هل نغسل أيدينا ثم نؤدي الزيارة؟"
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep28_line_07.mp3",
+      "japanese": "はい。それから、おかねを いれて、おいのりします。",
+      "romaji": "Hai. Sorekara, okane o irete, oinori shimasu.",
+      "arabic": "نعم. ثم نضع بعض النقود ونصلّي (ندعو)."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep28_line_08.mp3",
+      "japanese": "わかりました。ここで しゃしんを とっても いいですか。",
+      "romaji": "Wakarimashita. Koko de shashin o totte mo ii desu ka.",
+      "arabic": "فهمت. هل يمكنني التصوير هنا؟"
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "ガイド",
+      "speaker_name_ar": "المرشد",
+      "character_avatar": "assets/images/characters/temple_guide.webp",
+      "audio_file": "assets/audio/ep28_line_09.mp3",
+      "japanese": "ええ、いいですよ。でも、あの なかでは しゃしんを とっては いけません。",
+      "romaji": "Ee, ii desu yo. Demo, ano naka de wa shashin o totte wa ikemasen.",
+      "arabic": "نعم، يجوز. لكن لا يجوز التصوير داخل ذلك المبنى."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep28_line_10.mp3",
+      "japanese": "わかりました。ありがとうございます。",
+      "romaji": "Wakarimashita. Arigatō gozaimasu.",
+      "arabic": "فهمت. شكراً لك."
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep28_line_11.mp3",
+      "japanese": "あとで、おみやげやで おかしを 食べたり、おみやげを 見たり しましょう。",
+      "romaji": "Ato de, omiyageya de okashi o tabetari, omiyage o mitari shimashō.",
+      "arabic": "لاحقاً، لنأكل بعض الحلويات ونتفرج على الهدايا في محل التذكارات."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "ガイド",
+      "speaker_name_ar": "المرشد",
+      "character_avatar": "assets/images/characters/temple_guide.webp",
+      "audio_file": "assets/audio/ep28_line_12.mp3",
+      "japanese": "ここでは あるいて 食べないで ください。ベンチで 食べて ください。",
+      "romaji": "Koko de wa aruite tabenai de kudasai. Benchi de tabete kudasai.",
+      "arabic": "هنا لا تأكل وأنت تمشي من فضلك. كل على المقعد."
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep28_line_13.mp3",
+      "japanese": "はい、わかりました。ユキさんは きのう なにを しましたか。",
+      "romaji": "Hai, wakarimashita. Yuki-san wa kinō nani o shimashita ka.",
+      "arabic": "حسناً. يوكي، ماذا فعلتِ أمس؟"
+    },
+    {
+      "id": 14,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep28_line_14.mp3",
+      "japanese": "うちで 本を よんだり、ねたり しました。サーレムさんは?",
+      "romaji": "Uchi de hon o yondari, netari shimashita. Sāremu-san wa?",
+      "arabic": "في البيت قرأت الكتب ونمت. وأنت؟"
+    },
+    {
+      "id": 15,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep28_line_15.mp3",
+      "japanese": "わたしは 日本語を べんきょうしたり、ともだちと はなしたり しました。",
+      "romaji": "Watashi wa Nihongo o benkyō shitari, tomodachi to hanashitari shimashita.",
+      "arabic": "أنا درست اليابانية وتحدثت مع الأصدقاء."
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "寺", "kana": "てら", "romaji": "tera", "arabic": "معبد بوذي", "audio": "assets/audio/ep28_v_01.mp3"},
+    {"kanji": "写真", "kana": "しゃしん", "romaji": "shashin", "arabic": "صورة فوتوغرافية", "audio": "assets/audio/ep28_v_02.mp3"},
+    {"kanji": "撮ります", "kana": "とります", "romaji": "torimasu", "arabic": "يلتقط (صورة)", "audio": "assets/audio/ep28_v_03.mp3"},
+    {"kanji": "洗います", "kana": "あらいます", "romaji": "araimasu", "arabic": "يغسل", "audio": "assets/audio/ep28_v_04.mp3"},
+    {"kanji": "入れます", "kana": "いれます", "romaji": "iremasu", "arabic": "يضع بداخل / يُدخل", "audio": "assets/audio/ep28_v_05.mp3"},
+    {"kanji": "話します", "kana": "はなします", "romaji": "hanashimasu", "arabic": "يتحدث", "audio": "assets/audio/ep28_v_06.mp3"},
+    {"kanji": "", "kana": "ベンチ", "romaji": "benchi", "arabic": "مقعد طويل في الخارج", "audio": "assets/audio/ep28_v_07.mp3"},
+    {"kanji": "外国", "kana": "がいこく", "romaji": "gaikoku", "arabic": "بلد أجنبي", "audio": "assets/audio/ep28_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "صيغة «た» (الماضي العادي) و«たことがあります» للخبرة",
+      "pattern": "V-た / V-た ことが あります",
+      "explanation_ar": "صيغة た هي الماضي في اللغة العادية (غير المهذبة)، وتُكوَّن مثل صيغة て تماماً مع استبدال て بـ た و で بـ だ: かいて ← かいた، よんで ← よんだ، たべて ← たべた، して ← した، きて ← きた، 行って ← 行った. وعندما نضعها قبل ことが あります نعبّر عن الخبرة السابقة: 行った ことが あります = سبق أن ذهبت. 日本の てらに 行った ことが ありますか = هل سبق أن زرت معبداً ياباني؟ والجواب: はい、あります (نعم) أو いいえ、ありません (لا، لم يحدث). وإذا قلنا はじめてです فهي أول مرة. ويمكن إضافة いちど (مرة واحدة) أو なんども (مرات عديدة): なんども 行った ことが あります. ولا تختلط مع V-ました: الأولى تقول «لدي خبرة»، والثانية تقول «حدث ذلك في وقت معين». أمثلة: のんだ ことが あります = سبق أن شربت. たべた ことが ありません = لم أتناول من قبل."
+    },
+    {
+      "title_ar": "سرد أنشطة متنوعة بـ «たり ～たり します»",
+      "pattern": "V1-たり、V2-たり します",
+      "explanation_ar": "لذكر نشاطين أو أكثر على سبيل المثال دون ترتيب زمني ودون حصر نستخدم V-たり ثم V-たり ثم します في النهاية. الأمثلة: 本を よんだり、ねたり しました = (في البيت) قرأت كتباً ونمت، ونشاطات أخرى. وتُصاغ من صيغة た بإضافة り: よんだ ← よんだり، ねた ← ねたり، べんきょうした ← べんきょうしたり. ويأتي الفعل します في النهاية ويحمل الزمن (しました، します، しません). والفرق عن て: صيغة て تربط أحداثاً متتابعة بترتيب محدد (أفعل ثم أفعل)، أما たり فتعطي قائمة أمثلة غير مرتبة ولا حصرية. وتُستخدم كثيراً في الحوار اليومي للإجابة عن: ニュースを 見たり、友達に あったり します. وفي المعبد: たべたり、見たり しましょう = لنتجول ونأكل ونتفرج."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "ما معنى: ふじさんに のぼった ことが ありますか؟",
+      "options": ["هل سبق أن تسلقت جبل فوجي؟", "هل ستتسلق جبل فوجي؟", "هل تريد تسلق جبل فوجي؟"],
+      "correct_index": 0,
+      "explanation_ar": "V-た ことが ありますか تسأل عن الخبرة السابقة. أما المستقبل فيكون بـ のぼりますか، والرغبة بـ のぼりたいですか."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «قرأت الكتب ونمت».",
+      "words": ["しました", "ねたり", "本を よんだり"],
+      "correct_order": ["本を よんだり", "ねたり", "しました"],
+      "explanation_ar": "نذكر الأنشطة بصيغة たり ثم ينتهي الفعل します (هنا في الماضي しました)."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are Yuki, a Japanese university student guiding the learner (Arabic speaker, JLPT N5) around Sensoji temple in Asakusa, Tokyo. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Explain temple manners step by step using 〜てから and 〜て ください (てを あらってから おまいりします, おかねを いれて おいのりします) and clear rules: 〜ては いけません (あの なかでは しゃしんを とっては いけません), 〜ても いいです (ここで しゃしんを とっても いいです), 〜ないで ください (あるいて 食べないで ください). Be respectful of the learner's own faith: praying at a Japanese temple is optional, just observe politely (見るだけでも いいですよ). (3) Make the learner practice experience questions with V-た ことが ありますか (日本の てらに 行った ことが ありますか / すしを 食べた ことが ありますか) and listing activities with 〜たり 〜たり します (きのうは なにを しましたか). (4) If the learner makes a mistake (for example wrong た-form), naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (5) Never go above N5. (6) After 6-8 exchanges, suggest sweets at the omiyage shop and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "サーレムさん、ここが せんそうじです。てらに 行った ことが ありますか。",
+    "initial_ai_message_ar": "سالم، هذا معبد سينسوجي. هل سبق أن زرت معبداً؟"
+  }
+}

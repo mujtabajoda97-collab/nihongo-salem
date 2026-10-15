@@ -1,0 +1,215 @@
+{
+  "episode_id": 26,
+  "season": 3,
+  "level": "JLPT_N5",
+  "title_ar": "التسوق في السوبرماركت وفحص الطعام الحلال",
+  "title_jp": "スーパーで ハラールを たしかめます",
+  "background_image": "assets/images/scenes/ep26_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep26_line_01.mp3",
+      "japanese": "ここが スーパーです。コンビニより やすいですよ。",
+      "romaji": "Koko ga sūpā desu. Konbini yori yasui desu yo.",
+      "arabic": "هذا هو السوبرماركت. وهو أرخص من الكومبيني."
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep26_line_02.mp3",
+      "japanese": "ほんとうですか。わたしは いつも コンビニで かいものを します。",
+      "romaji": "Hontō desu ka. Watashi wa itsumo konbini de kaimono o shimasu.",
+      "arabic": "حقاً؟ أنا أتسوق دائماً من الكومبيني."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep26_line_03.mp3",
+      "japanese": "スーパーの ほうが やすいです。何を かいますか。",
+      "romaji": "Sūpā no hō ga yasui desu. Nani o kaimasu ka.",
+      "arabic": "السوبرماركت أرخص. ماذا ستشتري؟"
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep26_line_04.mp3",
+      "japanese": "にくと やさいと くだものが ほしいです。",
+      "romaji": "Niku to yasai to kudamono ga hoshii desu.",
+      "arabic": "أريد لحماً وخضاراً وفاكهة."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep26_line_05.mp3",
+      "japanese": "にくは あちらです。行きましょう。",
+      "romaji": "Niku wa achira desu. Ikimashō.",
+      "arabic": "اللحوم هناك. هيا بنا."
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep26_line_06.mp3",
+      "japanese": "あの、この ソーセージには ぶたにくが はいって いますか。",
+      "romaji": "Ano, kono sōsēji ni wa butaniku ga haitte imasu ka.",
+      "arabic": "عفواً، هل يحتوي هذا السجق على لحم الخنزير؟"
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep26_line_07.mp3",
+      "japanese": "ちょっと 見ますね。ラベルを 見て ください。",
+      "romaji": "Chotto mimasu ne. Raberu o mite kudasai.",
+      "arabic": "دعني أنظر. انظر إلى الملصق من فضلك."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep26_line_08.mp3",
+      "japanese": "日本語が すこし できますが、かんじは まだ むずかしいです。",
+      "romaji": "Nihongo ga sukoshi dekimasu ga, kanji wa mada muzukashii desu.",
+      "arabic": "أستطيع اليابانية قليلاً، لكن الكانجي ما زال صعباً عليّ."
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep26_line_09.mp3",
+      "japanese": "ここに「ぶたにく」と ありますね。ぶたにくが はいって います。",
+      "romaji": "Koko ni 'butaniku' to arimasu ne. Butaniku ga haitte imasu.",
+      "arabic": "هنا مكتوب «لحم الخنزير». نعم، يحتوي عليه."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep26_line_10.mp3",
+      "japanese": "そうですか。じゃ、これは かいません。とりにくの ソーセージは ありますか。",
+      "romaji": "Sō desu ka. Ja, kore wa kaimasen. Toriniku no sōsēji wa arimasu ka.",
+      "arabic": "فهمت. إذن لن أشتري هذا. هل يوجد سجق من الدجاج؟"
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep26_line_11.mp3",
+      "japanese": "すみません。とりにくの ソーセージは どこに ありますか。",
+      "romaji": "Sumimasen. Toriniku no sōsēji wa doko ni arimasu ka.",
+      "arabic": "عفواً. أين يوجد سجق الدجاج؟"
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظف السوبرماركت",
+      "character_avatar": "assets/images/characters/supermarket_staff.webp",
+      "audio_file": "assets/audio/ep26_line_12.mp3",
+      "japanese": "あちらの たなに あります。",
+      "romaji": "Achira no tana ni arimasu.",
+      "arabic": "يوجد على ذلك الرف."
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep26_line_13.mp3",
+      "japanese": "わたしは ムスリムですから、ぶたにくを たべません。おさけも のみません。",
+      "romaji": "Watashi wa Musurimu desu kara, butaniku o tabemasen. Osake mo nomimasen.",
+      "arabic": "أنا مسلم، لذلك لا آكل لحم الخنزير ولا أشرب الكحول."
+    },
+    {
+      "id": 14,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep26_line_14.mp3",
+      "japanese": "わかりました。じゃ、ラベルを いっしょに 見ましょう。",
+      "romaji": "Wakarimashita. Ja, raberu o issho ni mimashō.",
+      "arabic": "فهمت. إذن لننظر إلى الملصقات معاً."
+    },
+    {
+      "id": 15,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep26_line_15.mp3",
+      "japanese": "ありがとうございます。ユキさんは ときどき ここで かいものを しますか。",
+      "romaji": "Arigatō gozaimasu. Yuki-san wa tokidoki koko de kaimono o shimasu ka.",
+      "arabic": "شكراً. هل تتسوقين هنا أحياناً يا يوكي؟"
+    },
+    {
+      "id": 16,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep26_line_16.mp3",
+      "japanese": "はい、ときどき します。でも、りょうりは あまり しません。",
+      "romaji": "Hai, tokidoki shimasu. Demo, ryōri wa amari shimasen.",
+      "arabic": "نعم، أحياناً. لكنني لا أطبخ كثيراً."
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "", "kana": "スーパー", "romaji": "sūpā", "arabic": "سوبرماركت", "audio": "assets/audio/ep26_v_01.mp3"},
+    {"kanji": "肉", "kana": "にく", "romaji": "niku", "arabic": "لحم", "audio": "assets/audio/ep26_v_02.mp3"},
+    {"kanji": "野菜", "kana": "やさい", "romaji": "yasai", "arabic": "خضار", "audio": "assets/audio/ep26_v_03.mp3"},
+    {"kanji": "果物", "kana": "くだもの", "romaji": "kudamono", "arabic": "فاكهة", "audio": "assets/audio/ep26_v_04.mp3"},
+    {"kanji": "", "kana": "ラベル", "romaji": "raberu", "arabic": "ملصق (قائمة المكونات)", "audio": "assets/audio/ep26_v_05.mp3"},
+    {"kanji": "", "kana": "ムスリム", "romaji": "musurimu", "arabic": "مسلم", "audio": "assets/audio/ep26_v_06.mp3"},
+    {"kanji": "", "kana": "いつも", "romaji": "itsumo", "arabic": "دائماً", "audio": "assets/audio/ep26_v_07.mp3"},
+    {"kanji": "", "kana": "ときどき", "romaji": "tokidoki", "arabic": "أحياناً", "audio": "assets/audio/ep26_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "السؤال عن المكونات: «が はいって います»",
+      "pattern": "N1 には N2 が はいって います か / はいって いません",
+      "explanation_ar": "لمعرفة ما إذا كان الطعام يحتوي على مكوّن معين (مهم جداً لمن يتجنب لحم الخنزير أو الكحول) نستخدم فعل はいります (يدخل/يحتوي) بصيغة V-て います: このソーセージには ぶたにくが はいって いますか = هل يحتوي هذا السجق على لحم الخنزير؟ الجواب: はい、はいって います (نعم يحتوي) أو いいえ、はいって いません (لا يحتوي). والأداة には تُستخدم هنا لتحديد المكان الذي نبحث فيه (داخل هذا المنتج)، وتؤدي دور «في». وجملة مفيدة أخرى: アルコールは はいって いますか = هل يحتوي على كحول؟ وعبارة ラベルを 見て ください (انظر إلى الملصق) تتيح لك سؤال شخص آخر لقراءة المكونات. واحفظ هذه الكلمات المهمة على الملصقات: ぶたにく (لحم الخنزير)، アルコール (كحول)، みりん (مطبوخ رز مخمّر)، ゼラチン (جيلاتين)، ラード (دهن الخنزير)."
+    },
+    {
+      "title_ar": "ظروف التكرار وفعل «できます»",
+      "pattern": "いつも / よく / ときどき / あまり ～ない / ぜんぜん ～ない — N が できます",
+      "explanation_ar": "لوصف عدد مرات فعل الشيء نستخدم ظروف التكرار، من الأكثر إلى الأقل: いつも (دائماً 100%)، よく (غالباً)، ときどき (أحياناً)، あまり～ません (نادراً)، ぜんぜん～ません (لا أبداً). والملاحظة المهمة: あまり و ぜんぜん تحتاجان فعلاً منفياً: りょうりは あまり しません = لا أطبخ كثيراً. أما いつも و ときどき فمع فعل مثبت: いつも コンビニで かいものを します. وللتعبير عن القدرة نستخدم できます (يستطيع) مع الاسم والأداة が: 日本語が すこし できます = أستطيع اليابانية قليلاً، りょうりが できます = أستطيع الطبخ. والسؤال: 日本語が できますか. وقد ظهر في الجملة وصل بـ が (لكن): できますが、むずかしいです = أستطيع لكنها صعبة، وهذا が يختلف عن أداة الفاعل."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "كيف تسأل: «هل يحتوي هذا الطعام على كحول؟»",
+      "options": ["これには アルコールが はいって いますか。", "これを アルコールが はいって いますか。", "これには アルコールを はいりますか。"],
+      "correct_index": 0,
+      "explanation_ar": "المكوّن يأخذ が والفعل بصيغة て います. ولا يصح استخدام を مع はいります لأنه فعل لازم."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «لا أطبخ كثيراً».",
+      "words": ["しません", "りょうりは", "あまり"],
+      "correct_order": ["りょうりは", "あまり", "しません"],
+      "explanation_ar": "الموضوع أولاً، ثم あまり، ثم الفعل المنفي في النهاية (فـ あまり تحتاج دائماً إلى نفي)."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are a helpful supermarket staff member in Tokyo. The learner (Arabic speaker, JLPT N5) is a Muslim customer who avoids pork and alcohol and needs help checking products. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Help them find items (にくは どこに ありますか → あちらの たなに あります) and answer ingredient questions (〜には ぶたにくが はいって います / はいって いません). Read the (imaginary) label aloud in simple words: ぶたにく, とりにく, アルコール, さかな, たまご. Never claim a product is certified halal; if unsure say わかりません、ラベルを 見て ください. (3) Make the learner practice 〜が はいって いますか, frequency adverbs (いつも, よく, ときどき, あまり〜ません, ぜんぜん〜ません) by asking how often they cook or shop, and 〜が できます (日本語が できますか / りょうりが できますか). (4) Be respectful and never question their diet. (5) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (6) Never go above N5. (7) After 6-8 exchanges, help them pay and give a 2-line feedback summary in Arabic.",
+    "initial_ai_message_jp": "いらっしゃいませ。なにを さがして いますか。",
+    "initial_ai_message_ar": "أهلاً بك. ماذا تبحث عنه؟"
+  }
+}

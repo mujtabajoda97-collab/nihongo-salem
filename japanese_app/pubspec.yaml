@@ -1,0 +1,56 @@
+name: nihongo_salem
+description: تطبيق تعلّم اليابانية (JLPT N5) للناطقين بالعربية - قصة سالم في طوكيو مع مدرّب صوتي بالذكاء الاصطناعي.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  # State management + navigation
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.2.0
+
+  # Local persistence
+  shared_preferences: ^2.3.2
+
+  # Audio: lesson playback (just_audio) + microphone (record) for the voice call
+  just_audio: ^0.9.40
+  record: ^5.1.2
+  path_provider: ^2.1.4
+
+  # Networking: REST (dio)
+  dio: ^5.7.0
+
+  # Subscriptions (RevenueCat). Pinned to 8.x: purchasePackage returns CustomerInfo.
+  purchases_flutter: ^8.2.0
+
+  # UI
+  google_fonts: ^6.2.1
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  mocktail: ^1.0.4
+
+flutter:
+  uses-material-design: true
+
+  # NOTE: Flutter does not scan asset folders recursively - every folder is listed.
+  # The three media folders contain a .gitkeep so the build never fails on an empty folder;
+  # the real .webp / .mp3 files named inside the episode JSON files go there.
+  assets:
+    - assets/data/placement_test_logic.json
+    - assets/data/episodes/
+    - assets/images/scenes/
+    - assets/images/characters/
+    - assets/audio/

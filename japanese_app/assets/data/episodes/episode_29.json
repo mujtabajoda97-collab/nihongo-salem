@@ -1,0 +1,71 @@
+{
+  "episode_id": 29,
+  "season": 3,
+  "level": "JLPT_N5",
+  "title_ar": "ركوب التاكسي وشرح الاتجاهات",
+  "title_jp": "タクシーで えきまで",
+  "background_image": "assets/images/scenes/ep29_bg.webp",
+  "dialogues": [
+    {"id": 1, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep29_line_01.mp3", "japanese": "あめが ふって います。タクシーに のりましょう。", "romaji": "Ame ga futte imasu. Takushī ni norimashō.", "arabic": "إنها تمطر. لنركب تاكسي."},
+    {"id": 2, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep29_line_02.mp3", "japanese": "はい。あそこに タクシーが います。", "romaji": "Hai. Asoko ni takushī ga imasu.", "arabic": "حسناً. هناك تاكسي."},
+    {"id": 3, "speaker_name_jp": "運転手", "speaker_name_ar": "سائق التاكسي", "character_avatar": "assets/images/characters/taxi_driver.webp", "audio_file": "assets/audio/ep29_line_03.mp3", "japanese": "いらっしゃいませ。どちらまで ですか。", "romaji": "Irasshaimase. Dochira made desu ka.", "arabic": "أهلاً بك. إلى أين؟"},
+    {"id": 4, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep29_line_04.mp3", "japanese": "とうきょうえきまで おねがいします。", "romaji": "Tōkyō-eki made onegai shimasu.", "arabic": "إلى محطة طوكيو من فضلك."},
+    {"id": 5, "speaker_name_jp": "運転手", "speaker_name_ar": "سائق التاكسي", "character_avatar": "assets/images/characters/taxi_driver.webp", "audio_file": "assets/audio/ep29_line_05.mp3", "japanese": "はい、わかりました。", "romaji": "Hai, wakarimashita.", "arabic": "حسناً، فهمت."},
+    {"id": 6, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep29_line_06.mp3", "japanese": "とうきょうえきまで どのくらい かかりますか。", "romaji": "Tōkyō-eki made dono kurai kakarimasu ka.", "arabic": "كم يستغرق الوصول إلى محطة طوكيو؟"},
+    {"id": 7, "speaker_name_jp": "運転手", "speaker_name_ar": "سائق التاكسي", "character_avatar": "assets/images/characters/taxi_driver.webp", "audio_file": "assets/audio/ep29_line_07.mp3", "japanese": "にじゅうぷんぐらいだと おもいます。", "romaji": "Nijuppun gurai da to omoimasu.", "arabic": "أظن أنه حوالي عشرين دقيقة."},
+    {"id": 8, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep29_line_08.mp3", "japanese": "みちが こんで いますね。", "romaji": "Michi ga konde imasu ne.", "arabic": "الطريق مزدحم."},
+    {"id": 9, "speaker_name_jp": "運転手", "speaker_name_ar": "سائق التاكسي", "character_avatar": "assets/images/characters/taxi_driver.webp", "audio_file": "assets/audio/ep29_line_09.mp3", "japanese": "ええ、あめですから。", "romaji": "Ee, ame desu kara.", "arabic": "نعم، لأنها تمطر."},
+    {"id": 10, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep29_line_10.mp3", "japanese": "すみません、あの しんごうを みぎに まがって ください。", "romaji": "Sumimasen, ano shingō o migi ni magatte kudasai.", "arabic": "عفواً، انعطف يميناً عند تلك الإشارة من فضلك."},
+    {"id": 11, "speaker_name_jp": "運転手", "speaker_name_ar": "سائق التاكسي", "character_avatar": "assets/images/characters/taxi_driver.webp", "audio_file": "assets/audio/ep29_line_11.mp3", "japanese": "はい、みぎですね。", "romaji": "Hai, migi desu ne.", "arabic": "حسناً، يميناً."},
+    {"id": 12, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep29_line_12.mp3", "japanese": "それから、まっすぐ いって ください。えきの まえで とめて ください。", "romaji": "Sorekara, massugu itte kudasai. Eki no mae de tomete kudasai.", "arabic": "ثم سر مستقيماً. وتوقف أمام المحطة من فضلك."},
+    {"id": 13, "speaker_name_jp": "運転手", "speaker_name_ar": "سائق التاكسي", "character_avatar": "assets/images/characters/taxi_driver.webp", "audio_file": "assets/audio/ep29_line_13.mp3", "japanese": "ここですか。", "romaji": "Koko desu ka.", "arabic": "هنا؟"},
+    {"id": 14, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep29_line_14.mp3", "japanese": "はい、ここで いいです。いくらですか。", "romaji": "Hai, koko de ii desu. Ikura desu ka.", "arabic": "نعم، هنا مناسب. كم الأجرة؟"},
+    {"id": 15, "speaker_name_jp": "運転手", "speaker_name_ar": "سائق التاكسي", "character_avatar": "assets/images/characters/taxi_driver.webp", "audio_file": "assets/audio/ep29_line_15.mp3", "japanese": "せんろっぴゃくえんです。", "romaji": "Sen roppyaku en desu.", "arabic": "ألف وستمئة ين."},
+    {"id": 16, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep29_line_16.mp3", "japanese": "はい、これで おねがいします。ありがとうございました。", "romaji": "Hai, kore de onegai shimasu. Arigatō gozaimashita.", "arabic": "تفضل، هذا المبلغ. شكراً جزيلاً."}
+  ],
+  "vocabulary": [
+    {"kanji": "", "kana": "タクシー", "romaji": "takushī", "arabic": "تاكسي", "audio": "assets/audio/ep29_v_01.mp3"},
+    {"kanji": "運転手", "kana": "うんてんしゅ", "romaji": "untenshu", "arabic": "سائق", "audio": "assets/audio/ep29_v_02.mp3"},
+    {"kanji": "信号", "kana": "しんごう", "romaji": "shingō", "arabic": "إشارة مرور", "audio": "assets/audio/ep29_v_03.mp3"},
+    {"kanji": "", "kana": "まっすぐ", "romaji": "massugu", "arabic": "مستقيماً", "audio": "assets/audio/ep29_v_04.mp3"},
+    {"kanji": "止めます", "kana": "とめます", "romaji": "tomemasu", "arabic": "يوقف", "audio": "assets/audio/ep29_v_05.mp3"},
+    {"kanji": "込みます", "kana": "こみます", "romaji": "komimasu", "arabic": "يزدحم", "audio": "assets/audio/ep29_v_06.mp3"},
+    {"kanji": "乗ります", "kana": "のります", "romaji": "norimasu", "arabic": "يركب", "audio": "assets/audio/ep29_v_07.mp3"},
+    {"kanji": "降ります", "kana": "おります", "romaji": "orimasu", "arabic": "ينزل (من مركبة)", "audio": "assets/audio/ep29_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "الركوب والنزول: «に のります» و«を おります»",
+      "pattern": "N (وسيلة) に のります / N (وسيلة) を おります",
+      "explanation_ar": "فعل のります (يركب) يأخذ الأداة に مع وسيلة النقل: タクシーに のります = أركب التاكسي، でんしゃに のります = أركب القطار. أما おります (ينزل) فيأخذ を: でんしゃを おります = أنزل من القطار. تذكّر الفرق بين に وبين で: で تدل على الوسيلة المستخدمة (タクシーで いきます = أذهب بالتاكسي)، بينما に مع のります تدل على المكان الذي نركبه. ولاحظ كيف نشرح الاتجاه للسائق: みぎに まがって ください (انعطف يميناً)، まっすぐ いって ください (سر مستقيماً)، ここで とめて ください (توقف هنا). كلها بصيغة て ください."
+    },
+    {
+      "title_ar": "إبداء الظن: «と おもいます»",
+      "pattern": "N だ と おもいます / V (الصيغة العادية) と おもいます",
+      "explanation_ar": "نستخدم と おもいます (أظن أن / أعتقد أن) عندما لا نكون متأكدين تماماً. تأتي الجملة المظنونة قبل と بالصيغة العادية (غير المهذبة): にじゅうぷんぐらいだ と おもいます = أظن أنه حوالي عشرين دقيقة (だ هي الصيغة العادية لـ です). ومع الأفعال: あした あめが ふる と おもいます = أظن أن المطر سينزل غداً (ふる هي الصيغة العادية لـ ふります). وللنفي: ふらない と おもいます = أظن أنه لن ينزل. وللسؤال عن رأي شخص: どう おもいますか = ما رأيك؟ وهذه الصيغة تجعل كلامك لطيفاً وغير جازم، وهي مفيدة جداً في الحياة اليومية."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "ما الأداة الصحيحة؟ タクシー＿＿ のります。",
+      "options": ["に", "を", "から"],
+      "correct_index": 0,
+      "explanation_ar": "のります (يركب) تأخذ に مع المركبة، بينما おります (ينزل) تأخذ を."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «أوقف السيارة أمام المحطة من فضلك».",
+      "words": ["とめて", "ください", "えきの", "まえで"],
+      "correct_order": ["えきの", "まえで", "とめて", "ください"],
+      "explanation_ar": "المكان مع で أولاً، ثم الفعل بصيغة て، ثم ください."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are a polite taxi driver in Tokyo. The learner (Arabic speaker, JLPT N5) is your passenger. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Ask the destination (どちらまで ですか), confirm it, and chat briefly (あめですね / みちが こんで いますね). (3) Make the learner give directions with 〜て ください: みぎ/ひだりに まがって ください, まっすぐ いって ください, ここで とめて ください, and ask duration/fare (どのくらい かかりますか / いくらですか). Answer using 〜と おもいます for estimates (二十ぷんぐらいだと おもいます). Quote the fare in simple numbers. (4) Practice に のります / を おります with natural prompts (どうぞ、のって ください). (5) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (6) Never go above N5. (7) After 6-8 exchanges, stop at the destination, take payment, and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "いらっしゃいませ。どちらまで ですか。",
+    "initial_ai_message_ar": "أهلاً بك. إلى أين؟"
+  }
+}

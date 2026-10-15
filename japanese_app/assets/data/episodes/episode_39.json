@@ -1,0 +1,70 @@
+{
+  "episode_id": 39,
+  "season": 4,
+  "level": "JLPT_N5",
+  "title_ar": "حفل وداع الفصل",
+  "title_jp": "クラスの そつぎょうパーティー",
+  "background_image": "assets/images/scenes/ep39_bg.webp",
+  "dialogues": [
+    {"id": 1, "speaker_name_jp": "田中先生", "speaker_name_ar": "الأستاذة تاناكا", "character_avatar": "assets/images/characters/tanaka_sensei.webp", "audio_file": "assets/audio/ep39_line_01.mp3", "japanese": "みなさん、きょうは そつぎょうパーティーです。たくさん 食べて、たくさん はなしましょう。", "romaji": "Minasan, kyō wa sotsugyō pātī desu. Takusan tabete, takusan hanashimashō.", "arabic": "يا جماعة، اليوم حفل التخرج. لنأكل كثيراً ونتحدث كثيراً."},
+    {"id": 2, "speaker_name_jp": "アンナ", "speaker_name_ar": "آنا", "character_avatar": "assets/images/characters/anna.webp", "audio_file": "assets/audio/ep39_line_02.mp3", "japanese": "サーレムさん、これから どうしますか。", "romaji": "Sāremu-san, korekara dō shimasu ka.", "arabic": "سالم، ماذا ستفعل من الآن؟"},
+    {"id": 3, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep39_line_03.mp3", "japanese": "アルバイトを つづけて、もっと 日本語を べんきょうします。", "romaji": "Arubaito o tsuzukete, motto Nihongo o benkyō shimasu.", "arabic": "سأستمر في العمل بدوام جزئي وأدرس اليابانية أكثر."},
+    {"id": 4, "speaker_name_jp": "ワン", "speaker_name_ar": "وانغ", "character_avatar": "assets/images/characters/wang.webp", "audio_file": "assets/audio/ep39_line_04.mp3", "japanese": "ぼくは らいげつ くにへ かえります。", "romaji": "Boku wa raigetsu kuni e kaerimasu.", "arabic": "أنا سأعود إلى بلدي الشهر القادم."},
+    {"id": 5, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep39_line_05.mp3", "japanese": "さびしいです。でも、また あいましょう。", "romaji": "Sabishii desu. Demo, mata aimashō.", "arabic": "سأشعر بالوحدة. لكن لنلتقِ مجدداً."},
+    {"id": 6, "speaker_name_jp": "田中先生", "speaker_name_ar": "الأستاذة تاناكا", "character_avatar": "assets/images/characters/tanaka_sensei.webp", "audio_file": "assets/audio/ep39_line_06.mp3", "japanese": "では、かんぱいを しましょう。かんぱい!", "romaji": "Dewa, kanpai o shimashō. Kanpai!", "arabic": "إذن لنرفع الأنخاب. في صحتكم!"},
+    {"id": 7, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep39_line_07.mp3", "japanese": "わたしは ジュースです。かんぱい!", "romaji": "Watashi wa jūsu desu. Kanpai!", "arabic": "أنا مع العصير. في صحتكم!"},
+    {"id": 8, "speaker_name_jp": "アンナ", "speaker_name_ar": "آنا", "character_avatar": "assets/images/characters/anna.webp", "audio_file": "assets/audio/ep39_line_08.mp3", "japanese": "みんなで しゃしんを とりましょう。", "romaji": "Minna de shashin o torimashō.", "arabic": "لنلتقط صورة جماعية."},
+    {"id": 9, "speaker_name_jp": "田中先生", "speaker_name_ar": "الأستاذة تاناكا", "character_avatar": "assets/images/characters/tanaka_sensei.webp", "audio_file": "assets/audio/ep39_line_09.mp3", "japanese": "サーレムさん、ひとこと おねがいします。", "romaji": "Sāremu-san, hitokoto onegai shimasu.", "arabic": "سالم، كلمة قصيرة من فضلك."},
+    {"id": 10, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep39_line_10.mp3", "japanese": "みなさん、いっしょに べんきょうして くれて、ありがとうございました。", "romaji": "Minasan, issho ni benkyō shite kurete, arigatō gozaimashita.", "arabic": "يا جماعة، شكراً لأنكم درستم معي."},
+    {"id": 11, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep39_line_11.mp3", "japanese": "せんせい、日本語を おしえて くださって、ありがとうございました。", "romaji": "Sensei, Nihongo o oshiete kudasatte, arigatō gozaimashita.", "arabic": "أستاذتي، شكراً لأنك علمتني اليابانية."},
+    {"id": 12, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep39_line_12.mp3", "japanese": "日本に 来て、ともだちが たくさん できました。", "romaji": "Nihon ni kite, tomodachi ga takusan dekimashita.", "arabic": "بعد مجيئي إلى اليابان، صار لي أصدقاء كثيرون."},
+    {"id": 13, "speaker_name_jp": "田中先生", "speaker_name_ar": "الأستاذة تاناكا", "character_avatar": "assets/images/characters/tanaka_sensei.webp", "audio_file": "assets/audio/ep39_line_13.mp3", "japanese": "こちらこそ。サーレムさんは よく がんばりましたね。", "romaji": "Kochira koso. Sāremu-san wa yoku ganbarimashita ne.", "arabic": "بل نحن من نشكرك. لقد بذلت جهداً كبيراً."},
+    {"id": 14, "speaker_name_jp": "ワン", "speaker_name_ar": "وانغ", "character_avatar": "assets/images/characters/wang.webp", "audio_file": "assets/audio/ep39_line_14.mp3", "japanese": "サーレム、また あおうね。", "romaji": "Sāremu, mata aō ne.", "arabic": "سالم، لنلتقِ مجدداً."},
+    {"id": 15, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep39_line_15.mp3", "japanese": "うん、また あおう! メールするね。", "romaji": "Un, mata aō! Mēru suru ne.", "arabic": "نعم، لنلتقِ مجدداً! سأراسلك."}
+  ],
+  "vocabulary": [
+    {"kanji": "卒業", "kana": "そつぎょう", "romaji": "sotsugyō", "arabic": "تخرّج", "audio": "assets/audio/ep39_v_01.mp3"},
+    {"kanji": "乾杯", "kana": "かんぱい", "romaji": "kanpai", "arabic": "نخب / في صحتكم", "audio": "assets/audio/ep39_v_02.mp3"},
+    {"kanji": "寂しい", "kana": "さびしい", "romaji": "sabishii", "arabic": "وحيد / حزين لفراق", "audio": "assets/audio/ep39_v_03.mp3"},
+    {"kanji": "続けます", "kana": "つづけます", "romaji": "tsuzukemasu", "arabic": "يستمر / يواصل", "audio": "assets/audio/ep39_v_04.mp3"},
+    {"kanji": "一言", "kana": "ひとこと", "romaji": "hitokoto", "arabic": "كلمة قصيرة", "audio": "assets/audio/ep39_v_05.mp3"},
+    {"kanji": "会います", "kana": "あいます", "romaji": "aimasu", "arabic": "يلتقي", "audio": "assets/audio/ep39_v_06.mp3"},
+    {"kanji": "", "kana": "ジュース", "romaji": "jūsu", "arabic": "عصير", "audio": "assets/audio/ep39_v_07.mp3"},
+    {"kanji": "", "kana": "みなさん", "romaji": "minasan", "arabic": "الجميع (بأدب)", "audio": "assets/audio/ep39_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "شكر الآخرين على فعل: «V-て くれて / くださって ありがとう»",
+      "pattern": "V-て くれて ありがとう(ございました) / V-て くださって ありがとうございました",
+      "explanation_ar": "لشكر شخص على فعل قام به لأجلك نضع الفعل بصيغة て ثم くれて (مع الأصدقاء) أو くださって (مع من هو أكبر منك أو الأستاذ)، ثم ありがとう. مثال: いっしょに べんきょうして くれて、ありがとうございました = شكراً لأنكم درستم معي، 日本語を おしえて くださって、ありがとうございました = شكراً لأنك علمتني اليابانية. وتذكر أن くれます تعلمناها في الحلقة 27 (يعطيني). ومع الأصدقاء في الكلام اليومي نقول ببساطة: おしえて くれて ありがとう. وفي الردّ نقول: こちらこそ = بل أنا من يجب أن يشكرك."
+    },
+    {
+      "title_ar": "الحديث العادي مع الأصدقاء: الصيغة العادية و«V-よう»",
+      "pattern": "V-ます → V-る (عادية) / V-ましょう → V-よう / ～ね・～よ",
+      "explanation_ar": "مع الأصدقاء المقربين نتحدث بالصيغة العادية بدلاً من です/ます. أمثلة: メールします ← メールする، いきません ← いかない، たべました ← たべた. وللدعوة والاقتراح تتحول ましょう إلى よう: あいましょう ← あおう (لنلتقِ)، いきましょう ← いこう (لنذهب)، たべましょう ← たべよう (لنأكل). وتستخدم ね (أليس كذلك؟/تأكيد) وよ (للإعلام) في نهاية الجملة: また あおうね = لنلتقِ مجدداً، メールするね = سأراسلك. ملاحظة: لا تستخدم الصيغة العادية مع الأساتذة والمدير والزبائن، بل مع الأصدقاء المقربين فقط. وجرب ذلك مع ワン في مشهد الوداع."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "ما الصيغة العادية (غير المهذبة) لـ «また あいましょう»؟",
+      "options": ["また あおう", "また あいます", "また あって"],
+      "correct_index": 0,
+      "explanation_ar": "ましょう تتحول إلى よう/おう: あいましょう ← あおう (لنلتقِ)."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «شكراً لأنك علّمتني».",
+      "words": ["ありがとう", "くれて", "おしえて"],
+      "correct_order": ["おしえて", "くれて", "ありがとう"],
+      "explanation_ar": "V-て ثم くれて ثم ありがとう."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are Anna, a cheerful classmate at a farewell party for a Japanese language class. The learner (Arabic speaker, JLPT N5) plays Salem and chats with you at the party. RULES: (1) Speak ONLY simple JLPT N5 Japanese; use friendly polite form (です/ます) by default, and switch to short casual forms (また あおうね, メールするね) when the learner does, showing both forms in a brief Arabic hint. 1-2 short sentences per turn. (2) Talk about plans after graduation (これから どうしますか), memories of the class, friends who are going home, toast (かんぱい — the learner drinks juice), group photo, and a short farewell speech. (3) Make the learner practice V-て くれて ありがとう / V-て くださって ありがとうございました, ～ましょう / ～よう invitations, and こちらこそ. (4) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (5) Never go above N5. (6) After 6-8 exchanges, end with a warm goodbye and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "サーレムさん、そつぎょう おめでとう! これから どうしますか。",
+    "initial_ai_message_ar": "سالم، مبروك التخرج! ماذا ستفعل من الآن؟"
+  }
+}

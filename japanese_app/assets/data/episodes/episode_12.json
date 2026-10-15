@@ -1,0 +1,185 @@
+{
+  "episode_id": 12,
+  "season": 2,
+  "level": "JLPT_N5",
+  "title_ar": "السؤال عن الطريق في شيبويا",
+  "title_jp": "しぶやで みちを ききます",
+  "background_image": "assets/images/scenes/ep12_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep12_line_01.mp3",
+      "japanese": "すみません。ハチこうぐちは どこですか。",
+      "romaji": "Sumimasen. Hachikō-guchi wa doko desu ka.",
+      "arabic": "عذراً. أين مخرج هاتشيكو؟"
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "通行人",
+      "speaker_name_ar": "رجل مارّ",
+      "character_avatar": "assets/images/characters/passerby.webp",
+      "audio_file": "assets/audio/ep12_line_02.mp3",
+      "japanese": "ハチこうぐちですか。この みちを まっすぐ 行って ください。",
+      "romaji": "Hachikō-guchi desu ka. Kono michi o massugu itte kudasai.",
+      "arabic": "مخرج هاتشيكو؟ امشِ في هذا الطريق مباشرة من فضلك."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep12_line_03.mp3",
+      "japanese": "まっすぐですね。ここから とおいですか。",
+      "romaji": "Massugu desu ne. Koko kara tooi desu ka.",
+      "arabic": "مباشرة، فهمت. هل هو بعيد من هنا؟"
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "通行人",
+      "speaker_name_ar": "رجل مارّ",
+      "character_avatar": "assets/images/characters/passerby.webp",
+      "audio_file": "assets/audio/ep12_line_04.mp3",
+      "japanese": "いいえ、ちかいですよ。あるいて 五分ぐらいです。",
+      "romaji": "Iie, chikai desu yo. Aruite gofun gurai desu.",
+      "arabic": "لا، إنه قريب. حوالي خمس دقائق مشياً."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "通行人",
+      "speaker_name_ar": "رجل مارّ",
+      "character_avatar": "assets/images/characters/passerby.webp",
+      "audio_file": "assets/audio/ep12_line_05.mp3",
+      "japanese": "しんごうが あります。しんごうを 右へ まがって ください。",
+      "romaji": "Shingō ga arimasu. Shingō o migi e magatte kudasai.",
+      "arabic": "ستجد إشارة مرور. انعطف يميناً عند الإشارة من فضلك."
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep12_line_06.mp3",
+      "japanese": "しんごうを 右ですね。右は こちらですか。",
+      "romaji": "Shingō o migi desu ne. Migi wa kochira desu ka.",
+      "arabic": "عند الإشارة يميناً، صحيح. هل اليمين من هذه الناحية؟"
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "通行人",
+      "speaker_name_ar": "رجل مارّ",
+      "character_avatar": "assets/images/characters/passerby.webp",
+      "audio_file": "assets/audio/ep12_line_07.mp3",
+      "japanese": "いいえ、そちらは 左です。こちらが 右ですよ。",
+      "romaji": "Iie, sochira wa hidari desu. Kochira ga migi desu yo.",
+      "arabic": "لا، تلك الناحية هي اليسار. وهذه الناحية هي اليمين."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep12_line_08.mp3",
+      "japanese": "すみません。こちらが 右で、そちらが 左ですね。",
+      "romaji": "Sumimasen. Kochira ga migi de, sochira ga hidari desu ne.",
+      "arabic": "آسف. هذه يمين وتلك يسار، صحيح."
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "通行人",
+      "speaker_name_ar": "رجل مارّ",
+      "character_avatar": "assets/images/characters/passerby.webp",
+      "audio_file": "assets/audio/ep12_line_09.mp3",
+      "japanese": "そうです。コンビニの となりに えきの いりぐちが あります。",
+      "romaji": "Sō desu. Konbini no tonari ni eki no iriguchi ga arimasu.",
+      "arabic": "صحيح. بجانب متجر الكومبيني يوجد مدخل المحطة."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep12_line_10.mp3",
+      "japanese": "コンビニの となりですね。ハチこうぐちは えきの なかですか。",
+      "romaji": "Konbini no tonari desu ne. Hachikō-guchi wa eki no naka desu ka.",
+      "arabic": "بجانب الكومبيني، فهمت. هل مخرج هاتشيكو داخل المحطة؟"
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "通行人",
+      "speaker_name_ar": "رجل مارّ",
+      "character_avatar": "assets/images/characters/passerby.webp",
+      "audio_file": "assets/audio/ep12_line_11.mp3",
+      "japanese": "はい。えきの なかを まっすぐ 行って ください。",
+      "romaji": "Hai. Eki no naka o massugu itte kudasai.",
+      "arabic": "نعم. امشِ مباشرة داخل المحطة من فضلك."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep12_line_12.mp3",
+      "japanese": "わかりました。ほんとうに ありがとうございました。",
+      "romaji": "Wakarimashita. Hontō ni arigatō gozaimashita.",
+      "arabic": "فهمت. شكراً جزيلاً لك حقاً."
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "通行人",
+      "speaker_name_ar": "رجل مارّ",
+      "character_avatar": "assets/images/characters/passerby.webp",
+      "audio_file": "assets/audio/ep12_line_13.mp3",
+      "japanese": "いいえ。きを つけて ください。",
+      "romaji": "Iie. Ki o tsukete kudasai.",
+      "arabic": "على الرحب والسعة. انتبه لنفسك."
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "道", "kana": "みち", "romaji": "michi", "arabic": "طريق / شارع", "audio": "assets/audio/ep12_v_01.mp3"},
+    {"kanji": "", "kana": "まっすぐ", "romaji": "massugu", "arabic": "مباشرة / على استقامة", "audio": "assets/audio/ep12_v_02.mp3"},
+    {"kanji": "右", "kana": "みぎ", "romaji": "migi", "arabic": "يمين", "audio": "assets/audio/ep12_v_03.mp3"},
+    {"kanji": "左", "kana": "ひだり", "romaji": "hidari", "arabic": "يسار", "audio": "assets/audio/ep12_v_04.mp3"},
+    {"kanji": "", "kana": "しんごう", "romaji": "shingō", "arabic": "إشارة مرور", "audio": "assets/audio/ep12_v_05.mp3"},
+    {"kanji": "曲がります", "kana": "まがります", "romaji": "magarimasu", "arabic": "ينعطف", "audio": "assets/audio/ep12_v_06.mp3"},
+    {"kanji": "近い", "kana": "ちかい", "romaji": "chikai", "arabic": "قريب", "audio": "assets/audio/ep12_v_07.mp3"},
+    {"kanji": "遠い", "kana": "とおい", "romaji": "tooi", "arabic": "بعيد", "audio": "assets/audio/ep12_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "إعطاء الاتجاهات: «を» للطريق و«へ» للاتجاه",
+      "pattern": "[طريق] を まっすぐ 行って ください / [علامة] を 右へ まがって ください",
+      "explanation_ar": "عند وصف الحركة عبر طريق أو ممر نستخدم الأداة を بعد المكان الذي نمشي فيه أو نعبره: この みちを まっすぐ 行きます = أمشي في هذا الطريق مباشرة، しんごうを まがります = أنعطف عند الإشارة. وهذا استخدام مختلف عن を المفعول به الذي تعلمناه. أما اتجاه الانعطاف فنحدده بـ 右へ (يميناً) و 左へ (يساراً). ولتكوين تعليمات متتالية نستخدم صيغة て من الحلقة السابقة: まっすぐ 行って、右へ まがって ください = امشِ مباشرة ثم انعطف يميناً. وللسؤال عن المسافة والزمن نستخدم ちかい/とおい: ここから とおいですか. وأدوات الإشارة للمكان: ここ (هنا)، そこ (هناك عندك)، あそこ (هناك بعيداً)، وللاتجاه: こちら، そちら، あちら، وللسؤال: どちら."
+    },
+    {
+      "title_ar": "كلمات المكان: فوق، تحت، أمام، خلف، داخل، بجانب",
+      "pattern": "[N] の + うえ / した / まえ / うしろ / なか / となり / ちかく + に + あります",
+      "explanation_ar": "لتحديد موقع شيء بالنسبة لشيء آخر نستخدم كلمات المكان بعد の: うえ (فوق)، した (تحت)، まえ (أمام)، うしろ (خلف)، なか (داخل)، となり (بجانب)، ちかく (قرب). والقالب: [الشيء المرجعي] の [كلمة المكان] に [الشيء المطلوب] が あります. مثال: コンビニの となりに えきの いりぐちが あります = بجانب الكومبيني يوجد مدخل المحطة، えきの なかに あります = داخل المحطة. وللأشخاص والحيوانات نستخدم います بدل あります كما تعلمنا في الحلقة 4. وإذا كان الشيء المطلوب هو موضوع الجملة نقلب الترتيب: ハチこうぐちは えきの なかです."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "قال لك المارّ: しんごうを 左へ まがって ください. ماذا تفعل؟",
+      "options": ["أنعطف يساراً عند الإشارة", "أنعطف يميناً عند الإشارة", "أمشي مباشرة بعد الإشارة"],
+      "correct_index": 0,
+      "explanation_ar": "左 تعني يسار، و まがって ください تعني انعطف من فضلك، و しんごうを تعني عند/عبر الإشارة."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «بجانب الكومبيني يوجد مدخل المحطة».",
+      "words": ["あります", "えきの いりぐちが", "コンビニの", "となりに"],
+      "correct_order": ["コンビニの", "となりに", "えきの いりぐちが", "あります"],
+      "explanation_ar": "الشيء المرجعي مع の، ثم كلمة المكان مع に، ثم الشيء الموجود مع が، ثم あります في النهاية."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are a helpful Japanese passer-by in Shibuya, Tokyo. The learner (Arabic speaker, JLPT N5) is lost and asks you for directions to a place of their choice (for example the Hachiko exit, a konbini, a bank or a station). RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Give clear step-by-step directions using まっすぐ, 右へ / 左へ まがって ください, しんごう, みち, 〜を, and the て-form chain (まっすぐ 行って、右へ まがって ください). (3) Use location words (となり, まえ, うしろ, なか, ちかく, うえ, した) with 〜に あります, and state distance/time with ちかい / とおい and 〜ぐらい. (4) Test understanding: ask the learner to repeat the route back (どこを 右へ まがりますか). If they mix up 右 and 左, correct them kindly. (5) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (6) Never go above N5. (7) After 6-8 exchanges, wish them well (きを つけて ください) and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "こんにちは。どこへ 行きますか。",
+    "initial_ai_message_ar": "مرحباً. إلى أين تريد أن تذهب؟"
+  }
+}

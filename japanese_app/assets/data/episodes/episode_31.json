@@ -1,0 +1,69 @@
+{
+  "episode_id": 31,
+  "season": 4,
+  "level": "JLPT_N5",
+  "title_ar": "البحث عن عمل بدوام جزئي",
+  "title_jp": "アルバイトを さがします",
+  "background_image": "assets/images/scenes/ep31_bg.webp",
+  "dialogues": [
+    {"id": 1, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep31_line_01.mp3", "japanese": "ユキさん、わたしは アルバイトを さがして います。", "romaji": "Yuki-san, watashi wa arubaito o sagashite imasu.", "arabic": "يوكي، أنا أبحث عن عمل بدوام جزئي."},
+    {"id": 2, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep31_line_02.mp3", "japanese": "いいですね。どんな しごとが したいですか。", "romaji": "Ii desu ne. Donna shigoto ga shitai desu ka.", "arabic": "جيد. أي نوع من الأعمال تريد؟"},
+    {"id": 3, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep31_line_03.mp3", "japanese": "日本語を はなす ことが できますから、おきゃくさんと はなす しごとが したいです。", "romaji": "Nihongo o hanasu koto ga dekimasu kara, okyakusan to hanasu shigoto ga shitai desu.", "arabic": "بما أنني أستطيع التحدث باليابانية، أريد عملاً أتحدث فيه مع الزبائن."},
+    {"id": 4, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep31_line_04.mp3", "japanese": "じゃ、コンビニの アルバイトは どうですか。じきゅうは せんえんぐらいです。", "romaji": "Ja, konbini no arubaito wa dō desu ka. Jikyū wa sen-en gurai desu.", "arabic": "إذن ما رأيك بالعمل في الكومبيني؟ الأجر بالساعة حوالي ألف ين."},
+    {"id": 5, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep31_line_05.mp3", "japanese": "せんえんですか。レストランは?", "romaji": "Sen-en desu ka. Resutoran wa?", "arabic": "ألف ين؟ وماذا عن المطاعم؟"},
+    {"id": 6, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep31_line_06.mp3", "japanese": "レストランの ほうが じきゅうが たかいです。でも、ぶたにくを つかう みせが おおいです。", "romaji": "Resutoran no hō ga jikyū ga takai desu. Demo, butaniku o tsukau mise ga ōi desu.", "arabic": "المطاعم أجرها أعلى. لكن كثيراً من المحلات تستخدم لحم الخنزير."},
+    {"id": 7, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep31_line_07.mp3", "japanese": "そうですか。それは ちょっと むずかしいですね。", "romaji": "Sō desu ka. Sore wa chotto muzukashii desu ne.", "arabic": "فهمت. هذا صعب بعض الشيء."},
+    {"id": 8, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep31_line_08.mp3", "japanese": "コンビニが いいと おもいます。サーレムさんは がくせいですから、しゅうに 二十八じかんまで はたらく ことが できます。", "romaji": "Konbini ga ii to omoimasu. Sāremu-san wa gakusei desu kara, shū ni nijūhachi-jikan made hataraku koto ga dekimasu.", "arabic": "أظن أن الكومبيني أفضل. وبما أنك طالب، يمكنك العمل حتى 28 ساعة في الأسبوع."},
+    {"id": 9, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep31_line_09.mp3", "japanese": "しゅうに 二十八じかんですね。わかりました。", "romaji": "Shū ni nijūhachi-jikan desu ne. Wakarimashita.", "arabic": "28 ساعة في الأسبوع. فهمت."},
+    {"id": 10, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep31_line_10.mp3", "japanese": "ここに、アルバイトの はりがみが ありますよ。", "romaji": "Koko ni, arubaito no harigami ga arimasu yo.", "arabic": "هنا ملصق إعلان عن وظيفة."},
+    {"id": 11, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep31_line_11.mp3", "japanese": "ほんとうですね。「ごごの ひと ぼしゅう」と かいて あります。", "romaji": "Hontō desu ne. 'Gogo no hito boshū' to kaite arimasu.", "arabic": "فعلاً. مكتوب «مطلوب أشخاص لفترة ما بعد الظهر»."},
+    {"id": 12, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep31_line_12.mp3", "japanese": "ごご 四じから 八じまでですね。わたしは でんわした ほうが いいと おもいます。", "romaji": "Gogo yoji kara hachiji made desu ne. Watashi wa denwa shita hō ga ii to omoimasu.", "arabic": "من الرابعة إلى الثامنة مساءً. أظن أن الأفضل أن تتصل."},
+    {"id": 13, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep31_line_13.mp3", "japanese": "でんわする まえに、りれきしょを かいた ほうが いいですか。", "romaji": "Denwa suru mae ni, rirekisho o kaita hō ga ii desu ka.", "arabic": "هل الأفضل أن أكتب السيرة الذاتية قبل الاتصال؟"},
+    {"id": 14, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep31_line_14.mp3", "japanese": "はい、めんせつの ときに ひつようです。わたしが てつだいますよ。", "romaji": "Hai, mensetsu no toki ni hitsuyō desu. Watashi ga tetsudaimasu yo.", "arabic": "نعم، هي مطلوبة وقت المقابلة. سأساعدك."}
+  ],
+  "vocabulary": [
+    {"kanji": "", "kana": "アルバイト", "romaji": "arubaito", "arabic": "عمل بدوام جزئي", "audio": "assets/audio/ep31_v_01.mp3"},
+    {"kanji": "仕事", "kana": "しごと", "romaji": "shigoto", "arabic": "عمل / وظيفة", "audio": "assets/audio/ep31_v_02.mp3"},
+    {"kanji": "時給", "kana": "じきゅう", "romaji": "jikyū", "arabic": "الأجر بالساعة", "audio": "assets/audio/ep31_v_03.mp3"},
+    {"kanji": "週", "kana": "しゅう", "romaji": "shū", "arabic": "أسبوع", "audio": "assets/audio/ep31_v_04.mp3"},
+    {"kanji": "履歴書", "kana": "りれきしょ", "romaji": "rirekisho", "arabic": "سيرة ذاتية (نموذج ياباني)", "audio": "assets/audio/ep31_v_05.mp3"},
+    {"kanji": "探します", "kana": "さがします", "romaji": "sagashimasu", "arabic": "يبحث عن", "audio": "assets/audio/ep31_v_06.mp3"},
+    {"kanji": "働きます", "kana": "はたらきます", "romaji": "hatarakimasu", "arabic": "يعمل", "audio": "assets/audio/ep31_v_07.mp3"},
+    {"kanji": "必要", "kana": "ひつよう", "romaji": "hitsuyō", "arabic": "ضروري / مطلوب", "audio": "assets/audio/ep31_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "التعبير عن القدرة: «V-る ことが できます»",
+      "pattern": "V (الصيغة المعجمية) + ことが できます",
+      "explanation_ar": "تعلمنا في الحلقة 26 أن できます تعني «يستطيع» مع الاسم: 日本語が できます. وللتعبير عن القدرة على فعل ما نستخدم الفعل بصيغته المعجمية (الصيغة العادية الحاضرة) ثم ことが できます. مثال: 日本語を はなす ことが できます = أستطيع التحدث باليابانية، しゅうに 二十八じかん はたらく ことが できます = يمكنني العمل 28 ساعة أسبوعياً. وللنفي: できません، وللسؤال: できますか. والصيغة المعجمية للفعل هي الصيغة الموجودة في القاموس، مثل はなします ← はなす، たべます ← たべる، かきます ← かく، します ← する، きます ← くる. ولاحظ أنها تستعمل أيضاً مع الصلاحية: ここで たばこを すう ことが できません = لا يمكن التدخين هنا."
+    },
+    {
+      "title_ar": "إعطاء النصيحة: «V-た ほうが いいです»",
+      "pattern": "V-た ほうが いいです / V-ない ほうが いいです",
+      "explanation_ar": "للنصح بفعل شيء نقول V-た ほうが いいです (من الأفضل أن...): でんわした ほうが いいです = من الأفضل أن تتصل. وللنصح بعدم فعله نستخدم الصيغة المنفية العادية: いかない ほうが いいです = من الأفضل ألا تذهب. ويمكن السؤال: りれきしょを かいた ほうが いいですか = هل الأفضل أن أكتب السيرة الذاتية؟ وبعدها غالباً と おもいます للتلطيف: でんわした ほうが いいと おもいます = أظن أن الأفضل أن تتصل. وهذه الصيغة مفيدة جداً عند طلب نصيحة من أصدقائك أو معلمك. وانتبه أن ほうが هنا تختلف عن المقارنة في الحلقة 13 (B より A の ほうが)، لكنها من نفس الأصل: «الجانب الأفضل»."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "ما معنى: でんわした ほうが いいです؟",
+      "options": ["من الأفضل أن تتصل", "لا تتصل", "اتصلت أمس"],
+      "correct_index": 0,
+      "explanation_ar": "V-た ほうが いいです للنصيحة بفعل شيء. أما النفي فيكون V-ない ほうが いいです."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «أستطيع التحدث باليابانية».",
+      "words": ["できます", "はなす", "日本語を", "ことが"],
+      "correct_order": ["日本語を", "はなす", "ことが", "できます"],
+      "explanation_ar": "المفعول به أولاً، ثم الفعل بصيغته المعجمية، ثم ことが できます."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are Yuki, a helpful Japanese friend helping the learner (Arabic speaker, JLPT N5) find a part-time job (arubaito). RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Ask what kind of job they want (どんな しごとが したいですか), their available days/hours, and discuss simple options (コンビニ, レストラン, スーパー, ほんや). Respect that they avoid pork: do not push jobs that involve it. Mention jikyū and the weekly limit for students in simple words. (3) Make the learner practice 〜ことが できます (日本語を はなす ことが できます / かんじを かく ことが できますか) and 〜た ほうが いいです (りれきしょを かいた ほうが いいです). Use 〜と おもいます to give opinions. (4) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (5) Never go above N5. (6) After 6-8 exchanges, suggest calling the shop and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "サーレムさん、アルバイトを さがして いますか。どんな しごとが したいですか。",
+    "initial_ai_message_ar": "سالم، هل تبحث عن عمل بدوام جزئي؟ أي نوع من الأعمال تريد؟"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "episode_id": 3,
+  "season": 1,
+  "level": "JLPT_N5",
+  "title_ar": "ركوب القطار لأول مرة",
+  "title_jp": "はじめての 電車",
+  "background_image": "assets/images/scenes/ep03_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep03_line_01.mp3",
+      "japanese": "すみません。この 電車は 新宿へ 行きますか。",
+      "romaji": "Sumimasen. Kono densha wa Shinjuku e ikimasu ka.",
+      "arabic": "عذراً. هل هذا القطار يذهب إلى شينجوكو؟"
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep03_line_02.mp3",
+      "japanese": "いいえ、行きません。この 電車は 上野へ 行きます。",
+      "romaji": "Iie, ikimasen. Kono densha wa Ueno e ikimasu.",
+      "arabic": "لا، لا يذهب. هذا القطار يذهب إلى أوينو."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep03_line_03.mp3",
+      "japanese": "そうですか。新宿は なんばんせんですか。",
+      "romaji": "Sō desu ka. Shinjuku wa nan-ban-sen desu ka.",
+      "arabic": "هكذا إذن. من أي رصيف قطار شينجوكو؟"
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep03_line_04.mp3",
+      "japanese": "三ばんせんです。成田エクスプレスですよ。",
+      "romaji": "San-ban-sen desu. Narita Ekusupuresu desu yo.",
+      "arabic": "من الرصيف رقم 3. إنه قطار ناريتا إكسبريس."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep03_line_05.mp3",
+      "japanese": "ありがとうございます。あなたも 新宿へ 行きますか。",
+      "romaji": "Arigatō gozaimasu. Anata mo Shinjuku e ikimasu ka.",
+      "arabic": "شكراً جزيلاً. هل تذهبين أنتِ أيضاً إلى شينجوكو؟"
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep03_line_06.mp3",
+      "japanese": "はい、わたしも 行きます。いっしょに 行きましょう。",
+      "romaji": "Hai, watashi mo ikimasu. Issho ni ikimashō.",
+      "arabic": "نعم، أنا أيضاً ذاهبة. لنذهب معاً."
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep03_line_07.mp3",
+      "japanese": "新宿まで なんぷん かかりますか。",
+      "romaji": "Shinjuku made nanpun kakarimasu ka.",
+      "arabic": "كم دقيقة يستغرق الطريق حتى شينجوكو؟"
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep03_line_08.mp3",
+      "japanese": "九十分ぐらいです。",
+      "romaji": "Kyūjuppun gurai desu.",
+      "arabic": "حوالي تسعين دقيقة."
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep03_line_09.mp3",
+      "japanese": "わたしは サーレムです。ドバイから 来ました。",
+      "romaji": "Watashi wa Sāremu desu. Dobai kara kimashita.",
+      "arabic": "أنا سالم. أتيت من دبي."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep03_line_10.mp3",
+      "japanese": "わたしは ユキです。大学生です。よろしく。",
+      "romaji": "Watashi wa Yuki desu. Daigakusei desu. Yoroshiku.",
+      "arabic": "أنا يوكي. طالبة جامعية. سعيدة بمعرفتك."
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "アナウンス",
+      "speaker_name_ar": "إعلان القطار",
+      "character_avatar": "assets/images/characters/announcement.webp",
+      "audio_file": "assets/audio/ep03_line_11.mp3",
+      "japanese": "つぎは 新宿、新宿です。",
+      "romaji": "Tsugi wa Shinjuku, Shinjuku desu.",
+      "arabic": "المحطة التالية: شينجوكو، شينجوكو."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep03_line_12.mp3",
+      "japanese": "サーレムさん、つぎですよ。おりましょう。",
+      "romaji": "Sāremu-san, tsugi desu yo. Orimashō.",
+      "arabic": "سالم، إنها المحطة التالية. لننزل."
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "電車", "kana": "でんしゃ", "romaji": "densha", "arabic": "قطار", "audio": "assets/audio/ep03_v_01.mp3"},
+    {"kanji": "行きます", "kana": "いきます", "romaji": "ikimasu", "arabic": "يذهب", "audio": "assets/audio/ep03_v_02.mp3"},
+    {"kanji": "降ります", "kana": "おります", "romaji": "orimasu", "arabic": "ينزل (من القطار أو السيارة)", "audio": "assets/audio/ep03_v_03.mp3"},
+    {"kanji": "次", "kana": "つぎ", "romaji": "tsugi", "arabic": "التالي", "audio": "assets/audio/ep03_v_04.mp3"},
+    {"kanji": "番線", "kana": "ばんせん", "romaji": "bansen", "arabic": "رصيف رقم (في المحطة)", "audio": "assets/audio/ep03_v_05.mp3"},
+    {"kanji": "何分", "kana": "なんぷん", "romaji": "nanpun", "arabic": "كم دقيقة؟", "audio": "assets/audio/ep03_v_06.mp3"},
+    {"kanji": "一緒に", "kana": "いっしょに", "romaji": "issho ni", "arabic": "معاً", "audio": "assets/audio/ep03_v_07.mp3"},
+    {"kanji": "大学生", "kana": "だいがくせい", "romaji": "daigakusei", "arabic": "طالب جامعي", "audio": "assets/audio/ep03_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "الاتجاه نحو مكان: «يذهب إلى»",
+      "pattern": "[مكان] へ / に 行きます",
+      "explanation_ar": "لتحديد وجهة الحركة نضع اسم المكان ثم الأداة へ (تُكتب he لكنها تُنطق e) أو الأداة に، ثم فعل الحركة مثل 行きます (يذهب). مثال: 新宿へ 行きます = أذهب إلى شينجوكو. والأداتان متقاربتان جداً هنا، فـ へ تركز على الاتجاه و に على نقطة الوصول. أما まで فتعني «حتى» وتحدد نهاية المسافة: 新宿まで なんぷん かかりますか = كم دقيقة حتى شينجوكو؟ ولاحظ أن الفاعل يُحذف غالباً في اليابانية إذا كان مفهوماً من السياق."
+    },
+    {
+      "title_ar": "تصريف الفعل المهذب: الإثبات والنفي والسؤال والدعوة",
+      "pattern": "V-ます / V-ません / V-ますか / V-ましょう",
+      "explanation_ar": "الأفعال اليابانية لا تتغير حسب الضمير (أنا، أنت، هو)، بل تتغير نهايتها فقط. بصيغة الحاضر المهذب ينتهي الفعل بـ ます: 行きます = أذهب/يذهب. وللنفي نحوّل ます إلى ません: 行きません = لا يذهب. وللسؤال نضيف か: 行きますか = هل يذهب؟ وعند دعوة شخص لفعل شيء معاً نحوّل ます إلى ましょう: 行きましょう = لنذهب، おりましょう = لننزل. وهذه الصيغة نفسها تُستخدم للحاضر والمستقبل معاً."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "سألت: この 電車は 上野へ 行きますか. والقطار لا يذهب إلى أوينو. ما الجواب الصحيح؟",
+      "options": ["いいえ、行きません。", "いいえ、行きます。", "はい、行きません。"],
+      "correct_index": 0,
+      "explanation_ar": "النفي يكون بتحويل ます إلى ません، ويسبقه いいえ (لا)."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «هل هذا القطار يذهب إلى شينجوكو؟».",
+      "words": ["行きますか", "新宿", "この 電車は", "へ"],
+      "correct_order": ["この 電車は", "新宿", "へ", "行きますか"],
+      "explanation_ar": "الموضوع مع は أولاً، ثم المكان مع أداة الاتجاه へ، ثم الفعل مع か في النهاية."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are Yuki, a friendly Japanese university student waiting on the platform at Narita Airport station. The learner (Arabic speaker, JLPT N5) is lost and needs to reach Shinjuku. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Help the learner practice: asking where a train goes (この 電車は 〜へ 行きますか), which platform (なんばんせんですか), how long it takes (〜まで なんぷん かかりますか), and self-introduction. (3) Use ません when correcting wrong destinations, and suggest doing things together with 〜ましょう. (4) Give realistic info: Narita Express to Shinjuku, platform 3, about 90 minutes. (5) Ask the learner simple personal questions too (おなまえは? どこから 来ましたか). (6) If the learner makes a mistake, naturally restate the correct sentence once and move on. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (7) Never go above N5. (8) After 6-8 exchanges, announce arrival (つぎは 新宿です。おりましょう。) and give a 2-line feedback summary in Arabic.",
+    "initial_ai_message_jp": "こんにちは。だいじょうぶですか。どこへ 行きますか。",
+    "initial_ai_message_ar": "مرحباً. هل أنت بخير؟ إلى أين تذهب؟"
+  }
+}

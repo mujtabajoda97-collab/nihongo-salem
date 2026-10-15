@@ -1,0 +1,215 @@
+{
+  "episode_id": 22,
+  "season": 3,
+  "level": "JLPT_N5",
+  "title_ar": "الأسئلة داخل الفصل الدراسي",
+  "title_jp": "クラスで しつもん",
+  "background_image": "assets/images/scenes/ep22_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "田中先生",
+      "speaker_name_ar": "الأستاذة تاناكا",
+      "character_avatar": "assets/images/characters/tanaka_sensei.webp",
+      "audio_file": "assets/audio/ep22_line_01.mp3",
+      "japanese": "では、じゅぎょうを はじめます。きょうかしょの 五ページを あけて ください。",
+      "romaji": "Dewa, jugyō o hajimemasu. Kyōkasho no go-pēji o akete kudasai.",
+      "arabic": "حسناً، لنبدأ الدرس. افتحوا الكتاب على الصفحة الخامسة."
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep22_line_02.mp3",
+      "japanese": "せんせい、しつもんが あります。",
+      "romaji": "Sensei, shitsumon ga arimasu.",
+      "arabic": "أستاذة، عندي سؤال."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "田中先生",
+      "speaker_name_ar": "الأستاذة تاناكا",
+      "character_avatar": "assets/images/characters/tanaka_sensei.webp",
+      "audio_file": "assets/audio/ep22_line_03.mp3",
+      "japanese": "はい、どうぞ。",
+      "romaji": "Hai, dōzo.",
+      "arabic": "نعم، تفضل."
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep22_line_04.mp3",
+      "japanese": "この ことばは なんですか。「べんり」ですか。",
+      "romaji": "Kono kotoba wa nan desu ka. 'Benri' desu ka.",
+      "arabic": "ما هذه الكلمة؟ هل هي «بينري»؟"
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "田中先生",
+      "speaker_name_ar": "الأستاذة تاناكا",
+      "character_avatar": "assets/images/characters/tanaka_sensei.webp",
+      "audio_file": "assets/audio/ep22_line_05.mp3",
+      "japanese": "はい、「べんり」です。えいごで 'convenient' です。",
+      "romaji": "Hai, 'benri' desu. Eigo de 'convenient' desu.",
+      "arabic": "نعم، «بينري». وبالإنجليزية convenient (مريح/عملي)."
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep22_line_06.mp3",
+      "japanese": "「べんり」は コンビニですか。",
+      "romaji": "'Benri' wa konbini desu ka.",
+      "arabic": "هل «بينري» هو الكومبيني؟"
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "田中先生",
+      "speaker_name_ar": "الأستاذة تاناكا",
+      "character_avatar": "assets/images/characters/tanaka_sensei.webp",
+      "audio_file": "assets/audio/ep22_line_07.mp3",
+      "japanese": "いいえ、ちがいます。コンビニは べんりな みせです。",
+      "romaji": "Iie, chigaimasu. Konbini wa benri na mise desu.",
+      "arabic": "لا، ليس كذلك. الكومبيني متجر عملي."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "アンナ",
+      "speaker_name_ar": "آنا",
+      "character_avatar": "assets/images/characters/anna.webp",
+      "audio_file": "assets/audio/ep22_line_08.mp3",
+      "japanese": "せんせい、どうして コンビニは べんりですか。",
+      "romaji": "Sensei, dōshite konbini wa benri desu ka.",
+      "arabic": "أستاذة، لماذا يُعدّ الكومبيني عملياً؟"
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "田中先生",
+      "speaker_name_ar": "الأستاذة تاناكا",
+      "character_avatar": "assets/images/characters/tanaka_sensei.webp",
+      "audio_file": "assets/audio/ep22_line_09.mp3",
+      "japanese": "二十四時間 あいて いますから。",
+      "romaji": "Nijūyo-jikan aite imasu kara.",
+      "arabic": "لأنه مفتوح أربعاً وعشرين ساعة."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "アンナ",
+      "speaker_name_ar": "آنا",
+      "character_avatar": "assets/images/characters/anna.webp",
+      "audio_file": "assets/audio/ep22_line_10.mp3",
+      "japanese": "ああ、わかりました。",
+      "romaji": "Aa, wakarimashita.",
+      "arabic": "آه، فهمت."
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "田中先生",
+      "speaker_name_ar": "الأستاذة تاناكا",
+      "character_avatar": "assets/images/characters/tanaka_sensei.webp",
+      "audio_file": "assets/audio/ep22_line_11.mp3",
+      "japanese": "では、しゅくだいです。五ページと 六ページを 読んで、ノートに かいて ください。",
+      "romaji": "Dewa, shukudai desu. Go-pēji to roku-pēji o yonde, nōto ni kaite kudasai.",
+      "arabic": "والآن الواجب المنزلي. اقرؤوا الصفحتين الخامسة والسادسة واكتبوا في الدفتر."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep22_line_12.mp3",
+      "japanese": "すみません、もう いちど おねがいします。何ページですか。",
+      "romaji": "Sumimasen, mō ichido onegaishimasu. Nan-pēji desu ka.",
+      "arabic": "عذراً، مرة أخرى من فضلك. أي صفحات؟"
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "田中先生",
+      "speaker_name_ar": "الأستاذة تاناكا",
+      "character_avatar": "assets/images/characters/tanaka_sensei.webp",
+      "audio_file": "assets/audio/ep22_line_13.mp3",
+      "japanese": "五ページと 六ページです。",
+      "romaji": "Go-pēji to roku-pēji desu.",
+      "arabic": "الصفحتان الخامسة والسادسة."
+    },
+    {
+      "id": 14,
+      "speaker_name_jp": "ワン",
+      "speaker_name_ar": "وانغ",
+      "character_avatar": "assets/images/characters/wang.webp",
+      "audio_file": "assets/audio/ep22_line_14.mp3",
+      "japanese": "せんせい、しゅくだいは いつまでですか。",
+      "romaji": "Sensei, shukudai wa itsu made desu ka.",
+      "arabic": "أستاذة، حتى متى موعد الواجب؟"
+    },
+    {
+      "id": 15,
+      "speaker_name_jp": "田中先生",
+      "speaker_name_ar": "الأستاذة تاناكا",
+      "character_avatar": "assets/images/characters/tanaka_sensei.webp",
+      "audio_file": "assets/audio/ep22_line_15.mp3",
+      "japanese": "あしたの じゅぎょうの まえに みせて ください。",
+      "romaji": "Ashita no jugyō no mae ni misete kudasai.",
+      "arabic": "أروني إياه قبل درس الغد."
+    },
+    {
+      "id": 16,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep22_line_16.mp3",
+      "japanese": "わかりました!",
+      "romaji": "Wakarimashita!",
+      "arabic": "فهمت!"
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "質問", "kana": "しつもん", "romaji": "shitsumon", "arabic": "سؤال", "audio": "assets/audio/ep22_v_01.mp3"},
+    {"kanji": "", "kana": "ことば", "romaji": "kotoba", "arabic": "كلمة / لغة", "audio": "assets/audio/ep22_v_02.mp3"},
+    {"kanji": "宿題", "kana": "しゅくだい", "romaji": "shukudai", "arabic": "واجب منزلي", "audio": "assets/audio/ep22_v_03.mp3"},
+    {"kanji": "", "kana": "ノート", "romaji": "nōto", "arabic": "دفتر", "audio": "assets/audio/ep22_v_04.mp3"},
+    {"kanji": "", "kana": "ページ", "romaji": "pēji", "arabic": "صفحة", "audio": "assets/audio/ep22_v_05.mp3"},
+    {"kanji": "", "kana": "どうして", "romaji": "dōshite", "arabic": "لماذا", "audio": "assets/audio/ep22_v_06.mp3"},
+    {"kanji": "店", "kana": "みせ", "romaji": "mise", "arabic": "متجر / محل", "audio": "assets/audio/ep22_v_07.mp3"},
+    {"kanji": "違います", "kana": "ちがいます", "romaji": "chigaimasu", "arabic": "ليس كذلك / مختلف", "audio": "assets/audio/ep22_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "أدوات السؤال وسؤال «لماذا؟» مع الجواب بـ «から»",
+      "pattern": "どうして [جملة] か — [سبب] から",
+      "explanation_ar": "أدوات السؤال الأساسية: だれ (من)، なに/なん (ماذا)، いつ (متى)، どこ (أين)، どう (كيف)، どうして/なぜ (لماذا)، いくら (كم السعر)، いくつ (كم عدداً)، どの/どれ/どんな (أي). وللسؤال عن السبب نستخدم どうして ثم الجملة: どうして コンビニは べんりですか = لماذا الكومبيني عملي؟ والجواب يكون بالسبب متبوعاً بـ から: 二十四時間 あいて いますから = لأنه مفتوح 24 ساعة. ويمكن اختصار الجواب بحذف الجملة المفهومة: 二十四時間 あいて いますから. ولاحظ أن الجواب يبدأ بالسبب مباشرة وليس بكلمة «لأن». وعبارة いつまで تعني «حتى متى»: しゅくだいは いつまでですか."
+    },
+    {
+      "title_ar": "أوامر الفصل: «て ください» واستخدام «は ～で なんですか»",
+      "pattern": "あけて / よんで / かいて / みせて / いって + ください; N は [لغة] で なんですか",
+      "explanation_ar": "في الفصل يتكرر طلب المعلم بصيغة て ください: あけて ください (افتح)، よんで ください (اقرأ)، かいて ください (اكتب)، みせて ください (أرني)، いって ください (قل)، きいて ください (استمع)، だして ください (سلّم). ولربط أمرين: よんで、かいて ください = اقرأ ثم اكتب. وللسؤال عن ترجمة كلمة: ことばを えいごで いって ください أو 「べんり」は えいごで なんですか = ماذا تعني «بينري» بالإنجليزية؟ والأداة で هنا تدل على اللغة المستخدمة. وصفة な قبل الاسم: べんりな みせ = متجر عملي، وهي تأخذ な بينها وبين الاسم، وليس い كما في صفات い. وللرد الصحيح على سؤال خاطئ نقول: いいえ、ちがいます = لا، ليس كذلك."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "كيف تجيب عن سؤال: どうして おくれましたか؟ (لماذا تأخرت؟)",
+      "options": ["でんしゃが おそかったですから。", "でんしゃが おそいですか。", "でんしゃは どうして おそいです。"],
+      "correct_index": 0,
+      "explanation_ar": "الجواب عن どうして يأتي بالسبب متبوعاً بـ から. والخيارات الأخرى ليست أجوبة صحيحة."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «افتح الكتاب على الصفحة الخامسة».",
+      "words": ["ください", "五ページを", "あけて", "きょうかしょの"],
+      "correct_order": ["きょうかしょの", "五ページを", "あけて", "ください"],
+      "explanation_ar": "الكتاب مع の ثم الصفحة مع を ثم الفعل بصيغة て ثم ください."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are Tanaka-sensei, a patient Japanese teacher in a beginner class. The learner (Arabic speaker, JLPT N5) is a student who has questions during class. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Start the class (じゅぎょうを はじめます), give instructions with 〜て ください (あけて, よんで, かいて, みせて, だして), and invite questions (しつもんが ありますか). (3) When the learner asks about a word, answer simply (〜は えいごで 〜です) and give a short example with a な-adjective (べんりな みせ). Ask them 'どうして?' questions (どうして 日本語を べんきょうして いますか) so they answer with 〜から. (4) Give homework and a deadline (しゅくだいは あしたの じゅぎょうの まえに だして ください) and have the learner confirm 何ページ / いつまで. (5) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (6) Never go above N5. (7) After 6-8 exchanges, end the class (きょうは ここまでです) and give a 2-line feedback summary in Arabic.",
+    "initial_ai_message_jp": "では、じゅぎょうを はじめます。しつもんが ありますか。",
+    "initial_ai_message_ar": "حسناً، لنبدأ الدرس. هل عندك أسئلة؟"
+  }
+}

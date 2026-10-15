@@ -1,0 +1,195 @@
+{
+  "episode_id": 16,
+  "season": 2,
+  "level": "JLPT_N5",
+  "title_ar": "تحديد موعد مع صديق",
+  "title_jp": "ともだちと やくそく",
+  "background_image": "assets/images/scenes/ep16_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep16_line_01.mp3",
+      "japanese": "ユキさん、今度の 土よう日は ひまですか。",
+      "romaji": "Yuki-san, kondo no doyōbi wa hima desu ka.",
+      "arabic": "يوكي، هل أنتِ متفرغة يوم السبت القادم؟"
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep16_line_02.mp3",
+      "japanese": "土よう日ですか。何月何日ですか。",
+      "romaji": "Doyōbi desu ka. Nangatsu nannichi desu ka.",
+      "arabic": "السبت؟ أي شهر وأي يوم هو؟"
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep16_line_03.mp3",
+      "japanese": "十月 十七日です。",
+      "romaji": "Jūgatsu jūshichinichi desu.",
+      "arabic": "السابع عشر من أكتوبر."
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep16_line_04.mp3",
+      "japanese": "十七日の 土よう日は だいじょうぶです。なにを しますか。",
+      "romaji": "Jūshichinichi no doyōbi wa daijōbu desu. Nani o shimasu ka.",
+      "arabic": "السبت السابع عشر مناسب لي. ماذا سنفعل؟"
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep16_line_05.mp3",
+      "japanese": "いっしょに しぶやで かいものを しませんか。",
+      "romaji": "Issho ni Shibuya de kaimono o shimasen ka.",
+      "arabic": "ما رأيك أن نتسوق معاً في شيبويا؟"
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep16_line_06.mp3",
+      "japanese": "いいですね。何時に あいますか。",
+      "romaji": "Ii desu ne. Nanji ni aimasu ka.",
+      "arabic": "فكرة جميلة. في أي ساعة نلتقي؟"
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep16_line_07.mp3",
+      "japanese": "ごご 二時は どうですか。",
+      "romaji": "Gogo niji wa dō desu ka.",
+      "arabic": "ما رأيك بالثانية بعد الظهر؟"
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep16_line_08.mp3",
+      "japanese": "二時ですね。どこで あいますか。",
+      "romaji": "Niji desu ne. Doko de aimasu ka.",
+      "arabic": "الثانية، حسناً. وأين نلتقي؟"
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep16_line_09.mp3",
+      "japanese": "ハチこうぐちで あいませんか。ハチこうぐちは わかります。",
+      "romaji": "Hachikō-guchi de aimasen ka. Hachikō-guchi wa wakarimasu.",
+      "arabic": "ما رأيك أن نلتقي عند مخرج هاتشيكو؟ أنا أعرف مكانه."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep16_line_10.mp3",
+      "japanese": "はい。ともだちも いっしょに 行っても いいですか。",
+      "romaji": "Hai. Tomodachi mo issho ni itte mo ii desu ka.",
+      "arabic": "حسناً. هل يمكن أن تأتي صديقتي معنا أيضاً؟"
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep16_line_11.mp3",
+      "japanese": "はい、いいですよ。ともだちの おなまえは?",
+      "romaji": "Hai, ii desu yo. Tomodachi no o-namae wa?",
+      "arabic": "نعم، لا مانع. ما اسم صديقتك؟"
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep16_line_12.mp3",
+      "japanese": "ミナさんです。わたしの だいがくの ともだちです。",
+      "romaji": "Mina-san desu. Watashi no daigaku no tomodachi desu.",
+      "arabic": "اسمها مينا. هي صديقتي في الجامعة."
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep16_line_13.mp3",
+      "japanese": "わかりました。じゃ、十月 十七日 土よう日 ごご 二時に ハチこうぐちで あいましょう。",
+      "romaji": "Wakarimashita. Ja, jūgatsu jūshichinichi doyōbi gogo niji ni Hachikō-guchi de aimashō.",
+      "arabic": "فهمت. إذن، لنلتقي يوم السبت 17 أكتوبر الساعة الثانية ظهراً عند مخرج هاتشيكو."
+    },
+    {
+      "id": 14,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep16_line_14.mp3",
+      "japanese": "はい。じゃ、土よう日に!",
+      "romaji": "Hai. Ja, doyōbi ni!",
+      "arabic": "حسناً. إذن، نلتقي يوم السبت!"
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "暇", "kana": "ひま", "romaji": "hima", "arabic": "متفرغ / وقت فراغ", "audio": "assets/audio/ep16_v_01.mp3"},
+    {"kanji": "午後", "kana": "ごご", "romaji": "gogo", "arabic": "بعد الظهر", "audio": "assets/audio/ep16_v_02.mp3"},
+    {"kanji": "午前", "kana": "ごぜん", "romaji": "gozen", "arabic": "قبل الظهر", "audio": "assets/audio/ep16_v_03.mp3"},
+    {"kanji": "会います", "kana": "あいます", "romaji": "aimasu", "arabic": "يلتقي", "audio": "assets/audio/ep16_v_04.mp3"},
+    {"kanji": "買い物", "kana": "かいもの", "romaji": "kaimono", "arabic": "تسوّق", "audio": "assets/audio/ep16_v_05.mp3"},
+    {"kanji": "何月", "kana": "なんがつ", "romaji": "nangatsu", "arabic": "أي شهر؟", "audio": "assets/audio/ep16_v_06.mp3"},
+    {"kanji": "友達", "kana": "ともだち", "romaji": "tomodachi", "arabic": "صديق", "audio": "assets/audio/ep16_v_07.mp3"},
+    {"kanji": "分かります", "kana": "わかります", "romaji": "wakarimasu", "arabic": "يفهم / يعرف", "audio": "assets/audio/ep16_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "الشهور والتواريخ",
+      "pattern": "[رقم]がつ [رقم]にち / 何月何日",
+      "explanation_ar": "أسماء الشهور سهلة: نقول رقم الشهر ثم がつ: いちがつ (يناير)، にがつ، さんがつ، しがつ (4)، ごがつ، ろくがつ، しちがつ (7)، はちがつ، くがつ (9)، じゅうがつ (10)، じゅういちがつ، じゅうにがつ. انتبه للقراءات الخاصة: しがつ وليس よんがつ، しちがつ وليس ななかつ، くがつ وليس きゅうがつ. أما الأيام فهي أصعب: من 1 إلى 10 لها قراءات خاصة (ついたち، ふつか، みっか، よっか، いつか، むいか، なのか، ようか، ここのか، とおか)، ثم 11 じゅういちにち، 14 じゅうよっか (شاذة)، 17 じゅうしちにち، 20 はつか (شاذة)، 24 にじゅうよっか (شاذة)، والباقي عدد + にち. وترتيب التاريخ ياباني من الأكبر إلى الأصغر: الشهر، اليوم، ثم يوم الأسبوع: 十月 十七日 土よう日. وللسؤال: 何月何日ですか."
+    },
+    {
+      "title_ar": "ترتيب الأدوات: الزمن + المكان + الشخص",
+      "pattern": "[وقت] に [مكان] で [شخص] と V",
+      "explanation_ar": "في الجملة اليابانية عدة أدوات تصف الفعل ولكل منها وظيفة: に للوقت المحدد (ごご 二時に)، で لمكان حدوث الفعل (ハチこうぐちで)، と لمن نفعل معه (ともだちと)، を للمفعول به (かいものを). والترتيب الشائع: الوقت، المكان، الشخص، المفعول به، الفعل. مثال: ごご 二時に ハチこうぐちで ユキさんと あいます = ألتقي بيوكي عند مخرج هاتشيكو في الثانية ظهراً. تنبيه: で هنا لمكان الفعل، وليست に التي تدل على وجود الشيء في مكان (あります / います). وكلمة いっしょに (معاً) تُستخدم بدل と عند عدم ذكر الشخص. ولا تنسَ اقتراح الموعد بـ 〜は どうですか: ごご 二時は どうですか = ما رأيك بالثانية ظهراً؟"
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "ما القراءة الصحيحة لتاريخ: 十月 十七日؟",
+      "options": ["じゅうがつ じゅうしちにち", "とおがつ じゅうななにち", "じゅうがつ じゅうななにち"],
+      "correct_index": 0,
+      "explanation_ar": "الشهر العاشر じゅうがつ، واليوم 17 يُقرأ じゅうしちにち (وليس じゅうなな). القراءة とおか خاصة باليوم العاشر فقط."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «ألتقي بصديقتي عند مخرج هاتشيكو».",
+      "words": ["あいます", "ともだちと", "ハチこうぐちで"],
+      "correct_order": ["ハチこうぐちで", "ともだちと", "あいます"],
+      "explanation_ar": "المكان مع で أولاً، ثم الشخص مع と، ثم الفعل في النهاية."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are Yuki, a friendly Japanese university student chatting with the learner (Arabic speaker, JLPT N5), who wants to set up a meeting this weekend. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Negotiate a plan step by step: ask if the learner is free (ひまですか), which date (何月何日ですか), what to do (なにを しますか), what time (何時に あいますか; use ごぜん / ごご), and where (どこで あいますか). Pretend Saturday is free but Sunday is not (すみません、日よう日は ちょっと……) so they must propose another day. (3) Make the learner use dates (十月 十七日 etc.), the particle order 時間に 場所で 人と, invitations with 〜ませんか and replies with 〜ましょう, and asking permission (ともだちも 行っても いいですか). (4) End by asking the learner to repeat the final plan in one full sentence. (5) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (6) Never go above N5. (7) After 6-8 exchanges, confirm the plan and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "サーレムさん、こんにちは。今度の しゅうまつは ひまですか。",
+    "initial_ai_message_ar": "مرحباً يا سالم. هل أنت متفرغ في عطلة نهاية الأسبوع القادمة؟"
+  }
+}

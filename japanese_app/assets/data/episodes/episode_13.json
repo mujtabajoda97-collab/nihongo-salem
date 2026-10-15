@@ -1,0 +1,185 @@
+{
+  "episode_id": 13,
+  "season": 2,
+  "level": "JLPT_N5",
+  "title_ar": "مطعم الرامن وآلة الطلب",
+  "title_jp": "ラーメンやさんで きっぷを かいます",
+  "background_image": "assets/images/scenes/ep13_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظف المطعم",
+      "character_avatar": "assets/images/characters/ramen_staff.webp",
+      "audio_file": "assets/audio/ep13_line_01.mp3",
+      "japanese": "いらっしゃいませ。何人ですか。",
+      "romaji": "Irasshaimase. Nannin desu ka.",
+      "arabic": "أهلاً بكم. كم شخصاً؟"
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep13_line_02.mp3",
+      "japanese": "ふたりです。",
+      "romaji": "Futari desu.",
+      "arabic": "اثنان."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظف المطعم",
+      "character_avatar": "assets/images/characters/ramen_staff.webp",
+      "audio_file": "assets/audio/ep13_line_03.mp3",
+      "japanese": "あの きかいで きっぷを かって ください。",
+      "romaji": "Ano kikai de kippu o katte kudasai.",
+      "arabic": "اشتريا التذكرة من تلك الآلة من فضلكما."
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep13_line_04.mp3",
+      "japanese": "ユキさん、どれが おいしいですか。",
+      "romaji": "Yuki-san, dore ga oishii desu ka.",
+      "arabic": "يوكي، أيّها لذيذ؟"
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep13_line_05.mp3",
+      "japanese": "しょうゆラーメンと みそラーメンと、どちらが すきですか。",
+      "romaji": "Shōyu rāmen to miso rāmen to, dochira ga suki desu ka.",
+      "arabic": "رامن الصويا ورامن الميسو، أيّهما تفضّل؟"
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep13_line_06.mp3",
+      "japanese": "しょうゆラーメンより みそラーメンの ほうが すきです。でも、わたしは ぶたにくを たべません。",
+      "romaji": "Shōyu rāmen yori miso rāmen no hō ga suki desu. Demo, watashi wa butaniku o tabemasen.",
+      "arabic": "أفضّل رامن الميسو على رامن الصويا. لكنني لا آكل لحم الخنزير."
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep13_line_07.mp3",
+      "japanese": "そうですか。とりにくの ラーメンも ありますよ。",
+      "romaji": "Sō desu ka. Toriniku no rāmen mo arimasu yo.",
+      "arabic": "حقاً؟ يوجد أيضاً رامن بلحم الدجاج."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep13_line_08.mp3",
+      "japanese": "どの ボタンですか。",
+      "romaji": "Dono botan desu ka.",
+      "arabic": "أي زر هو؟"
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep13_line_09.mp3",
+      "japanese": "この ボタンです。八百円です。おして ください。",
+      "romaji": "Kono botan desu. Happyaku-en desu. Oshite kudasai.",
+      "arabic": "هذا الزر. السعر ثمانمئة ين. اضغط عليه من فضلك."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep13_line_10.mp3",
+      "japanese": "はい。……おしました。ユキさんは なにに しますか。",
+      "romaji": "Hai. ... Oshimashita. Yuki-san wa nani ni shimasu ka.",
+      "arabic": "حسناً... ضغطت. وماذا ستختارين أنتِ يا يوكي؟"
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep13_line_11.mp3",
+      "japanese": "わたしは しょうゆラーメンに します。みそラーメンより しょうゆラーメンの ほうが すきです。",
+      "romaji": "Watashi wa shōyu rāmen ni shimasu. Miso rāmen yori shōyu rāmen no hō ga suki desu.",
+      "arabic": "سأختار رامن الصويا. أفضّله على رامن الميسو."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظف المطعم",
+      "character_avatar": "assets/images/characters/ramen_staff.webp",
+      "audio_file": "assets/audio/ep13_line_12.mp3",
+      "japanese": "おまたせしました。ラーメンです。あついですから、きを つけて ください。",
+      "romaji": "Omatase shimashita. Rāmen desu. Atsui desu kara, ki o tsukete kudasai.",
+      "arabic": "شكراً لانتظاركما. هذا الرامن. إنه ساخن، فانتبها من فضلكما."
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep13_line_13.mp3",
+      "japanese": "いただきます!……あつい!でも、とても おいしいです!",
+      "romaji": "Itadakimasu! ... Atsui! Demo, totemo oishii desu!",
+      "arabic": "بسم الله!... ساخن! لكنه لذيذ جداً!"
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "二人", "kana": "ふたり", "romaji": "futari", "arabic": "شخصان", "audio": "assets/audio/ep13_v_01.mp3"},
+    {"kanji": "何人", "kana": "なんにん", "romaji": "nannin", "arabic": "كم شخصاً؟", "audio": "assets/audio/ep13_v_02.mp3"},
+    {"kanji": "豚肉", "kana": "ぶたにく", "romaji": "butaniku", "arabic": "لحم الخنزير", "audio": "assets/audio/ep13_v_03.mp3"},
+    {"kanji": "鶏肉", "kana": "とりにく", "romaji": "toriniku", "arabic": "لحم الدجاج", "audio": "assets/audio/ep13_v_04.mp3"},
+    {"kanji": "押します", "kana": "おします", "romaji": "oshimasu", "arabic": "يضغط / يدفع", "audio": "assets/audio/ep13_v_05.mp3"},
+    {"kanji": "熱い", "kana": "あつい", "romaji": "atsui", "arabic": "ساخن جداً / حار (جو)", "audio": "assets/audio/ep13_v_06.mp3"},
+    {"kanji": "", "kana": "みそ", "romaji": "miso", "arabic": "ميسو (معجون فول الصويا المخمّر)", "audio": "assets/audio/ep13_v_07.mp3"},
+    {"kanji": "", "kana": "しょうゆ", "romaji": "shōyu", "arabic": "صلصة الصويا", "audio": "assets/audio/ep13_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "المقارنة: «أ أكثر من ب»",
+      "pattern": "B より A の ほうが [صفة] / A と B と どちらが [صفة] か",
+      "explanation_ar": "للمقارنة بين شيئين نضع الشيء الأضعف مع より (من)، والشيء الأقوى مع のほうが، ثم الصفة: みそラーメンより しょうゆラーメンの ほうが すきです = أفضّل رامن الصويا على رامن الميسو (حرفياً: من الميسو، جهة الصويا أحب). لاحظ أن الترتيب مختلف عن العربية «أ أكثر من ب»، فالمفضّل يأتي في الجزء الثاني. وللسؤال عن المفاضلة: A と B と、どちらが すきですか = أيهما تفضّل: أ أم ب؟ ويجاب: A の ほうが すきです أو どちらも すきです (كلاهما). وللمقارنة بين أكثر من شيئين نستخدم いちばん (الأكثر): なにが いちばん すきですか = ما أكثر شيء تحبه؟"
+    },
+    {
+      "title_ar": "عدّ الأشخاص والاختيار بـ «に します»",
+      "pattern": "ひとり / ふたり / [عدد]にん + です / N に します",
+      "explanation_ar": "عدّ الأشخاص له قراءتان خاصتان للواحد والاثنين: ひとり (1)، ふたり (2)، ثم من الثلاثة نضيف にん: さんにん (3)، よにん (4)، ごにん (5)، ろくにん (6)، しちにん/ななにん (7)، はちにん (8)، きゅうにん (9)، じゅうにん (10). والسؤال: 何人ですか = كم شخصاً؟ ويُستخدم في المطاعم عند الدخول. أما N に します فتعني «سأختار/سآخذ N» عند اتخاذ قرار بين خيارات: わたしは しょうゆラーメンに します = سأختار رامن الصويا. وتُستخدم عند الطلب أيضاً: なにに しますか = ماذا ستختار؟ وبعد الصفة المنتهية بـ です يمكن إضافة から لتعني «لأن»: あついですから、きを つけて ください = لأنه ساخن، انتبه."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "ماذا تعني الجملة: ラーメンより カレーの ほうが すきです؟",
+      "options": ["أفضّل الكاري على الرامن", "أفضّل الرامن على الكاري", "أحب الاثنين بالتساوي"],
+      "correct_index": 0,
+      "explanation_ar": "الشيء الذي بعد より هو الأضعف (الرامن)، والذي قبل のほうが هو المفضّل (الكاري)."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «أفضّل رامن الصويا على رامن الميسو».",
+      "words": ["すきです", "しょうゆラーメンの", "みそラーメンより", "ほうが"],
+      "correct_order": ["みそラーメンより", "しょうゆラーメンの", "ほうが", "すきです"],
+      "explanation_ar": "الشيء المقارَن به مع より أولاً، ثم الشيء المفضّل مع の ほうが، ثم الصفة في النهاية."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are a staff member at a ramen shop in Tokyo with a ticket vending machine. The learner (Arabic speaker, JLPT N5) is a Muslim visitor who does not eat pork. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Flow: ask how many people (何人ですか), tell them to buy a ticket at the machine (きかいで きっぷを かって ください), explain buttons and prices (しょうゆ 800円, みそ 850円, とりにく 800円), then serve the food and warn that it is hot (あついですから). (3) When the learner says they do not eat pork (ぶたにくを たべません), answer helpfully with chicken or vegetable options (とりにく, やさい) and never pressure them. (4) Make the learner use comparisons (Aより Bの ほうが すきです), the question どちらが すきですか, the counters ひとり / ふたり / さんにん, and Nに します. (5) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (6) Never go above N5 except fixed shop phrases. (7) After 6-8 exchanges, finish the meal scene and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "いらっしゃいませ。何人ですか。",
+    "initial_ai_message_ar": "أهلاً بك. كم شخصاً؟"
+  }
+}
