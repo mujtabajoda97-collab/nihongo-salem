@@ -46,11 +46,11 @@ jobs:
 
       - name: Run the tests (a failing test is reported but does not block the APK)
         continue-on-error: true
-        run: flutter test --reporter github
+        run: sh tool/ci_report.sh "tests" flutter test --reporter expanded
 
       - name: "Build APK (test build, simulated subscription)"
         run: |
-          flutter build apk --release \
+          sh tool/ci_report.sh "build" flutter build apk --release \
             --dart-define=MOCK_PURCHASES=true \
             --dart-define=API_BASE_URL="$API_BASE_URL" \
             --dart-define=APP_API_KEY="$APP_API_KEY"
