@@ -17,6 +17,7 @@ import '../services/entitlement_service.dart';
 import '../services/local_storage_service.dart';
 import '../services/tutor_api.dart';
 import '../services/voice_recorder.dart';
+import 'kana_course.dart' show kanaProgressProvider;
 
 // ---------------------------------------------------------------------------
 // Overridden in main() / tests
@@ -153,6 +154,8 @@ class UserStateController extends Notifier<UserState> {
     state = const UserState();
     ref.invalidate(appSettingsProvider);
     ref.invalidate(callQuotaProvider);
+    await ref.read(sharedPreferencesProvider).remove('kana_progress_v1');
+    ref.invalidate(kanaProgressProvider);
   }
 }
 

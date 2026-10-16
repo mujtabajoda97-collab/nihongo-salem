@@ -9,6 +9,8 @@ import 'ui/call/live_call_screen.dart';
 import 'ui/call/persona_selector_screen.dart';
 import 'ui/episode/episode_screen.dart';
 import 'ui/home_screen.dart';
+import 'ui/kana/kana_course_screen.dart';
+import 'ui/kana/kana_lesson_screen.dart';
 import 'ui/onboarding_screen.dart';
 import 'ui/paywall_screen.dart';
 import 'ui/placement_result_screen.dart';
@@ -20,6 +22,7 @@ import 'ui/placement_screen.dart';
 ///   /placement          10-question test
 ///   /placement/result   score + choose where to start
 ///   /                   home / episode map
+///   /kana, /kana/:id    the beginner letters course (hiragana -> words -> sentences)
 ///   /episode/:id        the 4-station lesson (guarded: locked => home/paywall)
 ///   /call               pick the persona / dialect
 ///   /call/live          the live voice call (guarded: locked persona or no minutes => /call)
@@ -70,6 +73,19 @@ final routerProvider = Provider<GoRouter>((ref) {
         },
         builder: (_, state) =>
             EpisodeScreen(episodeId: int.parse(state.pathParameters['id']!)),
+      ),
+      GoRoute(
+        path: '/kana',
+        builder: (_, __) => const KanaCourseScreen(),
+        routes: [
+          GoRoute(
+            path: ':id',
+            builder: (_, state) {
+              final id = int.tryParse(state.pathParameters['id'] ?? '') ?? 1;
+              return KanaLessonScreen(lessonId: id);
+            },
+          ),
+        ],
       ),
       GoRoute(path: '/paywall', builder: (_, __) => const PaywallScreen()),
       GoRoute(

@@ -50,6 +50,7 @@ flutter:
   # the real .webp / .mp3 files named inside the episode JSON files go there.
   assets:
     - assets/data/placement_test_logic.json
+    - assets/data/kana_course.json
     - assets/data/episodes/
     - assets/images/scenes/
     - assets/images/characters/

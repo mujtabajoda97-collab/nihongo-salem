@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../core/constants.dart';
 import '../models/episode.dart';
+import '../providers/kana_course.dart';
 import '../providers/providers.dart';
 import '../services/access_policy.dart';
 import 'settings_sheet.dart';
@@ -51,6 +52,8 @@ class HomeScreen extends ConsumerWidget {
               const SizedBox(height: 10),
               _CallQuotaLine(premium: premium, remainingSeconds: remaining),
               const SizedBox(height: 14),
+              const _KanaCard(),
+              const SizedBox(height: 12),
               _ContinueCard(episodes: episodes),
               const SizedBox(height: 8),
               for (var season = 1; season <= 4; season++)
@@ -515,6 +518,86 @@ class _EpisodeSheet extends ConsumerWidget {
               child: Text(buttonText),
             ),
           ],
+        ),
+      ),
+    );
+  }
+}
+
+
+/// Entry to the beginner course: Japanese letters first, then words and sentences.
+class _KanaCard extends ConsumerWidget {
+  const _KanaCard();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final course = ref.watch(kanaCourseProvider).valueOrNull;
+    final progress = ref.watch(kanaProgressProvider);
+    final total = course?.lessons.length ?? 0;
+    final done = progress.completed.length;
+    final nextId = course == null ? null : progress.nextLesson(total);
+    final nextTitle = nextId == null ? null : course!.lessonById(nextId).titleAr;
+    final finished = course != null && nextId == null;
+
+    return Card(
+      color: AppColors.premium.withValues(alpha: 0.06),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(24),
+        side: const BorderSide(color: AppColors.premium, width: 1.5),
+      ),
+      child: InkWell(
+        borderRadius: BorderRadius.circular(24),
+        onTap: () => context.push('/kana'),
+        child: Padding(
+          padding: const EdgeInsets.all(16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  const Text('あ', style: TextStyle(fontSize: 34, color: AppColors.premium)),
+                  const SizedBox(width: 10),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text('ابدأ من الصفر: الحروف اليابانية',
+                            style: Theme.of(context)
+                                .textTheme
+                                .titleMedium
+                                ?.copyWith(fontWeight: FontWeight.bold)),
+                        Text(
+                          finished
+                              ? 'أكملت المنهج! راجع أي درس متى شئت'
+                              : done == 0
+                                  ? 'حرف أو حرفان في كل درس، ثم كلمات وجمل خفيفة'
+                                  : 'الدرس التالي: $nextTitle',
+                          style: Theme.of(context).textTheme.bodySmall,
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+              if (total > 0) ...[
+                const SizedBox(height: 12),
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(8),
+                  child: LinearProgressIndicator(value: done / total, minHeight: 8),
+                ),
+                const SizedBox(height: 4),
+                Text('$done / $total درساً', style: Theme.of(context).textTheme.bodySmall),
+              ],
+              const SizedBox(height: 10),
+              FilledButton(
+                style: FilledButton.styleFrom(backgroundColor: AppColors.premium),
+                onPressed: () => nextId == null || nextId == 1 && done == 0
+                    ? context.push('/kana')
+                    : context.push('/kana/$nextId'),
+                child: Text(done == 0 ? 'ابدأ تعلّم الحروف' : 'تابع التعلّم'),
+              ),
+            ],
+          ),
         ),
       ),
     );

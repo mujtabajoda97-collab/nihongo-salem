@@ -54,6 +54,10 @@ interface EpisodeFile {
 
 const baseName = (p: string): string => p.replace(/^.*\//, '');
 
+interface KanaCourseFile {
+  clips?: { file?: string; text?: string }[];
+}
+
 /** Reads every episode_XX.json in `dir` and lists the clips the app can ask for. */
 export function buildLessonIndex(dir: string): Map<string, LessonClip> {
   const index = new Map<string, LessonClip>();
@@ -76,6 +80,18 @@ export function buildLessonIndex(dir: string): Map<string, LessonClip> {
       if (!v.audio || !v.kana) continue;
       const file = baseName(v.audio);
       const text = toSpeech(v.kana);
+      if (text === '' || index.has(file)) continue;
+      index.set(file, { file, kind: 'vocab', text, voice: 'sage' });
+    }
+  }
+  // Beginner course (letters, words, sentences): kana_course.json lists its own clips.
+  const kanaFile = join(dir, 'kana_course.json');
+  if (existsSync(kanaFile)) {
+    const course = JSON.parse(readFileSync(kanaFile, 'utf8')) as KanaCourseFile;
+    for (const c of course.clips ?? []) {
+      if (!c.file || !c.text) continue;
+      const file = baseName(c.file);
+      const text = toSpeech(c.text);
       if (text === '' || index.has(file)) continue;
       index.set(file, { file, kind: 'vocab', text, voice: 'sage' });
     }

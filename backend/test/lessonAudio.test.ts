@@ -12,7 +12,10 @@ describe('lesson audio index', () => {
   const index = buildLessonIndex(episodesDir);
 
   it('lists every dialogue line and vocabulary word of the 40 episodes', () => {
-    assert.equal(index.size, 893);
+    const episodeClips = [...index.keys()].filter((f) => f.startsWith('ep')).length;
+    assert.equal(episodeClips, 893);
+    assert.equal(index.get('kana_c_001.mp3')?.text, 'あ');
+    assert.ok(index.size > 893 + 200);
     assert.equal(index.get('ep01_line_01.mp3')?.kind, 'line');
     assert.equal(index.get('ep01_v_01.mp3')?.text, 'くうこう');
     assert.equal(index.get('ep01_v_01.mp3')?.voice, 'sage');

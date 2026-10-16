@@ -1,0 +1,4475 @@
+{
+ "version": 1,
+ "stages": [
+  {
+   "id": 1,
+   "title_ar": "ابدأ من هنا",
+   "desc_ar": "كيف تُكتب اليابانية؟"
+  },
+  {
+   "id": 2,
+   "title_ar": "الهيراغانا الأساسية",
+   "desc_ar": "٤٦ حرفاً، حرف أو حرفان في كل درس"
+  },
+  {
+   "id": 3,
+   "title_ar": "علامات تغيّر الصوت",
+   "desc_ar": "゛ و ゜ : ٢٥ صوتاً إضافياً"
+  },
+  {
+   "id": 4,
+   "title_ar": "أصوات مركّبة وممدودة",
+   "desc_ar": "ゃ ゅ ょ و っ والمدّ"
+  },
+  {
+   "id": 5,
+   "title_ar": "كلماتك الأولى",
+   "desc_ar": "قراءة كلمات يومية بالهيراغانا"
+  },
+  {
+   "id": 6,
+   "title_ar": "جمل خفيفة",
+   "desc_ar": "تحيات وجمل بسيطة"
+  }
+ ],
+ "lessons": [
+  {
+   "id": 1,
+   "stage": 1,
+   "kind": "intro",
+   "title_ar": "أهلاً بك: كيف تُكتب اليابانية؟",
+   "subtitle_ar": "خمس دقائق قبل أول حرف",
+   "note_ar": "",
+   "chars": [],
+   "items": [],
+   "pages": [
+    {
+     "title_ar": "ثلاثة أنظمة للكتابة",
+     "glyph": "あ ア 日",
+     "body_ar": "اليابانية تُكتب بثلاثة أنظمة: الهيراغانا (ひらがな) وهي الأساس، والكاتاكانا (カタカナ) للكلمات الأجنبية، والكانجي (漢字) وهي الرموز الصينية. نبدأ بالهيراغانا لأنها تكفي لقراءة كل شيء بالصوت."
+    },
+    {
+     "title_ar": "كم حرفاً في الهيراغانا؟",
+     "glyph": "46",
+     "body_ar": "الهيراغانا فيها ٤٦ حرفاً أساسياً. كل حرف هو مقطع صوتي ثابت لا يتغيّر أبداً: か = «كا». بعدها علامتان صغيرتان (゛ و ゜) تُنتجان ٢٥ صوتاً إضافياً، وحروف صغيرة تصنع أصواتاً مركّبة."
+    },
+    {
+     "title_ar": "خمسة أصوات تكفي لكل شيء",
+     "glyph": "あ い う え お",
+     "body_ar": "في اليابانية خمسة أصوات علّة فقط: a, i, u, e, o. كل الحروف الأخرى هي حرف ساكن + واحد منها: ka, ki, ku, ke, ko. إن أتقنتها فقد أتقنت نصف النطق."
+    },
+    {
+     "title_ar": "كيف سنتعلّم؟",
+     "glyph": "✍️",
+     "body_ar": "في كل درس حرف أو حرفان: تسمع الصوت، تتعلّم كلمة مرتبطة بالحرف، تتتبّع شكله بإصبعك، ثم اختبار قصير. بعد كل صف مراجعة بكلمات حقيقية. بعد الحروف ننتقل للكلمات ثم الجمل الخفيفة. خذ وقتك: درس واحد يومياً يكفي."
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "あ ・ い",
+   "subtitle_ar": "حروف العلة الخمسة",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "あ",
+     "romaji": "a",
+     "sound_ar": "أ",
+     "note_ar": "مثل «أَ» مفتوحة",
+     "strokes": 3,
+     "tip_ar": "ثلاث ضربات: خط أفقي قصير، ثم عمود منحنٍ، ثم حلقة تلتف حوله",
+     "audio": "assets/audio/kana_c_001.mp3",
+     "word": {
+      "jp": "あり",
+      "romaji": "ari",
+      "ar": "نملة",
+      "emoji": "🐜",
+      "audio": "assets/audio/kana_w_001.mp3"
+     }
+    },
+    {
+     "char": "い",
+     "romaji": "i",
+     "sound_ar": "إي",
+     "note_ar": "",
+     "strokes": 2,
+     "tip_ar": "ضربتان متجاورتان، الأولى أطول — تشبه الرقم ١١",
+     "audio": "assets/audio/kana_c_002.mp3",
+     "word": {
+      "jp": "いぬ",
+      "romaji": "inu",
+      "ar": "كلب",
+      "emoji": "🐶",
+      "audio": "assets/audio/kana_w_002.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 3,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "う ・ え",
+   "subtitle_ar": "حروف العلة الخمسة",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "う",
+     "romaji": "u",
+     "sound_ar": "أو",
+     "note_ar": "تُنطق «أو» بشفتين غير مدوّرتين تقريباً",
+     "strokes": 2,
+     "tip_ar": "نقطة صغيرة في الأعلى ثم قوس كبير",
+     "audio": "assets/audio/kana_c_003.mp3",
+     "word": {
+      "jp": "うみ",
+      "romaji": "umi",
+      "ar": "بحر",
+      "emoji": "🌊",
+      "audio": "assets/audio/kana_w_003.mp3"
+     }
+    },
+    {
+     "char": "え",
+     "romaji": "e",
+     "sound_ar": "إيه",
+     "note_ar": "مثل «إيه» قصيرة",
+     "strokes": 2,
+     "tip_ar": "نقطة وخط ثم ذيل متعرّج مثل الموجة",
+     "audio": "assets/audio/kana_c_004.mp3",
+     "word": {
+      "jp": "えき",
+      "romaji": "eki",
+      "ar": "محطة",
+      "emoji": "🚉",
+      "audio": "assets/audio/kana_w_004.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 4,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "お",
+   "subtitle_ar": "حروف العلة الخمسة",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "お",
+     "romaji": "o",
+     "sound_ar": "أُو",
+     "note_ar": "تُنطق «أُو» بشفتين مدوّرتين",
+     "strokes": 3,
+     "tip_ar": "يشبه あ مع نقطة صغيرة في أعلى اليمين",
+     "audio": "assets/audio/kana_c_005.mp3",
+     "word": {
+      "jp": "おちゃ",
+      "romaji": "ocha",
+      "ar": "شاي",
+      "emoji": "🍵",
+      "audio": "assets/audio/kana_w_005.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 5,
+   "stage": 2,
+   "kind": "review",
+   "title_ar": "مراجعة حروف العلة",
+   "subtitle_ar": "اقرأ كلمات حقيقية بما تعلّمته",
+   "note_ar": "",
+   "chars": [],
+   "items": [
+    {
+     "jp": "あい",
+     "romaji": "ai",
+     "ar": "حب",
+     "emoji": "💕",
+     "audio": "assets/audio/kana_w_006.mp3"
+    },
+    {
+     "jp": "いえ",
+     "romaji": "ie",
+     "ar": "بيت",
+     "emoji": "🏠",
+     "audio": "assets/audio/kana_w_007.mp3"
+    },
+    {
+     "jp": "うえ",
+     "romaji": "ue",
+     "ar": "فوق",
+     "emoji": "⬆️",
+     "audio": "assets/audio/kana_w_008.mp3"
+    },
+    {
+     "jp": "あおい",
+     "romaji": "aoi",
+     "ar": "أزرق",
+     "emoji": "🔵",
+     "audio": "assets/audio/kana_w_009.mp3"
+    }
+   ],
+   "pages": []
+  },
+  {
+   "id": 6,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "か ・ き",
+   "subtitle_ar": "صف K (كا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "か",
+     "romaji": "ka",
+     "sound_ar": "كا",
+     "note_ar": "",
+     "strokes": 3,
+     "tip_ar": "خط منكسر ثم ضربة قصيرة ونقطة",
+     "audio": "assets/audio/kana_c_006.mp3",
+     "word": {
+      "jp": "かさ",
+      "romaji": "kasa",
+      "ar": "مظلة",
+      "emoji": "☂️",
+      "audio": "assets/audio/kana_w_010.mp3"
+     }
+    },
+    {
+     "char": "き",
+     "romaji": "ki",
+     "sound_ar": "كي",
+     "note_ar": "",
+     "strokes": 4,
+     "tip_ar": "مثل مفتاح: خطّان أفقيان وعمود ثم ذيل",
+     "audio": "assets/audio/kana_c_007.mp3",
+     "word": {
+      "jp": "きのこ",
+      "romaji": "kinoko",
+      "ar": "فطر",
+      "emoji": "🍄",
+      "audio": "assets/audio/kana_w_011.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 7,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "く ・ け",
+   "subtitle_ar": "صف K (كا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "く",
+     "romaji": "ku",
+     "sound_ar": "كو",
+     "note_ar": "",
+     "strokes": 1,
+     "tip_ar": "ضربة واحدة مثل رأس سهم >",
+     "audio": "assets/audio/kana_c_008.mp3",
+     "word": {
+      "jp": "くつ",
+      "romaji": "kutsu",
+      "ar": "حذاء",
+      "emoji": "👟",
+      "audio": "assets/audio/kana_w_012.mp3"
+     }
+    },
+    {
+     "char": "け",
+     "romaji": "ke",
+     "sound_ar": "كيه",
+     "note_ar": "",
+     "strokes": 3,
+     "tip_ar": "عمود ثم خط أفقي ثم عمود منكسر",
+     "audio": "assets/audio/kana_c_009.mp3",
+     "word": {
+      "jp": "けしごむ",
+      "romaji": "keshigomu",
+      "ar": "ممحاة",
+      "emoji": "🧽",
+      "audio": "assets/audio/kana_w_013.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 8,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "こ",
+   "subtitle_ar": "صف K (كا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "こ",
+     "romaji": "ko",
+     "sound_ar": "كو",
+     "note_ar": "",
+     "strokes": 2,
+     "tip_ar": "خطّان أفقيان مثل فم صغير",
+     "audio": "assets/audio/kana_c_010.mp3",
+     "word": {
+      "jp": "こめ",
+      "romaji": "kome",
+      "ar": "أرز",
+      "emoji": "🍚",
+      "audio": "assets/audio/kana_w_014.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 9,
+   "stage": 2,
+   "kind": "review",
+   "title_ar": "مراجعة صف K",
+   "subtitle_ar": "اقرأ كلمات حقيقية بما تعلّمته",
+   "note_ar": "",
+   "chars": [],
+   "items": [
+    {
+     "jp": "あか",
+     "romaji": "aka",
+     "ar": "أحمر",
+     "emoji": "🔴",
+     "audio": "assets/audio/kana_w_015.mp3"
+    },
+    {
+     "jp": "かお",
+     "romaji": "kao",
+     "ar": "وجه",
+     "emoji": "🙂",
+     "audio": "assets/audio/kana_w_016.mp3"
+    },
+    {
+     "jp": "いけ",
+     "romaji": "ike",
+     "ar": "بركة",
+     "emoji": "🏞️",
+     "audio": "assets/audio/kana_w_017.mp3"
+    },
+    {
+     "jp": "くうき",
+     "romaji": "kūki",
+     "ar": "هواء",
+     "emoji": "🌬️",
+     "audio": "assets/audio/kana_w_018.mp3"
+    },
+    {
+     "jp": "ここ",
+     "romaji": "koko",
+     "ar": "هنا",
+     "emoji": "📍",
+     "audio": "assets/audio/kana_w_019.mp3"
+    },
+    {
+     "jp": "あき",
+     "romaji": "aki",
+     "ar": "خريف",
+     "emoji": "🍂",
+     "audio": "assets/audio/kana_w_020.mp3"
+    }
+   ],
+   "pages": []
+  },
+  {
+   "id": 10,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "さ ・ し",
+   "subtitle_ar": "صف S (سا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "さ",
+     "romaji": "sa",
+     "sound_ar": "سا",
+     "note_ar": "",
+     "strokes": 3,
+     "tip_ar": "خط أفقي، ثم ضربة مائلة، ثم قوس صغير",
+     "audio": "assets/audio/kana_c_011.mp3",
+     "word": {
+      "jp": "さかな",
+      "romaji": "sakana",
+      "ar": "سمكة",
+      "emoji": "🐟",
+      "audio": "assets/audio/kana_w_021.mp3"
+     }
+    },
+    {
+     "char": "し",
+     "romaji": "shi",
+     "sound_ar": "شي",
+     "note_ar": "مثل «شي»",
+     "strokes": 1,
+     "tip_ar": "ضربة واحدة مثل صنّارة الصيد",
+     "audio": "assets/audio/kana_c_012.mp3",
+     "word": {
+      "jp": "しか",
+      "romaji": "shika",
+      "ar": "غزال",
+      "emoji": "🦌",
+      "audio": "assets/audio/kana_w_022.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 11,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "す ・ せ",
+   "subtitle_ar": "صف S (سا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "す",
+     "romaji": "su",
+     "sound_ar": "سو",
+     "note_ar": "",
+     "strokes": 2,
+     "tip_ar": "خط أفقي مع عمود ينتهي بحلقة صغيرة",
+     "audio": "assets/audio/kana_c_013.mp3",
+     "word": {
+      "jp": "すし",
+      "romaji": "sushi",
+      "ar": "سوشي",
+      "emoji": "🍣",
+      "audio": "assets/audio/kana_w_023.mp3"
+     }
+    },
+    {
+     "char": "せ",
+     "romaji": "se",
+     "sound_ar": "سيه",
+     "note_ar": "",
+     "strokes": 3,
+     "tip_ar": "خطّان أفقيان مع عمود منحنٍ",
+     "audio": "assets/audio/kana_c_014.mp3",
+     "word": {
+      "jp": "せかい",
+      "romaji": "sekai",
+      "ar": "العالم",
+      "emoji": "🌍",
+      "audio": "assets/audio/kana_w_024.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 12,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "そ",
+   "subtitle_ar": "صف S (سا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "そ",
+     "romaji": "so",
+     "sound_ar": "سو",
+     "note_ar": "",
+     "strokes": 1,
+     "tip_ar": "ضربة متعرّجة واحدة مثل البرق",
+     "audio": "assets/audio/kana_c_015.mp3",
+     "word": {
+      "jp": "そら",
+      "romaji": "sora",
+      "ar": "سماء",
+      "emoji": "☁️",
+      "audio": "assets/audio/kana_w_025.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 13,
+   "stage": 2,
+   "kind": "review",
+   "title_ar": "مراجعة صف S",
+   "subtitle_ar": "اقرأ كلمات حقيقية بما تعلّمته",
+   "note_ar": "",
+   "chars": [],
+   "items": [
+    {
+     "jp": "あさ",
+     "romaji": "asa",
+     "ar": "صباح",
+     "emoji": "🌅",
+     "audio": "assets/audio/kana_w_026.mp3"
+    },
+    {
+     "jp": "いす",
+     "romaji": "isu",
+     "ar": "كرسي",
+     "emoji": "🪑",
+     "audio": "assets/audio/kana_w_027.mp3"
+    },
+    {
+     "jp": "しお",
+     "romaji": "shio",
+     "ar": "ملح",
+     "emoji": "🧂",
+     "audio": "assets/audio/kana_w_028.mp3"
+    },
+    {
+     "jp": "さけ",
+     "romaji": "sake",
+     "ar": "ساكي",
+     "emoji": "🍶",
+     "audio": "assets/audio/kana_w_029.mp3"
+    },
+    {
+     "jp": "そこ",
+     "romaji": "soko",
+     "ar": "هناك",
+     "emoji": "👉",
+     "audio": "assets/audio/kana_w_030.mp3"
+    },
+    {
+     "jp": "うそ",
+     "romaji": "uso",
+     "ar": "كذبة",
+     "emoji": "🤥",
+     "audio": "assets/audio/kana_w_031.mp3"
+    }
+   ],
+   "pages": []
+  },
+  {
+   "id": 14,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "た ・ ち",
+   "subtitle_ar": "صف T (تا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "た",
+     "romaji": "ta",
+     "sound_ar": "تا",
+     "note_ar": "",
+     "strokes": 4,
+     "tip_ar": "خط أفقي ومائل ثم شكل يشبه こ صغيرة",
+     "audio": "assets/audio/kana_c_016.mp3",
+     "word": {
+      "jp": "たこ",
+      "romaji": "tako",
+      "ar": "أخطبوط",
+      "emoji": "🐙",
+      "audio": "assets/audio/kana_w_032.mp3"
+     }
+    },
+    {
+     "char": "ち",
+     "romaji": "chi",
+     "sound_ar": "تشي",
+     "note_ar": "مثل «تشي»",
+     "strokes": 2,
+     "tip_ar": "يشبه الرقم 5 مع ذيل",
+     "audio": "assets/audio/kana_c_017.mp3",
+     "word": {
+      "jp": "ちず",
+      "romaji": "chizu",
+      "ar": "خريطة",
+      "emoji": "🗺️",
+      "audio": "assets/audio/kana_w_033.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 15,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "つ ・ て",
+   "subtitle_ar": "صف T (تا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "つ",
+     "romaji": "tsu",
+     "sound_ar": "تسو",
+     "note_ar": "مثل «تسو» (ت + س سريعة)",
+     "strokes": 1,
+     "tip_ar": "قوس واسع مثل موجة تنكسر",
+     "audio": "assets/audio/kana_c_018.mp3",
+     "word": {
+      "jp": "つき",
+      "romaji": "tsuki",
+      "ar": "قمر",
+      "emoji": "🌙",
+      "audio": "assets/audio/kana_w_034.mp3"
+     }
+    },
+    {
+     "char": "て",
+     "romaji": "te",
+     "sound_ar": "تيه",
+     "note_ar": "",
+     "strokes": 1,
+     "tip_ar": "خط أفقي ثم منحنى إلى الأسفل",
+     "audio": "assets/audio/kana_c_019.mp3",
+     "word": {
+      "jp": "て",
+      "romaji": "te",
+      "ar": "يد",
+      "emoji": "✋",
+      "audio": "assets/audio/kana_c_019.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 16,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "と",
+   "subtitle_ar": "صف T (تا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "と",
+     "romaji": "to",
+     "sound_ar": "تو",
+     "note_ar": "",
+     "strokes": 2,
+     "tip_ar": "نقطة قصيرة وضربة تنحني من الأعلى",
+     "audio": "assets/audio/kana_c_020.mp3",
+     "word": {
+      "jp": "とり",
+      "romaji": "tori",
+      "ar": "طائر",
+      "emoji": "🐦",
+      "audio": "assets/audio/kana_w_035.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 17,
+   "stage": 2,
+   "kind": "review",
+   "title_ar": "مراجعة صف T",
+   "subtitle_ar": "اقرأ كلمات حقيقية بما تعلّمته",
+   "note_ar": "",
+   "chars": [],
+   "items": [
+    {
+     "jp": "くち",
+     "romaji": "kuchi",
+     "ar": "فم",
+     "emoji": "👄",
+     "audio": "assets/audio/kana_w_036.mp3"
+    },
+    {
+     "jp": "うち",
+     "romaji": "uchi",
+     "ar": "بيتي",
+     "emoji": "🏠",
+     "audio": "assets/audio/kana_w_037.mp3"
+    },
+    {
+     "jp": "つくえ",
+     "romaji": "tsukue",
+     "ar": "مكتب",
+     "emoji": "🪑",
+     "audio": "assets/audio/kana_w_038.mp3"
+    },
+    {
+     "jp": "とけい",
+     "romaji": "tokei",
+     "ar": "ساعة",
+     "emoji": "⏰",
+     "audio": "assets/audio/kana_w_039.mp3"
+    },
+    {
+     "jp": "あした",
+     "romaji": "ashita",
+     "ar": "غداً",
+     "emoji": "📅",
+     "audio": "assets/audio/kana_w_040.mp3"
+    },
+    {
+     "jp": "たかい",
+     "romaji": "takai",
+     "ar": "غالٍ / مرتفع",
+     "emoji": "📈",
+     "audio": "assets/audio/kana_w_041.mp3"
+    }
+   ],
+   "pages": []
+  },
+  {
+   "id": 18,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "な ・ に",
+   "subtitle_ar": "صف N (نا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "な",
+     "romaji": "na",
+     "sound_ar": "نا",
+     "note_ar": "",
+     "strokes": 4,
+     "tip_ar": "يشبه た مع حلقة أسفل اليسار",
+     "audio": "assets/audio/kana_c_021.mp3",
+     "word": {
+      "jp": "なす",
+      "romaji": "nasu",
+      "ar": "باذنجان",
+      "emoji": "🍆",
+      "audio": "assets/audio/kana_w_042.mp3"
+     }
+    },
+    {
+     "char": "に",
+     "romaji": "ni",
+     "sound_ar": "ني",
+     "note_ar": "",
+     "strokes": 3,
+     "tip_ar": "عمود ثم ضربتان أفقيتان صغيرتان",
+     "audio": "assets/audio/kana_c_022.mp3",
+     "word": {
+      "jp": "にく",
+      "romaji": "niku",
+      "ar": "لحم",
+      "emoji": "🥩",
+      "audio": "assets/audio/kana_w_043.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 19,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "ぬ ・ ね",
+   "subtitle_ar": "صف N (نا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ぬ",
+     "romaji": "nu",
+     "sound_ar": "نو",
+     "note_ar": "",
+     "strokes": 2,
+     "tip_ar": "يشبه め مع حلقة في نهاية الذيل",
+     "audio": "assets/audio/kana_c_023.mp3",
+     "word": {
+      "jp": "ぬいぐるみ",
+      "romaji": "nuigurumi",
+      "ar": "دمية محشوّة",
+      "emoji": "🧸",
+      "audio": "assets/audio/kana_w_044.mp3"
+     }
+    },
+    {
+     "char": "ね",
+     "romaji": "ne",
+     "sound_ar": "نيه",
+     "note_ar": "",
+     "strokes": 2,
+     "tip_ar": "عمود مع حلقة في آخر الذيل مثل ذيل القط",
+     "audio": "assets/audio/kana_c_024.mp3",
+     "word": {
+      "jp": "ねこ",
+      "romaji": "neko",
+      "ar": "قطة",
+      "emoji": "🐱",
+      "audio": "assets/audio/kana_w_045.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 20,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "の",
+   "subtitle_ar": "صف N (نا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "の",
+     "romaji": "no",
+     "sound_ar": "نو",
+     "note_ar": "",
+     "strokes": 1,
+     "tip_ar": "ضربة دائرية واحدة مثل علامة الدوران",
+     "audio": "assets/audio/kana_c_025.mp3",
+     "word": {
+      "jp": "のり",
+      "romaji": "nori",
+      "ar": "أعشاب بحرية",
+      "emoji": "🍙",
+      "audio": "assets/audio/kana_w_046.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 21,
+   "stage": 2,
+   "kind": "review",
+   "title_ar": "مراجعة صف N",
+   "subtitle_ar": "اقرأ كلمات حقيقية بما تعلّمته",
+   "note_ar": "",
+   "chars": [],
+   "items": [
+    {
+     "jp": "いぬ",
+     "romaji": "inu",
+     "ar": "كلب",
+     "emoji": "🐶",
+     "audio": "assets/audio/kana_w_002.mp3"
+    },
+    {
+     "jp": "ねこ",
+     "romaji": "neko",
+     "ar": "قطة",
+     "emoji": "🐱",
+     "audio": "assets/audio/kana_w_045.mp3"
+    },
+    {
+     "jp": "なつ",
+     "romaji": "natsu",
+     "ar": "صيف",
+     "emoji": "☀️",
+     "audio": "assets/audio/kana_w_047.mp3"
+    },
+    {
+     "jp": "にく",
+     "romaji": "niku",
+     "ar": "لحم",
+     "emoji": "🥩",
+     "audio": "assets/audio/kana_w_043.mp3"
+    },
+    {
+     "jp": "ぬの",
+     "romaji": "nuno",
+     "ar": "قماش",
+     "emoji": "🧵",
+     "audio": "assets/audio/kana_w_048.mp3"
+    },
+    {
+     "jp": "おなか",
+     "romaji": "onaka",
+     "ar": "بطن",
+     "emoji": "🤰",
+     "audio": "assets/audio/kana_w_049.mp3"
+    }
+   ],
+   "pages": []
+  },
+  {
+   "id": 22,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "は ・ ひ",
+   "subtitle_ar": "صف H (ها)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "は",
+     "romaji": "ha",
+     "sound_ar": "ها",
+     "note_ar": "كحرف عادي تُقرأ «ها»، لكن إذا كانت أداة في جملة تُقرأ «وا»",
+     "strokes": 3,
+     "tip_ar": "عمود ثم شكل يشبه ま مختصرة",
+     "audio": "assets/audio/kana_c_026.mp3",
+     "word": {
+      "jp": "はな",
+      "romaji": "hana",
+      "ar": "زهرة",
+      "emoji": "🌸",
+      "audio": "assets/audio/kana_w_050.mp3"
+     }
+    },
+    {
+     "char": "ひ",
+     "romaji": "hi",
+     "sound_ar": "هي",
+     "note_ar": "",
+     "strokes": 1,
+     "tip_ar": "ضربة واحدة مثل ابتسامة كبيرة",
+     "audio": "assets/audio/kana_c_027.mp3",
+     "word": {
+      "jp": "ひこうき",
+      "romaji": "hikōki",
+      "ar": "طائرة",
+      "emoji": "✈️",
+      "audio": "assets/audio/kana_w_051.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 23,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "ふ ・ へ",
+   "subtitle_ar": "صف H (ها)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ふ",
+     "romaji": "fu",
+     "sound_ar": "فو",
+     "note_ar": "بين «فو» و«هو»، نفَس خفيف",
+     "strokes": 4,
+     "tip_ar": "أربع ضربات مثل جبل فوجي",
+     "audio": "assets/audio/kana_c_028.mp3",
+     "word": {
+      "jp": "ふね",
+      "romaji": "fune",
+      "ar": "سفينة",
+      "emoji": "🚢",
+      "audio": "assets/audio/kana_w_052.mp3"
+     }
+    },
+    {
+     "char": "へ",
+     "romaji": "he",
+     "sound_ar": "هيه",
+     "note_ar": "كحرف عادي «هيه»، وكأداة اتجاه تُقرأ «إيه»",
+     "strokes": 1,
+     "tip_ar": "ضربة واحدة مثل قمة جبل ^",
+     "audio": "assets/audio/kana_c_029.mp3",
+     "word": {
+      "jp": "へび",
+      "romaji": "hebi",
+      "ar": "ثعبان",
+      "emoji": "🐍",
+      "audio": "assets/audio/kana_w_053.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 24,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "ほ",
+   "subtitle_ar": "صف H (ها)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ほ",
+     "romaji": "ho",
+     "sound_ar": "هو",
+     "note_ar": "",
+     "strokes": 4,
+     "tip_ar": "يشبه は مع ضربة إضافية",
+     "audio": "assets/audio/kana_c_030.mp3",
+     "word": {
+      "jp": "ほし",
+      "romaji": "hoshi",
+      "ar": "نجمة",
+      "emoji": "⭐",
+      "audio": "assets/audio/kana_w_054.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 25,
+   "stage": 2,
+   "kind": "review",
+   "title_ar": "مراجعة صف H",
+   "subtitle_ar": "اقرأ كلمات حقيقية بما تعلّمته",
+   "note_ar": "",
+   "chars": [],
+   "items": [
+    {
+     "jp": "はし",
+     "romaji": "hashi",
+     "ar": "عيدان الأكل",
+     "emoji": "🥢",
+     "audio": "assets/audio/kana_w_055.mp3"
+    },
+    {
+     "jp": "ふね",
+     "romaji": "fune",
+     "ar": "سفينة",
+     "emoji": "🚢",
+     "audio": "assets/audio/kana_w_052.mp3"
+    },
+    {
+     "jp": "ほし",
+     "romaji": "hoshi",
+     "ar": "نجمة",
+     "emoji": "⭐",
+     "audio": "assets/audio/kana_w_054.mp3"
+    },
+    {
+     "jp": "はは",
+     "romaji": "haha",
+     "ar": "أمي",
+     "emoji": "👩",
+     "audio": "assets/audio/kana_w_056.mp3"
+    },
+    {
+     "jp": "ほね",
+     "romaji": "hone",
+     "ar": "عظم",
+     "emoji": "🦴",
+     "audio": "assets/audio/kana_w_057.mp3"
+    },
+    {
+     "jp": "ひふ",
+     "romaji": "hifu",
+     "ar": "جلد",
+     "emoji": "🖐️",
+     "audio": "assets/audio/kana_w_058.mp3"
+    }
+   ],
+   "pages": []
+  },
+  {
+   "id": 26,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "ま ・ み",
+   "subtitle_ar": "صف M (ما)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ま",
+     "romaji": "ma",
+     "sound_ar": "ما",
+     "note_ar": "",
+     "strokes": 3,
+     "tip_ar": "خطّان أفقيان وعمود يلتف بحلقة",
+     "audio": "assets/audio/kana_c_031.mp3",
+     "word": {
+      "jp": "まど",
+      "romaji": "mado",
+      "ar": "نافذة",
+      "emoji": "🪟",
+      "audio": "assets/audio/kana_w_059.mp3"
+     }
+    },
+    {
+     "char": "み",
+     "romaji": "mi",
+     "sound_ar": "مي",
+     "note_ar": "",
+     "strokes": 2,
+     "tip_ar": "يشبه الرقم 21: ضربة يعبرها منحنى",
+     "audio": "assets/audio/kana_c_032.mp3",
+     "word": {
+      "jp": "みみ",
+      "romaji": "mimi",
+      "ar": "أذن",
+      "emoji": "👂",
+      "audio": "assets/audio/kana_w_060.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 27,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "む ・ め",
+   "subtitle_ar": "صف M (ما)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "む",
+     "romaji": "mu",
+     "sound_ar": "مو",
+     "note_ar": "",
+     "strokes": 3,
+     "tip_ar": "يشبه す مع نقطة في اليمين",
+     "audio": "assets/audio/kana_c_033.mp3",
+     "word": {
+      "jp": "むし",
+      "romaji": "mushi",
+      "ar": "حشرة",
+      "emoji": "🐛",
+      "audio": "assets/audio/kana_w_061.mp3"
+     }
+    },
+    {
+     "char": "め",
+     "romaji": "me",
+     "sound_ar": "ميه",
+     "note_ar": "",
+     "strokes": 2,
+     "tip_ar": "عين: ضربة وحلقة",
+     "audio": "assets/audio/kana_c_034.mp3",
+     "word": {
+      "jp": "め",
+      "romaji": "me",
+      "ar": "عين",
+      "emoji": "👁️",
+      "audio": "assets/audio/kana_c_034.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 28,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "も",
+   "subtitle_ar": "صف M (ما)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "も",
+     "romaji": "mo",
+     "sound_ar": "مو",
+     "note_ar": "",
+     "strokes": 3,
+     "tip_ar": "خطّان أفقيان وعمود معقوف مثل الصنّارة",
+     "audio": "assets/audio/kana_c_035.mp3",
+     "word": {
+      "jp": "もも",
+      "romaji": "momo",
+      "ar": "خوخ",
+      "emoji": "🍑",
+      "audio": "assets/audio/kana_w_062.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 29,
+   "stage": 2,
+   "kind": "review",
+   "title_ar": "مراجعة صف M",
+   "subtitle_ar": "اقرأ كلمات حقيقية بما تعلّمته",
+   "note_ar": "",
+   "chars": [],
+   "items": [
+    {
+     "jp": "みみ",
+     "romaji": "mimi",
+     "ar": "أذن",
+     "emoji": "👂",
+     "audio": "assets/audio/kana_w_060.mp3"
+    },
+    {
+     "jp": "いま",
+     "romaji": "ima",
+     "ar": "الآن",
+     "emoji": "⏰",
+     "audio": "assets/audio/kana_w_063.mp3"
+    },
+    {
+     "jp": "もち",
+     "romaji": "mochi",
+     "ar": "موتشي",
+     "emoji": "🍡",
+     "audio": "assets/audio/kana_w_064.mp3"
+    },
+    {
+     "jp": "あめ",
+     "romaji": "ame",
+     "ar": "حلوى",
+     "emoji": "🍬",
+     "audio": "assets/audio/kana_w_065.mp3"
+    },
+    {
+     "jp": "うみ",
+     "romaji": "umi",
+     "ar": "بحر",
+     "emoji": "🌊",
+     "audio": "assets/audio/kana_w_003.mp3"
+    },
+    {
+     "jp": "まめ",
+     "romaji": "mame",
+     "ar": "فول",
+     "emoji": "🫘",
+     "audio": "assets/audio/kana_w_066.mp3"
+    }
+   ],
+   "pages": []
+  },
+  {
+   "id": 30,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "や ・ ゆ",
+   "subtitle_ar": "صف Y (يا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "や",
+     "romaji": "ya",
+     "sound_ar": "يا",
+     "note_ar": "",
+     "strokes": 3,
+     "tip_ar": "قوس صغير وخط مائل ونقطة",
+     "audio": "assets/audio/kana_c_036.mp3",
+     "word": {
+      "jp": "やま",
+      "romaji": "yama",
+      "ar": "جبل",
+      "emoji": "⛰️",
+      "audio": "assets/audio/kana_w_067.mp3"
+     }
+    },
+    {
+     "char": "ゆ",
+     "romaji": "yu",
+     "sound_ar": "يو",
+     "note_ar": "",
+     "strokes": 2,
+     "tip_ar": "حلقة كبيرة يعبرها عمود",
+     "audio": "assets/audio/kana_c_037.mp3",
+     "word": {
+      "jp": "ゆき",
+      "romaji": "yuki",
+      "ar": "ثلج",
+      "emoji": "❄️",
+      "audio": "assets/audio/kana_w_068.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 31,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "よ",
+   "subtitle_ar": "صف Y (يا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "よ",
+     "romaji": "yo",
+     "sound_ar": "يُو",
+     "note_ar": "",
+     "strokes": 2,
+     "tip_ar": "عمود مع خط أفقي ومنحنى",
+     "audio": "assets/audio/kana_c_038.mp3",
+     "word": {
+      "jp": "よる",
+      "romaji": "yoru",
+      "ar": "ليل",
+      "emoji": "🌃",
+      "audio": "assets/audio/kana_w_069.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 32,
+   "stage": 2,
+   "kind": "review",
+   "title_ar": "مراجعة صف Y",
+   "subtitle_ar": "اقرأ كلمات حقيقية بما تعلّمته",
+   "note_ar": "",
+   "chars": [],
+   "items": [
+    {
+     "jp": "やすみ",
+     "romaji": "yasumi",
+     "ar": "إجازة",
+     "emoji": "🛌",
+     "audio": "assets/audio/kana_w_070.mp3"
+    },
+    {
+     "jp": "ゆめ",
+     "romaji": "yume",
+     "ar": "حلم",
+     "emoji": "💭",
+     "audio": "assets/audio/kana_w_071.mp3"
+    },
+    {
+     "jp": "やね",
+     "romaji": "yane",
+     "ar": "سقف",
+     "emoji": "🏠",
+     "audio": "assets/audio/kana_w_072.mp3"
+    },
+    {
+     "jp": "やさい",
+     "romaji": "yasai",
+     "ar": "خضار",
+     "emoji": "🥬",
+     "audio": "assets/audio/kana_w_073.mp3"
+    },
+    {
+     "jp": "よこ",
+     "romaji": "yoko",
+     "ar": "جانب",
+     "emoji": "↔️",
+     "audio": "assets/audio/kana_w_074.mp3"
+    }
+   ],
+   "pages": []
+  },
+  {
+   "id": 33,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "ら ・ り",
+   "subtitle_ar": "صف R (را)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ら",
+     "romaji": "ra",
+     "sound_ar": "را",
+     "note_ar": "الراء اليابانية خفيفة بين الراء واللام",
+     "strokes": 2,
+     "tip_ar": "نقطة ثم قوس يشبه الرقم 5",
+     "audio": "assets/audio/kana_c_039.mp3",
+     "word": {
+      "jp": "さくら",
+      "romaji": "sakura",
+      "ar": "كرز (ساكورا)",
+      "emoji": "🌸",
+      "audio": "assets/audio/kana_w_075.mp3"
+     }
+    },
+    {
+     "char": "り",
+     "romaji": "ri",
+     "sound_ar": "ري",
+     "note_ar": "الراء خفيفة بين الراء واللام",
+     "strokes": 2,
+     "tip_ar": "ضربتان عموديتان، الثانية أطول ومنحنية",
+     "audio": "assets/audio/kana_c_040.mp3",
+     "word": {
+      "jp": "りんご",
+      "romaji": "ringo",
+      "ar": "تفاحة",
+      "emoji": "🍎",
+      "audio": "assets/audio/kana_w_076.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 34,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "る ・ れ",
+   "subtitle_ar": "صف R (را)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "る",
+     "romaji": "ru",
+     "sound_ar": "رو",
+     "note_ar": "الراء خفيفة بين الراء واللام",
+     "strokes": 1,
+     "tip_ar": "يشبه الرقم 3 مع حلقة صغيرة في الأسفل",
+     "audio": "assets/audio/kana_c_041.mp3",
+     "word": {
+      "jp": "くるま",
+      "romaji": "kuruma",
+      "ar": "سيارة",
+      "emoji": "🚗",
+      "audio": "assets/audio/kana_w_077.mp3"
+     }
+    },
+    {
+     "char": "れ",
+     "romaji": "re",
+     "sound_ar": "ريه",
+     "note_ar": "الراء خفيفة بين الراء واللام",
+     "strokes": 2,
+     "tip_ar": "عمود مع ذيل يخرج للخارج",
+     "audio": "assets/audio/kana_c_042.mp3",
+     "word": {
+      "jp": "れもん",
+      "romaji": "remon",
+      "ar": "ليمون",
+      "emoji": "🍋",
+      "audio": "assets/audio/kana_w_078.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 35,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "ろ",
+   "subtitle_ar": "صف R (را)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ろ",
+     "romaji": "ro",
+     "sound_ar": "رو",
+     "note_ar": "الراء خفيفة بين الراء واللام",
+     "strokes": 1,
+     "tip_ar": "يشبه る لكن بلا حلقة",
+     "audio": "assets/audio/kana_c_043.mp3",
+     "word": {
+      "jp": "ろうそく",
+      "romaji": "rōsoku",
+      "ar": "شمعة",
+      "emoji": "🕯️",
+      "audio": "assets/audio/kana_w_079.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 36,
+   "stage": 2,
+   "kind": "review",
+   "title_ar": "مراجعة صف R",
+   "subtitle_ar": "اقرأ كلمات حقيقية بما تعلّمته",
+   "note_ar": "",
+   "chars": [],
+   "items": [
+    {
+     "jp": "さくら",
+     "romaji": "sakura",
+     "ar": "ساكورا",
+     "emoji": "🌸",
+     "audio": "assets/audio/kana_w_075.mp3"
+    },
+    {
+     "jp": "りす",
+     "romaji": "risu",
+     "ar": "سنجاب",
+     "emoji": "🐿️",
+     "audio": "assets/audio/kana_w_080.mp3"
+    },
+    {
+     "jp": "くるま",
+     "romaji": "kuruma",
+     "ar": "سيارة",
+     "emoji": "🚗",
+     "audio": "assets/audio/kana_w_077.mp3"
+    },
+    {
+     "jp": "ろく",
+     "romaji": "roku",
+     "ar": "ستة",
+     "emoji": "6️⃣",
+     "audio": "assets/audio/kana_w_081.mp3"
+    },
+    {
+     "jp": "いろ",
+     "romaji": "iro",
+     "ar": "لون",
+     "emoji": "🎨",
+     "audio": "assets/audio/kana_w_082.mp3"
+    },
+    {
+     "jp": "るす",
+     "romaji": "rusu",
+     "ar": "غياب عن البيت",
+     "emoji": "🚪",
+     "audio": "assets/audio/kana_w_083.mp3"
+    }
+   ],
+   "pages": []
+  },
+  {
+   "id": 37,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "わ ・ を",
+   "subtitle_ar": "وا و وو ون",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "わ",
+     "romaji": "wa",
+     "sound_ar": "وا",
+     "note_ar": "",
+     "strokes": 2,
+     "tip_ar": "عمود وذيل يخرج للجانب، مثل ね بلا حلقة",
+     "audio": "assets/audio/kana_c_044.mp3",
+     "word": {
+      "jp": "わに",
+      "romaji": "wani",
+      "ar": "تمساح",
+      "emoji": "🐊",
+      "audio": "assets/audio/kana_w_084.mp3"
+     }
+    },
+    {
+     "char": "を",
+     "romaji": "wo",
+     "sound_ar": "أو",
+     "note_ar": "تُقرأ «أو» وتُستعمل فقط كأداة للمفعول به",
+     "strokes": 3,
+     "tip_ar": "ثلاث ضربات، يشبه あ مبسّطاً",
+     "audio": "assets/audio/kana_c_045.mp3",
+     "word": {
+      "jp": "ごはんを",
+      "romaji": "gohan o",
+      "ar": "الأرز (を تدل على المفعول به)",
+      "emoji": "🍚",
+      "audio": "assets/audio/kana_w_085.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 38,
+   "stage": 2,
+   "kind": "letters",
+   "title_ar": "ん",
+   "subtitle_ar": "وا و وو ون",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ん",
+     "romaji": "n",
+     "sound_ar": "ن",
+     "note_ar": "نون خفيفة تأتي في آخر المقطع",
+     "strokes": 1,
+     "tip_ar": "ضربة واحدة تشبه الحرف h المائل",
+     "audio": "assets/audio/kana_c_046.mp3",
+     "word": {
+      "jp": "ほん",
+      "romaji": "hon",
+      "ar": "كتاب",
+      "emoji": "📖",
+      "audio": "assets/audio/kana_w_086.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 39,
+   "stage": 2,
+   "kind": "review",
+   "title_ar": "مراجعة نهاية الحروف الأساسية",
+   "subtitle_ar": "اقرأ كلمات حقيقية بما تعلّمته",
+   "note_ar": "",
+   "chars": [],
+   "items": [
+    {
+     "jp": "わたし",
+     "romaji": "watashi",
+     "ar": "أنا",
+     "emoji": "🙋",
+     "audio": "assets/audio/kana_w_087.mp3"
+    },
+    {
+     "jp": "ほん",
+     "romaji": "hon",
+     "ar": "كتاب",
+     "emoji": "📖",
+     "audio": "assets/audio/kana_w_086.mp3"
+    },
+    {
+     "jp": "みかん",
+     "romaji": "mikan",
+     "ar": "يوسفي",
+     "emoji": "🍊",
+     "audio": "assets/audio/kana_w_088.mp3"
+    },
+    {
+     "jp": "にほん",
+     "romaji": "nihon",
+     "ar": "اليابان",
+     "emoji": "🇯🇵",
+     "audio": "assets/audio/kana_w_089.mp3"
+    },
+    {
+     "jp": "せんせい",
+     "romaji": "sensei",
+     "ar": "معلّم",
+     "emoji": "👩‍🏫",
+     "audio": "assets/audio/kana_w_090.mp3"
+    },
+    {
+     "jp": "わに",
+     "romaji": "wani",
+     "ar": "تمساح",
+     "emoji": "🐊",
+     "audio": "assets/audio/kana_w_084.mp3"
+    }
+   ],
+   "pages": []
+  },
+  {
+   "id": 40,
+   "stage": 3,
+   "kind": "letters",
+   "title_ar": "が ・ ぎ",
+   "subtitle_ar": "صف G (غا)",
+   "note_ar": "العلامة ゛ (تُسمّى تَنْتَن) تجعل الصوت مجهوراً: か ka ← が ga، さ sa ← ざ za. نفس الشكل تقريباً + علامتان في الأعلى.",
+   "chars": [
+    {
+     "char": "が",
+     "romaji": "ga",
+     "sound_ar": "گا",
+     "note_ar": "",
+     "strokes": 5,
+     "tip_ar": "か + ゛ (علامتان) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_047.mp3",
+     "word": {
+      "jp": "がっこう",
+      "romaji": "gakkō",
+      "ar": "مدرسة",
+      "emoji": "🏫",
+      "audio": "assets/audio/kana_w_091.mp3"
+     }
+    },
+    {
+     "char": "ぎ",
+     "romaji": "gi",
+     "sound_ar": "گي",
+     "note_ar": "",
+     "strokes": 6,
+     "tip_ar": "き + ゛ (علامتان) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_048.mp3",
+     "word": {
+      "jp": "ぎんこう",
+      "romaji": "ginkō",
+      "ar": "بنك",
+      "emoji": "🏦",
+      "audio": "assets/audio/kana_w_092.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 41,
+   "stage": 3,
+   "kind": "letters",
+   "title_ar": "ぐ ・ げ",
+   "subtitle_ar": "صف G (غا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ぐ",
+     "romaji": "gu",
+     "sound_ar": "گو",
+     "note_ar": "",
+     "strokes": 3,
+     "tip_ar": "く + ゛ (علامتان) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_049.mp3",
+     "word": {
+      "jp": "かぐ",
+      "romaji": "kagu",
+      "ar": "أثاث",
+      "emoji": "🛋️",
+      "audio": "assets/audio/kana_w_093.mp3"
+     }
+    },
+    {
+     "char": "げ",
+     "romaji": "ge",
+     "sound_ar": "گيه",
+     "note_ar": "",
+     "strokes": 5,
+     "tip_ar": "け + ゛ (علامتان) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_050.mp3",
+     "word": {
+      "jp": "げんき",
+      "romaji": "genki",
+      "ar": "بصحة جيدة",
+      "emoji": "😊",
+      "audio": "assets/audio/kana_w_094.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 42,
+   "stage": 3,
+   "kind": "letters",
+   "title_ar": "ご",
+   "subtitle_ar": "صف G (غا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ご",
+     "romaji": "go",
+     "sound_ar": "گو",
+     "note_ar": "",
+     "strokes": 4,
+     "tip_ar": "こ + ゛ (علامتان) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_051.mp3",
+     "word": {
+      "jp": "ごはん",
+      "romaji": "gohan",
+      "ar": "أرز / وجبة",
+      "emoji": "🍚",
+      "audio": "assets/audio/kana_w_095.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 43,
+   "stage": 3,
+   "kind": "letters",
+   "title_ar": "ざ ・ じ",
+   "subtitle_ar": "صف Z (زا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ざ",
+     "romaji": "za",
+     "sound_ar": "زا",
+     "note_ar": "",
+     "strokes": 5,
+     "tip_ar": "さ + ゛ (علامتان) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_052.mp3",
+     "word": {
+      "jp": "ざっし",
+      "romaji": "zasshi",
+      "ar": "مجلة",
+      "emoji": "📰",
+      "audio": "assets/audio/kana_w_096.mp3"
+     }
+    },
+    {
+     "char": "じ",
+     "romaji": "ji",
+     "sound_ar": "جي",
+     "note_ar": "",
+     "strokes": 3,
+     "tip_ar": "し + ゛ (علامتان) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_053.mp3",
+     "word": {
+      "jp": "じてんしゃ",
+      "romaji": "jitensha",
+      "ar": "دراجة",
+      "emoji": "🚲",
+      "audio": "assets/audio/kana_w_097.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 44,
+   "stage": 3,
+   "kind": "letters",
+   "title_ar": "ず ・ ぜ",
+   "subtitle_ar": "صف Z (زا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ず",
+     "romaji": "zu",
+     "sound_ar": "زو",
+     "note_ar": "",
+     "strokes": 4,
+     "tip_ar": "す + ゛ (علامتان) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_054.mp3",
+     "word": {
+      "jp": "みず",
+      "romaji": "mizu",
+      "ar": "ماء",
+      "emoji": "💧",
+      "audio": "assets/audio/kana_w_098.mp3"
+     }
+    },
+    {
+     "char": "ぜ",
+     "romaji": "ze",
+     "sound_ar": "زيه",
+     "note_ar": "",
+     "strokes": 5,
+     "tip_ar": "せ + ゛ (علامتان) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_055.mp3",
+     "word": {
+      "jp": "かぜ",
+      "romaji": "kaze",
+      "ar": "ريح",
+      "emoji": "🌬️",
+      "audio": "assets/audio/kana_w_099.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 45,
+   "stage": 3,
+   "kind": "letters",
+   "title_ar": "ぞ",
+   "subtitle_ar": "صف Z (زا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ぞ",
+     "romaji": "zo",
+     "sound_ar": "زو",
+     "note_ar": "",
+     "strokes": 3,
+     "tip_ar": "そ + ゛ (علامتان) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_056.mp3",
+     "word": {
+      "jp": "ぞう",
+      "romaji": "zō",
+      "ar": "فيل",
+      "emoji": "🐘",
+      "audio": "assets/audio/kana_w_100.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 46,
+   "stage": 3,
+   "kind": "review",
+   "title_ar": "مراجعة صفّي G وZ",
+   "subtitle_ar": "كلمات بأصوات مجهورة",
+   "note_ar": "",
+   "chars": [],
+   "items": [
+    {
+     "jp": "かぎ",
+     "romaji": "kagi",
+     "ar": "مفتاح",
+     "emoji": "🔑",
+     "audio": "assets/audio/kana_w_101.mp3"
+    },
+    {
+     "jp": "ごご",
+     "romaji": "gogo",
+     "ar": "بعد الظهر",
+     "emoji": "🌇",
+     "audio": "assets/audio/kana_w_102.mp3"
+    },
+    {
+     "jp": "かぞく",
+     "romaji": "kazoku",
+     "ar": "عائلة",
+     "emoji": "👪",
+     "audio": "assets/audio/kana_w_103.mp3"
+    },
+    {
+     "jp": "かぜ",
+     "romaji": "kaze",
+     "ar": "ريح",
+     "emoji": "🌬️",
+     "audio": "assets/audio/kana_w_099.mp3"
+    },
+    {
+     "jp": "じかん",
+     "romaji": "jikan",
+     "ar": "وقت",
+     "emoji": "⏳",
+     "audio": "assets/audio/kana_w_104.mp3"
+    },
+    {
+     "jp": "みず",
+     "romaji": "mizu",
+     "ar": "ماء",
+     "emoji": "💧",
+     "audio": "assets/audio/kana_w_098.mp3"
+    },
+    {
+     "jp": "くじら",
+     "romaji": "kujira",
+     "ar": "حوت",
+     "emoji": "🐋",
+     "audio": "assets/audio/kana_w_105.mp3"
+    },
+    {
+     "jp": "ぞう",
+     "romaji": "zō",
+     "ar": "فيل",
+     "emoji": "🐘",
+     "audio": "assets/audio/kana_w_100.mp3"
+    }
+   ],
+   "pages": []
+  },
+  {
+   "id": 47,
+   "stage": 3,
+   "kind": "letters",
+   "title_ar": "だ ・ ぢ",
+   "subtitle_ar": "صف D (دا)",
+   "note_ar": "وبنفس الطريقة: た→だ، は→ば. أما ゜ (دائرة صغيرة) فتحوّل صف は إلى ぱ: pa pi pu pe po.",
+   "chars": [
+    {
+     "char": "だ",
+     "romaji": "da",
+     "sound_ar": "دا",
+     "note_ar": "",
+     "strokes": 6,
+     "tip_ar": "た + ゛ (علامتان) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_057.mp3",
+     "word": {
+      "jp": "だんご",
+      "romaji": "dango",
+      "ar": "دانغو (حلوى)",
+      "emoji": "🍡",
+      "audio": "assets/audio/kana_w_106.mp3"
+     }
+    },
+    {
+     "char": "ぢ",
+     "romaji": "ji",
+     "sound_ar": "جي",
+     "note_ar": "نادر الاستعمال: يُنطق مثل じ",
+     "strokes": 4,
+     "tip_ar": "ち + ゛ (علامتان) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_058.mp3",
+     "word": {
+      "jp": "はなぢ",
+      "romaji": "hanaji",
+      "ar": "رعاف الأنف (نادر)",
+      "emoji": "🩸",
+      "audio": "assets/audio/kana_w_107.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 48,
+   "stage": 3,
+   "kind": "letters",
+   "title_ar": "づ ・ で",
+   "subtitle_ar": "صف D (دا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "づ",
+     "romaji": "zu",
+     "sound_ar": "زو",
+     "note_ar": "نادر الاستعمال: يُنطق مثل ず",
+     "strokes": 3,
+     "tip_ar": "つ + ゛ (علامتان) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_059.mp3",
+     "word": {
+      "jp": "つづく",
+      "romaji": "tsuzuku",
+      "ar": "يستمر (نادر)",
+      "emoji": "➡️",
+      "audio": "assets/audio/kana_w_108.mp3"
+     }
+    },
+    {
+     "char": "で",
+     "romaji": "de",
+     "sound_ar": "ديه",
+     "note_ar": "",
+     "strokes": 3,
+     "tip_ar": "て + ゛ (علامتان) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_060.mp3",
+     "word": {
+      "jp": "でんしゃ",
+      "romaji": "densha",
+      "ar": "قطار",
+      "emoji": "🚃",
+      "audio": "assets/audio/kana_w_109.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 49,
+   "stage": 3,
+   "kind": "letters",
+   "title_ar": "ど",
+   "subtitle_ar": "صف D (دا)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ど",
+     "romaji": "do",
+     "sound_ar": "دو",
+     "note_ar": "",
+     "strokes": 4,
+     "tip_ar": "と + ゛ (علامتان) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_061.mp3",
+     "word": {
+      "jp": "どあ",
+      "romaji": "doa",
+      "ar": "باب",
+      "emoji": "🚪",
+      "audio": "assets/audio/kana_w_110.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 50,
+   "stage": 3,
+   "kind": "letters",
+   "title_ar": "ば ・ び",
+   "subtitle_ar": "صف B (با)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ば",
+     "romaji": "ba",
+     "sound_ar": "با",
+     "note_ar": "",
+     "strokes": 5,
+     "tip_ar": "は + ゛ (علامتان) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_062.mp3",
+     "word": {
+      "jp": "ばなな",
+      "romaji": "banana",
+      "ar": "موز",
+      "emoji": "🍌",
+      "audio": "assets/audio/kana_w_111.mp3"
+     }
+    },
+    {
+     "char": "び",
+     "romaji": "bi",
+     "sound_ar": "بي",
+     "note_ar": "",
+     "strokes": 3,
+     "tip_ar": "ひ + ゛ (علامتان) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_063.mp3",
+     "word": {
+      "jp": "えび",
+      "romaji": "ebi",
+      "ar": "روبيان",
+      "emoji": "🦐",
+      "audio": "assets/audio/kana_w_112.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 51,
+   "stage": 3,
+   "kind": "letters",
+   "title_ar": "ぶ ・ べ",
+   "subtitle_ar": "صف B (با)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ぶ",
+     "romaji": "bu",
+     "sound_ar": "بو",
+     "note_ar": "",
+     "strokes": 6,
+     "tip_ar": "ふ + ゛ (علامتان) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_064.mp3",
+     "word": {
+      "jp": "ぶた",
+      "romaji": "buta",
+      "ar": "خنزير",
+      "emoji": "🐷",
+      "audio": "assets/audio/kana_w_113.mp3"
+     }
+    },
+    {
+     "char": "べ",
+     "romaji": "be",
+     "sound_ar": "بيه",
+     "note_ar": "",
+     "strokes": 3,
+     "tip_ar": "へ + ゛ (علامتان) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_065.mp3",
+     "word": {
+      "jp": "べんとう",
+      "romaji": "bentō",
+      "ar": "علبة غداء",
+      "emoji": "🍱",
+      "audio": "assets/audio/kana_w_114.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 52,
+   "stage": 3,
+   "kind": "letters",
+   "title_ar": "ぼ",
+   "subtitle_ar": "صف B (با)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ぼ",
+     "romaji": "bo",
+     "sound_ar": "بو",
+     "note_ar": "",
+     "strokes": 6,
+     "tip_ar": "ほ + ゛ (علامتان) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_066.mp3",
+     "word": {
+      "jp": "ぼうし",
+      "romaji": "bōshi",
+      "ar": "قبّعة",
+      "emoji": "🧢",
+      "audio": "assets/audio/kana_w_115.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 53,
+   "stage": 3,
+   "kind": "letters",
+   "title_ar": "ぱ ・ ぴ",
+   "subtitle_ar": "صف P (با خفيفة)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ぱ",
+     "romaji": "pa",
+     "sound_ar": "پا",
+     "note_ar": "",
+     "strokes": 4,
+     "tip_ar": "は + ゜ (دائرة صغيرة) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_067.mp3",
+     "word": {
+      "jp": "ぱん",
+      "romaji": "pan",
+      "ar": "خبز",
+      "emoji": "🍞",
+      "audio": "assets/audio/kana_w_116.mp3"
+     }
+    },
+    {
+     "char": "ぴ",
+     "romaji": "pi",
+     "sound_ar": "پي",
+     "note_ar": "",
+     "strokes": 2,
+     "tip_ar": "ひ + ゜ (دائرة صغيرة) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_068.mp3",
+     "word": {
+      "jp": "ぴあの",
+      "romaji": "piano",
+      "ar": "بيانو",
+      "emoji": "🎹",
+      "audio": "assets/audio/kana_w_117.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 54,
+   "stage": 3,
+   "kind": "letters",
+   "title_ar": "ぷ ・ ぺ",
+   "subtitle_ar": "صف P (با خفيفة)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ぷ",
+     "romaji": "pu",
+     "sound_ar": "پو",
+     "note_ar": "",
+     "strokes": 5,
+     "tip_ar": "ふ + ゜ (دائرة صغيرة) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_069.mp3",
+     "word": {
+      "jp": "ぷりん",
+      "romaji": "purin",
+      "ar": "بودينغ",
+      "emoji": "🍮",
+      "audio": "assets/audio/kana_w_118.mp3"
+     }
+    },
+    {
+     "char": "ぺ",
+     "romaji": "pe",
+     "sound_ar": "پيه",
+     "note_ar": "",
+     "strokes": 2,
+     "tip_ar": "へ + ゜ (دائرة صغيرة) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_070.mp3",
+     "word": {
+      "jp": "ぺん",
+      "romaji": "pen",
+      "ar": "قلم",
+      "emoji": "🖊️",
+      "audio": "assets/audio/kana_w_119.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 55,
+   "stage": 3,
+   "kind": "letters",
+   "title_ar": "ぽ",
+   "subtitle_ar": "صف P (با خفيفة)",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ぽ",
+     "romaji": "po",
+     "sound_ar": "پو",
+     "note_ar": "",
+     "strokes": 5,
+     "tip_ar": "ほ + ゜ (دائرة صغيرة) على أعلى اليمين",
+     "audio": "assets/audio/kana_c_071.mp3",
+     "word": {
+      "jp": "ぽすと",
+      "romaji": "posuto",
+      "ar": "صندوق بريد",
+      "emoji": "📮",
+      "audio": "assets/audio/kana_w_120.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 56,
+   "stage": 3,
+   "kind": "review",
+   "title_ar": "مراجعة صفوف D وB وP",
+   "subtitle_ar": "كلمات بأصوات D وB وP",
+   "note_ar": "",
+   "chars": [],
+   "items": [
+    {
+     "jp": "ともだち",
+     "romaji": "tomodachi",
+     "ar": "صديق",
+     "emoji": "🧑‍🤝‍🧑",
+     "audio": "assets/audio/kana_w_121.mp3"
+    },
+    {
+     "jp": "でぐち",
+     "romaji": "deguchi",
+     "ar": "مخرج",
+     "emoji": "🚪",
+     "audio": "assets/audio/kana_w_122.mp3"
+    },
+    {
+     "jp": "かばん",
+     "romaji": "kaban",
+     "ar": "حقيبة",
+     "emoji": "👜",
+     "audio": "assets/audio/kana_w_123.mp3"
+    },
+    {
+     "jp": "ぶた",
+     "romaji": "buta",
+     "ar": "خنزير",
+     "emoji": "🐷",
+     "audio": "assets/audio/kana_w_113.mp3"
+    },
+    {
+     "jp": "さんぽ",
+     "romaji": "sanpo",
+     "ar": "نزهة",
+     "emoji": "🚶",
+     "audio": "assets/audio/kana_w_124.mp3"
+    },
+    {
+     "jp": "えんぴつ",
+     "romaji": "enpitsu",
+     "ar": "قلم رصاص",
+     "emoji": "✏️",
+     "audio": "assets/audio/kana_w_125.mp3"
+    },
+    {
+     "jp": "てんぷら",
+     "romaji": "tenpura",
+     "ar": "تمبورا",
+     "emoji": "🍤",
+     "audio": "assets/audio/kana_w_126.mp3"
+    },
+    {
+     "jp": "どこ",
+     "romaji": "doko",
+     "ar": "أين",
+     "emoji": "❓",
+     "audio": "assets/audio/kana_w_127.mp3"
+    }
+   ],
+   "pages": []
+  },
+  {
+   "id": 57,
+   "stage": 4,
+   "kind": "letters",
+   "title_ar": "きゃ ・ きゅ",
+   "subtitle_ar": "أصوات مركّبة",
+   "note_ar": "عندما يأتي ゃ أو ゅ أو ょ بحجم صغير بعد حرف، يندمج معه في مقطع واحد: き + ゃ = «كيا» تُنطق «كْيا» بسرعة (kya).",
+   "chars": [
+    {
+     "char": "きゃ",
+     "romaji": "kya",
+     "sound_ar": "كيا",
+     "note_ar": "",
+     "strokes": 7,
+     "tip_ar": "き + ゃ صغيرة (تُكتب أصغر وبجانب الحرف)",
+     "audio": "assets/audio/kana_c_072.mp3",
+     "word": {
+      "jp": "きゃく",
+      "romaji": "kyaku",
+      "ar": "ضيف / زبون",
+      "emoji": "🧑‍💼",
+      "audio": "assets/audio/kana_w_128.mp3"
+     }
+    },
+    {
+     "char": "きゅ",
+     "romaji": "kyu",
+     "sound_ar": "كيو",
+     "note_ar": "",
+     "strokes": 6,
+     "tip_ar": "き + ゅ صغيرة (تُكتب أصغر وبجانب الحرف)",
+     "audio": "assets/audio/kana_c_073.mp3",
+     "word": {
+      "jp": "きゅうり",
+      "romaji": "kyūri",
+      "ar": "خيار",
+      "emoji": "🥒",
+      "audio": "assets/audio/kana_w_129.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 58,
+   "stage": 4,
+   "kind": "letters",
+   "title_ar": "きょ ・ しゃ",
+   "subtitle_ar": "أصوات مركّبة",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "きょ",
+     "romaji": "kyo",
+     "sound_ar": "كيو",
+     "note_ar": "",
+     "strokes": 6,
+     "tip_ar": "き + ょ صغيرة (تُكتب أصغر وبجانب الحرف)",
+     "audio": "assets/audio/kana_c_074.mp3",
+     "word": {
+      "jp": "きょう",
+      "romaji": "kyō",
+      "ar": "اليوم",
+      "emoji": "📅",
+      "audio": "assets/audio/kana_w_130.mp3"
+     }
+    },
+    {
+     "char": "しゃ",
+     "romaji": "sha",
+     "sound_ar": "شا",
+     "note_ar": "",
+     "strokes": 4,
+     "tip_ar": "し + ゃ صغيرة (تُكتب أصغر وبجانب الحرف)",
+     "audio": "assets/audio/kana_c_075.mp3",
+     "word": {
+      "jp": "しゃしん",
+      "romaji": "shashin",
+      "ar": "صورة",
+      "emoji": "📷",
+      "audio": "assets/audio/kana_w_131.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 59,
+   "stage": 4,
+   "kind": "letters",
+   "title_ar": "しゅ ・ しょ",
+   "subtitle_ar": "أصوات مركّبة",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "しゅ",
+     "romaji": "shu",
+     "sound_ar": "شو",
+     "note_ar": "",
+     "strokes": 3,
+     "tip_ar": "し + ゅ صغيرة (تُكتب أصغر وبجانب الحرف)",
+     "audio": "assets/audio/kana_c_076.mp3",
+     "word": {
+      "jp": "しゅみ",
+      "romaji": "shumi",
+      "ar": "هواية",
+      "emoji": "🎨",
+      "audio": "assets/audio/kana_w_132.mp3"
+     }
+    },
+    {
+     "char": "しょ",
+     "romaji": "sho",
+     "sound_ar": "شو",
+     "note_ar": "",
+     "strokes": 3,
+     "tip_ar": "し + ょ صغيرة (تُكتب أصغر وبجانب الحرف)",
+     "audio": "assets/audio/kana_c_077.mp3",
+     "word": {
+      "jp": "しょくじ",
+      "romaji": "shokuji",
+      "ar": "وجبة",
+      "emoji": "🍽️",
+      "audio": "assets/audio/kana_w_133.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 60,
+   "stage": 4,
+   "kind": "letters",
+   "title_ar": "ちゃ ・ ちゅ",
+   "subtitle_ar": "أصوات مركّبة",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ちゃ",
+     "romaji": "cha",
+     "sound_ar": "تشا",
+     "note_ar": "",
+     "strokes": 5,
+     "tip_ar": "ち + ゃ صغيرة (تُكتب أصغر وبجانب الحرف)",
+     "audio": "assets/audio/kana_c_078.mp3",
+     "word": {
+      "jp": "おちゃ",
+      "romaji": "ocha",
+      "ar": "شاي",
+      "emoji": "🍵",
+      "audio": "assets/audio/kana_w_005.mp3"
+     }
+    },
+    {
+     "char": "ちゅ",
+     "romaji": "chu",
+     "sound_ar": "تشو",
+     "note_ar": "",
+     "strokes": 4,
+     "tip_ar": "ち + ゅ صغيرة (تُكتب أصغر وبجانب الحرف)",
+     "audio": "assets/audio/kana_c_079.mp3",
+     "word": {
+      "jp": "ちゅうい",
+      "romaji": "chūi",
+      "ar": "انتباه",
+      "emoji": "⚠️",
+      "audio": "assets/audio/kana_w_134.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 61,
+   "stage": 4,
+   "kind": "letters",
+   "title_ar": "ちょ ・ じゃ",
+   "subtitle_ar": "أصوات مركّبة",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ちょ",
+     "romaji": "cho",
+     "sound_ar": "تشو",
+     "note_ar": "",
+     "strokes": 4,
+     "tip_ar": "ち + ょ صغيرة (تُكتب أصغر وبجانب الحرف)",
+     "audio": "assets/audio/kana_c_080.mp3",
+     "word": {
+      "jp": "ちょきん",
+      "romaji": "chokin",
+      "ar": "مدخرات",
+      "emoji": "💰",
+      "audio": "assets/audio/kana_w_135.mp3"
+     }
+    },
+    {
+     "char": "じゃ",
+     "romaji": "ja",
+     "sound_ar": "جا",
+     "note_ar": "",
+     "strokes": 6,
+     "tip_ar": "じ + ゃ صغيرة (تُكتب أصغر وبجانب الحرف)",
+     "audio": "assets/audio/kana_c_081.mp3",
+     "word": {
+      "jp": "じゃがいも",
+      "romaji": "jagaimo",
+      "ar": "بطاطس",
+      "emoji": "🥔",
+      "audio": "assets/audio/kana_w_136.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 62,
+   "stage": 4,
+   "kind": "letters",
+   "title_ar": "じゅ ・ じょ",
+   "subtitle_ar": "أصوات مركّبة",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "じゅ",
+     "romaji": "ju",
+     "sound_ar": "جو",
+     "note_ar": "",
+     "strokes": 5,
+     "tip_ar": "じ + ゅ صغيرة (تُكتب أصغر وبجانب الحرف)",
+     "audio": "assets/audio/kana_c_082.mp3",
+     "word": {
+      "jp": "じゅう",
+      "romaji": "jū",
+      "ar": "عشرة",
+      "emoji": "🔟",
+      "audio": "assets/audio/kana_w_137.mp3"
+     }
+    },
+    {
+     "char": "じょ",
+     "romaji": "jo",
+     "sound_ar": "جو",
+     "note_ar": "",
+     "strokes": 5,
+     "tip_ar": "じ + ょ صغيرة (تُكتب أصغر وبجانب الحرف)",
+     "audio": "assets/audio/kana_c_083.mp3",
+     "word": {
+      "jp": "じょうず",
+      "romaji": "jōzu",
+      "ar": "ماهر",
+      "emoji": "👍",
+      "audio": "assets/audio/kana_w_138.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 63,
+   "stage": 4,
+   "kind": "letters",
+   "title_ar": "ひゃ ・ りょ",
+   "subtitle_ar": "أصوات مركّبة",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ひゃ",
+     "romaji": "hya",
+     "sound_ar": "هيا",
+     "note_ar": "",
+     "strokes": 4,
+     "tip_ar": "ひ + ゃ صغيرة (تُكتب أصغر وبجانب الحرف)",
+     "audio": "assets/audio/kana_c_084.mp3",
+     "word": {
+      "jp": "ひゃく",
+      "romaji": "hyaku",
+      "ar": "مئة",
+      "emoji": "💯",
+      "audio": "assets/audio/kana_w_139.mp3"
+     }
+    },
+    {
+     "char": "りょ",
+     "romaji": "ryo",
+     "sound_ar": "ريو",
+     "note_ar": "",
+     "strokes": 4,
+     "tip_ar": "り + ょ صغيرة (تُكتب أصغر وبجانب الحرف)",
+     "audio": "assets/audio/kana_c_085.mp3",
+     "word": {
+      "jp": "りょこう",
+      "romaji": "ryokō",
+      "ar": "سفر",
+      "emoji": "🧳",
+      "audio": "assets/audio/kana_w_140.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 64,
+   "stage": 4,
+   "kind": "letters",
+   "title_ar": "びょ ・ ぎょ",
+   "subtitle_ar": "أصوات مركّبة",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "びょ",
+     "romaji": "byo",
+     "sound_ar": "بيو",
+     "note_ar": "",
+     "strokes": 5,
+     "tip_ar": "び + ょ صغيرة (تُكتب أصغر وبجانب الحرف)",
+     "audio": "assets/audio/kana_c_086.mp3",
+     "word": {
+      "jp": "びょういん",
+      "romaji": "byōin",
+      "ar": "مستشفى",
+      "emoji": "🏥",
+      "audio": "assets/audio/kana_w_141.mp3"
+     }
+    },
+    {
+     "char": "ぎょ",
+     "romaji": "gyo",
+     "sound_ar": "گيو",
+     "note_ar": "",
+     "strokes": 8,
+     "tip_ar": "ぎ + ょ صغيرة (تُكتب أصغر وبجانب الحرف)",
+     "audio": "assets/audio/kana_c_087.mp3",
+     "word": {
+      "jp": "ぎょうざ",
+      "romaji": "gyōza",
+      "ar": "جيوزا",
+      "emoji": "🥟",
+      "audio": "assets/audio/kana_w_142.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 65,
+   "stage": 4,
+   "kind": "review",
+   "title_ar": "مراجعة الأصوات المركّبة",
+   "subtitle_ar": "قراءة كلمات بها حروف صغيرة",
+   "note_ar": "",
+   "chars": [],
+   "items": [
+    {
+     "jp": "きょう",
+     "romaji": "kyō",
+     "ar": "اليوم",
+     "emoji": "📅",
+     "audio": "assets/audio/kana_w_130.mp3"
+    },
+    {
+     "jp": "しゃしん",
+     "romaji": "shashin",
+     "ar": "صورة",
+     "emoji": "📷",
+     "audio": "assets/audio/kana_w_131.mp3"
+    },
+    {
+     "jp": "おちゃ",
+     "romaji": "ocha",
+     "ar": "شاي",
+     "emoji": "🍵",
+     "audio": "assets/audio/kana_w_005.mp3"
+    },
+    {
+     "jp": "じゃがいも",
+     "romaji": "jagaimo",
+     "ar": "بطاطس",
+     "emoji": "🥔",
+     "audio": "assets/audio/kana_w_136.mp3"
+    },
+    {
+     "jp": "りょこう",
+     "romaji": "ryokō",
+     "ar": "سفر",
+     "emoji": "🧳",
+     "audio": "assets/audio/kana_w_140.mp3"
+    },
+    {
+     "jp": "びょういん",
+     "romaji": "byōin",
+     "ar": "مستشفى",
+     "emoji": "🏥",
+     "audio": "assets/audio/kana_w_141.mp3"
+    }
+   ],
+   "pages": []
+  },
+  {
+   "id": 66,
+   "stage": 4,
+   "kind": "letters",
+   "title_ar": "っ",
+   "subtitle_ar": "الحرف المضاعف",
+   "note_ar": "っ الصغيرة لا تُنطق كصوت مستقل، بل تعني وقفة خفيفة قبل الحرف التالي (يُنطق مضاعفاً): きって kitte، がっこう gakkō.",
+   "chars": [
+    {
+     "char": "っ",
+     "romaji": "tsu",
+     "sound_ar": "تسو",
+     "note_ar": "وقفة قصيرة تضاعف الحرف التالي: き·て ← kitte",
+     "strokes": 1,
+     "tip_ar": "مثل つ لكن أصغر حجماً",
+     "audio": "assets/audio/kana_c_088.mp3",
+     "word": {
+      "jp": "きって",
+      "romaji": "kitte",
+      "ar": "طابع بريد",
+      "emoji": "✉️",
+      "audio": "assets/audio/kana_c_088.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 67,
+   "stage": 4,
+   "kind": "letters",
+   "title_ar": "ああ ・ いい",
+   "subtitle_ar": "الصوت الممدود",
+   "note_ar": "لمدّ الصوت نكرّر حرف العلة: おかあさん (أمي) تختلف عن おかさん. المدّ يغيّر المعنى، فانتبه له.",
+   "chars": [
+    {
+     "char": "ああ",
+     "romaji": "ā",
+     "sound_ar": "آ (ممدودة)",
+     "note_ar": "يُمدّ الصوت ضعف الوقت",
+     "strokes": 6,
+     "tip_ar": "حرف あ مرّتين",
+     "audio": "assets/audio/kana_c_089.mp3",
+     "word": {
+      "jp": "おかあさん",
+      "romaji": "okāsan",
+      "ar": "أمي",
+      "emoji": "👩",
+      "audio": "assets/audio/kana_w_143.mp3"
+     }
+    },
+    {
+     "char": "いい",
+     "romaji": "ii",
+     "sound_ar": "إيي (ممدودة)",
+     "note_ar": "يُمدّ الصوت ضعف الوقت",
+     "strokes": 4,
+     "tip_ar": "حرف い مرّتين",
+     "audio": "assets/audio/kana_c_090.mp3",
+     "word": {
+      "jp": "おにいさん",
+      "romaji": "oniisan",
+      "ar": "الأخ الأكبر",
+      "emoji": "👦",
+      "audio": "assets/audio/kana_w_144.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 68,
+   "stage": 4,
+   "kind": "letters",
+   "title_ar": "ええ ・ おう",
+   "subtitle_ar": "الصوت الممدود",
+   "note_ar": "",
+   "chars": [
+    {
+     "char": "ええ",
+     "romaji": "ee",
+     "sound_ar": "إيي (ممدودة)",
+     "note_ar": "يُمدّ الصوت",
+     "strokes": 4,
+     "tip_ar": "حرف え مرّتين",
+     "audio": "assets/audio/kana_c_091.mp3",
+     "word": {
+      "jp": "おねえさん",
+      "romaji": "oneesan",
+      "ar": "الأخت الكبرى",
+      "emoji": "👧",
+      "audio": "assets/audio/kana_w_145.mp3"
+     }
+    },
+    {
+     "char": "おう",
+     "romaji": "ō",
+     "sound_ar": "أُو (ممدودة)",
+     "note_ar": "في الغالب あ+あ، い+い، う+う، え+い، お+う",
+     "strokes": 5,
+     "tip_ar": "お ثم う: يُنطق «أوو» ممدودة",
+     "audio": "assets/audio/kana_c_092.mp3",
+     "word": {
+      "jp": "とうきょう",
+      "romaji": "tōkyō",
+      "ar": "طوكيو",
+      "emoji": "🗼",
+      "audio": "assets/audio/kana_w_146.mp3"
+     }
+    }
+   ],
+   "items": [],
+   "pages": []
+  },
+  {
+   "id": 69,
+   "stage": 4,
+   "kind": "review",
+   "title_ar": "مراجعة المقاطع الخاصة",
+   "subtitle_ar": "っ والمدّ في كلمات",
+   "note_ar": "",
+   "chars": [],
+   "items": [
+    {
+     "jp": "きって",
+     "romaji": "kitte",
+     "ar": "طابع بريد",
+     "emoji": "✉️",
+     "audio": "assets/audio/kana_c_088.mp3"
+    },
+    {
+     "jp": "ざっし",
+     "romaji": "zasshi",
+     "ar": "مجلة",
+     "emoji": "📰",
+     "audio": "assets/audio/kana_w_096.mp3"
+    },
+    {
+     "jp": "がっこう",
+     "romaji": "gakkō",
+     "ar": "مدرسة",
+     "emoji": "🏫",
+     "audio": "assets/audio/kana_w_091.mp3"
+    },
+    {
+     "jp": "おかあさん",
+     "romaji": "okāsan",
+     "ar": "أمي",
+     "emoji": "👩",
+     "audio": "assets/audio/kana_w_143.mp3"
+    },
+    {
+     "jp": "おにいさん",
+     "romaji": "oniisan",
+     "ar": "الأخ الأكبر",
+     "emoji": "👦",
+     "audio": "assets/audio/kana_w_144.mp3"
+    },
+    {
+     "jp": "とうきょう",
+     "romaji": "tōkyō",
+     "ar": "طوكيو",
+     "emoji": "🗼",
+     "audio": "assets/audio/kana_w_146.mp3"
+    }
+   ],
+   "pages": []
+  },
+  {
+   "id": 70,
+   "stage": 5,
+   "kind": "words",
+   "title_ar": "كلمات: أشياء حولك",
+   "subtitle_ar": "اقرأ واستمع واحفظ",
+   "note_ar": "",
+   "chars": [],
+   "items": [
+    {
+     "jp": "かさ",
+     "romaji": "kasa",
+     "ar": "مظلة",
+     "emoji": "☂️",
+     "audio": "assets/audio/kana_w_010.mp3"
+    },
+    {
+     "jp": "くつ",
+     "romaji": "kutsu",
+     "ar": "حذاء",
+     "emoji": "👟",
+     "audio": "assets/audio/kana_w_012.mp3"
+    },
+    {
+     "jp": "ほん",
+     "romaji": "hon",
+     "ar": "كتاب",
+     "emoji": "📖",
+     "audio": "assets/audio/kana_w_086.mp3"
+    },
+    {
+     "jp": "とけい",
+     "romaji": "tokei",
+     "ar": "ساعة",
+     "emoji": "⏰",
+     "audio": "assets/audio/kana_w_039.mp3"
+    },
+    {
+     "jp": "さいふ",
+     "romaji": "saifu",
+     "ar": "محفظة",
+     "emoji": "👛",
+     "audio": "assets/audio/kana_w_147.mp3"
+    },
+    {
+     "jp": "つくえ",
+     "romaji": "tsukue",
+     "ar": "مكتب",
+     "emoji": "🪑",
+     "audio": "assets/audio/kana_w_038.mp3"
+    },
+    {
+     "jp": "まど",
+     "romaji": "mado",
+     "ar": "نافذة",
+     "emoji": "🪟",
+     "audio": "assets/audio/kana_w_059.mp3"
+    },
+    {
+     "jp": "かばん",
+     "romaji": "kaban",
+     "ar": "حقيبة",
+     "emoji": "👜",
+     "audio": "assets/audio/kana_w_123.mp3"
+    },
+    {
+     "jp": "えんぴつ",
+     "romaji": "enpitsu",
+     "ar": "قلم رصاص",
+     "emoji": "✏️",
+     "audio": "assets/audio/kana_w_125.mp3"
+    },
+    {
+     "jp": "でんわ",
+     "romaji": "denwa",
+     "ar": "هاتف",
+     "emoji": "📞",
+     "audio": "assets/audio/kana_w_148.mp3"
+    }
+   ],
+   "pages": []
+  },
+  {
+   "id": 71,
+   "stage": 5,
+   "kind": "words",
+   "title_ar": "كلمات: طعام وشراب",
+   "subtitle_ar": "اقرأ واستمع واحفظ",
+   "note_ar": "",
+   "chars": [],
+   "items": [
+    {
+     "jp": "ごはん",
+     "romaji": "gohan",
+     "ar": "أرز / وجبة",
+     "emoji": "🍚",
+     "audio": "assets/audio/kana_w_095.mp3"
+    },
+    {
+     "jp": "おちゃ",
+     "romaji": "ocha",
+     "ar": "شاي",
+     "emoji": "🍵",
+     "audio": "assets/audio/kana_w_005.mp3"
+    },
+    {
+     "jp": "みず",
+     "romaji": "mizu",
+     "ar": "ماء",
+     "emoji": "💧",
+     "audio": "assets/audio/kana_w_098.mp3"
+    },
+    {
+     "jp": "たまご",
+     "romaji": "tamago",
+     "ar": "بيض",
+     "emoji": "🥚",
+     "audio": "assets/audio/kana_w_149.mp3"
+    },
+    {
+     "jp": "さかな",
+     "romaji": "sakana",
+     "ar": "سمك",
+     "emoji": "🐟",
+     "audio": "assets/audio/kana_w_021.mp3"
+    },
+    {
+     "jp": "にく",
+     "romaji": "niku",
+     "ar": "لحم",
+     "emoji": "🥩",
+     "audio": "assets/audio/kana_w_043.mp3"
+    },
+    {
+     "jp": "やさい",
+     "romaji": "yasai",
+     "ar": "خضار",
+     "emoji": "🥬",
+     "audio": "assets/audio/kana_w_073.mp3"
+    },
+    {
+     "jp": "くだもの",
+     "romaji": "kudamono",
+     "ar": "فاكهة",
+     "emoji": "🍎",
+     "audio": "assets/audio/kana_w_150.mp3"
+    },
+    {
+     "jp": "ぱん",
+     "romaji": "pan",
+     "ar": "خبز",
+     "emoji": "🍞",
+     "audio": "assets/audio/kana_w_116.mp3"
+    },
+    {
+     "jp": "すし",
+     "romaji": "sushi",
+     "ar": "سوشي",
+     "emoji": "🍣",
+     "audio": "assets/audio/kana_w_023.mp3"
+    }
+   ],
+   "pages": []
+  },
+  {
+   "id": 72,
+   "stage": 5,
+   "kind": "words",
+   "title_ar": "كلمات: حيوانات وعائلة",
+   "subtitle_ar": "اقرأ واستمع واحفظ",
+   "note_ar": "",
+   "chars": [],
+   "items": [
+    {
+     "jp": "ねこ",
+     "romaji": "neko",
+     "ar": "قطة",
+     "emoji": "🐱",
+     "audio": "assets/audio/kana_w_045.mp3"
+    },
+    {
+     "jp": "いぬ",
+     "romaji": "inu",
+     "ar": "كلب",
+     "emoji": "🐶",
+     "audio": "assets/audio/kana_w_002.mp3"
+    },
+    {
+     "jp": "とり",
+     "romaji": "tori",
+     "ar": "طائر",
+     "emoji": "🐦",
+     "audio": "assets/audio/kana_w_035.mp3"
+    },
+    {
+     "jp": "うま",
+     "romaji": "uma",
+     "ar": "حصان",
+     "emoji": "🐴",
+     "audio": "assets/audio/kana_w_151.mp3"
+    },
+    {
+     "jp": "さる",
+     "romaji": "saru",
+     "ar": "قرد",
+     "emoji": "🐒",
+     "audio": "assets/audio/kana_w_152.mp3"
+    },
+    {
+     "jp": "おかあさん",
+     "romaji": "okāsan",
+     "ar": "أمي",
+     "emoji": "👩",
+     "audio": "assets/audio/kana_w_143.mp3"
+    },
+    {
+     "jp": "おとうさん",
+     "romaji": "otōsan",
+     "ar": "أبي",
+     "emoji": "👨",
+     "audio": "assets/audio/kana_w_153.mp3"
+    },
+    {
+     "jp": "おにいさん",
+     "romaji": "oniisan",
+     "ar": "الأخ الأكبر",
+     "emoji": "👦",
+     "audio": "assets/audio/kana_w_144.mp3"
+    },
+    {
+     "jp": "おねえさん",
+     "romaji": "oneesan",
+     "ar": "الأخت الكبرى",
+     "emoji": "👧",
+     "audio": "assets/audio/kana_w_145.mp3"
+    },
+    {
+     "jp": "かぞく",
+     "romaji": "kazoku",
+     "ar": "عائلة",
+     "emoji": "👪",
+     "audio": "assets/audio/kana_w_103.mp3"
+    }
+   ],
+   "pages": []
+  },
+  {
+   "id": 73,
+   "stage": 5,
+   "kind": "words",
+   "title_ar": "كلمات: أماكن",
+   "subtitle_ar": "اقرأ واستمع واحفظ",
+   "note_ar": "",
+   "chars": [],
+   "items": [
+    {
+     "jp": "がっこう",
+     "romaji": "gakkō",
+     "ar": "مدرسة",
+     "emoji": "🏫",
+     "audio": "assets/audio/kana_w_091.mp3"
+    },
+    {
+     "jp": "えき",
+     "romaji": "eki",
+     "ar": "محطة",
+     "emoji": "🚉",
+     "audio": "assets/audio/kana_w_004.mp3"
+    },
+    {
+     "jp": "びょういん",
+     "romaji": "byōin",
+     "ar": "مستشفى",
+     "emoji": "🏥",
+     "audio": "assets/audio/kana_w_141.mp3"
+    },
+    {
+     "jp": "ぎんこう",
+     "romaji": "ginkō",
+     "ar": "بنك",
+     "emoji": "🏦",
+     "audio": "assets/audio/kana_w_092.mp3"
+    },
+    {
+     "jp": "くうこう",
+     "romaji": "kūkō",
+     "ar": "مطار",
+     "emoji": "✈️",
+     "audio": "assets/audio/kana_w_154.mp3"
+    },
+    {
+     "jp": "としょかん",
+     "romaji": "toshokan",
+     "ar": "مكتبة",
+     "emoji": "📚",
+     "audio": "assets/audio/kana_w_155.mp3"
+    },
+    {
+     "jp": "こうえん",
+     "romaji": "kōen",
+     "ar": "حديقة عامة",
+     "emoji": "🌳",
+     "audio": "assets/audio/kana_w_156.mp3"
+    },
+    {
+     "jp": "ゆうびんきょく",
+     "romaji": "yūbinkyoku",
+     "ar": "مكتب بريد",
+     "emoji": "📮",
+     "audio": "assets/audio/kana_w_157.mp3"
+    }
+   ],
+   "pages": []
+  },
+  {
+   "id": 74,
+   "stage": 6,
+   "kind": "sentences",
+   "title_ar": "جمل: تحيات",
+   "subtitle_ar": "جمل خفيفة",
+   "note_ar": "",
+   "chars": [],
+   "items": [
+    {
+     "jp": "おはよう ございます。",
+     "romaji": "ohayō gozaimasu",
+     "ar": "صباح الخير",
+     "emoji": "🌅",
+     "audio": "assets/audio/kana_w_158.mp3"
+    },
+    {
+     "jp": "こんにちは。",
+     "romaji": "konnichiwa",
+     "ar": "مرحباً (نهاراً) — は هنا تُقرأ «وا»",
+     "emoji": "☀️",
+     "audio": "assets/audio/kana_w_159.mp3"
+    },
+    {
+     "jp": "こんばんは。",
+     "romaji": "konbanwa",
+     "ar": "مساء الخير — は تُقرأ «وا»",
+     "emoji": "🌙",
+     "audio": "assets/audio/kana_w_160.mp3"
+    },
+    {
+     "jp": "ありがとう ございます。",
+     "romaji": "arigatō gozaimasu",
+     "ar": "شكراً جزيلاً",
+     "emoji": "🙏",
+     "audio": "assets/audio/kana_w_161.mp3"
+    },
+    {
+     "jp": "すみません。",
+     "romaji": "sumimasen",
+     "ar": "عفواً / آسف",
+     "emoji": "🙇",
+     "audio": "assets/audio/kana_w_162.mp3"
+    },
+    {
+     "jp": "さようなら。",
+     "romaji": "sayōnara",
+     "ar": "إلى اللقاء",
+     "emoji": "👋",
+     "audio": "assets/audio/kana_w_163.mp3"
+    },
+    {
+     "jp": "おやすみなさい。",
+     "romaji": "oyasuminasai",
+     "ar": "تصبح على خير",
+     "emoji": "😴",
+     "audio": "assets/audio/kana_w_164.mp3"
+    },
+    {
+     "jp": "はじめまして。",
+     "romaji": "hajimemashite",
+     "ar": "تشرّفت بمعرفتك",
+     "emoji": "🤝",
+     "audio": "assets/audio/kana_w_165.mp3"
+    },
+    {
+     "jp": "よろしく おねがいします。",
+     "romaji": "yoroshiku onegaishimasu",
+     "ar": "أرجو حسن التعامل",
+     "emoji": "🤝",
+     "audio": "assets/audio/kana_w_166.mp3"
+    }
+   ],
+   "pages": []
+  },
+  {
+   "id": 75,
+   "stage": 6,
+   "kind": "sentences",
+   "title_ar": "جمل: أول جمل بسيطة",
+   "subtitle_ar": "جمل خفيفة",
+   "note_ar": "تذكير: は كأداة تُقرأ «وا»، و を تُقرأ «أو»، و へ كأداة تُقرأ «إيه».",
+   "chars": [],
+   "items": [
+    {
+     "jp": "これは ほんです。",
+     "romaji": "kore wa hon desu",
+     "ar": "هذا كتاب",
+     "emoji": "📖",
+     "audio": "assets/audio/kana_w_167.mp3"
+    },
+    {
+     "jp": "あれは やまです。",
+     "romaji": "are wa yama desu",
+     "ar": "ذاك جبل",
+     "emoji": "⛰️",
+     "audio": "assets/audio/kana_w_168.mp3"
+    },
+    {
+     "jp": "わたしは がくせいです。",
+     "romaji": "watashi wa gakusei desu",
+     "ar": "أنا طالب",
+     "emoji": "🎓",
+     "audio": "assets/audio/kana_w_169.mp3"
+    },
+    {
+     "jp": "おなまえは なんですか。",
+     "romaji": "onamae wa nan desu ka",
+     "ar": "ما اسمك؟",
+     "emoji": "❓",
+     "audio": "assets/audio/kana_w_170.mp3"
+    },
+    {
+     "jp": "ごはんを たべます。",
+     "romaji": "gohan o tabemasu",
+     "ar": "آكل الأرز",
+     "emoji": "🍚",
+     "audio": "assets/audio/kana_w_171.mp3"
+    },
+    {
+     "jp": "みずを のみます。",
+     "romaji": "mizu o nomimasu",
+     "ar": "أشرب الماء",
+     "emoji": "💧",
+     "audio": "assets/audio/kana_w_172.mp3"
+    },
+    {
+     "jp": "ほんを よみます。",
+     "romaji": "hon o yomimasu",
+     "ar": "أقرأ كتاباً",
+     "emoji": "📚",
+     "audio": "assets/audio/kana_w_173.mp3"
+    },
+    {
+     "jp": "にほんごが すきです。",
+     "romaji": "nihongo ga suki desu",
+     "ar": "أحب اللغة اليابانية",
+     "emoji": "❤️",
+     "audio": "assets/audio/kana_w_174.mp3"
+    }
+   ],
+   "pages": []
+  }
+ ],
+ "clips": [
+  {
+   "file": "kana_c_001.mp3",
+   "text": "あ"
+  },
+  {
+   "file": "kana_w_001.mp3",
+   "text": "あり"
+  },
+  {
+   "file": "kana_c_002.mp3",
+   "text": "い"
+  },
+  {
+   "file": "kana_w_002.mp3",
+   "text": "いぬ"
+  },
+  {
+   "file": "kana_c_003.mp3",
+   "text": "う"
+  },
+  {
+   "file": "kana_w_003.mp3",
+   "text": "うみ"
+  },
+  {
+   "file": "kana_c_004.mp3",
+   "text": "え"
+  },
+  {
+   "file": "kana_w_004.mp3",
+   "text": "えき"
+  },
+  {
+   "file": "kana_c_005.mp3",
+   "text": "お"
+  },
+  {
+   "file": "kana_w_005.mp3",
+   "text": "おちゃ"
+  },
+  {
+   "file": "kana_w_006.mp3",
+   "text": "あい"
+  },
+  {
+   "file": "kana_w_007.mp3",
+   "text": "いえ"
+  },
+  {
+   "file": "kana_w_008.mp3",
+   "text": "うえ"
+  },
+  {
+   "file": "kana_w_009.mp3",
+   "text": "あおい"
+  },
+  {
+   "file": "kana_c_006.mp3",
+   "text": "か"
+  },
+  {
+   "file": "kana_w_010.mp3",
+   "text": "かさ"
+  },
+  {
+   "file": "kana_c_007.mp3",
+   "text": "き"
+  },
+  {
+   "file": "kana_w_011.mp3",
+   "text": "きのこ"
+  },
+  {
+   "file": "kana_c_008.mp3",
+   "text": "く"
+  },
+  {
+   "file": "kana_w_012.mp3",
+   "text": "くつ"
+  },
+  {
+   "file": "kana_c_009.mp3",
+   "text": "け"
+  },
+  {
+   "file": "kana_w_013.mp3",
+   "text": "けしごむ"
+  },
+  {
+   "file": "kana_c_010.mp3",
+   "text": "こ"
+  },
+  {
+   "file": "kana_w_014.mp3",
+   "text": "こめ"
+  },
+  {
+   "file": "kana_w_015.mp3",
+   "text": "あか"
+  },
+  {
+   "file": "kana_w_016.mp3",
+   "text": "かお"
+  },
+  {
+   "file": "kana_w_017.mp3",
+   "text": "いけ"
+  },
+  {
+   "file": "kana_w_018.mp3",
+   "text": "くうき"
+  },
+  {
+   "file": "kana_w_019.mp3",
+   "text": "ここ"
+  },
+  {
+   "file": "kana_w_020.mp3",
+   "text": "あき"
+  },
+  {
+   "file": "kana_c_011.mp3",
+   "text": "さ"
+  },
+  {
+   "file": "kana_w_021.mp3",
+   "text": "さかな"
+  },
+  {
+   "file": "kana_c_012.mp3",
+   "text": "し"
+  },
+  {
+   "file": "kana_w_022.mp3",
+   "text": "しか"
+  },
+  {
+   "file": "kana_c_013.mp3",
+   "text": "す"
+  },
+  {
+   "file": "kana_w_023.mp3",
+   "text": "すし"
+  },
+  {
+   "file": "kana_c_014.mp3",
+   "text": "せ"
+  },
+  {
+   "file": "kana_w_024.mp3",
+   "text": "せかい"
+  },
+  {
+   "file": "kana_c_015.mp3",
+   "text": "そ"
+  },
+  {
+   "file": "kana_w_025.mp3",
+   "text": "そら"
+  },
+  {
+   "file": "kana_w_026.mp3",
+   "text": "あさ"
+  },
+  {
+   "file": "kana_w_027.mp3",
+   "text": "いす"
+  },
+  {
+   "file": "kana_w_028.mp3",
+   "text": "しお"
+  },
+  {
+   "file": "kana_w_029.mp3",
+   "text": "さけ"
+  },
+  {
+   "file": "kana_w_030.mp3",
+   "text": "そこ"
+  },
+  {
+   "file": "kana_w_031.mp3",
+   "text": "うそ"
+  },
+  {
+   "file": "kana_c_016.mp3",
+   "text": "た"
+  },
+  {
+   "file": "kana_w_032.mp3",
+   "text": "たこ"
+  },
+  {
+   "file": "kana_c_017.mp3",
+   "text": "ち"
+  },
+  {
+   "file": "kana_w_033.mp3",
+   "text": "ちず"
+  },
+  {
+   "file": "kana_c_018.mp3",
+   "text": "つ"
+  },
+  {
+   "file": "kana_w_034.mp3",
+   "text": "つき"
+  },
+  {
+   "file": "kana_c_019.mp3",
+   "text": "て"
+  },
+  {
+   "file": "kana_c_020.mp3",
+   "text": "と"
+  },
+  {
+   "file": "kana_w_035.mp3",
+   "text": "とり"
+  },
+  {
+   "file": "kana_w_036.mp3",
+   "text": "くち"
+  },
+  {
+   "file": "kana_w_037.mp3",
+   "text": "うち"
+  },
+  {
+   "file": "kana_w_038.mp3",
+   "text": "つくえ"
+  },
+  {
+   "file": "kana_w_039.mp3",
+   "text": "とけい"
+  },
+  {
+   "file": "kana_w_040.mp3",
+   "text": "あした"
+  },
+  {
+   "file": "kana_w_041.mp3",
+   "text": "たかい"
+  },
+  {
+   "file": "kana_c_021.mp3",
+   "text": "な"
+  },
+  {
+   "file": "kana_w_042.mp3",
+   "text": "なす"
+  },
+  {
+   "file": "kana_c_022.mp3",
+   "text": "に"
+  },
+  {
+   "file": "kana_w_043.mp3",
+   "text": "にく"
+  },
+  {
+   "file": "kana_c_023.mp3",
+   "text": "ぬ"
+  },
+  {
+   "file": "kana_w_044.mp3",
+   "text": "ぬいぐるみ"
+  },
+  {
+   "file": "kana_c_024.mp3",
+   "text": "ね"
+  },
+  {
+   "file": "kana_w_045.mp3",
+   "text": "ねこ"
+  },
+  {
+   "file": "kana_c_025.mp3",
+   "text": "の"
+  },
+  {
+   "file": "kana_w_046.mp3",
+   "text": "のり"
+  },
+  {
+   "file": "kana_w_047.mp3",
+   "text": "なつ"
+  },
+  {
+   "file": "kana_w_048.mp3",
+   "text": "ぬの"
+  },
+  {
+   "file": "kana_w_049.mp3",
+   "text": "おなか"
+  },
+  {
+   "file": "kana_c_026.mp3",
+   "text": "は"
+  },
+  {
+   "file": "kana_w_050.mp3",
+   "text": "はな"
+  },
+  {
+   "file": "kana_c_027.mp3",
+   "text": "ひ"
+  },
+  {
+   "file": "kana_w_051.mp3",
+   "text": "ひこうき"
+  },
+  {
+   "file": "kana_c_028.mp3",
+   "text": "ふ"
+  },
+  {
+   "file": "kana_w_052.mp3",
+   "text": "ふね"
+  },
+  {
+   "file": "kana_c_029.mp3",
+   "text": "へ"
+  },
+  {
+   "file": "kana_w_053.mp3",
+   "text": "へび"
+  },
+  {
+   "file": "kana_c_030.mp3",
+   "text": "ほ"
+  },
+  {
+   "file": "kana_w_054.mp3",
+   "text": "ほし"
+  },
+  {
+   "file": "kana_w_055.mp3",
+   "text": "はし"
+  },
+  {
+   "file": "kana_w_056.mp3",
+   "text": "はは"
+  },
+  {
+   "file": "kana_w_057.mp3",
+   "text": "ほね"
+  },
+  {
+   "file": "kana_w_058.mp3",
+   "text": "ひふ"
+  },
+  {
+   "file": "kana_c_031.mp3",
+   "text": "ま"
+  },
+  {
+   "file": "kana_w_059.mp3",
+   "text": "まど"
+  },
+  {
+   "file": "kana_c_032.mp3",
+   "text": "み"
+  },
+  {
+   "file": "kana_w_060.mp3",
+   "text": "みみ"
+  },
+  {
+   "file": "kana_c_033.mp3",
+   "text": "む"
+  },
+  {
+   "file": "kana_w_061.mp3",
+   "text": "むし"
+  },
+  {
+   "file": "kana_c_034.mp3",
+   "text": "め"
+  },
+  {
+   "file": "kana_c_035.mp3",
+   "text": "も"
+  },
+  {
+   "file": "kana_w_062.mp3",
+   "text": "もも"
+  },
+  {
+   "file": "kana_w_063.mp3",
+   "text": "いま"
+  },
+  {
+   "file": "kana_w_064.mp3",
+   "text": "もち"
+  },
+  {
+   "file": "kana_w_065.mp3",
+   "text": "あめ"
+  },
+  {
+   "file": "kana_w_066.mp3",
+   "text": "まめ"
+  },
+  {
+   "file": "kana_c_036.mp3",
+   "text": "や"
+  },
+  {
+   "file": "kana_w_067.mp3",
+   "text": "やま"
+  },
+  {
+   "file": "kana_c_037.mp3",
+   "text": "ゆ"
+  },
+  {
+   "file": "kana_w_068.mp3",
+   "text": "ゆき"
+  },
+  {
+   "file": "kana_c_038.mp3",
+   "text": "よ"
+  },
+  {
+   "file": "kana_w_069.mp3",
+   "text": "よる"
+  },
+  {
+   "file": "kana_w_070.mp3",
+   "text": "やすみ"
+  },
+  {
+   "file": "kana_w_071.mp3",
+   "text": "ゆめ"
+  },
+  {
+   "file": "kana_w_072.mp3",
+   "text": "やね"
+  },
+  {
+   "file": "kana_w_073.mp3",
+   "text": "やさい"
+  },
+  {
+   "file": "kana_w_074.mp3",
+   "text": "よこ"
+  },
+  {
+   "file": "kana_c_039.mp3",
+   "text": "ら"
+  },
+  {
+   "file": "kana_w_075.mp3",
+   "text": "さくら"
+  },
+  {
+   "file": "kana_c_040.mp3",
+   "text": "り"
+  },
+  {
+   "file": "kana_w_076.mp3",
+   "text": "りんご"
+  },
+  {
+   "file": "kana_c_041.mp3",
+   "text": "る"
+  },
+  {
+   "file": "kana_w_077.mp3",
+   "text": "くるま"
+  },
+  {
+   "file": "kana_c_042.mp3",
+   "text": "れ"
+  },
+  {
+   "file": "kana_w_078.mp3",
+   "text": "れもん"
+  },
+  {
+   "file": "kana_c_043.mp3",
+   "text": "ろ"
+  },
+  {
+   "file": "kana_w_079.mp3",
+   "text": "ろうそく"
+  },
+  {
+   "file": "kana_w_080.mp3",
+   "text": "りす"
+  },
+  {
+   "file": "kana_w_081.mp3",
+   "text": "ろく"
+  },
+  {
+   "file": "kana_w_082.mp3",
+   "text": "いろ"
+  },
+  {
+   "file": "kana_w_083.mp3",
+   "text": "るす"
+  },
+  {
+   "file": "kana_c_044.mp3",
+   "text": "わ"
+  },
+  {
+   "file": "kana_w_084.mp3",
+   "text": "わに"
+  },
+  {
+   "file": "kana_c_045.mp3",
+   "text": "を"
+  },
+  {
+   "file": "kana_w_085.mp3",
+   "text": "ごはんを"
+  },
+  {
+   "file": "kana_c_046.mp3",
+   "text": "ん"
+  },
+  {
+   "file": "kana_w_086.mp3",
+   "text": "ほん"
+  },
+  {
+   "file": "kana_w_087.mp3",
+   "text": "わたし"
+  },
+  {
+   "file": "kana_w_088.mp3",
+   "text": "みかん"
+  },
+  {
+   "file": "kana_w_089.mp3",
+   "text": "にほん"
+  },
+  {
+   "file": "kana_w_090.mp3",
+   "text": "せんせい"
+  },
+  {
+   "file": "kana_c_047.mp3",
+   "text": "が"
+  },
+  {
+   "file": "kana_w_091.mp3",
+   "text": "がっこう"
+  },
+  {
+   "file": "kana_c_048.mp3",
+   "text": "ぎ"
+  },
+  {
+   "file": "kana_w_092.mp3",
+   "text": "ぎんこう"
+  },
+  {
+   "file": "kana_c_049.mp3",
+   "text": "ぐ"
+  },
+  {
+   "file": "kana_w_093.mp3",
+   "text": "かぐ"
+  },
+  {
+   "file": "kana_c_050.mp3",
+   "text": "げ"
+  },
+  {
+   "file": "kana_w_094.mp3",
+   "text": "げんき"
+  },
+  {
+   "file": "kana_c_051.mp3",
+   "text": "ご"
+  },
+  {
+   "file": "kana_w_095.mp3",
+   "text": "ごはん"
+  },
+  {
+   "file": "kana_c_052.mp3",
+   "text": "ざ"
+  },
+  {
+   "file": "kana_w_096.mp3",
+   "text": "ざっし"
+  },
+  {
+   "file": "kana_c_053.mp3",
+   "text": "じ"
+  },
+  {
+   "file": "kana_w_097.mp3",
+   "text": "じてんしゃ"
+  },
+  {
+   "file": "kana_c_054.mp3",
+   "text": "ず"
+  },
+  {
+   "file": "kana_w_098.mp3",
+   "text": "みず"
+  },
+  {
+   "file": "kana_c_055.mp3",
+   "text": "ぜ"
+  },
+  {
+   "file": "kana_w_099.mp3",
+   "text": "かぜ"
+  },
+  {
+   "file": "kana_c_056.mp3",
+   "text": "ぞ"
+  },
+  {
+   "file": "kana_w_100.mp3",
+   "text": "ぞう"
+  },
+  {
+   "file": "kana_w_101.mp3",
+   "text": "かぎ"
+  },
+  {
+   "file": "kana_w_102.mp3",
+   "text": "ごご"
+  },
+  {
+   "file": "kana_w_103.mp3",
+   "text": "かぞく"
+  },
+  {
+   "file": "kana_w_104.mp3",
+   "text": "じかん"
+  },
+  {
+   "file": "kana_w_105.mp3",
+   "text": "くじら"
+  },
+  {
+   "file": "kana_c_057.mp3",
+   "text": "だ"
+  },
+  {
+   "file": "kana_w_106.mp3",
+   "text": "だんご"
+  },
+  {
+   "file": "kana_c_058.mp3",
+   "text": "ぢ"
+  },
+  {
+   "file": "kana_w_107.mp3",
+   "text": "はなぢ"
+  },
+  {
+   "file": "kana_c_059.mp3",
+   "text": "づ"
+  },
+  {
+   "file": "kana_w_108.mp3",
+   "text": "つづく"
+  },
+  {
+   "file": "kana_c_060.mp3",
+   "text": "で"
+  },
+  {
+   "file": "kana_w_109.mp3",
+   "text": "でんしゃ"
+  },
+  {
+   "file": "kana_c_061.mp3",
+   "text": "ど"
+  },
+  {
+   "file": "kana_w_110.mp3",
+   "text": "どあ"
+  },
+  {
+   "file": "kana_c_062.mp3",
+   "text": "ば"
+  },
+  {
+   "file": "kana_w_111.mp3",
+   "text": "ばなな"
+  },
+  {
+   "file": "kana_c_063.mp3",
+   "text": "び"
+  },
+  {
+   "file": "kana_w_112.mp3",
+   "text": "えび"
+  },
+  {
+   "file": "kana_c_064.mp3",
+   "text": "ぶ"
+  },
+  {
+   "file": "kana_w_113.mp3",
+   "text": "ぶた"
+  },
+  {
+   "file": "kana_c_065.mp3",
+   "text": "べ"
+  },
+  {
+   "file": "kana_w_114.mp3",
+   "text": "べんとう"
+  },
+  {
+   "file": "kana_c_066.mp3",
+   "text": "ぼ"
+  },
+  {
+   "file": "kana_w_115.mp3",
+   "text": "ぼうし"
+  },
+  {
+   "file": "kana_c_067.mp3",
+   "text": "ぱ"
+  },
+  {
+   "file": "kana_w_116.mp3",
+   "text": "ぱん"
+  },
+  {
+   "file": "kana_c_068.mp3",
+   "text": "ぴ"
+  },
+  {
+   "file": "kana_w_117.mp3",
+   "text": "ぴあの"
+  },
+  {
+   "file": "kana_c_069.mp3",
+   "text": "ぷ"
+  },
+  {
+   "file": "kana_w_118.mp3",
+   "text": "ぷりん"
+  },
+  {
+   "file": "kana_c_070.mp3",
+   "text": "ぺ"
+  },
+  {
+   "file": "kana_w_119.mp3",
+   "text": "ぺん"
+  },
+  {
+   "file": "kana_c_071.mp3",
+   "text": "ぽ"
+  },
+  {
+   "file": "kana_w_120.mp3",
+   "text": "ぽすと"
+  },
+  {
+   "file": "kana_w_121.mp3",
+   "text": "ともだち"
+  },
+  {
+   "file": "kana_w_122.mp3",
+   "text": "でぐち"
+  },
+  {
+   "file": "kana_w_123.mp3",
+   "text": "かばん"
+  },
+  {
+   "file": "kana_w_124.mp3",
+   "text": "さんぽ"
+  },
+  {
+   "file": "kana_w_125.mp3",
+   "text": "えんぴつ"
+  },
+  {
+   "file": "kana_w_126.mp3",
+   "text": "てんぷら"
+  },
+  {
+   "file": "kana_w_127.mp3",
+   "text": "どこ"
+  },
+  {
+   "file": "kana_c_072.mp3",
+   "text": "きゃ"
+  },
+  {
+   "file": "kana_w_128.mp3",
+   "text": "きゃく"
+  },
+  {
+   "file": "kana_c_073.mp3",
+   "text": "きゅ"
+  },
+  {
+   "file": "kana_w_129.mp3",
+   "text": "きゅうり"
+  },
+  {
+   "file": "kana_c_074.mp3",
+   "text": "きょ"
+  },
+  {
+   "file": "kana_w_130.mp3",
+   "text": "きょう"
+  },
+  {
+   "file": "kana_c_075.mp3",
+   "text": "しゃ"
+  },
+  {
+   "file": "kana_w_131.mp3",
+   "text": "しゃしん"
+  },
+  {
+   "file": "kana_c_076.mp3",
+   "text": "しゅ"
+  },
+  {
+   "file": "kana_w_132.mp3",
+   "text": "しゅみ"
+  },
+  {
+   "file": "kana_c_077.mp3",
+   "text": "しょ"
+  },
+  {
+   "file": "kana_w_133.mp3",
+   "text": "しょくじ"
+  },
+  {
+   "file": "kana_c_078.mp3",
+   "text": "ちゃ"
+  },
+  {
+   "file": "kana_c_079.mp3",
+   "text": "ちゅ"
+  },
+  {
+   "file": "kana_w_134.mp3",
+   "text": "ちゅうい"
+  },
+  {
+   "file": "kana_c_080.mp3",
+   "text": "ちょ"
+  },
+  {
+   "file": "kana_w_135.mp3",
+   "text": "ちょきん"
+  },
+  {
+   "file": "kana_c_081.mp3",
+   "text": "じゃ"
+  },
+  {
+   "file": "kana_w_136.mp3",
+   "text": "じゃがいも"
+  },
+  {
+   "file": "kana_c_082.mp3",
+   "text": "じゅ"
+  },
+  {
+   "file": "kana_w_137.mp3",
+   "text": "じゅう"
+  },
+  {
+   "file": "kana_c_083.mp3",
+   "text": "じょ"
+  },
+  {
+   "file": "kana_w_138.mp3",
+   "text": "じょうず"
+  },
+  {
+   "file": "kana_c_084.mp3",
+   "text": "ひゃ"
+  },
+  {
+   "file": "kana_w_139.mp3",
+   "text": "ひゃく"
+  },
+  {
+   "file": "kana_c_085.mp3",
+   "text": "りょ"
+  },
+  {
+   "file": "kana_w_140.mp3",
+   "text": "りょこう"
+  },
+  {
+   "file": "kana_c_086.mp3",
+   "text": "びょ"
+  },
+  {
+   "file": "kana_w_141.mp3",
+   "text": "びょういん"
+  },
+  {
+   "file": "kana_c_087.mp3",
+   "text": "ぎょ"
+  },
+  {
+   "file": "kana_w_142.mp3",
+   "text": "ぎょうざ"
+  },
+  {
+   "file": "kana_c_088.mp3",
+   "text": "きって"
+  },
+  {
+   "file": "kana_c_089.mp3",
+   "text": "ああ"
+  },
+  {
+   "file": "kana_w_143.mp3",
+   "text": "おかあさん"
+  },
+  {
+   "file": "kana_c_090.mp3",
+   "text": "いい"
+  },
+  {
+   "file": "kana_w_144.mp3",
+   "text": "おにいさん"
+  },
+  {
+   "file": "kana_c_091.mp3",
+   "text": "ええ"
+  },
+  {
+   "file": "kana_w_145.mp3",
+   "text": "おねえさん"
+  },
+  {
+   "file": "kana_c_092.mp3",
+   "text": "おう"
+  },
+  {
+   "file": "kana_w_146.mp3",
+   "text": "とうきょう"
+  },
+  {
+   "file": "kana_w_147.mp3",
+   "text": "さいふ"
+  },
+  {
+   "file": "kana_w_148.mp3",
+   "text": "でんわ"
+  },
+  {
+   "file": "kana_w_149.mp3",
+   "text": "たまご"
+  },
+  {
+   "file": "kana_w_150.mp3",
+   "text": "くだもの"
+  },
+  {
+   "file": "kana_w_151.mp3",
+   "text": "うま"
+  },
+  {
+   "file": "kana_w_152.mp3",
+   "text": "さる"
+  },
+  {
+   "file": "kana_w_153.mp3",
+   "text": "おとうさん"
+  },
+  {
+   "file": "kana_w_154.mp3",
+   "text": "くうこう"
+  },
+  {
+   "file": "kana_w_155.mp3",
+   "text": "としょかん"
+  },
+  {
+   "file": "kana_w_156.mp3",
+   "text": "こうえん"
+  },
+  {
+   "file": "kana_w_157.mp3",
+   "text": "ゆうびんきょく"
+  },
+  {
+   "file": "kana_w_158.mp3",
+   "text": "おはよう ございます。"
+  },
+  {
+   "file": "kana_w_159.mp3",
+   "text": "こんにちは。"
+  },
+  {
+   "file": "kana_w_160.mp3",
+   "text": "こんばんは。"
+  },
+  {
+   "file": "kana_w_161.mp3",
+   "text": "ありがとう ございます。"
+  },
+  {
+   "file": "kana_w_162.mp3",
+   "text": "すみません。"
+  },
+  {
+   "file": "kana_w_163.mp3",
+   "text": "さようなら。"
+  },
+  {
+   "file": "kana_w_164.mp3",
+   "text": "おやすみなさい。"
+  },
+  {
+   "file": "kana_w_165.mp3",
+   "text": "はじめまして。"
+  },
+  {
+   "file": "kana_w_166.mp3",
+   "text": "よろしく おねがいします。"
+  },
+  {
+   "file": "kana_w_167.mp3",
+   "text": "これは ほんです。"
+  },
+  {
+   "file": "kana_w_168.mp3",
+   "text": "あれは やまです。"
+  },
+  {
+   "file": "kana_w_169.mp3",
+   "text": "わたしは がくせいです。"
+  },
+  {
+   "file": "kana_w_170.mp3",
+   "text": "おなまえは なんですか。"
+  },
+  {
+   "file": "kana_w_171.mp3",
+   "text": "ごはんを たべます。"
+  },
+  {
+   "file": "kana_w_172.mp3",
+   "text": "みずを のみます。"
+  },
+  {
+   "file": "kana_w_173.mp3",
+   "text": "ほんを よみます。"
+  },
+  {
+   "file": "kana_w_174.mp3",
+   "text": "にほんごが すきです。"
+  }
+ ]
+}

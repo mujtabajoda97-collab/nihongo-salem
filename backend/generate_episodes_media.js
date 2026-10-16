@@ -152,6 +152,15 @@ function collectJobs() {
       }
     }
   }
+
+  // Beginner course (letters, words, sentences): clips are listed inside kana_course.json
+  const kanaFile = [join(episodesDir, 'kana_course.json'), join(episodesDir, '..', 'kana_course.json')].find(existsSync);
+  if (!wanted && !only && kanaFile) {
+    const course = JSON.parse(readFileSync(kanaFile, 'utf8'));
+    for (const c of course.clips ?? []) {
+      add({ episode: 0, kind: 'vocab', audioPath: c.file, text: toSpeech(c.text), voice: vocabVoice(), speaker: 'kana' });
+    }
+  }
   return jobs;
 }
 
