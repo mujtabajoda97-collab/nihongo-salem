@@ -4,6 +4,9 @@ name: Build Android APK
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write   # to publish the APK as a release
+
 jobs:
   apk:
     runs-on: ubuntu-latest
@@ -61,3 +64,14 @@ jobs:
           name: nihongo-salem-apk
           path: build/app/outputs/flutter-apk/app-release.apk
           retention-days: 30
+
+      - name: Publish the APK as a release (direct download link)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp build/app/outputs/flutter-apk/app-release.apk nihongo-salem.apk
+          gh release delete apk-latest --yes --cleanup-tag || true
+          gh release create apk-latest nihongo-salem.apk \
+            --title "نيهونغو مع سالم - نسخة تجريبية" \
+            --notes "Test build (simulated subscription). Server: $API_BASE_URL. Commit ${{ github.sha }}."
+          echo "Download: https://github.com/${{ github.repository }}/releases/download/apk-latest/nihongo-salem.apk"
