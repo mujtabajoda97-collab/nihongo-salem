@@ -23,7 +23,7 @@ dependencies:
 
   # Audio: lesson playback (just_audio) + microphone (record) for the voice call
   just_audio: ^0.9.40
-  record: ^5.1.2
+  record: ^6.0.0
   path_provider: ^2.1.4
 
   # Networking: REST (dio)

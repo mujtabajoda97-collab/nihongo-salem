@@ -41,6 +41,7 @@ jobs:
         run: |
           flutter create . --platforms=android --project-name nihongo_salem --org com.nihongo.salem
           sh tool/setup_platforms.sh
+          rm -f test/widget_test.dart   # the sample test that `flutter create` adds
 
       - run: flutter pub get
 
