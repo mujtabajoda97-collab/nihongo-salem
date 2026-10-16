@@ -64,6 +64,7 @@ export async function callClaude(cfg: Config, system: string, messages: ChatMess
       'content-type': 'application/json',
       'x-api-key': cfg.anthropicApiKey,
       'anthropic-version': '2023-06-01',
+      ...(cfg.anthropicWorkspaceId ? { 'anthropic-workspace-id': cfg.anthropicWorkspaceId } : {}),
     },
     body: JSON.stringify({
       model: cfg.anthropicModel,

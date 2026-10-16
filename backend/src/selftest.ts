@@ -39,6 +39,7 @@ export async function runSelfTest(cfg: Config): Promise<SelfTestResult> {
         'content-type': 'application/json',
         'x-api-key': cfg.anthropicApiKey,
         'anthropic-version': '2023-06-01',
+        ...(cfg.anthropicWorkspaceId ? { 'anthropic-workspace-id': cfg.anthropicWorkspaceId } : {}),
       },
       body: JSON.stringify({
         model: cfg.anthropicModel,
@@ -56,7 +57,9 @@ export async function runSelfTest(cfg: Config): Promise<SelfTestResult> {
     }),
   ]);
   let hint = 'All providers answer: the keys and the credit are fine.';
-  if (!anthropic.ok) hint = `Claude call failed (${anthropic.status}): check ANTHROPIC_API_KEY, the credit balance and ANTHROPIC_MODEL.`;
+  if (!anthropic.ok && /workspace/i.test(anthropic.detail)) {
+    hint = 'The Claude key is not tied to a workspace: set ANTHROPIC_WORKSPACE_ID (Console > Settings > Workspaces) or create a new key inside a workspace.';
+  } else if (!anthropic.ok) hint = `Claude call failed (${anthropic.status}): check ANTHROPIC_API_KEY, the credit balance and ANTHROPIC_MODEL.`;
   else if (!openaiKey.ok) hint = `OpenAI key rejected (${openaiKey.status}): check OPENAI_API_KEY.`;
   else if (!openaiTts.ok) hint = `OpenAI speech failed (${openaiTts.status}): check the OpenAI credit balance / TTS model.`;
   return { anthropic, openai_key: openaiKey, openai_tts: openaiTts, hint };

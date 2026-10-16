@@ -8,6 +8,8 @@ export interface Config {
   anthropicApiKey: string;
   openaiApiKey: string;
   elevenlabsApiKey: string;
+  /** Only for keys that are not tied to one workspace (sent as the anthropic-workspace-id header). */
+  anthropicWorkspaceId: string;
   anthropicModel: string;
   anthropicMaxTokens: number;
   whisperModel: string;
@@ -87,6 +89,7 @@ export function loadConfig(env: Env = process.env, opts: { promptsDir?: string }
     anthropicApiKey,
     openaiApiKey,
     elevenlabsApiKey: str(env, 'ELEVENLABS_API_KEY'),
+    anthropicWorkspaceId: str(env, 'ANTHROPIC_WORKSPACE_ID'),
     anthropicModel: str(env, 'ANTHROPIC_MODEL', 'claude-haiku-5-5'),
     anthropicMaxTokens: int(env, 'ANTHROPIC_MAX_TOKENS', 700),
     whisperModel: str(env, 'WHISPER_MODEL', 'whisper-1'),
