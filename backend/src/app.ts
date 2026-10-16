@@ -11,6 +11,7 @@ import type { Config } from './config.ts';
 import { UpstreamError } from './http.ts';
 import { LessonAudio, buildLessonIndex, openAiClipSynth } from './lessonAudio.ts';
 import type { Prompts } from './prompts.ts';
+import { runSelfTest } from './selftest.ts';
 import { SessionStore } from './sessions.ts';
 import { RequestError, runTurn, validateRequest } from './turn.ts';
 
@@ -91,6 +92,17 @@ export async function buildApp(deps: AppDeps): Promise<FastifyInstance> {
       }
     },
   );
+
+  // Definite answer to "do the Claude / OpenAI keys and credit work?" (3 tiny paid calls, rate limited).
+  app.get('/v1/selftest', { config: { rateLimit: { max: 3, timeWindow: '1 minute' } } }, async (req, reply) => {
+    if (cfg.appApiKey) {
+      const sent = req.headers['x-app-key'];
+      if (typeof sent !== 'string' || !sameSecret(sent, cfg.appApiKey)) {
+        return reply.code(401).send({ error: 'unauthorized' });
+      }
+    }
+    return runSelfTest(cfg);
+  });
 
   app.post('/v1/turn', async (req, reply) => {
     if (cfg.appApiKey) {

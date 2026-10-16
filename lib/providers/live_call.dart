@@ -142,7 +142,9 @@ final liveCallProvider =
 /// until the learner ends it, the AI says goodbye, or the free time runs out.
 class LiveCallController extends AutoDisposeNotifier<LiveCallState> {
   // Voice detection (levels are 0..1 from VoiceRecorder).
-  static const double speechLevel = 0.34;
+  // 0.20 ~ -40 dBFS: many phones record speech quieter than the old 0.34 and
+  // the call then waited forever for "speech" that it never detected.
+  static const double speechLevel = 0.20;
   static const Duration silenceToSend = Duration(milliseconds: 1300);
   static const Duration minUtterance = Duration(milliseconds: 350);
   static const Duration maxUtterance = Duration(seconds: 30);
@@ -172,6 +174,7 @@ class LiveCallController extends AutoDisposeNotifier<LiveCallState> {
   int _unflushed = 0;
 
   DateTime? _speechStartAt;
+  DateTime? _listenStartAt;
   DateTime? _lastVoiceAt;
   bool _speech = false;
 
@@ -388,6 +391,7 @@ class LiveCallController extends AutoDisposeNotifier<LiveCallState> {
     _speech = false;
     _speechStartAt = null;
     _lastVoiceAt = null;
+    _listenStartAt = _now();
     await _levelSub?.cancel();
     _levelSub = _recorder.levels.listen(onLevel);
     state = state.copyWith(
@@ -454,7 +458,13 @@ class LiveCallController extends AutoDisposeNotifier<LiveCallState> {
   void tapOrb() {
     switch (state.phase) {
       case CallPhase.listening:
-        if (_speech) _beginSend();
+        // Tapping means "I am done": send even if the level never crossed the
+        // speech threshold (quiet phone microphone). Silence is answered by
+        // the server with a friendly "please say it again".
+        final since = _listenStartAt == null
+            ? Duration.zero
+            : _now().difference(_listenStartAt!);
+        if (_speech || since >= const Duration(seconds: 1)) _beginSend();
       case CallPhase.speaking:
         unawaited(_audio.stop());
       case CallPhase.paused:

@@ -19,7 +19,8 @@ String _mmss(int seconds) {
 
 String _phaseLabel(CallPhase p, bool heardSpeech) => switch (p) {
       CallPhase.connecting => 'جارٍ الاتصال…',
-      CallPhase.listening => heardSpeech ? 'أسمعك…' : 'تحدّث، أنا أستمع',
+      CallPhase.listening =>
+        heardSpeech ? 'أسمعك…' : 'تحدّث، ثم اضغط الدائرة عند الانتهاء',
       CallPhase.thinking => 'يفكّر…',
       CallPhase.speaking => 'يتحدّث',
       CallPhase.paused => 'المكالمة متوقفة مؤقتاً',
