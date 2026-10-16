@@ -10,6 +10,7 @@ import 'providers/providers.dart';
 import 'services/entitlement_service.dart';
 import 'services/tutor_api.dart';
 import 'ui/theme.dart';
+import 'providers/cloud.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -35,6 +36,7 @@ class NihongoApp extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    ref.watch(cloudSyncProvider); // keeps the cloud sync running while the app is open
     return MaterialApp.router(
       title: 'نيهونغو مع سالم',
       debugShowCheckedModeBanner: false,

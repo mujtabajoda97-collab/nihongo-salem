@@ -51,6 +51,7 @@ flutter:
   assets:
     - assets/data/placement_test_logic.json
     - assets/data/kana_course.json
+    - assets/data/episode_letters.json
     - assets/data/episodes/
     - assets/images/scenes/
     - assets/images/characters/

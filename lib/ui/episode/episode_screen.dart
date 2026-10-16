@@ -4,16 +4,19 @@ import 'package:go_router/go_router.dart';
 
 import '../../core/constants.dart';
 import '../../models/episode.dart';
+import '../../models/kana_course.dart';
+import '../../providers/kana_course.dart';
 import '../../providers/providers.dart';
 import '../theme.dart';
 import '../widgets/common.dart';
 import 'completion_dialog.dart';
 import 'station_cards.dart';
+import 'station_letters.dart';
 import 'station_quiz.dart';
 import 'station_scene.dart';
 import 'station_voice.dart';
 
-const _stationLabels = ['المشهد', 'المفردات والقواعد', 'التمارين', 'المحادثة'];
+const _baseLabels = ['المشهد', 'المفردات والقواعد', 'التمارين', 'المحادثة'];
 
 /// The interactive lesson: four stations in order.
 ///   A scene  ->  B vocabulary & grammar cards  ->  C quizzes  ->  D voice role-play
@@ -37,15 +40,25 @@ class EpisodeScreen extends ConsumerWidget {
           ),
         ),
       ),
-      data: (episode) => _EpisodeBody(episode: episode),
+      data: (episode) {
+        final letters = ref.watch(episodeLetterCardsProvider(episodeId));
+        return letters.when(
+          loading: () =>
+              const Scaffold(body: Center(child: CircularProgressIndicator())),
+          // Letters are an extra: if they fail to load the episode still opens.
+          error: (_, __) => _EpisodeBody(episode: episode, letters: const []),
+          data: (l) => _EpisodeBody(episode: episode, letters: l),
+        );
+      },
     );
   }
 }
 
 class _EpisodeBody extends ConsumerStatefulWidget {
-  const _EpisodeBody({required this.episode});
+  const _EpisodeBody({required this.episode, required this.letters});
 
   final Episode episode;
+  final List<KanaChar> letters;
 
   @override
   ConsumerState<_EpisodeBody> createState() => _EpisodeBodyState();
@@ -57,6 +70,9 @@ class _EpisodeBodyState extends ConsumerState<_EpisodeBody> {
   int _furthest = 0;
   int _quizCorrect = 0;
   bool _finishing = false;
+
+  List<String> get _labels =>
+      [if (widget.letters.isNotEmpty) 'الحروف', ..._baseLabels];
 
   @override
   void dispose() {
@@ -76,7 +92,7 @@ class _EpisodeBodyState extends ConsumerState<_EpisodeBody> {
 
   void _advance() {
     final next = _station + 1;
-    if (next >= _stationLabels.length) return;
+    if (next >= _labels.length) return;
     setState(() {
       _station = next;
       if (next > _furthest) _furthest = next;
@@ -139,6 +155,7 @@ class _EpisodeBodyState extends ConsumerState<_EpisodeBody> {
       body: Column(
         children: [
           _StationStepper(
+            labels: _labels,
             current: _station,
             furthest: _furthest,
             onTap: _goTo,
@@ -148,6 +165,10 @@ class _EpisodeBodyState extends ConsumerState<_EpisodeBody> {
               controller: _pages,
               physics: const NeverScrollableScrollPhysics(),
               children: [
+                if (widget.letters.isNotEmpty)
+                  KeepAlivePage(
+                    child: LettersStation(letters: widget.letters, onDone: _advance),
+                  ),
                 KeepAlivePage(
                   child: SceneStation(episode: episode, onDone: _advance),
                 ),
@@ -157,6 +178,7 @@ class _EpisodeBodyState extends ConsumerState<_EpisodeBody> {
                 KeepAlivePage(
                   child: QuizStation(
                     episode: episode,
+                    letters: widget.letters,
                     onFinished: (correct) {
                       _quizCorrect = correct;
                       _advance();
@@ -180,11 +202,13 @@ class _EpisodeBodyState extends ConsumerState<_EpisodeBody> {
 
 class _StationStepper extends StatelessWidget {
   const _StationStepper({
+    required this.labels,
     required this.current,
     required this.furthest,
     required this.onTap,
   });
 
+  final List<String> labels;
   final int current;
   final int furthest;
   final ValueChanged<int> onTap;
@@ -196,7 +220,7 @@ class _StationStepper extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(12, 4, 12, 8),
       child: Row(
         children: [
-          for (var i = 0; i < _stationLabels.length; i++) ...[
+          for (var i = 0; i < labels.length; i++) ...[
             Expanded(
               child: InkWell(
                 borderRadius: BorderRadius.circular(12),
@@ -231,7 +255,7 @@ class _StationStepper extends StatelessWidget {
                     ),
                     const SizedBox(height: 4),
                     Text(
-                      _stationLabels[i],
+                      labels[i],
                       textAlign: TextAlign.center,
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,

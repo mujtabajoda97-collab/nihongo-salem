@@ -276,7 +276,7 @@ class KanaQuestion {
   String get correct => options[answer];
 }
 
-List<String> _distractors(String correct, Iterable<String> pool, int n, Random rnd) {
+List<String> kanaDistractors(String correct, Iterable<String> pool, int n, Random rnd) {
   final unique = <String>{
     for (final p in pool)
       if (p != correct) p,
@@ -285,7 +285,7 @@ List<String> _distractors(String correct, Iterable<String> pool, int n, Random r
   return unique.take(n).toList();
 }
 
-KanaQuestion _make(
+KanaQuestion makeKanaQuestion(
   Random rnd, {
   required KanaQuestionKind kind,
   required String prompt,
@@ -295,7 +295,7 @@ KanaQuestion _make(
   String? hint,
   bool japaneseOptions = false,
 }) {
-  final options = [correct, ..._distractors(correct, pool, 3, rnd)]..shuffle(rnd);
+  final options = [correct, ...kanaDistractors(correct, pool, 3, rnd)]..shuffle(rnd);
   return KanaQuestion(
     kind: kind,
     prompt: prompt,
@@ -318,20 +318,20 @@ List<KanaQuestion> buildKanaQuiz(KanaLesson lesson, KanaCourse course, Random rn
     for (final c in lesson.chars) {
       final glyphPool = [...lesson.chars.map((e) => e.char), ...chars.map((e) => e.char)];
       final soundPool = [...lesson.chars.map((e) => e.romaji), ...chars.map((e) => e.romaji)];
-      out.add(_make(rnd,
+      out.add(makeKanaQuestion(rnd,
           kind: KanaQuestionKind.listenPickChar,
           prompt: 'استمع ثم اختر الحرف الصحيح',
           audio: c.audio,
           correct: c.char,
           pool: glyphPool,
           japaneseOptions: true));
-      out.add(_make(rnd,
+      out.add(makeKanaQuestion(rnd,
           kind: KanaQuestionKind.charPickSound,
           prompt: c.char,
           hint: 'كيف يُنطق هذا الحرف؟',
           correct: c.romaji,
           pool: soundPool));
-      out.add(_make(rnd,
+      out.add(makeKanaQuestion(rnd,
           kind: KanaQuestionKind.wordPickMeaning,
           prompt: c.word.jp,
           audio: c.word.audio,
@@ -345,13 +345,13 @@ List<KanaQuestion> buildKanaQuiz(KanaLesson lesson, KanaCourse course, Random rn
     for (var i = 0; i < items.length && out.length < 12; i++) {
       final w = items[i];
       out.add(i.isEven
-          ? _make(rnd,
+          ? makeKanaQuestion(rnd,
               kind: KanaQuestionKind.listenPickMeaning,
               prompt: 'استمع ثم اختر المعنى',
               audio: w.audio,
               correct: w.ar,
               pool: pool)
-          : _make(rnd,
+          : makeKanaQuestion(rnd,
               kind: KanaQuestionKind.wordPickMeaning,
               prompt: w.jp,
               audio: w.audio,
@@ -366,3 +366,59 @@ List<KanaQuestion> buildKanaQuiz(KanaLesson lesson, KanaCourse course, Random rn
 
 /// 3 stars with no mistakes, 2 with up to two, otherwise 1.
 int starsForMistakes(int mistakes) => mistakes == 0 ? 3 : (mistakes <= 2 ? 2 : 1);
+
+// ---------------------------------------------------------------------------
+// Letters inside the episodes
+// ---------------------------------------------------------------------------
+
+/// A new letter taught inside an episode, with the example word taken from the
+/// episode's own vocabulary.
+class EpisodeLetter {
+  const EpisodeLetter({required this.char, required this.example});
+
+  final String char;
+  final KanaWord example;
+
+  /// The full letter card (sound, strokes, tip) with the episode's word as the key word.
+  KanaChar toKanaChar(KanaChar base) => KanaChar(
+        char: base.char,
+        romaji: base.romaji,
+        soundAr: base.soundAr,
+        noteAr: base.noteAr,
+        strokes: base.strokes,
+        tipAr: base.tipAr,
+        audio: base.audio,
+        word: example,
+      );
+}
+
+/// episode id -> its new letters (assets/data/episode_letters.json).
+Map<int, List<EpisodeLetter>> parseEpisodeLetters(String source) {
+  final raw = jsonDecode(source);
+  if (raw is! Map<String, dynamic>) {
+    throw const FormatException('episode letters must be a JSON object');
+  }
+  final out = <int, List<EpisodeLetter>>{};
+  raw.forEach((k, v) {
+    final id = int.tryParse(k);
+    if (id == null || v is! List<dynamic>) return;
+    out[id] = [
+      for (final e in v)
+        if (e is Map<String, dynamic>)
+          EpisodeLetter(
+            char: reqString(e, 'char'),
+            example: () {
+              final ex = reqMap(e, 'example');
+              return KanaWord(
+                jp: reqString(ex, 'jp'),
+                romaji: reqString(ex, 'romaji'),
+                ar: reqString(ex, 'ar'),
+                emoji: '🗣️',
+                audio: reqString(ex, 'audio'),
+              );
+            }(),
+          ),
+    ];
+  });
+  return out;
+}

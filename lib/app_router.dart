@@ -5,6 +5,7 @@ import 'package:go_router/go_router.dart';
 import 'core/constants.dart';
 import 'services/access_policy.dart';
 import 'providers/providers.dart';
+import 'ui/account_screen.dart';
 import 'ui/call/live_call_screen.dart';
 import 'ui/call/persona_selector_screen.dart';
 import 'ui/episode/episode_screen.dart';
@@ -36,7 +37,7 @@ final routerProvider = Provider<GoRouter>((ref) {
   ref.onDispose(refresh.dispose);
 
   bool isPlacementPath(String loc) =>
-      loc == '/onboarding' || loc.startsWith('/placement');
+      loc == '/onboarding' || loc.startsWith('/placement') || loc == '/account';
 
   return GoRouter(
     initialLocation: '/',
@@ -87,6 +88,7 @@ final routerProvider = Provider<GoRouter>((ref) {
           ),
         ],
       ),
+      GoRoute(path: '/account', builder: (_, __) => const AccountScreen()),
       GoRoute(path: '/paywall', builder: (_, __) => const PaywallScreen()),
       GoRoute(
         path: '/call',

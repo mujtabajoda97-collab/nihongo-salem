@@ -43,18 +43,18 @@ class HomeScreen extends ConsumerWidget {
             padding: const EdgeInsets.fromLTRB(16, 12, 16, 100),
             children: [
               _Header(userName: user.displayName),
-              const SizedBox(height: 14),
+              const SizedBox(height: 16),
               _ProgressCard(
                 done: user.completedEpisodes.length,
                 streak: user.streakDays,
                 stars: user.totalStars,
               ),
+              const SizedBox(height: 16),
+              _ContinueCard(episodes: episodes),
+              const SizedBox(height: 12),
+              const _KanaCard(),
               const SizedBox(height: 10),
               _CallQuotaLine(premium: premium, remainingSeconds: remaining),
-              const SizedBox(height: 14),
-              const _KanaCard(),
-              const SizedBox(height: 12),
-              _ContinueCard(episodes: episodes),
               const SizedBox(height: 8),
               for (var season = 1; season <= 4; season++)
                 _SeasonSection(
@@ -92,24 +92,50 @@ class _Header extends StatelessWidget {
   final String userName;
 
   @override
-  Widget build(BuildContext context) => Row(
-        children: [
-          Expanded(
-            child: Text(
-              'أهلاً، $userName',
-              style: Theme.of(context)
-                  .textTheme
-                  .headlineSmall
-                  ?.copyWith(fontWeight: FontWeight.bold),
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final initial = userName.trim().isEmpty ? 'س' : String.fromCharCode(userName.trim().runes.first);
+    return Row(
+      children: [
+        Container(
+          width: 48,
+          height: 48,
+          alignment: Alignment.center,
+          decoration: const BoxDecoration(
+            shape: BoxShape.circle,
+            gradient: LinearGradient(
+              colors: [AppColors.brand, Color(0xFFFF7A59)],
+              begin: Alignment.topRight,
+              end: Alignment.bottomLeft,
             ),
           ),
-          IconButton(
-            onPressed: () => showSettingsSheet(context),
-            icon: const Icon(Icons.settings_rounded),
-            tooltip: 'الإعدادات',
+          child: Text(initial,
+              style: const TextStyle(
+                  color: Colors.white, fontSize: 20, fontWeight: FontWeight.w800)),
+        ),
+        const SizedBox(width: 12),
+        Expanded(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text('أهلاً، $userName',
+                  style: theme.textTheme.titleLarge
+                      ?.copyWith(fontWeight: FontWeight.w800)),
+              Text('تعلّم الياباني خطوة بخطوة',
+                  style: theme.textTheme.bodySmall
+                      ?.copyWith(color: AppColors.muted)),
+            ],
           ),
-        ],
-      );
+        ),
+        IconButton.filledTonal(
+          onPressed: () => showSettingsSheet(context),
+          style: IconButton.styleFrom(backgroundColor: Colors.white),
+          icon: const Icon(Icons.settings_rounded),
+          tooltip: 'الإعدادات',
+        ),
+      ],
+    );
+  }
 }
 
 class _ProgressCard extends StatelessWidget {
@@ -124,46 +150,79 @@ class _ProgressCard extends StatelessWidget {
   final int stars;
 
   @override
-  Widget build(BuildContext context) => Card(
-        child: Padding(
-          padding: const EdgeInsets.all(16),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                children: [
-                  const Text('تقدّمك',
-                      style: TextStyle(fontWeight: FontWeight.bold)),
-                  const Spacer(),
-                  Directionality(
-                    textDirection: TextDirection.ltr,
-                    child: Text('$done / ${AppRules.totalEpisodes}'),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 8),
-              ClipRRect(
-                borderRadius: BorderRadius.circular(8),
-                child: LinearProgressIndicator(
-                  value: done / AppRules.totalEpisodes,
-                  minHeight: 10,
-                ),
-              ),
-              const SizedBox(height: 12),
-              Row(
-                children: [
-                  const Icon(Icons.local_fire_department_rounded,
-                      color: AppColors.warning),
-                  const SizedBox(width: 4),
-                  Text('$streak يوم متتالٍ'),
-                  const Spacer(),
-                  const Icon(Icons.star_rounded, color: AppColors.gold),
-                  const SizedBox(width: 4),
-                  Text('$stars نجمة'),
-                ],
-              ),
-            ],
+  Widget build(BuildContext context) => Row(
+        children: [
+          Expanded(
+            child: _StatTile(
+              icon: Icons.menu_book_rounded,
+              color: AppColors.brand,
+              value: '$done/${AppRules.totalEpisodes}',
+              label: 'حلقات',
+            ),
           ),
+          const SizedBox(width: 10),
+          Expanded(
+            child: _StatTile(
+              icon: Icons.local_fire_department_rounded,
+              color: AppColors.warning,
+              value: '$streak',
+              label: 'أيام متتالية',
+            ),
+          ),
+          const SizedBox(width: 10),
+          Expanded(
+            child: _StatTile(
+              icon: Icons.star_rounded,
+              color: AppColors.gold,
+              value: '$stars',
+              label: 'نجمة',
+            ),
+          ),
+        ],
+      );
+}
+
+class _StatTile extends StatelessWidget {
+  const _StatTile({
+    required this.icon,
+    required this.color,
+    required this.value,
+    required this.label,
+  });
+
+  final IconData icon;
+  final Color color;
+  final String value;
+  final String label;
+
+  @override
+  Widget build(BuildContext context) => Container(
+        padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 10),
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(20),
+          boxShadow: kSoftShadow,
+        ),
+        child: Column(
+          children: [
+            Icon(icon, color: color, size: 26),
+            const SizedBox(height: 6),
+            Directionality(
+              textDirection: TextDirection.ltr,
+              child: Text(value,
+                  style: Theme.of(context)
+                      .textTheme
+                      .titleMedium
+                      ?.copyWith(fontWeight: FontWeight.w800)),
+            ),
+            Text(label,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: Theme.of(context)
+                    .textTheme
+                    .labelSmall
+                    ?.copyWith(color: AppColors.muted)),
+          ],
         ),
       );
 }
@@ -525,7 +584,8 @@ class _EpisodeSheet extends ConsumerWidget {
 }
 
 
-/// Entry to the beginner course: Japanese letters first, then words and sentences.
+/// Optional review of all the letters in one place (the letters themselves are
+/// taught inside the episodes).
 class _KanaCard extends ConsumerWidget {
   const _KanaCard();
 
@@ -535,69 +595,53 @@ class _KanaCard extends ConsumerWidget {
     final progress = ref.watch(kanaProgressProvider);
     final total = course?.lessons.length ?? 0;
     final done = progress.completed.length;
-    final nextId = course == null ? null : progress.nextLesson(total);
-    final nextTitle = nextId == null ? null : course!.lessonById(nextId).titleAr;
-    final finished = course != null && nextId == null;
-
-    return Card(
-      color: AppColors.premium.withValues(alpha: 0.06),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(24),
-        side: const BorderSide(color: AppColors.premium, width: 1.5),
-      ),
-      child: InkWell(
-        borderRadius: BorderRadius.circular(24),
-        onTap: () => context.push('/kana'),
-        child: Padding(
-          padding: const EdgeInsets.all(16),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
+    return InkWell(
+      borderRadius: BorderRadius.circular(22),
+      onTap: () => context.push('/kana'),
+      child: Container(
+        padding: const EdgeInsets.all(14),
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(22),
+          boxShadow: kSoftShadow,
+        ),
+        child: Row(
+          children: [
+            Container(
+              width: 52,
+              height: 52,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: AppColors.premium.withValues(alpha: 0.1),
+                borderRadius: BorderRadius.circular(16),
+              ),
+              child: const Text('あ',
+                  style: TextStyle(fontSize: 28, color: AppColors.premium)),
+            ),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text('あ', style: TextStyle(fontSize: 34, color: AppColors.premium)),
-                  const SizedBox(width: 10),
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text('ابدأ من الصفر: الحروف اليابانية',
-                            style: Theme.of(context)
-                                .textTheme
-                                .titleMedium
-                                ?.copyWith(fontWeight: FontWeight.bold)),
-                        Text(
-                          finished
-                              ? 'أكملت المنهج! راجع أي درس متى شئت'
-                              : done == 0
-                                  ? 'حرف أو حرفان في كل درس، ثم كلمات وجمل خفيفة'
-                                  : 'الدرس التالي: $nextTitle',
-                          style: Theme.of(context).textTheme.bodySmall,
-                        ),
-                      ],
-                    ),
+                  Text('دورة الحروف الكاملة',
+                      style: Theme.of(context)
+                          .textTheme
+                          .titleSmall
+                          ?.copyWith(fontWeight: FontWeight.w800)),
+                  Text(
+                    total == 0
+                        ? 'الهيراغانا من الصفر، ثم كلمات وجمل'
+                        : '$done من $total درساً — راجع كل الحروف في مكان واحد',
+                    style: Theme.of(context)
+                        .textTheme
+                        .bodySmall
+                        ?.copyWith(color: AppColors.muted),
                   ),
                 ],
               ),
-              if (total > 0) ...[
-                const SizedBox(height: 12),
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(8),
-                  child: LinearProgressIndicator(value: done / total, minHeight: 8),
-                ),
-                const SizedBox(height: 4),
-                Text('$done / $total درساً', style: Theme.of(context).textTheme.bodySmall),
-              ],
-              const SizedBox(height: 10),
-              FilledButton(
-                style: FilledButton.styleFrom(backgroundColor: AppColors.premium),
-                onPressed: () => nextId == null || nextId == 1 && done == 0
-                    ? context.push('/kana')
-                    : context.push('/kana/$nextId'),
-                child: Text(done == 0 ? 'ابدأ تعلّم الحروف' : 'تابع التعلّم'),
-              ),
-            ],
-          ),
+            ),
+            const Icon(Icons.chevron_left_rounded, color: AppColors.lockedGrey),
+          ],
         ),
       ),
     );

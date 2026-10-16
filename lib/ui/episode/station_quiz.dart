@@ -1,32 +1,52 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../models/episode.dart';
+import '../../models/episode_warmup.dart';
+import '../../models/kana_course.dart';
+import '../../providers/kana_course.dart';
+import '../kana/kana_lesson_screen.dart';
 import '../theme.dart';
 import '../widgets/common.dart';
 
 /// Station C: the episode's quiz questions (multiple choice, word order),
 /// one at a time with instant feedback, then a score summary.
-class QuizStation extends StatefulWidget {
-  const QuizStation({super.key, required this.episode, required this.onFinished});
+class QuizStation extends ConsumerStatefulWidget {
+  const QuizStation({
+    super.key,
+    required this.episode,
+    required this.onFinished,
+    this.letters = const [],
+  });
 
   final Episode episode;
+
+  /// New letters of this episode (used to build the gentle warm-up).
+  final List<KanaChar> letters;
 
   /// Called with the number of correct answers when the learner moves on.
   final void Function(int correct) onFinished;
 
   @override
-  State<QuizStation> createState() => _QuizStationState();
+  ConsumerState<QuizStation> createState() => _QuizStationState();
 }
 
-class _QuizStationState extends State<QuizStation> {
+class _QuizStationState extends ConsumerState<QuizStation> {
+  /// Level 1-2 warm-up (letters and single words) comes before the sentence questions.
+  List<KanaQuestion>? _warmup;
+  bool _warmupDone = false;
   int _index = 0;
   int _correct = 0;
   bool _answered = false;
   bool _summary = false;
 
-  List<QuizItem> get _items => widget.episode.quiz;
+  /// The first episodes keep the sentence questions short: a beginner has just
+  /// met the letters, so only a few easy ones follow the warm-up.
+  List<QuizItem> get _items => widget.episode.id <= 5
+      ? widget.episode.quiz.take(3).toList(growable: false)
+      : widget.episode.quiz;
 
   void _onAnswered(bool correct) {
     setState(() {
@@ -47,7 +67,55 @@ class _QuizStationState extends State<QuizStation> {
   }
 
   @override
+  void initState() {
+    super.initState();
+    _warmupDone = false;
+  }
+
+  List<KanaQuestion> _buildWarmup() {
+    final course = ref.read(kanaCourseProvider).valueOrNull;
+    final all = course == null
+        ? widget.letters
+        : [for (final l in course.lessons) ...l.chars];
+    return buildEpisodeWarmup(
+      episode: widget.episode,
+      letters: widget.letters,
+      allLetters: all,
+      rnd: Random(),
+    );
+  }
+
+  @override
   Widget build(BuildContext context) {
+    if (!_warmupDone) {
+      final warm = _warmup ??= _buildWarmup();
+      if (warm.isEmpty) {
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          if (mounted) setState(() => _warmupDone = true);
+        });
+        return const SizedBox.shrink();
+      }
+      return Column(
+        children: [
+          Container(
+            width: double.infinity,
+            margin: const EdgeInsets.fromLTRB(16, 4, 16, 0),
+            padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 14),
+            decoration: BoxDecoration(
+              color: AppColors.successSoft,
+              borderRadius: BorderRadius.circular(14),
+            ),
+            child: const Text('إحماء خفيف: استمع واختر، حرف حرفاً وكلمة كلمة 🌱'),
+          ),
+          Expanded(
+            child: KanaQuizView(
+              questions: warm,
+              onFinished: (_) => setState(() => _warmupDone = true),
+            ),
+          ),
+        ],
+      );
+    }
     if (_items.isEmpty) {
       // Defensive: an episode without questions skips straight on.
       return Center(

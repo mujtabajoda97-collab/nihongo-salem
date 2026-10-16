@@ -3,6 +3,8 @@ import 'dart:io';
 import 'dart:math';
 
 import 'package:flutter_test/flutter_test.dart';
+import 'package:nihongo_salem/models/episode.dart';
+import 'package:nihongo_salem/models/episode_warmup.dart';
 import 'package:nihongo_salem/models/kana_course.dart';
 
 KanaCourse loadCourse() =>
@@ -78,5 +80,37 @@ void main() {
     expect(starsForMistakes(0), 3);
     expect(starsForMistakes(2), 2);
     expect(starsForMistakes(5), 1);
+  });
+
+  test('every episode with letters gets a gentle warm-up of letters then words', () {
+    final map = parseEpisodeLetters(File('assets/data/episode_letters.json').readAsStringSync());
+    final byChar = {
+      for (final l in course.lessons) for (final c in l.chars) c.char: c,
+    };
+    final seen = <String>{};
+    for (var id = 1; id <= 40; id++) {
+      final letters = map[id] ?? const <EpisodeLetter>[];
+      expect(letters.length, lessThanOrEqualTo(2), reason: 'episode $id');
+      for (final e in letters) {
+        expect(byChar, contains(e.char));
+        expect(seen.add(e.char), isTrue, reason: '${e.char} taught twice');
+      }
+      if (letters.isEmpty) continue;
+      final episode = Episode.fromJson(jsonDecode(
+          File('assets/data/episodes/episode_${id.toString().padLeft(2, '0')}.json')
+              .readAsStringSync()) as Map<String, dynamic>);
+      final cards = [for (final e in letters) e.toKanaChar(byChar[e.char]!)];
+      final quiz = buildEpisodeWarmup(
+        episode: episode,
+        letters: cards,
+        allLetters: byChar.values.toList(),
+        rnd: Random(id),
+      );
+      expect(quiz.first.kind, KanaQuestionKind.listenPickChar);
+      for (final q in quiz) {
+        expect(q.options.toSet().length, q.options.length);
+        expect(q.options.length, greaterThanOrEqualTo(2));
+      }
+    }
   });
 }

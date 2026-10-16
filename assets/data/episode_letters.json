@@ -1,0 +1,645 @@
+{
+ "1": [
+  {
+   "char": "く",
+   "example": {
+    "jp": "くうこう",
+    "romaji": "kūkō",
+    "ar": "مطار",
+    "audio": "assets/audio/ep01_v_01.mp3"
+   }
+  },
+  {
+   "char": "う",
+   "example": {
+    "jp": "くうこう",
+    "romaji": "kūkō",
+    "ar": "مطار",
+    "audio": "assets/audio/ep01_v_01.mp3"
+   }
+  }
+ ],
+ "2": [
+  {
+   "char": "え",
+   "example": {
+    "jp": "えき",
+    "romaji": "eki",
+    "ar": "محطة قطار",
+    "audio": "assets/audio/ep02_v_01.mp3"
+   }
+  },
+  {
+   "char": "き",
+   "example": {
+    "jp": "えき",
+    "romaji": "eki",
+    "ar": "محطة قطار",
+    "audio": "assets/audio/ep02_v_01.mp3"
+   }
+  }
+ ],
+ "3": [
+  {
+   "char": "ん",
+   "example": {
+    "jp": "でんしゃ",
+    "romaji": "densha",
+    "ar": "قطار",
+    "audio": "assets/audio/ep03_v_01.mp3"
+   }
+  },
+  {
+   "char": "し",
+   "example": {
+    "jp": "でんしゃ",
+    "romaji": "densha",
+    "ar": "قطار",
+    "audio": "assets/audio/ep03_v_01.mp3"
+   }
+  }
+ ],
+ "4": [
+  {
+   "char": "へ",
+   "example": {
+    "jp": "へや",
+    "romaji": "heya",
+    "ar": "غرفة",
+    "audio": "assets/audio/ep04_v_01.mp3"
+   }
+  },
+  {
+   "char": "や",
+   "example": {
+    "jp": "へや",
+    "romaji": "heya",
+    "ar": "غرفة",
+    "audio": "assets/audio/ep04_v_01.mp3"
+   }
+  }
+ ],
+ "5": [
+  {
+   "char": "お",
+   "example": {
+    "jp": "おべんとう",
+    "romaji": "obentō",
+    "ar": "وجبة جاهزة في علبة (بينتو)",
+    "audio": "assets/audio/ep05_v_01.mp3"
+   }
+  },
+  {
+   "char": "と",
+   "example": {
+    "jp": "おべんとう",
+    "romaji": "obentō",
+    "ar": "وجبة جاهزة في علبة (بينتو)",
+    "audio": "assets/audio/ep05_v_01.mp3"
+   }
+  }
+ ],
+ "6": [
+  {
+   "char": "わ",
+   "example": {
+    "jp": "でんわ",
+    "romaji": "denwa",
+    "ar": "هاتف / مكالمة",
+    "audio": "assets/audio/ep06_v_01.mp3"
+   }
+  },
+  {
+   "char": "つ",
+   "example": {
+    "jp": "つかいます",
+    "romaji": "tsukaimasu",
+    "ar": "يستخدم",
+    "audio": "assets/audio/ep06_v_02.mp3"
+   }
+  }
+ ],
+ "7": [
+  {
+   "char": "さ",
+   "example": {
+    "jp": "おさら",
+    "romaji": "osara",
+    "ar": "صحن",
+    "audio": "assets/audio/ep07_v_02.mp3"
+   }
+  },
+  {
+   "char": "ら",
+   "example": {
+    "jp": "おさら",
+    "romaji": "osara",
+    "ar": "صحن",
+    "audio": "assets/audio/ep07_v_02.mp3"
+   }
+  }
+ ],
+ "8": [
+  {
+   "char": "こ",
+   "example": {
+    "jp": "ぎんこう",
+    "romaji": "ginkō",
+    "ar": "بنك",
+    "audio": "assets/audio/ep08_v_01.mp3"
+   }
+  },
+  {
+   "char": "か",
+   "example": {
+    "jp": "かみ",
+    "romaji": "kami",
+    "ar": "ورقة",
+    "audio": "assets/audio/ep08_v_03.mp3"
+   }
+  }
+ ],
+ "9": [
+  {
+   "char": "み",
+   "example": {
+    "jp": "ごみ",
+    "romaji": "gomi",
+    "ar": "نفايات / قمامة",
+    "audio": "assets/audio/ep09_v_01.mp3"
+   }
+  },
+  {
+   "char": "な",
+   "example": {
+    "jp": "なんようび",
+    "romaji": "nan-yōbi",
+    "ar": "أي يوم من الأسبوع؟",
+    "audio": "assets/audio/ep09_v_02.mp3"
+   }
+  }
+ ],
+ "10": [
+  {
+   "char": "り",
+   "example": {
+    "jp": "りょうり",
+    "romaji": "ryōri",
+    "ar": "طعام / طبخ",
+    "audio": "assets/audio/ep10_v_02.mp3"
+   }
+  },
+  {
+   "char": "す",
+   "example": {
+    "jp": "すき",
+    "romaji": "suki",
+    "ar": "محبوب / أحب",
+    "audio": "assets/audio/ep10_v_03.mp3"
+   }
+  }
+ ],
+ "11": [
+  {
+   "char": "ま",
+   "example": {
+    "jp": "まいあさ",
+    "romaji": "maiasa",
+    "ar": "كل صباح",
+    "audio": "assets/audio/ep11_v_01.mp3"
+   }
+  },
+  {
+   "char": "い",
+   "example": {
+    "jp": "まいあさ",
+    "romaji": "maiasa",
+    "ar": "كل صباح",
+    "audio": "assets/audio/ep11_v_01.mp3"
+   }
+  }
+ ],
+ "12": [
+  {
+   "char": "ち",
+   "example": {
+    "jp": "みち",
+    "romaji": "michi",
+    "ar": "طريق / شارع",
+    "audio": "assets/audio/ep12_v_01.mp3"
+   }
+  },
+  {
+   "char": "っ",
+   "example": {
+    "jp": "まっすぐ",
+    "romaji": "massugu",
+    "ar": "مباشرة / على استقامة",
+    "audio": "assets/audio/ep12_v_02.mp3"
+   }
+  }
+ ],
+ "13": [
+  {
+   "char": "ふ",
+   "example": {
+    "jp": "ふたり",
+    "romaji": "futari",
+    "ar": "شخصان",
+    "audio": "assets/audio/ep13_v_01.mp3"
+   }
+  },
+  {
+   "char": "た",
+   "example": {
+    "jp": "ふたり",
+    "romaji": "futari",
+    "ar": "شخصان",
+    "audio": "assets/audio/ep13_v_01.mp3"
+   }
+  }
+ ],
+ "14": [
+  {
+   "char": "ゆ",
+   "example": {
+    "jp": "ゆうびんきょく",
+    "romaji": "yūbinkyoku",
+    "ar": "مكتب البريد",
+    "audio": "assets/audio/ep14_v_01.mp3"
+   }
+  },
+  {
+   "char": "に",
+   "example": {
+    "jp": "にもつ",
+    "romaji": "nimotsu",
+    "ar": "طرد / أمتعة",
+    "audio": "assets/audio/ep14_v_02.mp3"
+   }
+  }
+ ],
+ "15": [
+  {
+   "char": "ろ",
+   "example": {
+    "jp": "しろい",
+    "romaji": "shiroi",
+    "ar": "أبيض",
+    "audio": "assets/audio/ep15_v_05.mp3"
+   }
+  },
+  {
+   "char": "も",
+   "example": {
+    "jp": "もっと",
+    "romaji": "motto",
+    "ar": "أكثر / أكثر من ذلك",
+    "audio": "assets/audio/ep15_v_06.mp3"
+   }
+  }
+ ],
+ "16": [
+  {
+   "char": "ひ",
+   "example": {
+    "jp": "ひま",
+    "romaji": "hima",
+    "ar": "متفرغ / وقت فراغ",
+    "audio": "assets/audio/ep16_v_01.mp3"
+   }
+  },
+  {
+   "char": "あ",
+   "example": {
+    "jp": "あいます",
+    "romaji": "aimasu",
+    "ar": "يلتقي",
+    "audio": "assets/audio/ep16_v_04.mp3"
+   }
+  }
+ ],
+ "17": [
+  {
+   "char": "そ",
+   "example": {
+    "jp": "おそい",
+    "romaji": "osoi",
+    "ar": "متأخر / بطيء",
+    "audio": "assets/audio/ep17_v_01.mp3"
+   }
+  },
+  {
+   "char": "の",
+   "example": {
+    "jp": "のります",
+    "romaji": "norimasu",
+    "ar": "يركب",
+    "audio": "assets/audio/ep17_v_03.mp3"
+   }
+  }
+ ],
+ "18": [
+  {
+   "char": "ず",
+   "example": {
+    "jp": "おみず",
+    "romaji": "omizu",
+    "ar": "ماء",
+    "audio": "assets/audio/ep18_v_05.mp3"
+   }
+  }
+ ],
+ "19": [
+  {
+   "char": "ほ",
+   "example": {
+    "jp": "ほん",
+    "romaji": "hon",
+    "ar": "كتاب",
+    "audio": "assets/audio/ep19_v_02.mp3"
+   }
+  },
+  {
+   "char": "よ",
+   "example": {
+    "jp": "よみます",
+    "romaji": "yomimasu",
+    "ar": "يقرأ",
+    "audio": "assets/audio/ep19_v_03.mp3"
+   }
+  }
+ ],
+ "20": [
+  {
+   "char": "て",
+   "example": {
+    "jp": "じてんしゃ",
+    "romaji": "jitensha",
+    "ar": "دراجة هوائية",
+    "audio": "assets/audio/ep20_v_01.mp3"
+   }
+  },
+  {
+   "char": "れ",
+   "example": {
+    "jp": "うれしい",
+    "romaji": "ureshii",
+    "ar": "سعيد / مسرور",
+    "audio": "assets/audio/ep20_v_07.mp3"
+   }
+  }
+ ],
+ "21": [
+  {
+   "char": "せ",
+   "example": {
+    "jp": "せんせい",
+    "romaji": "sensei",
+    "ar": "معلم / أستاذ",
+    "audio": "assets/audio/ep21_v_01.mp3"
+   }
+  },
+  {
+   "char": "け",
+   "example": {
+    "jp": "あけます",
+    "romaji": "akemasu",
+    "ar": "يفتح",
+    "audio": "assets/audio/ep21_v_08.mp3"
+   }
+  }
+ ],
+ "22": [
+  {
+   "char": "だ",
+   "example": {
+    "jp": "しゅくだい",
+    "romaji": "shukudai",
+    "ar": "واجب منزلي",
+    "audio": "assets/audio/ep22_v_03.mp3"
+   }
+  },
+  {
+   "char": "ど",
+   "example": {
+    "jp": "どうして",
+    "romaji": "dōshite",
+    "ar": "لماذا",
+    "audio": "assets/audio/ep22_v_06.mp3"
+   }
+  }
+ ],
+ "23": [
+  {
+   "char": "め",
+   "example": {
+    "jp": "あめ",
+    "romaji": "ame",
+    "ar": "مطر",
+    "audio": "assets/audio/ep23_v_02.mp3"
+   }
+  },
+  {
+   "char": "は",
+   "example": {
+    "jp": "はれ",
+    "romaji": "hare",
+    "ar": "جو مشمس / صحو",
+    "audio": "assets/audio/ep23_v_04.mp3"
+   }
+  }
+ ],
+ "24": [
+  {
+   "char": "ね",
+   "example": {
+    "jp": "ねつ",
+    "romaji": "netsu",
+    "ar": "حرارة / حمّى",
+    "audio": "assets/audio/ep24_v_03.mp3"
+   }
+  },
+  {
+   "char": "ぜ",
+   "example": {
+    "jp": "かぜ",
+    "romaji": "kaze",
+    "ar": "نزلة برد",
+    "audio": "assets/audio/ep24_v_06.mp3"
+   }
+  }
+ ],
+ "25": [
+  {
+   "char": "び",
+   "example": {
+    "jp": "びょういん",
+    "romaji": "byōin",
+    "ar": "مستشفى / عيادة",
+    "audio": "assets/audio/ep25_v_01.mp3"
+   }
+  },
+  {
+   "char": "で",
+   "example": {
+    "jp": "でんわばんごう",
+    "romaji": "denwa bangō",
+    "ar": "رقم الهاتف",
+    "audio": "assets/audio/ep25_v_05.mp3"
+   }
+  }
+ ],
+ "26": [],
+ "27": [
+  {
+   "char": "ぬ",
+   "example": {
+    "jp": "ぬぎます",
+    "romaji": "nugimasu",
+    "ar": "يخلع",
+    "audio": "assets/audio/ep27_v_02.mp3"
+   }
+  },
+  {
+   "char": "ぎ",
+   "example": {
+    "jp": "ぬぎます",
+    "romaji": "nugimasu",
+    "ar": "يخلع",
+    "audio": "assets/audio/ep27_v_02.mp3"
+   }
+  }
+ ],
+ "28": [
+  {
+   "char": "が",
+   "example": {
+    "jp": "がいこく",
+    "romaji": "gaikoku",
+    "ar": "بلد أجنبي",
+    "audio": "assets/audio/ep28_v_08.mp3"
+   }
+  }
+ ],
+ "29": [
+  {
+   "char": "ご",
+   "example": {
+    "jp": "しんごう",
+    "romaji": "shingō",
+    "ar": "إشارة مرور",
+    "audio": "assets/audio/ep29_v_03.mp3"
+   }
+  },
+  {
+   "char": "ぐ",
+   "example": {
+    "jp": "まっすぐ",
+    "romaji": "massugu",
+    "ar": "مستقيماً",
+    "audio": "assets/audio/ep29_v_04.mp3"
+   }
+  }
+ ],
+ "30": [
+  {
+   "char": "ば",
+   "example": {
+    "jp": "こうばん",
+    "romaji": "kōban",
+    "ar": "مركز شرطة صغير في الحي",
+    "audio": "assets/audio/ep30_v_01.mp3"
+   }
+  },
+  {
+   "char": "ざ",
+   "example": {
+    "jp": "ざいりゅうカード",
+    "romaji": "zairyū kādo",
+    "ar": "بطاقة الإقامة",
+    "audio": "assets/audio/ep30_v_05.mp3"
+   }
+  }
+ ],
+ "31": [
+  {
+   "char": "じ",
+   "example": {
+    "jp": "じきゅう",
+    "romaji": "jikyū",
+    "ar": "الأجر بالساعة",
+    "audio": "assets/audio/ep31_v_03.mp3"
+   }
+  }
+ ],
+ "32": [],
+ "33": [],
+ "34": [
+  {
+   "char": "ぱ",
+   "example": {
+    "jp": "せんぱい",
+    "romaji": "senpai",
+    "ar": "زميل أقدم / مُدرّب",
+    "audio": "assets/audio/ep34_v_01.mp3"
+   }
+  }
+ ],
+ "35": [
+  {
+   "char": "を",
+   "example": {
+    "jp": "きを つけます",
+    "romaji": "ki o tsukemasu",
+    "ar": "ينتبه / يحرص",
+    "audio": "assets/audio/ep35_v_08.mp3"
+   }
+  }
+ ],
+ "36": [
+  {
+   "char": "べ",
+   "example": {
+    "jp": "しらべます",
+    "romaji": "shirabemasu",
+    "ar": "يبحث / يتحقق",
+    "audio": "assets/audio/ep36_v_03.mp3"
+   }
+  }
+ ],
+ "37": [],
+ "38": [
+  {
+   "char": "ぶ",
+   "example": {
+    "jp": "ぜんぶ",
+    "romaji": "zenbu",
+    "ar": "الكل / المجموع",
+    "audio": "assets/audio/ep38_v_06.mp3"
+   }
+  }
+ ],
+ "39": [
+  {
+   "char": "づ",
+   "example": {
+    "jp": "つづけます",
+    "romaji": "tsuzukemasu",
+    "ar": "يستمر / يواصل",
+    "audio": "assets/audio/ep39_v_04.mp3"
+   }
+  }
+ ],
+ "40": [
+  {
+   "char": "ぼ",
+   "example": {
+    "jp": "おぼえています",
+    "romaji": "oboete imasu",
+    "ar": "يتذكر",
+    "audio": "assets/audio/ep40_v_08.mp3"
+   }
+  }
+ ]
+}

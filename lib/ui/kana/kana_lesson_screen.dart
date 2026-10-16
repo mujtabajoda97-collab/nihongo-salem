@@ -158,11 +158,11 @@ class _LessonFlowState extends ConsumerState<_LessonFlow> {
                   child: switch (_step.kind) {
                     _StepKind.note => _NoteStep(text: _step.text!),
                     _StepKind.page => _PageStep(page: _step.page!),
-                    _StepKind.charIntro => _CharIntroStep(char: _step.char!),
-                    _StepKind.charWord => _CharWordStep(char: _step.char!),
-                    _StepKind.charTrace => _TraceStep(char: _step.char!),
+                    _StepKind.charIntro => CharIntroStep(char: _step.char!),
+                    _StepKind.charWord => CharWordStep(char: _step.char!),
+                    _StepKind.charTrace => TraceStep(char: _step.char!),
                     _StepKind.item => _ItemStep(item: _step.item!),
-                    _StepKind.quiz => _QuizStep(questions: _questions, onFinished: _quizFinished),
+                    _StepKind.quiz => KanaQuizView(questions: _questions, onFinished: _quizFinished),
                     _StepKind.done => _DoneStep(
                         lesson: lesson,
                         course: widget.course,
@@ -249,8 +249,8 @@ class _PageStep extends StatelessWidget {
       );
 }
 
-class _CharIntroStep extends StatelessWidget {
-  const _CharIntroStep({required this.char});
+class CharIntroStep extends StatelessWidget {
+  const CharIntroStep({required this.char});
 
   final KanaChar char;
 
@@ -314,8 +314,8 @@ class _CharIntroStep extends StatelessWidget {
   }
 }
 
-class _CharWordStep extends StatelessWidget {
-  const _CharWordStep({required this.char});
+class CharWordStep extends StatelessWidget {
+  const CharWordStep({required this.char});
 
   final KanaChar char;
 
@@ -382,8 +382,8 @@ class _HighlightedWord extends StatelessWidget {
   }
 }
 
-class _TraceStep extends StatelessWidget {
-  const _TraceStep({required this.char});
+class TraceStep extends StatelessWidget {
+  const TraceStep({required this.char});
 
   final KanaChar char;
 
@@ -446,17 +446,17 @@ class _ItemStep extends StatelessWidget {
 // Quiz
 // ---------------------------------------------------------------------------
 
-class _QuizStep extends ConsumerStatefulWidget {
-  const _QuizStep({required this.questions, required this.onFinished});
+class KanaQuizView extends ConsumerStatefulWidget {
+  const KanaQuizView({super.key, required this.questions, required this.onFinished});
 
   final List<KanaQuestion> questions;
   final void Function(int mistakes) onFinished;
 
   @override
-  ConsumerState<_QuizStep> createState() => _QuizStepState();
+  ConsumerState<KanaQuizView> createState() => KanaQuizViewState();
 }
 
-class _QuizStepState extends ConsumerState<_QuizStep> {
+class KanaQuizViewState extends ConsumerState<KanaQuizView> {
   int _q = 0;
   int? _picked;
   int _mistakes = 0;

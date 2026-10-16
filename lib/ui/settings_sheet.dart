@@ -3,7 +3,9 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../models/enums.dart';
+import '../providers/cloud.dart';
 import '../providers/providers.dart';
+import '../services/cloud_sync.dart';
 import '../services/entitlement_service.dart';
 
 Future<void> showSettingsSheet(BuildContext context) =>
@@ -39,7 +41,9 @@ class SettingsSheet extends ConsumerWidget {
             Text('الإعدادات',
                 style: theme.textTheme.titleLarge
                     ?.copyWith(fontWeight: FontWeight.bold)),
-            const SizedBox(height: 16),
+            const SizedBox(height: 12),
+            const _AccountTile(),
+            const SizedBox(height: 20),
             Text('أسلوب المعلم داخل الحلقات', style: theme.textTheme.titleSmall),
             const SizedBox(height: 8),
             SegmentedButton<TutorTone>(
@@ -148,5 +152,104 @@ class SettingsSheet extends ConsumerWidget {
     final notifier = ref.read(userStateProvider.notifier);
     Navigator.of(context).pop();
     await notifier.resetAll();
+  }
+}
+
+/// Sign-in status: guests are invited to save their progress in the cloud.
+class _AccountTile extends ConsumerWidget {
+  const _AccountTile();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final session = ref.watch(cloudSessionProvider);
+    final sync = ref.watch(cloudSyncProvider);
+    final theme = Theme.of(context);
+
+    if (session == null) {
+      return InkWell(
+        borderRadius: BorderRadius.circular(20),
+        onTap: () {
+          Navigator.of(context).pop();
+          context.push('/account');
+        },
+        child: Container(
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20),
+            color: const Color(0xFFF1EDFC),
+          ),
+          child: Row(
+            children: [
+              const Icon(Icons.cloud_upload_rounded, color: Color(0xFF6C4CD9), size: 30),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text('احفظ تقدّمك في السحابة',
+                        style: theme.textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w800)),
+                    Text('سجّل الدخول لتبقى نجومك وحلقاتك محفوظة على أي جهاز',
+                        style: theme.textTheme.bodySmall),
+                  ],
+                ),
+              ),
+              const Icon(Icons.chevron_left_rounded),
+            ],
+          ),
+        ),
+      );
+    }
+
+    final status = switch (sync.phase) {
+      SyncPhase.syncing => 'جارٍ المزامنة...',
+      SyncPhase.failed => 'تعذّرت المزامنة: ${sync.error ?? ''}',
+      SyncPhase.done => 'تمّت المزامنة',
+      SyncPhase.idle => 'متصل',
+    };
+    return Container(
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(20),
+        color: const Color(0xFFE2F6EC),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              const Icon(Icons.cloud_done_rounded, color: Color(0xFF1FA971), size: 28),
+              const SizedBox(width: 10),
+              Expanded(
+                child: Directionality(
+                  textDirection: TextDirection.ltr,
+                  child: Text(session.email,
+                      overflow: TextOverflow.ellipsis,
+                      style: theme.textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w800)),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 4),
+          Text(status, style: theme.textTheme.bodySmall),
+          const SizedBox(height: 8),
+          Row(
+            children: [
+              TextButton.icon(
+                onPressed: sync.phase == SyncPhase.syncing
+                    ? null
+                    : () => ref.read(cloudSyncProvider.notifier).syncNow(),
+                icon: const Icon(Icons.sync_rounded),
+                label: const Text('مزامنة الآن'),
+              ),
+              TextButton.icon(
+                onPressed: () => ref.read(cloudSyncProvider.notifier).signOut(),
+                icon: const Icon(Icons.logout_rounded),
+                label: const Text('تسجيل الخروج'),
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
   }
 }

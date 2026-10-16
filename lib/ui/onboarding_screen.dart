@@ -66,9 +66,7 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
   void _startFromZero() {
     _saveName();
     ref.read(userStateProvider.notifier).skipPlacement();
-    final router = GoRouter.of(context);
-    router.go('/');
-    router.push('/kana'); // a true beginner starts with the letters
+    context.go('/'); // episode 1 opens with its own first letters
   }
 
   @override
@@ -159,7 +157,11 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
               const SizedBox(height: 10),
               OutlinedButton(
                 onPressed: _startFromZero,
-                child: const Text('أنا مبتدئ تماماً: ابدأ بتعلّم الحروف'),
+                child: const Text('أنا مبتدئ تماماً: ابدأ من الصفر'),
+              ),
+              TextButton(
+                onPressed: () => context.push('/account'),
+                child: const Text('لديّ حساب؟ سجّل الدخول لاسترجاع تقدّمك'),
               ),
             ],
           ),

@@ -127,6 +127,9 @@ class UserStateController extends Notifier<UserState> {
     ));
   }
 
+  /// Replaces the progress with the merged result of a cloud sync.
+  void replaceFromCloud(UserState merged) => _commit(merged);
+
   /// Marks an episode finished. [stars] (0-3) only ever goes up.
   void completeEpisode(int episodeId, {required int stars}) {
     final clamped = stars.clamp(0, 3).toInt();
