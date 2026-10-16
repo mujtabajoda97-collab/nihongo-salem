@@ -1,0 +1,18 @@
+# Render Blueprint: deploys the backend in ./backend as a Docker web service.
+# Secrets (ANTHROPIC_API_KEY, OPENAI_API_KEY, APP_API_KEY ...) live in the
+# Render environment group "japanese-backend", never in this file.
+services:
+  - type: web
+    name: japanese-backend
+    runtime: docker
+    plan: free
+    region: frankfurt
+    rootDir: backend
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    autoDeployTrigger: commit
+    envVars:
+      - fromGroup: japanese-backend
+      - key: NODE_ENV
+        value: production
