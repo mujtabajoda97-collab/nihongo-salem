@@ -13,7 +13,7 @@ jobs:
     timeout-minutes: 40
     env:
       # The repository variable API_BASE_URL wins; otherwise this default is used.
-      API_BASE_URL: ${{ vars.API_BASE_URL || 'http://192.168.1.177:8080' }}
+      API_BASE_URL: ${{ vars.API_BASE_URL || 'https://japanese-backend-cn68.onrender.com' }}
       APP_API_KEY: ${{ secrets.APP_API_KEY }}
     steps:
       - name: Check the server address
