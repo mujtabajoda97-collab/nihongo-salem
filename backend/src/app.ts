@@ -107,7 +107,7 @@ export async function buildApp(deps: AppDeps): Promise<FastifyInstance> {
     }
     const status = (err as { statusCode?: number }).statusCode;
     if (typeof status === 'number' && status >= 400 && status < 500) {
-      return reply.code(status).send({ error: (err as { code?: string }).code ?? 'bad_request', message: err.message });
+      return reply.code(status).send({ error: (err as { code?: string }).code ?? 'bad_request', message: (err as Error).message });
     }
     req.log.error(err);
     return reply.code(500).send({ error: 'internal_error' });
