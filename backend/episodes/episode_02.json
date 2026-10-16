@@ -1,0 +1,185 @@
+{
+  "episode_id": 2,
+  "season": 1,
+  "level": "JLPT_N5",
+  "title_ar": "شراء بطاقة القطار Suica",
+  "title_jp": "Suicaを 買います",
+  "background_image": "assets/images/scenes/ep02_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep02_line_01.mp3",
+      "japanese": "すみません。これは Suicaですか。",
+      "romaji": "Sumimasen. Kore wa Suica desu ka.",
+      "arabic": "عذراً. هل هذه بطاقة سويكا؟"
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "駅員",
+      "speaker_name_ar": "موظف المحطة",
+      "character_avatar": "assets/images/characters/station_staff.webp",
+      "audio_file": "assets/audio/ep02_line_02.mp3",
+      "japanese": "はい、そうです。それは Suicaの カードです。",
+      "romaji": "Hai, sō desu. Sore wa Suica no kādo desu.",
+      "arabic": "نعم، صحيح. تلك (التي معك) بطاقة سويكا."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep02_line_03.mp3",
+      "japanese": "いくらですか。",
+      "romaji": "Ikura desu ka.",
+      "arabic": "كم سعرها؟"
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "駅員",
+      "speaker_name_ar": "موظف المحطة",
+      "character_avatar": "assets/images/characters/station_staff.webp",
+      "audio_file": "assets/audio/ep02_line_04.mp3",
+      "japanese": "二千円です。五百円は デポジットです。",
+      "romaji": "Nisen-en desu. Gohyaku-en wa depojitto desu.",
+      "arabic": "ألفا ين. خمسمئة ين منها تأمين مسترد."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep02_line_05.mp3",
+      "japanese": "じゃ、Suicaを 一まい ください。",
+      "romaji": "Ja, Suica o ichi-mai kudasai.",
+      "arabic": "إذن، أعطني بطاقة سويكا واحدة من فضلك."
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "駅員",
+      "speaker_name_ar": "موظف المحطة",
+      "character_avatar": "assets/images/characters/station_staff.webp",
+      "audio_file": "assets/audio/ep02_line_06.mp3",
+      "japanese": "はい。チャージも しますか。",
+      "romaji": "Hai. Chāji mo shimasu ka.",
+      "arabic": "حسناً. هل تريد شحن رصيد إضافي أيضاً؟"
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep02_line_07.mp3",
+      "japanese": "はい、三千円 おねがいします。",
+      "romaji": "Hai, sanzen-en onegaishimasu.",
+      "arabic": "نعم، ثلاثة آلاف ين من فضلك."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "駅員",
+      "speaker_name_ar": "موظف المحطة",
+      "character_avatar": "assets/images/characters/station_staff.webp",
+      "audio_file": "assets/audio/ep02_line_08.mp3",
+      "japanese": "ぜんぶで 五千円です。",
+      "romaji": "Zenbu de gosen-en desu.",
+      "arabic": "المجموع خمسة آلاف ين."
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep02_line_09.mp3",
+      "japanese": "はい、一万円です。",
+      "romaji": "Hai, ichiman-en desu.",
+      "arabic": "تفضل، هذه عشرة آلاف ين."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "駅員",
+      "speaker_name_ar": "موظف المحطة",
+      "character_avatar": "assets/images/characters/station_staff.webp",
+      "audio_file": "assets/audio/ep02_line_10.mp3",
+      "japanese": "五千円の おつりです。どうぞ。",
+      "romaji": "Gosen-en no otsuri desu. Dōzo.",
+      "arabic": "هذا الباقي، خمسة آلاف ين. تفضل."
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep02_line_11.mp3",
+      "japanese": "すみません、あれは なんですか。",
+      "romaji": "Sumimasen, are wa nan desu ka.",
+      "arabic": "عذراً، ما ذلك (الشيء البعيد)؟"
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "駅員",
+      "speaker_name_ar": "موظف المحطة",
+      "character_avatar": "assets/images/characters/station_staff.webp",
+      "audio_file": "assets/audio/ep02_line_12.mp3",
+      "japanese": "あれは 成田エクスプレスの きっぷうりばです。",
+      "romaji": "Are wa Narita Ekusupuresu no kippu-uriba desu.",
+      "arabic": "ذلك مكتب بيع تذاكر قطار ناريتا إكسبريس."
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep02_line_13.mp3",
+      "japanese": "わかりました。ありがとうございます。",
+      "romaji": "Wakarimashita. Arigatō gozaimasu.",
+      "arabic": "فهمت. شكراً جزيلاً."
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "駅", "kana": "えき", "romaji": "eki", "arabic": "محطة قطار", "audio": "assets/audio/ep02_v_01.mp3"},
+    {"kanji": "切符", "kana": "きっぷ", "romaji": "kippu", "arabic": "تذكرة", "audio": "assets/audio/ep02_v_02.mp3"},
+    {"kanji": "お金", "kana": "おかね", "romaji": "okane", "arabic": "نقود / مال", "audio": "assets/audio/ep02_v_03.mp3"},
+    {"kanji": "円", "kana": "えん", "romaji": "en", "arabic": "ين (عملة اليابان)", "audio": "assets/audio/ep02_v_04.mp3"},
+    {"kanji": "千", "kana": "せん", "romaji": "sen", "arabic": "ألف", "audio": "assets/audio/ep02_v_05.mp3"},
+    {"kanji": "一万", "kana": "いちまん", "romaji": "ichiman", "arabic": "عشرة آلاف", "audio": "assets/audio/ep02_v_06.mp3"},
+    {"kanji": "", "kana": "いくら", "romaji": "ikura", "arabic": "كم (للسؤال عن السعر)", "audio": "assets/audio/ep02_v_07.mp3"},
+    {"kanji": "お釣り", "kana": "おつり", "romaji": "otsuri", "arabic": "الباقي (الفكّة)", "audio": "assets/audio/ep02_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "أسماء الإشارة: هذا / ذلك / ذاك",
+      "pattern": "これ / それ / あれ + は + N です",
+      "explanation_ar": "اليابانية تقسم الإشارة إلى ثلاث مسافات وليس اثنتين كالعربية: これ (kore) لشيء قريب منك أنت المتكلم، و それ (sore) لشيء قريب من المخاطَب، و あれ (are) لشيء بعيد عن الاثنين. لذلك عندما سأل سالم عن البطاقة التي يمسكها قال これ، وأجاب الموظف بـ それ لأن البطاقة قريبة من سالم لا منه. وعندما أشار سالم إلى مكتب بعيد قال あれは なんですか = ما ذاك؟ وكلمة なん تعني «ماذا»."
+    },
+    {
+      "title_ar": "الطلب والسؤال عن السعر",
+      "pattern": "N を ください / N は いくらですか",
+      "explanation_ar": "لطلب شيء في المتجر أو المحطة ضع اسم الشيء ثم الأداة を (تُنطق o) ثم ください (kudasai) = أعطني من فضلك. مثال: Suicaを ください. ويمكنك إضافة العدد قبل ください مباشرة: Suicaを 一まい ください = بطاقة واحدة (まい هي وحدة عدّ الأشياء المسطحة كالبطاقات والأوراق). وللسؤال عن السعر: いくらですか = كم السعر؟ وتعبير おねがいします أكثر أدباً ويُستخدم عند طلب خدمة: 三千円 おねがいします."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "تريد أن تسأل عن مبنى بعيد عنك وعن الموظف. أي كلمة تستخدم؟",
+      "options": ["これ", "それ", "あれ"],
+      "correct_index": 2,
+      "explanation_ar": "あれ تُستخدم للأشياء البعيدة عن المتكلم والمخاطَب معاً. これ للقريب منك، و それ للقريب من المخاطَب."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «أعطني بطاقة سويكا واحدة من فضلك».",
+      "words": ["ください", "Suica", "一まい", "を"],
+      "correct_order": ["Suica", "を", "一まい", "ください"],
+      "explanation_ar": "الشيء المطلوب ثم الأداة を ثم العدد ثم ください في النهاية."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are a friendly JR station staff member at the ticket counter in Narita Airport station. The learner is an Arabic-speaking beginner (JLPT N5) who wants to buy a Suica card. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Let the learner lead: they should point at things (これ/それ/あれ), ask prices (いくらですか), and order (〜を ください / おねがいします). (3) Use realistic amounts: card 2,000円 including 500円 deposit; ask if they want to add charge (チャージも しますか). Calculate totals and change (おつり) correctly in Japanese numbers. (4) Occasionally refer to an item near you with それ or far away with あれ, so the learner practices distance words. (5) If the learner makes a mistake, naturally restate the correct sentence once and continue. If they are stuck or speak Arabic, give a brief Arabic hint plus the Japanese phrase. (6) Never go above N5. (7) After 6-8 exchanges, close the sale politely and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "いらっしゃいませ。なにを さしあげますか。",
+    "initial_ai_message_ar": "أهلاً بك. ماذا تريد؟"
+  }
+}

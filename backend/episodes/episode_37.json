@@ -1,0 +1,70 @@
+{
+  "episode_id": 37,
+  "season": 4,
+  "level": "JLPT_N5",
+  "title_ar": "حجز فندق ياباني تقليدي (ريوكان)",
+  "title_jp": "りょかんを よやくします",
+  "background_image": "assets/images/scenes/ep37_bg.webp",
+  "dialogues": [
+    {"id": 1, "speaker_name_jp": "旅館の人", "speaker_name_ar": "موظفة الريوكان", "character_avatar": "assets/images/characters/ryokan_staff.webp", "audio_file": "assets/audio/ep37_line_01.mp3", "japanese": "はい、りょかん さくらです。", "romaji": "Hai, ryokan Sakura desu.", "arabic": "نعم، هنا ريوكان ساكورا."},
+    {"id": 2, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep37_line_02.mp3", "japanese": "もしもし。サーレムと いいます。へやを よやくしたいんですが……。", "romaji": "Moshimoshi. Sāremu to iimasu. Heya o yoyaku shitai n desu ga ...", "arabic": "ألو. اسمي سالم. أريد حجز غرفة..."},
+    {"id": 3, "speaker_name_jp": "旅館の人", "speaker_name_ar": "موظفة الريوكان", "character_avatar": "assets/images/characters/ryokan_staff.webp", "audio_file": "assets/audio/ep37_line_03.mp3", "japanese": "ありがとうございます。いつですか。", "romaji": "Arigatō gozaimasu. Itsu desu ka.", "arabic": "شكراً لك. في أي موعد؟"},
+    {"id": 4, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep37_line_04.mp3", "japanese": "らいしゅうの どようびから 一ぱくです。", "romaji": "Raishū no doyōbi kara ippaku desu.", "arabic": "من السبت القادم لمدة ليلة واحدة."},
+    {"id": 5, "speaker_name_jp": "旅館の人", "speaker_name_ar": "موظفة الريوكان", "character_avatar": "assets/images/characters/ryokan_staff.webp", "audio_file": "assets/audio/ep37_line_05.mp3", "japanese": "なんにんですか。", "romaji": "Nannin desu ka.", "arabic": "كم شخصاً؟"},
+    {"id": 6, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep37_line_06.mp3", "japanese": "さんにんです。ユキさんと ケンタさんと わたしです。", "romaji": "San'nin desu. Yuki-san to Kenta-san to watashi desu.", "arabic": "ثلاثة أشخاص: يوكي وكينتا وأنا."},
+    {"id": 7, "speaker_name_jp": "旅館の人", "speaker_name_ar": "موظفة الريوكان", "character_avatar": "assets/images/characters/ryokan_staff.webp", "audio_file": "assets/audio/ep37_line_07.mp3", "japanese": "たたみの へやが ございます。ひとり 一万五千円です。", "romaji": "Tatami no heya ga gozaimasu. Hitori ichiman gosen-en desu.", "arabic": "لدينا غرفة بالحصير (تاتامي). السعر للشخص خمسة عشر ألف ين."},
+    {"id": 8, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep37_line_08.mp3", "japanese": "ゆうしょくと あさごはんは ありますか。", "romaji": "Yūshoku to asagohan wa arimasu ka.", "arabic": "هل تشمل العشاء والفطور؟"},
+    {"id": 9, "speaker_name_jp": "旅館の人", "speaker_name_ar": "موظفة الريوكان", "character_avatar": "assets/images/characters/ryokan_staff.webp", "audio_file": "assets/audio/ep37_line_09.mp3", "japanese": "はい、ゆうしょくと あさごはんが ついて います。", "romaji": "Hai, yūshoku to asagohan ga tsuite imasu.", "arabic": "نعم، العشاء والفطور مشمولان."},
+    {"id": 10, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep37_line_10.mp3", "japanese": "わたしは ぶたにくを たべません。さかなと やさいだけに して ください。おさけは いりません。", "romaji": "Watashi wa butaniku o tabemasen. Sakana to yasai dake ni shite kudasai. Osake wa irimasen.", "arabic": "أنا لا آكل لحم الخنزير. اجعل الطعام سمكاً وخضاراً فقط من فضلك. لا أحتاج إلى مشروبات كحولية."},
+    {"id": 11, "speaker_name_jp": "旅館の人", "speaker_name_ar": "موظفة الريوكان", "character_avatar": "assets/images/characters/ryokan_staff.webp", "audio_file": "assets/audio/ep37_line_11.mp3", "japanese": "かしこまりました。さかなと やさいだけに します。", "romaji": "Kashikomarimashita. Sakana to yasai dake ni shimasu.", "arabic": "حاضر. سنجعله سمكاً وخضاراً فقط."},
+    {"id": 12, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep37_line_12.mp3", "japanese": "おんせんは ありますか。", "romaji": "Onsen wa arimasu ka.", "arabic": "هل يوجد حمام ينابيع ساخنة؟"},
+    {"id": 13, "speaker_name_jp": "旅館の人", "speaker_name_ar": "موظفة الريوكان", "character_avatar": "assets/images/characters/ryokan_staff.webp", "audio_file": "assets/audio/ep37_line_13.mp3", "japanese": "はい、あります。ごご 三じから チェックインです。", "romaji": "Hai, arimasu. Gogo sanji kara chekkuin desu.", "arabic": "نعم، يوجد. تسجيل الدخول من الثالثة بعد الظهر."},
+    {"id": 14, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep37_line_14.mp3", "japanese": "わかりました。おねがいします。", "romaji": "Wakarimashita. Onegai shimasu.", "arabic": "فهمت. أرجو تأكيد الحجز."},
+    {"id": 15, "speaker_name_jp": "旅館の人", "speaker_name_ar": "موظفة الريوكان", "character_avatar": "assets/images/characters/ryokan_staff.webp", "audio_file": "assets/audio/ep37_line_15.mp3", "japanese": "おなまえと でんわばんごうを おねがいします。", "romaji": "Onamae to denwa bangō o onegai shimasu.", "arabic": "الاسم ورقم الهاتف من فضلك."}
+  ],
+  "vocabulary": [
+    {"kanji": "旅館", "kana": "りょかん", "romaji": "ryokan", "arabic": "فندق ياباني تقليدي", "audio": "assets/audio/ep37_v_01.mp3"},
+    {"kanji": "予約", "kana": "よやく", "romaji": "yoyaku", "arabic": "حجز", "audio": "assets/audio/ep37_v_02.mp3"},
+    {"kanji": "畳", "kana": "たたみ", "romaji": "tatami", "arabic": "حصير ياباني (أرضية غرفة)", "audio": "assets/audio/ep37_v_03.mp3"},
+    {"kanji": "温泉", "kana": "おんせん", "romaji": "onsen", "arabic": "ينابيع ساخنة / حمام ساخن", "audio": "assets/audio/ep37_v_04.mp3"},
+    {"kanji": "夕食", "kana": "ゆうしょく", "romaji": "yūshoku", "arabic": "عشاء", "audio": "assets/audio/ep37_v_05.mp3"},
+    {"kanji": "朝ご飯", "kana": "あさごはん", "romaji": "asagohan", "arabic": "فطور", "audio": "assets/audio/ep37_v_06.mp3"},
+    {"kanji": "泊まります", "kana": "とまります", "romaji": "tomarimasu", "arabic": "يبيت / يقيم ليلاً", "audio": "assets/audio/ep37_v_07.mp3"},
+    {"kanji": "", "kana": "チェックイン", "romaji": "chekkuin", "arabic": "تسجيل الدخول", "audio": "assets/audio/ep37_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "عدّ الليالي والأشخاص: «～はく» و«～にん»",
+      "pattern": "一ぱく・二はく・三ぱく / ひとり・ふたり・さんにん・なんにん",
+      "explanation_ar": "لعدّ ليالي الإقامة نستخدم الوحدة ～はく مع تغيّرات في النطق: いっぱく (1)، にはく (2)، さんぱく (3)، よんはく (4)، ごはく (5). مثال: らいしゅうの どようびから 一ぱくです = ليلة واحدة ابتداءً من السبت القادم. والسؤال: なんぱくですか = كم ليلة؟ ولعدّ الأشخاص: ひとり (1)، ふたり (2)، ثم ～にん من الثلاثة: さんにん، よにん، ごにん. والسؤال: なんにんですか = كم شخصاً؟ وللسعر للشخص نقول: ひとり 一万五千円 = للفرد خمسة عشر ألف ين. وتذكر أن الأرقام الكبيرة: 一万 (عشرة آلاف) = いちまん، 五千 = ごせん."
+    },
+    {
+      "title_ar": "«だけ» (فقط) و«いりません» (لا أحتاج)",
+      "pattern": "N だけ / N は いりません / N だけに して ください",
+      "explanation_ar": "だけ تعني «فقط»: さかなと やさいだけ = سمك وخضار فقط. ويمكن استخدامها لتخصيص الطلب: さかなと やさいだけに して ください = اجعله سمكاً وخضاراً فقط من فضلك. وتتصل بـ に して ください التي تعلمناها في الحلقة 19. وللتعبير عن عدم الحاجة نقول: N は いりません = لا أحتاج إلى N: おさけは いりません = لا أحتاج إلى مشروب كحولي. وهذه العبارات مهمة جداً لتحديد احتياجاتك الغذائية في الفنادق والمطاعم، وغالباً مع توضيح السبب: ぶたにくを たべませんから. واحفظ أيضاً: ～は だいじょうぶです = ～ لا بأس به/لا حاجة له (حسب السياق)."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "ما معنى: さかなと やさいだけに して ください؟",
+      "options": ["اجعله سمكاً وخضاراً فقط", "أريد سمكاً وخضاراً وأشياء أخرى", "لا أحتاج سمكاً"],
+      "correct_index": 0,
+      "explanation_ar": "だけ تعني «فقط»، وに して ください تعني «اجعله / اختر»."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «لا أحتاج إلى مشروب كحولي».",
+      "words": ["いりません", "おさけは"],
+      "correct_order": ["おさけは", "いりません"],
+      "explanation_ar": "N は いりません هي الصيغة الثابتة للتعبير عن عدم الحاجة."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are a polite receptionist at a traditional Japanese ryokan taking a phone booking from the learner (Arabic speaker, JLPT N5). RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Ask for the dates (いつですか, なんぱくですか), number of guests (なんにんですか), room type (たたみの へや), meals (ゆうしょくと あさごはん), check-in time (ごご 三じから), name and phone number. Use fake approximate prices (ひとり 一万五千円). (3) The learner avoids pork and alcohol: accept requests like さかなと やさいだけに して ください / ぶたにくは いりません and confirm them politely. (4) Make the learner practice ～はく, ～にん counters, ～だけ, ～は いりません, and the phone opening (もしもし、わたしは ○○と いいます、～んですが). (5) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (6) Never go above N5 except fixed service phrases. (7) After 6-8 exchanges, confirm the booking and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "はい、りょかん さくらです。",
+    "initial_ai_message_ar": "نعم، هنا ريوكان ساكورا."
+  }
+}

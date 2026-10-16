@@ -1,0 +1,71 @@
+{
+  "episode_id": 40,
+  "season": 4,
+  "level": "JLPT_N5",
+  "title_ar": "المراجعة الشاملة لمستوى JLPT N5",
+  "title_jp": "N5 ふくしゅう: サーレムの ものがたり",
+  "background_image": "assets/images/scenes/ep40_bg.webp",
+  "dialogues": [
+    {"id": 1, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep40_line_01.mp3", "japanese": "サーレムさん、らいしゅう JLPTの しけんですね。", "romaji": "Sāremu-san, raishū JLPT no shiken desu ne.", "arabic": "سالم، اختبار JLPT الأسبوع القادم، صحيح؟"},
+    {"id": 2, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep40_line_02.mp3", "japanese": "はい。N5を うけます。まいにち ふくしゅうを して います。", "romaji": "Hai. Enufaibu o ukemasu. Mainichi fukushū o shite imasu.", "arabic": "نعم. سأخوض اختبار N5. وأراجع كل يوم."},
+    {"id": 3, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep40_line_03.mp3", "japanese": "はじめて 日本へ 来た 日を おぼえて いますか。", "romaji": "Hajimete Nihon e kita hi o oboete imasu ka.", "arabic": "هل تتذكر اليوم الذي وصلت فيه إلى اليابان أول مرة؟"},
+    {"id": 4, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep40_line_04.mp3", "japanese": "はい。ナリタくうこうで「ドバイから きました」と 言いました。", "romaji": "Hai. Narita kūkō de 'Dobai kara kimashita' to iimashita.", "arabic": "نعم. قلت في مطار ناريتا: «جئت من دبي»."},
+    {"id": 5, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep40_line_05.mp3", "japanese": "それから、スイカを かって、でんしゃに のりましたね。", "romaji": "Sorekara, Suika o katte, densha ni norimashita ne.", "arabic": "ثم اشتريت سويكا وركبت القطار."},
+    {"id": 6, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep40_line_06.mp3", "japanese": "はい。ともだちも たくさん できました。ケンタさん、ミナさん、アンナさん、ワンさん……。", "romaji": "Hai. Tomodachi mo takusan dekimashita. Kenta-san, Mina-san, Anna-san, Wan-san ...", "arabic": "نعم. وصار لي أصدقاء كثيرون: كينتا ومينا وآنا ووانغ..."},
+    {"id": 7, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep40_line_07.mp3", "japanese": "ラーメンも アルバイトも、サーレムさんは いろいろな ことを しましたね。", "romaji": "Rāmen mo arubaito mo, Sāremu-san wa iroiro na koto o shimashita ne.", "arabic": "الرامن والعمل بدوام جزئي... لقد جرّبت أشياء كثيرة."},
+    {"id": 8, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep40_line_08.mp3", "japanese": "ぶたにくは たべませんが、おいしい ものを たくさん 食べました。", "romaji": "Butaniku wa tabemasen ga, oishii mono o takusan tabemashita.", "arabic": "لا آكل لحم الخنزير، لكنني تناولت أطعمة لذيذة كثيرة."},
+    {"id": 9, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep40_line_09.mp3", "japanese": "ふじさんにも 行きますね。たのしみですか。", "romaji": "Fujisan ni mo ikimasu ne. Tanoshimi desu ka.", "arabic": "وستذهب إلى جبل فوجي أيضاً. هل أنت متحمس؟"},
+    {"id": 10, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep40_line_10.mp3", "japanese": "はい、とても たのしみです。ふじさんを 見に 行きたいです。", "romaji": "Hai, totemo tanoshimi desu. Fujisan o mi ni ikitai desu.", "arabic": "نعم، متحمس جداً. أريد الذهاب لرؤية جبل فوجي."},
+    {"id": 11, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep40_line_11.mp3", "japanese": "しけんの まえに、よく ねて ください。", "romaji": "Shiken no mae ni, yoku nete kudasai.", "arabic": "قبل الاختبار، نم جيداً من فضلك."},
+    {"id": 12, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep40_line_12.mp3", "japanese": "はい。ごうかくする ことが できると おもいます。", "romaji": "Hai. Gōkaku suru koto ga dekiru to omoimasu.", "arabic": "حسناً. أظن أنني سأنجح."},
+    {"id": 13, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep40_line_13.mp3", "japanese": "しょうらいの ゆめは なんですか。", "romaji": "Shōrai no yume wa nan desu ka.", "arabic": "ما هو حلمك في المستقبل؟"},
+    {"id": 14, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep40_line_14.mp3", "japanese": "日本で はたらきたいです。そして、アラブの ひとに 日本語を おしえたいです。", "romaji": "Nihon de hatarakitai desu. Soshite, Arabu no hito ni Nihongo o oshietai desu.", "arabic": "أريد العمل في اليابان. وأيضاً أريد تعليم اليابانية للناس العرب."},
+    {"id": 15, "speaker_name_jp": "ユキ", "speaker_name_ar": "يوكي", "character_avatar": "assets/images/characters/yuki.webp", "audio_file": "assets/audio/ep40_line_15.mp3", "japanese": "すてきですね。おうえん しますよ。", "romaji": "Suteki desu ne. Ōen shimasu yo.", "arabic": "رائع. سأدعمك."},
+    {"id": 16, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep40_line_16.mp3", "japanese": "ありがとうございます。いっしょに がんばりましょう!", "romaji": "Arigatō gozaimasu. Issho ni ganbarimashō!", "arabic": "شكراً لك. لنجتهد معاً!"}
+  ],
+  "vocabulary": [
+    {"kanji": "試験", "kana": "しけん", "romaji": "shiken", "arabic": "اختبار", "audio": "assets/audio/ep40_v_01.mp3"},
+    {"kanji": "合格", "kana": "ごうかく", "romaji": "gōkaku", "arabic": "نجاح في الاختبار", "audio": "assets/audio/ep40_v_02.mp3"},
+    {"kanji": "復習", "kana": "ふくしゅう", "romaji": "fukushū", "arabic": "مراجعة", "audio": "assets/audio/ep40_v_03.mp3"},
+    {"kanji": "将来", "kana": "しょうらい", "romaji": "shōrai", "arabic": "المستقبل", "audio": "assets/audio/ep40_v_04.mp3"},
+    {"kanji": "夢", "kana": "ゆめ", "romaji": "yume", "arabic": "حلم / طموح", "audio": "assets/audio/ep40_v_05.mp3"},
+    {"kanji": "応援します", "kana": "おうえんします", "romaji": "ōen shimasu", "arabic": "يدعم / يشجّع", "audio": "assets/audio/ep40_v_06.mp3"},
+    {"kanji": "", "kana": "すてき", "romaji": "suteki", "arabic": "رائع / جميل", "audio": "assets/audio/ep40_v_07.mp3"},
+    {"kanji": "覚えています", "kana": "おぼえています", "romaji": "oboete imasu", "arabic": "يتذكر", "audio": "assets/audio/ep40_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "مراجعة صيغ الفعل الخمس (الأساس في N5)",
+      "pattern": "ます / て / ない / た / المعجمية (辞書形)",
+      "explanation_ar": "كل جمل N5 تقريباً تُبنى على خمس صيغ للفعل: (1) صيغة ます المهذبة: たべます. (2) صيغة て: たべて ← ください (طلب)، います (استمرار)، もいいです (سماح)، はいけません (منع)، から (بعد). (3) صيغة ない: たべない ← ないで ください (لا تفعل)، なければなりません (يجب). (4) صيغة た: たべた ← ことが あります (خبرة)، ほうが いいです (نصيحة)، たり～たり (أنشطة). (5) الصيغة المعجمية: たべる ← ことが できます (قدرة)، まえに (قبل)، と おもいます (أظن). وقواعد て للأفعال: ～います ← って (かいます ← かって)، ～ちます ← って (まちます ← まって)، ～ります ← って، ～みます/びます/にます ← んで (のみます ← のんで)، ～きます ← いて (かきます ← かいて، واستثناء いきます ← いって)، ～ぎます ← いで (ぬぎます ← ぬいで)، ～します ← して، وأفعال المجموعة 2: ～ます ← ～て (たべます ← たべて)، وغير المنتظمة: します ← して، きます ← きて. وتتغير た بنفس القاعدة مع استبدال て بـ た وで بـ だ."
+    },
+    {
+      "title_ar": "مراجعة الأدوات الأساسية وكلمات الاستفهام",
+      "pattern": "は・が・を・に・で・へ・から・まで・と・も・や・の・か / なに・だれ・どこ・いつ・いくら・どう・どれ",
+      "explanation_ar": "الأدوات هي سرّ الجملة اليابانية: は (الموضوع)، が (الفاعل، ومع ほしい/すき/できる/あります)، を (المفعول به)، に (الزمن المحدد، الوجهة، الوجود، الغرض مع V-ます)، で (مكان الفعل، الوسيلة، المجموع)، へ (الاتجاه)، から～まで (من... إلى...)، と (و/مع)، や (مثلاً)، も (أيضاً)، の (الملكية والوصف)، か (سؤال أو اختيار). ولأسئلة N5: なに (ماذا)، だれ (من)، どこ (أين)، いつ (متى)، いくら (كم السعر)、どう/どうやって (كيف)、どれ/どの (أي)、なんじ/なんにん/なんぱく (كم الساعة/كم شخص/كم ليلة)、どうして (لماذا، والجواب بـ から). وعند تنظيم المراجعة: ابدأ بتحديد الموضوع، ثم ضع الأدوات الصحيحة، ثم الفعل في النهاية بالصيغة المناسبة."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "ما صيغة て الصحيحة للفعل «のみます»؟",
+      "options": ["のんで", "のって", "のいて"],
+      "correct_index": 0,
+      "explanation_ar": "الأفعال المنتهية بـ みます تتحول إلى んで: のみます ← のんで."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «أريد الذهاب لرؤية جبل فوجي».",
+      "words": ["行きたいです", "ふじさんを", "見に"],
+      "correct_order": ["ふじさんを", "見に", "行きたいです"],
+      "explanation_ar": "المفعول به، ثم الغرض بصيغة V-ます(الجذر) + に، ثم فعل الحركة بصيغة たい."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are Tanaka-sensei giving the learner (Arabic speaker, JLPT N5) a friendly oral mock exam covering everything in the course. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Ask varied questions in this order across 8 turns: self-introduction (なまえ、くに、しゅみ), daily routine (まいあさ なんじに おきますか), directions or shopping (どこで かいものを しますか / いくらですか), past experience (日本で なにを しましたか / 行った ことが ありますか), ability (日本語が できますか / なにが できますか), food needs (ぶたにくは たべますか), future plans (しょうらいの ゆめは なんですか), and a short role-play of ordering or phoning. (3) Check the key patterns: て-form requests, ないで ください, ～ても いいですか, ～ては いけません, ～たい, ～ことが できます, ～た ことが あります, ～た ほうが いいです, ～と おもいます, A と B と どちらが, おなじ / ちがいます, ～から reasons, counters and time/date expressions. (4) If the learner makes a mistake, naturally restate the correct sentence once and continue; keep a mental list of weak points. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (5) Never go above N5. (6) After 8 exchanges, give a final 3-line feedback summary in Arabic: strongest area, two patterns to review, and an encouraging closing (がんばって!).",
+    "initial_ai_message_jp": "サーレムさん、こんにちは。きょうは N5の れんしゅうを しましょう。まず、じこしょうかいを おねがいします。",
+    "initial_ai_message_ar": "سالم، مرحباً. اليوم لنتدرّب على N5. أولاً، عرّف بنفسك من فضلك."
+  }
+}

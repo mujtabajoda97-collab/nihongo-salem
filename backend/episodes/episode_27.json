@@ -1,0 +1,205 @@
+{
+  "episode_id": 27,
+  "season": 3,
+  "level": "JLPT_N5",
+  "title_ar": "آداب زيارة منزل ياباني",
+  "title_jp": "日本の うちを ほうもんします",
+  "background_image": "assets/images/scenes/ep27_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep27_line_01.mp3",
+      "japanese": "ごめんください。サーレムです。",
+      "romaji": "Gomen kudasai. Sāremu desu.",
+      "arabic": "هل من أحد؟ أنا سالم."
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "お母さん",
+      "speaker_name_ar": "والدة يوكي",
+      "character_avatar": "assets/images/characters/yuki_mother.webp",
+      "audio_file": "assets/audio/ep27_line_02.mp3",
+      "japanese": "いらっしゃい。どうぞ おあがり ください。",
+      "romaji": "Irasshai. Dōzo oagari kudasai.",
+      "arabic": "أهلاً بك. تفضل بالدخول."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep27_line_03.mp3",
+      "japanese": "おじゃまします。これは ドバイの おみやげです。どうぞ。",
+      "romaji": "Ojamashimasu. Kore wa Dobai no omiyage desu. Dōzo.",
+      "arabic": "عفواً على الإزعاج. هذه هدية من دبي. تفضلي."
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "お母さん",
+      "speaker_name_ar": "والدة يوكي",
+      "character_avatar": "assets/images/characters/yuki_mother.webp",
+      "audio_file": "assets/audio/ep27_line_04.mp3",
+      "japanese": "まあ、ありがとうございます。きれいな はこですね。",
+      "romaji": "Maa, arigatō gozaimasu. Kirei na hako desu ne.",
+      "arabic": "يا للروعة، شكراً جزيلاً. إنها علبة جميلة."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep27_line_05.mp3",
+      "japanese": "くつは どこで ぬぎますか。",
+      "romaji": "Kutsu wa doko de nugimasu ka.",
+      "arabic": "أين أخلع حذائي؟"
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep27_line_06.mp3",
+      "japanese": "ここで ぬいで ください。そして、スリッパを はいて ください。",
+      "romaji": "Koko de nuide kudasai. Soshite, surippa o haite kudasai.",
+      "arabic": "اخلعه هنا من فضلك. ثم البس الخفّ."
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep27_line_07.mp3",
+      "japanese": "はい。……あの、スリッパは トイレでも はきますか。",
+      "romaji": "Hai. ... Ano, surippa wa toire de mo hakimasu ka.",
+      "arabic": "حسناً... هل ألبس هذا الخفّ في دورة المياه أيضاً؟"
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep27_line_08.mp3",
+      "japanese": "いいえ、トイレでは トイレの スリッパを はきます。",
+      "romaji": "Iie, toire de wa toire no surippa o hakimasu.",
+      "arabic": "لا، في دورة المياه نلبس خفاً خاصاً بها."
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "お母さん",
+      "speaker_name_ar": "والدة يوكي",
+      "character_avatar": "assets/images/characters/yuki_mother.webp",
+      "audio_file": "assets/audio/ep27_line_09.mp3",
+      "japanese": "サーレムさん、おちゃを どうぞ。",
+      "romaji": "Sāremu-san, ocha o dōzo.",
+      "arabic": "سالم، تفضل الشاي."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep27_line_10.mp3",
+      "japanese": "いただきます。……おいしいです。",
+      "romaji": "Itadakimasu. ... Oishii desu.",
+      "arabic": "بسم الله... لذيذ."
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "お母さん",
+      "speaker_name_ar": "والدة يوكي",
+      "character_avatar": "assets/images/characters/yuki_mother.webp",
+      "audio_file": "assets/audio/ep27_line_11.mp3",
+      "japanese": "ごはんも ありますよ。たくさん たべて ください。",
+      "romaji": "Gohan mo arimasu yo. Takusan tabete kudasai.",
+      "arabic": "يوجد طعام أيضاً. كل كثيراً من فضلك."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep27_line_12.mp3",
+      "japanese": "ありがとうございます。ぶたにくは たべませんが、さかなは だいじょうぶです。",
+      "romaji": "Arigatō gozaimasu. Butaniku wa tabemasen ga, sakana wa daijōbu desu.",
+      "arabic": "شكراً. لا آكل لحم الخنزير، لكن السمك مناسب لي."
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "お母さん",
+      "speaker_name_ar": "والدة يوكي",
+      "character_avatar": "assets/images/characters/yuki_mother.webp",
+      "audio_file": "assets/audio/ep27_line_13.mp3",
+      "japanese": "わかりました。さかなの りょうりを つくりました。",
+      "romaji": "Wakarimashita. Sakana no ryōri o tsukurimashita.",
+      "arabic": "فهمت. لقد أعددت طبق سمك."
+    },
+    {
+      "id": 14,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep27_line_14.mp3",
+      "japanese": "ごちそうさまでした。とても おいしかったです。",
+      "romaji": "Gochisōsama deshita. Totemo oishikatta desu.",
+      "arabic": "الحمد لله على الطعام. كان لذيذاً جداً."
+    },
+    {
+      "id": 15,
+      "speaker_name_jp": "お母さん",
+      "speaker_name_ar": "والدة يوكي",
+      "character_avatar": "assets/images/characters/yuki_mother.webp",
+      "audio_file": "assets/audio/ep27_line_15.mp3",
+      "japanese": "よかった!また 来て ください。",
+      "romaji": "Yokatta! Mata kite kudasai.",
+      "arabic": "يسعدني ذلك! زرنا مرة أخرى من فضلك."
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "靴", "kana": "くつ", "romaji": "kutsu", "arabic": "حذاء", "audio": "assets/audio/ep27_v_01.mp3"},
+    {"kanji": "脱ぎます", "kana": "ぬぎます", "romaji": "nugimasu", "arabic": "يخلع", "audio": "assets/audio/ep27_v_02.mp3"},
+    {"kanji": "履きます", "kana": "はきます", "romaji": "hakimasu", "arabic": "يلبس (في القدم)", "audio": "assets/audio/ep27_v_03.mp3"},
+    {"kanji": "", "kana": "スリッパ", "romaji": "surippa", "arabic": "خفّ منزلي", "audio": "assets/audio/ep27_v_04.mp3"},
+    {"kanji": "", "kana": "おみやげ", "romaji": "omiyage", "arabic": "هدية تذكارية", "audio": "assets/audio/ep27_v_05.mp3"},
+    {"kanji": "箱", "kana": "はこ", "romaji": "hako", "arabic": "علبة / صندوق", "audio": "assets/audio/ep27_v_06.mp3"},
+    {"kanji": "大丈夫", "kana": "だいじょうぶ", "romaji": "daijōbu", "arabic": "لا بأس / مناسب", "audio": "assets/audio/ep27_v_07.mp3"},
+    {"kanji": "", "kana": "また", "romaji": "mata", "arabic": "مرة أخرى / مجدداً", "audio": "assets/audio/ep27_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "أفعال لبس الحذاء وخلعه وصيغة て للطلب اللطيف",
+      "pattern": "V-て ください / ぬぎます → ぬいで / はきます → はいて",
+      "explanation_ar": "في زيارة البيوت اليابانية نستخدم أوامر مهذبة بصيغة て ください. وهناك أفعال تتغير بطرق خاصة: (1) الأفعال التي تنتهي بـ ぎ تتحول إلى いで: ぬぎます ← ぬいで (اخلع)، いそぎます ← いそいで (أسرع). (2) الأفعال التي تنتهي بـ き تتحول إلى いて: はきます ← はいて (البس في القدم)، かきます ← かいて (اكتب)، あるきます ← あるいて (امشِ)، واستثناء مهم: いきます ← いって (لا いいて). فنقول: ここで ぬいで ください。スリッパを はいて ください. ولاحظ أن الفعل はきます يُستخدم لما يُلبس في القدم أو أسفل الجسم (حذاء، جورب، بنطلون)، بينما きます لما يُلبس في الجذع (قميص)، وかぶります للقبعة، وかけます للنظارة. وعبارات الأدب اليابانية: おじゃまします (عند الدخول)، いただきます (قبل الأكل)، ごちそうさまでした (بعده)."
+    },
+    {
+      "title_ar": "ثلاثية العطاء: あげます / もらいます / くれます",
+      "pattern": "[أنا] は [الآخر] に N を あげます / [الآخر] は わたしに N を くれます / [أنا] は [الآخر] に N を もらいます",
+      "explanation_ar": "تعلمنا あげます (أعطي هدية للآخر) و もらいます (أتلقى من الآخر) في الحلقة 20. وهنا نكمل الثلاثية بـ くれます، وتعني أن الآخر يعطيني أنا (أو أحد من أهلي): お母さんは わたしに おちゃを くれました = والدة يوكي أعطتني الشاي. الفرق باختصار: あげます = أنا أو شخص أعطى لغيري، くれます = شخص آخر أعطاني أنا (المتلقي هو أنا)، もらいます = أنا الفاعل والمتلقي، المعطي يأخذ に أو から. مثال: わたしは お母さんに おみやげを あげました = أعطيت الأم هدية. わたしは お母さんに おちゃを もらいました = حصلت من الأم على شاي. وعند تقديم الهدية بأدب نقول: これは つまらないものですが (تعبير تواضع شائع)، لكن الأكثر شيوعاً للمبتدئ: これ、どうぞ."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "أعطتك والدة يوكي شاياً. كيف تقول ذلك؟",
+      "options": ["お母さんは わたしに おちゃを くれました。", "わたしは お母さんに おちゃを くれました。", "お母さんは わたしに おちゃを あげました。"],
+      "correct_index": 0,
+      "explanation_ar": "くれます تدل على أن شخصاً آخر أعطاني أنا. فالفاعل هو الأم والمتلقي أنا. وفي الخيار الثالث あげます خاطئ لأن المتلقي هو أنا."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «اخلع حذاءك هنا من فضلك».",
+      "words": ["ください", "ぬいで", "くつを", "ここで"],
+      "correct_order": ["ここで", "くつを", "ぬいで", "ください"],
+      "explanation_ar": "المكان مع で، ثم المفعول به مع を، ثم الفعل بصيغة て، ثم ください."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are Yuki's mother, a warm Japanese woman welcoming the learner (Arabic speaker, JLPT N5) to your home for the first time. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Guide the visit step by step: greet at the door (いらっしゃい), invite them in (どうぞ おあがり ください), ask them to take off shoes and put on slippers (ここで ぬいで ください / スリッパを はいて ください), accept their gift, serve tea (おちゃを どうぞ), offer food (たくさん たべて ください), and ask about their food needs (たべられない ものが ありますか in simple form: たべない ものは ありますか). Respect that they do not eat pork. (3) Make the learner use the manners phrases (ごめんください, おじゃまします, いただきます, ごちそうさまでした) and the giving verbs あげます / もらいます / くれます with correct particles. (4) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (5) Never go above N5 except fixed etiquette phrases. (6) After 6-8 exchanges, say goodbye (また 来て ください) and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "いらっしゃい。どうぞ おあがり ください。",
+    "initial_ai_message_ar": "أهلاً بك. تفضل بالدخول."
+  }
+}

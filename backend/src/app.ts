@@ -1,4 +1,7 @@
 import { timingSafeEqual } from 'node:crypto';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import multipart from '@fastify/multipart';
 import rateLimit from '@fastify/rate-limit';
 import Fastify from 'fastify';
@@ -6,6 +9,7 @@ import type { FastifyInstance, FastifyRequest } from 'fastify';
 import { AudioStore } from './audioStore.ts';
 import type { Config } from './config.ts';
 import { UpstreamError } from './http.ts';
+import { LessonAudio, buildLessonIndex, openAiClipSynth } from './lessonAudio.ts';
 import type { Prompts } from './prompts.ts';
 import { SessionStore } from './sessions.ts';
 import { RequestError, runTurn, validateRequest } from './turn.ts';
@@ -26,6 +30,7 @@ export interface AppDeps {
   prompts: Prompts;
   sessions?: SessionStore;
   audio?: AudioStore;
+  lesson?: LessonAudio;
 }
 
 /** The HTTP layer: auth, rate limit, multipart parsing. The real work is in turn.ts. */
@@ -33,6 +38,13 @@ export async function buildApp(deps: AppDeps): Promise<FastifyInstance> {
   const { cfg, prompts } = deps;
   const sessions = deps.sessions ?? new SessionStore(cfg.sessionTtlMs, cfg.maxHistoryMessages);
   const audio = deps.audio ?? new AudioStore(cfg.audioTtlMs);
+  const lesson =
+    deps.lesson ??
+    new LessonAudio(
+      buildLessonIndex(process.env['LESSON_EPISODES_DIR'] ?? fileURLToPath(new URL('../episodes/', import.meta.url))),
+      openAiClipSynth(cfg),
+      process.env['LESSON_AUDIO_CACHE_DIR'] ?? join(tmpdir(), 'lesson-audio'),
+    );
 
   const app = Fastify({
     logger: { level: cfg.logLevel },
@@ -57,6 +69,28 @@ export async function buildApp(deps: AppDeps): Promise<FastifyInstance> {
       .header('cache-control', 'private, max-age=600')
       .send(Buffer.from(item.data));
   });
+
+  // Fixed lesson audio (dialogue lines + vocabulary): generated on first request, cached afterwards.
+  // Only the ~900 known file names work and every clip is paid for once, so no app key is needed.
+  app.get<{ Params: { file: string } }>(
+    '/v1/lesson-audio/:file',
+    { config: { rateLimit: { max: 200, timeWindow: '1 minute' } } },
+    async (req, reply) => {
+      const file = req.params.file;
+      if (!lesson.has(file)) return reply.code(404).send({ error: 'not_found' });
+      try {
+        const data = await lesson.get(file);
+        if (!data) return reply.code(404).send({ error: 'not_found' });
+        return reply
+          .header('content-type', 'audio/mpeg')
+          .header('cache-control', 'public, max-age=31536000, immutable')
+          .send(Buffer.from(data));
+      } catch (e) {
+        req.log.error({ file, reason: e instanceof Error ? e.message : 'unknown' }, 'lesson audio failed');
+        return reply.code(502).send({ error: 'tts_failed' });
+      }
+    },
+  );
 
   app.post('/v1/turn', async (req, reply) => {
     if (cfg.appApiKey) {

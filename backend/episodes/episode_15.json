@@ -1,0 +1,195 @@
+{
+  "episode_id": 15,
+  "season": 2,
+  "level": "JLPT_N5",
+  "title_ar": "شراء الملابس والمقاسات",
+  "title_jp": "ようふくを かいます",
+  "background_image": "assets/images/scenes/ep15_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظفة المتجر",
+      "character_avatar": "assets/images/characters/clothes_clerk.webp",
+      "audio_file": "assets/audio/ep15_line_01.mp3",
+      "japanese": "いらっしゃいませ。ゆっくり 見て ください。",
+      "romaji": "Irasshaimase. Yukkuri mite kudasai.",
+      "arabic": "أهلاً بك. تفضل بالتجول براحتك."
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep15_line_02.mp3",
+      "japanese": "ありがとうございます。この シャツを きても いいですか。",
+      "romaji": "Arigatō gozaimasu. Kono shatsu o kite mo ii desu ka.",
+      "arabic": "شكراً. هل يمكنني تجربة هذا القميص؟"
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظفة المتجر",
+      "character_avatar": "assets/images/characters/clothes_clerk.webp",
+      "audio_file": "assets/audio/ep15_line_03.mp3",
+      "japanese": "はい、どうぞ。あそこで きて ください。",
+      "romaji": "Hai, dōzo. Asoko de kite kudasai.",
+      "arabic": "نعم، تفضل. جرّبه هناك من فضلك."
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep15_line_04.mp3",
+      "japanese": "すみません、これは ちょっと おおきいです。もっと ちいさいのは ありますか。",
+      "romaji": "Sumimasen, kore wa chotto ōkii desu. Motto chiisai no wa arimasu ka.",
+      "arabic": "عذراً، هذا كبير قليلاً. هل يوجد مقاس أصغر؟"
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظفة المتجر",
+      "character_avatar": "assets/images/characters/clothes_clerk.webp",
+      "audio_file": "assets/audio/ep15_line_05.mp3",
+      "japanese": "Mサイズですね。はい、どうぞ。",
+      "romaji": "Emu saizu desu ne. Hai, dōzo.",
+      "arabic": "المقاس M، صحيح. تفضل."
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep15_line_06.mp3",
+      "japanese": "ありがとうございます。……これは ちょうど いいです。",
+      "romaji": "Arigatō gozaimasu. ... Kore wa chōdo ii desu.",
+      "arabic": "شكراً... هذا مناسب تماماً."
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep15_line_07.mp3",
+      "japanese": "サーレムさん、この あおい シャツは どうですか。やすくて いいですよ。",
+      "romaji": "Sāremu-san, kono aoi shatsu wa dō desu ka. Yasukute ii desu yo.",
+      "arabic": "سالم، ما رأيك بهذا القميص الأزرق؟ إنه رخيص وجيد."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep15_line_08.mp3",
+      "japanese": "いいですね。いくらですか。",
+      "romaji": "Ii desu ne. Ikura desu ka.",
+      "arabic": "جميل. كم سعره؟"
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظفة المتجر",
+      "character_avatar": "assets/images/characters/clothes_clerk.webp",
+      "audio_file": "assets/audio/ep15_line_09.mp3",
+      "japanese": "二千九百円です。",
+      "romaji": "Nisen kyūhyaku-en desu.",
+      "arabic": "ألفان وتسعمئة ين."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep15_line_10.mp3",
+      "japanese": "ちょっと たかいです。もっと やすいのは ありますか。",
+      "romaji": "Chotto takai desu. Motto yasui no wa arimasu ka.",
+      "arabic": "إنه غالٍ قليلاً. هل يوجد أرخص منه؟"
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظفة المتجر",
+      "character_avatar": "assets/images/characters/clothes_clerk.webp",
+      "audio_file": "assets/audio/ep15_line_11.mp3",
+      "japanese": "こちらの しろい シャツは 千九百円です。",
+      "romaji": "Kochira no shiroi shatsu wa sen kyūhyaku-en desu.",
+      "arabic": "هذا القميص الأبيض بألف وتسعمئة ين."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep15_line_12.mp3",
+      "japanese": "じゃ、しろいのを ください。カードを つかっても いいですか。",
+      "romaji": "Ja, shiroi no o kudasai. Kādo o tsukatte mo ii desu ka.",
+      "arabic": "إذن، أعطني الأبيض. هل يمكنني الدفع بالبطاقة؟"
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظفة المتجر",
+      "character_avatar": "assets/images/characters/clothes_clerk.webp",
+      "audio_file": "assets/audio/ep15_line_13.mp3",
+      "japanese": "はい、だいじょうぶです。ありがとうございます。",
+      "romaji": "Hai, daijōbu desu. Arigatō gozaimasu.",
+      "arabic": "نعم، لا مشكلة. شكراً لك."
+    },
+    {
+      "id": 14,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep15_line_14.mp3",
+      "japanese": "よかったですね!",
+      "romaji": "Yokatta desu ne!",
+      "arabic": "ممتاز! هذا جيد لك."
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "", "kana": "シャツ", "romaji": "shatsu", "arabic": "قميص", "audio": "assets/audio/ep15_v_01.mp3"},
+    {"kanji": "着ます", "kana": "きます", "romaji": "kimasu", "arabic": "يرتدي (ملابس الجسم)", "audio": "assets/audio/ep15_v_02.mp3"},
+    {"kanji": "小さい", "kana": "ちいさい", "romaji": "chiisai", "arabic": "صغير", "audio": "assets/audio/ep15_v_03.mp3"},
+    {"kanji": "高い", "kana": "たかい", "romaji": "takai", "arabic": "غالٍ / مرتفع", "audio": "assets/audio/ep15_v_04.mp3"},
+    {"kanji": "白い", "kana": "しろい", "romaji": "shiroi", "arabic": "أبيض", "audio": "assets/audio/ep15_v_05.mp3"},
+    {"kanji": "", "kana": "もっと", "romaji": "motto", "arabic": "أكثر / أكثر من ذلك", "audio": "assets/audio/ep15_v_06.mp3"},
+    {"kanji": "色", "kana": "いろ", "romaji": "iro", "arabic": "لون", "audio": "assets/audio/ep15_v_07.mp3"},
+    {"kanji": "", "kana": "サイズ", "romaji": "saizu", "arabic": "مقاس", "audio": "assets/audio/ep15_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "طلب الإذن: «هل يمكنني أن...؟»",
+      "pattern": "V-て も いいですか",
+      "explanation_ar": "لتسأل هل يُسمح لك بفعل شيء نستخدم صيغة て ثم も いいですか. مثال: この シャツを きても いいですか = هل يمكنني ارتداء/تجربة هذا القميص؟ وكلمة いい تعني هنا «مسموح». ويُجاب بالقبول: はい、どうぞ أو はい、いいですよ، وبالرفض المهذب: すみません、ちょっと…… أو いいえ、だめです (للصداقة فقط). تذكر تكوين て: きます ← きて، つかいます ← つかって، みます ← みて، かきます ← かいて، のみます ← のんで. وعند الدفع يُستخدم كثيراً: カードを つかっても いいですか = هل أستطيع الدفع بالبطاقة؟"
+    },
+    {
+      "title_ar": "وصل الصفات بـ «くて» واستخدام «の» بدل الاسم",
+      "pattern": "い-adj (~い → ~くて) / い-adj + の",
+      "explanation_ar": "لوصف شيء بصفتين نحول الصفة الأولى من نوع い إلى صيغة くて بحذف い الأخيرة وإضافة くて: やすい ← やすくて. مثال: この シャツは やすくて いいです = هذا القميص رخيص وجيد. أما صفات な فنضيف で: きれいで やすい = جميل ورخيص. وعندما نتحدث عن شيء سبق ذكره نستخدم の بدل تكرار الاسم، فتعني «الواحد/الذي»: もっと ちいさいのは ありますか = هل يوجد واحد أصغر؟ و しろいのを ください = أعطني الأبيض. ولاحظ أن ちいさい و おおきい و たかい و やすい كلها صفات い."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "كيف تسأل: «هل يمكنني ارتداء هذا القميص؟»",
+      "options": ["この シャツを きても いいですか。", "この シャツを きたいですか。", "この シャツは きても ありますか。"],
+      "correct_index": 0,
+      "explanation_ar": "طلب الإذن يكون بصيغة て + も いいですか. أما الخيار الثاني فيعني هل تريد ارتداءه، والثالث غير صحيح نحوياً."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «هذا القميص رخيص وجيد».",
+      "words": ["いいです", "この シャツは", "やすくて"],
+      "correct_order": ["この シャツは", "やすくて", "いいです"],
+      "explanation_ar": "الموضوع أولاً، ثم الصفة الأولى بصيغة くて، ثم الصفة الثانية مع です."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are a polite sales clerk in a clothing store in Tokyo. The learner (Arabic speaker, JLPT N5) wants to buy a shirt. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Flow: greet (ゆっくり 見て ください), let the learner ask to try items (きても いいですか), offer sizes (Sサイズ, Mサイズ, Lサイズ), colors (あかい, あおい, しろい, くろい) and prices (1,900円 to 2,900円), and ask how they will pay (カードですか). (3) Make the learner practice 〜ても いいですか, い-adjectives with くて (やすくて いいです), and the pronoun の (もっと ちいさいのは ありますか, しろいのを ください). Occasionally say an item is sold out so they must pick another. (4) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (5) Never go above N5 except fixed shop phrases. (6) After 6-8 exchanges, complete the purchase and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "いらっしゃいませ。ゆっくり 見て ください。",
+    "initial_ai_message_ar": "أهلاً بك. تفضل بالتجول براحتك."
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "episode_id": 35,
+  "season": 4,
+  "level": "JLPT_N5",
+  "title_ar": "الاعتذار المهني للزبون",
+  "title_jp": "おきゃくさまに おわびを します",
+  "background_image": "assets/images/scenes/ep35_bg.webp",
+  "dialogues": [
+    {"id": 1, "speaker_name_jp": "おきゃくさん", "speaker_name_ar": "الزبون", "character_avatar": "assets/images/characters/customer_man.webp", "audio_file": "assets/audio/ep35_line_01.mp3", "japanese": "あの、すみません。おつりが ちがいます。", "romaji": "Ano, sumimasen. Otsuri ga chigaimasu.", "arabic": "عفواً. الباقي غير صحيح."},
+    {"id": 2, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep35_line_02.mp3", "japanese": "えっ。たいへん もうしわけ ございません。", "romaji": "Ee. Taihen mōshiwake gozaimasen.", "arabic": "ماذا؟ أعتذر بشدة."},
+    {"id": 3, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep35_line_03.mp3", "japanese": "しょうしょう おまちください。レシートを おねがいします。", "romaji": "Shōshō omachi kudasai. Reshīto o onegai shimasu.", "arabic": "انتظر قليلاً من فضلك. الإيصال من فضلك."},
+    {"id": 4, "speaker_name_jp": "おきゃくさん", "speaker_name_ar": "الزبون", "character_avatar": "assets/images/characters/customer_man.webp", "audio_file": "assets/audio/ep35_line_04.mp3", "japanese": "はい、これです。", "romaji": "Hai, kore desu.", "arabic": "تفضل."},
+    {"id": 5, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep35_line_05.mp3", "japanese": "……ごひゃくえん たりませんでした。おつりを まちがえて しまいました。", "romaji": "... Gohyaku-en tarimasen deshita. Otsuri o machigaete shimaimashita.", "arabic": "...نقص خمسمئة ين. لقد أخطأت في الباقي."},
+    {"id": 6, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep35_line_06.mp3", "japanese": "こちらが ごひゃくえんです。ほんとうに もうしわけ ございませんでした。", "romaji": "Kochira ga gohyaku-en desu. Hontō ni mōshiwake gozaimasen deshita.", "arabic": "هذه خمسمئة ين. أعتذر حقاً."},
+    {"id": 7, "speaker_name_jp": "おきゃくさん", "speaker_name_ar": "الزبون", "character_avatar": "assets/images/characters/customer_man.webp", "audio_file": "assets/audio/ep35_line_07.mp3", "japanese": "ありがとう。つぎから 気を つけて ください。", "romaji": "Arigatō. Tsugi kara ki o tsukete kudasai.", "arabic": "شكراً. انتبه في المرة القادمة."},
+    {"id": 8, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep35_line_08.mp3", "japanese": "はい、これから 気を つけます。", "romaji": "Hai, korekara ki o tsukemasu.", "arabic": "حسناً، سأنتبه من الآن فصاعداً."},
+    {"id": 9, "speaker_name_jp": "おきゃくさん", "speaker_name_ar": "الزبون", "character_avatar": "assets/images/characters/customer_man.webp", "audio_file": "assets/audio/ep35_line_09.mp3", "japanese": "それから、この ふくろが やぶれて います。", "romaji": "Sorekara, kono fukuro ga yaburete imasu.", "arabic": "وأيضاً هذا الكيس ممزق."},
+    {"id": 10, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep35_line_10.mp3", "japanese": "かしこまりました。すぐ あたらしい ふくろに かえます。", "romaji": "Kashikomarimashita. Sugu atarashii fukuro ni kaemasu.", "arabic": "حاضر. سأبدّله فوراً بكيس جديد."},
+    {"id": 11, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep35_line_11.mp3", "japanese": "おまたせ しました。どうぞ。", "romaji": "Omatase shimashita. Dōzo.", "arabic": "شكراً لانتظارك. تفضل."},
+    {"id": 12, "speaker_name_jp": "おきゃくさん", "speaker_name_ar": "الزبون", "character_avatar": "assets/images/characters/customer_man.webp", "audio_file": "assets/audio/ep35_line_12.mp3", "japanese": "どうも。じゃあ、また。", "romaji": "Dōmo. Jā, mata.", "arabic": "شكراً. إلى اللقاء."},
+    {"id": 13, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep35_line_13.mp3", "japanese": "サトウさん、おつりを まちがえて しまいました。", "romaji": "Satō-san, otsuri o machigaete shimaimashita.", "arabic": "ساتو، لقد أخطأت في الباقي."},
+    {"id": 14, "speaker_name_jp": "サトウ", "speaker_name_ar": "ساتو (الزميل الأقدم)", "character_avatar": "assets/images/characters/senpai_sato.webp", "audio_file": "assets/audio/ep35_line_14.mp3", "japanese": "だいじょうぶですよ。すぐに あやまって、よかったです。", "romaji": "Daijōbu desu yo. Sugu ni ayamatte, yokatta desu.", "arabic": "لا بأس. جيد أنك اعتذرت فوراً."},
+    {"id": 15, "speaker_name_jp": "サトウ", "speaker_name_ar": "ساتو (الزميل الأقدم)", "character_avatar": "assets/images/characters/senpai_sato.webp", "audio_file": "assets/audio/ep35_line_15.mp3", "japanese": "おかねを わたす まえに、もう いちど かぞえましょう。", "romaji": "Okane o watasu mae ni, mō ichido kazoemashō.", "arabic": "قبل تسليم النقود، لنعدّها مرة أخرى."}
+  ],
+  "vocabulary": [
+    {"kanji": "申し訳ございません", "kana": "もうしわけございません", "romaji": "mōshiwake gozaimasen", "arabic": "أعتذر بشدة (رسمي)", "audio": "assets/audio/ep35_v_01.mp3"},
+    {"kanji": "少々", "kana": "しょうしょう", "romaji": "shōshō", "arabic": "قليلاً (رسمي)", "audio": "assets/audio/ep35_v_02.mp3"},
+    {"kanji": "お客様", "kana": "おきゃくさま", "romaji": "okyakusama", "arabic": "الزبون (بأدب شديد)", "audio": "assets/audio/ep35_v_03.mp3"},
+    {"kanji": "間違えます", "kana": "まちがえます", "romaji": "machigaemasu", "arabic": "يخطئ", "audio": "assets/audio/ep35_v_04.mp3"},
+    {"kanji": "足りません", "kana": "たりません", "romaji": "tarimasen", "arabic": "ناقص / لا يكفي", "audio": "assets/audio/ep35_v_05.mp3"},
+    {"kanji": "", "kana": "レシート", "romaji": "reshīto", "arabic": "إيصال", "audio": "assets/audio/ep35_v_06.mp3"},
+    {"kanji": "謝ります", "kana": "あやまります", "romaji": "ayamarimasu", "arabic": "يعتذر", "audio": "assets/audio/ep35_v_07.mp3"},
+    {"kanji": "気を付けます", "kana": "きを つけます", "romaji": "ki o tsukemasu", "arabic": "ينتبه / يحرص", "audio": "assets/audio/ep35_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "الاعتراف بالخطأ والأسف: «V-て しまいました»",
+      "pattern": "V-て しまいました / V-て しまいます",
+      "explanation_ar": "تضيف V-て しまいました معنيين: (1) أن الفعل اكتمل تماماً، و(2) إحساس بالأسف أو الندم عندما يكون الفعل خطأً. مثال: おつりを まちがえて しまいました = (للأسف) أخطأت في الباقي، たまごを おとして しまいました = (للأسف) أسقطت البيض. وهي جملة محورية في الاعتذار المهني لأنها تعترف بالخطأ بوضوح قبل أن تقول もうしわけ ございません. وفي اللغة الشفهية تسمع اختصارها: まちがえちゃいました. ملاحظة: هذه الصيغة تُدرَّس عادةً في مستوى N4، لكنها ضرورية جداً لأي شخص يعمل في خدمة العملاء، فنتعلمها هنا كعبارة جاهزة."
+    },
+    {
+      "title_ar": "عبارات خدمة العملاء الرسمية",
+      "pattern": "もうしわけ ございません / しょうしょう おまちください / かしこまりました / おまたせ しました",
+      "explanation_ar": "في العمل نستخدم لغة أكثر أدباً من الحياة اليومية، وهذه العبارات تُحفظ كما هي: もうしわけ ございません = أعتذر بشدة (أقوى من すみません)، ويصبح ماضيها もうしわけ ございませんでした بعد انتهاء الموقف. しょうしょう おまちください = انتظر قليلاً من فضلك. かしこまりました = حاضر / فهمت (للزبون فقط، وليس للأصدقاء). おまたせ しました = شكراً لانتظارك. おきゃくさま = الزبون (أكثر أدباً من おきゃくさん). وعند الاعتذار: (1) قل الاعتذار فوراً، (2) اذكر الخطأ بـ V-て しまいました، (3) صحّحه وقل ما ستفعله لاحقاً: これから 気を つけます (سأنتبه من الآن)."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "أي جملة تعترف بالخطأ بشكل صحيح؟",
+      "options": ["おつりを まちがえて しまいました。", "おつりを まちがえたいです。", "おつりを まちがえては いけません。"],
+      "correct_index": 0,
+      "explanation_ar": "V-て しまいました تعبّر عن خطأ حدث وإحساس بالأسف. الخيار الثاني يعني «أريد أن أخطئ»، والثالث يعني «لا يجوز أن تخطئ»."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «انتظر قليلاً من فضلك» (بأدب رسمي).",
+      "words": ["おまちください", "しょうしょう"],
+      "correct_order": ["しょうしょう", "おまちください"],
+      "explanation_ar": "عبارة رسمية جاهزة: しょうしょう ثم おまちください."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are a polite customer at a Japanese convenience store. The learner (Arabic speaker, JLPT N5) is a part-time cashier who made a small mistake (wrong change or a torn bag). RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Start by pointing out the problem calmly (おつりが ちがいます / ふくろが やぶれて います) and let the learner apologize and fix it. Do not be rude or angry; this is customer-service practice. (3) Make the learner practice: immediate apology (もうしわけ ございません), admitting the mistake with V-て しまいました (まちがえて しまいました), service phrases (しょうしょう おまちください, かしこまりました, おまたせ しました), and a promise (これから 気を つけます). Mention V-て しまいました is slightly above N5 but needed for work. (4) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (5) Never go above N5 except the fixed service phrases. (6) After 6-8 exchanges, accept the apology (だいじょうぶですよ) and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "あの、すみません。おつりが ちがいます。",
+    "initial_ai_message_ar": "عفواً. الباقي غير صحيح."
+  }
+}

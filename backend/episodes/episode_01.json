@@ -1,0 +1,175 @@
+{
+  "episode_id": 1,
+  "season": 1,
+  "level": "JLPT_N5",
+  "title_ar": "الوصول إلى مطار ناريتا",
+  "title_jp": "成田空港に 着きました",
+  "background_image": "assets/images/scenes/ep01_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "入国審査官",
+      "speaker_name_ar": "موظف الجوازات",
+      "character_avatar": "assets/images/characters/immigration_officer.webp",
+      "audio_file": "assets/audio/ep01_line_01.mp3",
+      "japanese": "こんにちは。パスポートを おねがいします。",
+      "romaji": "Konnichiwa. Pasupōto o onegaishimasu.",
+      "arabic": "مرحباً. جواز السفر من فضلك."
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep01_line_02.mp3",
+      "japanese": "はい、どうぞ。",
+      "romaji": "Hai, dōzo.",
+      "arabic": "نعم، تفضل."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "入国審査官",
+      "speaker_name_ar": "موظف الجوازات",
+      "character_avatar": "assets/images/characters/immigration_officer.webp",
+      "audio_file": "assets/audio/ep01_line_03.mp3",
+      "japanese": "おなまえは なんですか。",
+      "romaji": "O-namae wa nan desu ka.",
+      "arabic": "ما اسمك؟"
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep01_line_04.mp3",
+      "japanese": "わたしは サーレムです。",
+      "romaji": "Watashi wa Sāremu desu.",
+      "arabic": "أنا سالم."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "入国審査官",
+      "speaker_name_ar": "موظف الجوازات",
+      "character_avatar": "assets/images/characters/immigration_officer.webp",
+      "audio_file": "assets/audio/ep01_line_05.mp3",
+      "japanese": "サーレムさん、どこから 来ましたか。",
+      "romaji": "Sāremu-san, doko kara kimashita ka.",
+      "arabic": "سيد سالم، من أين أتيت؟"
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep01_line_06.mp3",
+      "japanese": "ドバイから 来ました。",
+      "romaji": "Dobai kara kimashita.",
+      "arabic": "أتيت من دبي."
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "入国審査官",
+      "speaker_name_ar": "موظف الجوازات",
+      "character_avatar": "assets/images/characters/immigration_officer.webp",
+      "audio_file": "assets/audio/ep01_line_07.mp3",
+      "japanese": "りょこうですか。",
+      "romaji": "Ryokō desu ka.",
+      "arabic": "هل أنت هنا للسياحة؟"
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep01_line_08.mp3",
+      "japanese": "いいえ、りょこうでは ありません。りゅうがくです。日本語の 学生です。",
+      "romaji": "Iie, ryokō dewa arimasen. Ryūgaku desu. Nihongo no gakusei desu.",
+      "arabic": "لا، لست سائحاً. أنا هنا للدراسة. أنا طالب لغة يابانية."
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "入国審査官",
+      "speaker_name_ar": "موظف الجوازات",
+      "character_avatar": "assets/images/characters/immigration_officer.webp",
+      "audio_file": "assets/audio/ep01_line_09.mp3",
+      "japanese": "そうですか。日本は はじめてですか。",
+      "romaji": "Sō desu ka. Nihon wa hajimete desu ka.",
+      "arabic": "فهمت. هل هذه أول مرة لك في اليابان؟"
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep01_line_10.mp3",
+      "japanese": "はい、はじめてです。",
+      "romaji": "Hai, hajimete desu.",
+      "arabic": "نعم، إنها المرة الأولى."
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "入国審査官",
+      "speaker_name_ar": "موظف الجوازات",
+      "character_avatar": "assets/images/characters/immigration_officer.webp",
+      "audio_file": "assets/audio/ep01_line_11.mp3",
+      "japanese": "わかりました。パスポートを どうぞ。ようこそ 日本へ。",
+      "romaji": "Wakarimashita. Pasupōto o dōzo. Yōkoso Nihon e.",
+      "arabic": "حسناً. تفضل جوازك. أهلاً بك في اليابان."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep01_line_12.mp3",
+      "japanese": "ありがとうございます!",
+      "romaji": "Arigatō gozaimasu!",
+      "arabic": "شكراً جزيلاً!"
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "空港", "kana": "くうこう", "romaji": "kūkō", "arabic": "مطار", "audio": "assets/audio/ep01_v_01.mp3"},
+    {"kanji": "名前", "kana": "なまえ", "romaji": "namae", "arabic": "اسم (تُقال بأدب: おなまえ)", "audio": "assets/audio/ep01_v_02.mp3"},
+    {"kanji": "日本", "kana": "にほん", "romaji": "Nihon", "arabic": "اليابان", "audio": "assets/audio/ep01_v_03.mp3"},
+    {"kanji": "日本語", "kana": "にほんご", "romaji": "nihongo", "arabic": "اللغة اليابانية", "audio": "assets/audio/ep01_v_04.mp3"},
+    {"kanji": "学生", "kana": "がくせい", "romaji": "gakusei", "arabic": "طالب", "audio": "assets/audio/ep01_v_05.mp3"},
+    {"kanji": "旅行", "kana": "りょこう", "romaji": "ryokō", "arabic": "سفر / رحلة سياحية", "audio": "assets/audio/ep01_v_06.mp3"},
+    {"kanji": "留学", "kana": "りゅうがく", "romaji": "ryūgaku", "arabic": "الدراسة في الخارج", "audio": "assets/audio/ep01_v_07.mp3"},
+    {"kanji": "初めて", "kana": "はじめて", "romaji": "hajimete", "arabic": "لأول مرة", "audio": "assets/audio/ep01_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "الجملة الاسمية: «أ هو ب» ونفيها",
+      "pattern": "A は B です / A は B では ありません",
+      "explanation_ar": "هذا أهم قالب في المستوى الأول. الأداة は (تُكتب ha لكنها تُنطق wa) تحدد موضوع الجملة، و です في النهاية تعني «يكون» بصيغة مهذبة. مثال: わたしは サーレムです = أنا سالم. وللنفي نستبدل です بـ では ありません: りょこうでは ありません = ليست سياحة. ولتحويل الجملة إلى سؤال نضيف か في آخرها دون تغيير ترتيب الكلمات: りょこうですか = هل هي سياحة؟ لاحظ أن اليابانية لا تستخدم علامة استفهام عادةً، فالأداة か تقوم بدورها."
+    },
+    {
+      "title_ar": "السؤال عن المصدر بـ «من أين؟»",
+      "pattern": "[مكان] から 来ました / どこから 来ましたか",
+      "explanation_ar": "الأداة から تأتي بعد الاسم وتعني «من» (نقطة البداية)، وهي عكس حرف الجر العربي في موقعها: نقول ドバイから أي «دبي-من». أما 来ました (kimashita) فتعني «أتيتُ» بصيغة الماضي المهذب، و どこ تعني «أين». فالسؤال どこから 来ましたか = من أين أتيت؟ والجواب: ドバイから 来ました = أتيت من دبي. احفظ هذا التعبير كقطعة واحدة لأنك ستسمعه كثيراً عند التعارف في اليابان."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "سألك موظف الجوازات: りょこうですか. كيف تجيب بأنك لست سائحاً؟",
+      "options": ["いいえ、りょこうでは ありません。", "はい、りょこうです。", "いいえ、りょこうですか。"],
+      "correct_index": 0,
+      "explanation_ar": "النفي في الجملة الاسمية يكون بتحويل です إلى では ありません. الخيار الثاني يعني «نعم، سياحة»، والثالث خاطئ لأن か تجعله سؤالاً."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «أتيت من دبي».",
+      "words": ["来ました", "から", "ドバイ"],
+      "correct_order": ["ドバイ", "から", "来ました"],
+      "explanation_ar": "في اليابانية يأتي المكان أولاً ثم الأداة から (من) ثم الفعل في نهاية الجملة دائماً."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are a polite immigration officer at Narita International Airport in Tokyo. The learner is an Arabic-speaking beginner (JLPT N5) arriving in Japan. Conduct a short, realistic passport check in Japanese. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; maximum 1-2 short sentences per turn. (2) Ask, one at a time: passport, name (おなまえは なんですか), where they came from (どこから 来ましたか), purpose of visit (りょこうですか / りゅうがくですか), and whether it is their first time in Japan (日本は はじめてですか). (3) If the learner makes a grammar mistake, do not lecture; naturally repeat the correct sentence once, then continue. (4) If the learner is silent, answers in Arabic, or seems stuck, give a short hint in Arabic followed by the Japanese phrase they could say. (5) Never use vocabulary or grammar above N5. (6) After 6-8 exchanges, end with わかりました。ようこそ 日本へ。 and then give a 2-line feedback summary in Arabic: one thing they did well and one phrase to practice.",
+    "initial_ai_message_jp": "こんにちは。パスポートを おねがいします。",
+    "initial_ai_message_ar": "مرحباً. جواز السفر من فضلك."
+  }
+}

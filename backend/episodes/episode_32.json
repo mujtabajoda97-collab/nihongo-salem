@@ -1,0 +1,71 @@
+{
+  "episode_id": 32,
+  "season": 4,
+  "level": "JLPT_N5",
+  "title_ar": "مكالمة هاتفية لطلب مقابلة عمل",
+  "title_jp": "でんわで めんせつを おねがいします",
+  "background_image": "assets/images/scenes/ep32_bg.webp",
+  "dialogues": [
+    {"id": 1, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep32_line_01.mp3", "japanese": "(でんわを かけます)……", "romaji": "(Denwa o kakemasu) ...", "arabic": "(يُجري المكالمة)..."},
+    {"id": 2, "speaker_name_jp": "店長", "speaker_name_ar": "مدير المتجر", "character_avatar": "assets/images/characters/store_manager.webp", "audio_file": "assets/audio/ep32_line_02.mp3", "japanese": "はい、コンビニ ひまわりです。", "romaji": "Hai, Konbini Himawari desu.", "arabic": "نعم، هنا كومبيني هيماواري."},
+    {"id": 3, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep32_line_03.mp3", "japanese": "もしもし。わたしは サーレムと いいます。", "romaji": "Moshimoshi. Watashi wa Sāremu to iimasu.", "arabic": "ألو. اسمي سالم."},
+    {"id": 4, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep32_line_04.mp3", "japanese": "アルバイトの ことで でんわしたんですが、てんちょうさんは いらっしゃいますか。", "romaji": "Arubaito no koto de denwa shita n desu ga, tenchō-san wa irasshaimasu ka.", "arabic": "اتصلت بخصوص العمل بدوام جزئي. هل المدير موجود؟"},
+    {"id": 5, "speaker_name_jp": "店長", "speaker_name_ar": "مدير المتجر", "character_avatar": "assets/images/characters/store_manager.webp", "audio_file": "assets/audio/ep32_line_05.mp3", "japanese": "わたしが てんちょうです。アルバイトですか。", "romaji": "Watashi ga tenchō desu. Arubaito desu ka.", "arabic": "أنا المدير. بخصوص الوظيفة؟"},
+    {"id": 6, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep32_line_06.mp3", "japanese": "はい。はりがみを 見ました。アルバイトを したいんですが……。", "romaji": "Hai. Harigami o mimashita. Arubaito o shitai n desu ga ...", "arabic": "نعم. رأيت الإعلان. أود العمل لديكم..."},
+    {"id": 7, "speaker_name_jp": "店長", "speaker_name_ar": "مدير المتجر", "character_avatar": "assets/images/characters/store_manager.webp", "audio_file": "assets/audio/ep32_line_07.mp3", "japanese": "そうですか。まず、めんせつを しましょう。日本語が できますか。", "romaji": "Sō desu ka. Mazu, mensetsu o shimashō. Nihongo ga dekimasu ka.", "arabic": "فهمت. لنقم بالمقابلة أولاً. هل تجيد اليابانية؟"},
+    {"id": 8, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep32_line_08.mp3", "japanese": "はい、すこし できます。いま、がっこうで べんきょうして います。", "romaji": "Hai, sukoshi dekimasu. Ima, gakkō de benkyō shite imasu.", "arabic": "نعم، قليلاً. أدرس الآن في المدرسة."},
+    {"id": 9, "speaker_name_jp": "店長", "speaker_name_ar": "مدير المتجر", "character_avatar": "assets/images/characters/store_manager.webp", "audio_file": "assets/audio/ep32_line_09.mp3", "japanese": "じゃ、あしたの ごご 三じは いかがですか。", "romaji": "Ja, ashita no gogo sanji wa ikaga desu ka.", "arabic": "إذن، ما رأيك بالغد الساعة الثالثة بعد الظهر؟"},
+    {"id": 10, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep32_line_10.mp3", "japanese": "すみません。あしたは 三じまで がっこうが あります。", "romaji": "Sumimasen. Ashita wa sanji made gakkō ga arimasu.", "arabic": "آسف. غداً عندي مدرسة حتى الثالثة."},
+    {"id": 11, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep32_line_11.mp3", "japanese": "ごご 四じからでも いいですか。", "romaji": "Gogo yoji kara de mo ii desu ka.", "arabic": "هل يمكن أن يكون من الرابعة مساءً؟"},
+    {"id": 12, "speaker_name_jp": "店長", "speaker_name_ar": "مدير المتجر", "character_avatar": "assets/images/characters/store_manager.webp", "audio_file": "assets/audio/ep32_line_12.mp3", "japanese": "ええ、いいですよ。じゃ、四じに きて ください。", "romaji": "Ee, ii desu yo. Ja, yoji ni kite kudasai.", "arabic": "نعم، لا بأس. إذن تعال في الرابعة."},
+    {"id": 13, "speaker_name_jp": "店長", "speaker_name_ar": "مدير المتجر", "character_avatar": "assets/images/characters/store_manager.webp", "audio_file": "assets/audio/ep32_line_13.mp3", "japanese": "りれきしょを もって きて ください。", "romaji": "Rirekisho o motte kite kudasai.", "arabic": "أحضر السيرة الذاتية معك من فضلك."},
+    {"id": 14, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep32_line_14.mp3", "japanese": "はい。ばしょは どこですか。", "romaji": "Hai. Basho wa doko desu ka.", "arabic": "حسناً. أين المكان؟"},
+    {"id": 15, "speaker_name_jp": "店長", "speaker_name_ar": "مدير المتجر", "character_avatar": "assets/images/characters/store_manager.webp", "audio_file": "assets/audio/ep32_line_15.mp3", "japanese": "えきの まえの コンビニです。", "romaji": "Eki no mae no konbini desu.", "arabic": "الكومبيني أمام المحطة."},
+    {"id": 16, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep32_line_16.mp3", "japanese": "わかりました。よろしく おねがいします。しつれいします。", "romaji": "Wakarimashita. Yoroshiku onegai shimasu. Shitsurei shimasu.", "arabic": "فهمت. أشكرك. مع السلامة (بأدب)."}
+  ],
+  "vocabulary": [
+    {"kanji": "面接", "kana": "めんせつ", "romaji": "mensetsu", "arabic": "مقابلة عمل", "audio": "assets/audio/ep32_v_01.mp3"},
+    {"kanji": "店長", "kana": "てんちょう", "romaji": "tenchō", "arabic": "مدير المتجر", "audio": "assets/audio/ep32_v_02.mp3"},
+    {"kanji": "", "kana": "もしもし", "romaji": "moshimoshi", "arabic": "ألو (في الهاتف)", "audio": "assets/audio/ep32_v_03.mp3"},
+    {"kanji": "電話します", "kana": "でんわします", "romaji": "denwa shimasu", "arabic": "يتصل هاتفياً", "audio": "assets/audio/ep32_v_04.mp3"},
+    {"kanji": "場所", "kana": "ばしょ", "romaji": "basho", "arabic": "مكان", "audio": "assets/audio/ep32_v_05.mp3"},
+    {"kanji": "持って来ます", "kana": "もってきます", "romaji": "motte kimasu", "arabic": "يحضر معه", "audio": "assets/audio/ep32_v_06.mp3"},
+    {"kanji": "", "kana": "いかが", "romaji": "ikaga", "arabic": "كيف (صيغة مهذبة لـ どう)", "audio": "assets/audio/ep32_v_07.mp3"},
+    {"kanji": "失礼します", "kana": "しつれいします", "romaji": "shitsurei shimasu", "arabic": "عن إذنك / مع السلامة (رسمي)", "audio": "assets/audio/ep32_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "تمهيد الطلب أو التفسير: «～んですが»",
+      "pattern": "V (الصيغة العادية) + んですが / ～んです",
+      "explanation_ar": "في المكالمات والمواقف الرسمية لا نبدأ بالطلب مباشرة، بل نمهّد بـ ～んですが، فتصبح الجملة ألطف وتفتح المجال للطرف الآخر ليسأل أو يجيب. مثال: アルバイトを したいんですが……= أريد العمل لديكم... (ثم يرد المدير ويكمل). وكذلك: アルバイトの ことで でんわしたんですが = اتصلت بخصوص العمل. وتتكوّن بإضافة んです إلى الصيغة العادية: したい ← したいんです، でんわした ← でんわしたんです. وتأتي أيضاً لتفسير الموقف: ねつが あるんです = (السبب أن) عندي حرارة. ولاحظ أن が في النهاية معناها «لكن / و...» وهي هنا تمهيدية فقط، وتجعل نبرتك مهذبة جداً في الهاتف والمتاجر والمكاتب."
+    },
+    {
+      "title_ar": "اقتراح الوقت بأدب: «は いかがですか» وفعل «V-て きます»",
+      "pattern": "N は いかがですか / V-て きて ください / もって きます",
+      "explanation_ar": "いかがですか هي الصيغة المهذبة لـ どうですか، ونستخدمها لاقتراح موعد أو شيء: あしたの ごご 三じは いかがですか = ما رأيك بالغد الساعة الثالثة بعد الظهر؟ ونرد بقبول: はい、だいじょうぶです أو برفض مهذب: すみません、その じかんは ちょっと……. وللاقتراح البديل نقول: ～でも いいですか: 四じからでも いいですか = هل يمكن من الرابعة؟ أما V-て きます فتعني «يفعل ثم يأتي»، وأشهر استخدام لها: もって きます = يحضر (شيئاً) معه، تقول もって きて ください = أحضره معك من فضلك. وعكسها もって いきます = يأخذه معه إلى هناك. وفي نهاية المكالمة الرسمية نقول: しつれいします."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "ما أفضل طريقة مهذبة لبدء طلب في مكالمة هاتفية؟",
+      "options": ["アルバイトを したいんですが……", "アルバイトを しろ。", "アルバイトを しません。"],
+      "correct_index": 0,
+      "explanation_ar": "～んですが تمهّد للطلب بأدب، وتترك المجال للطرف الآخر ليرد."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «أحضر السيرة الذاتية معك من فضلك».",
+      "words": ["きて", "ください", "りれきしょを", "もって"],
+      "correct_order": ["りれきしょを", "もって", "きて", "ください"],
+      "explanation_ar": "المفعول به أولاً، ثم もって きて، ثم ください."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are the manager (てんちょう) of a Japanese convenience store answering a phone call from the learner (Arabic speaker, JLPT N5) who wants a part-time job interview. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Answer the phone (はい、コンビニ ひまわりです), listen to the request, and schedule an interview: suggest a day/time with 〜は いかがですか, accept alternatives (〜からでも いいですか), tell them what to bring (りれきしょを もって きて ください) and where (えきの まえの コンビニです). (3) Make the learner practice the polite phone opening (もしもし、わたしは ○○と いいます), 〜んですが to introduce the request (アルバイトを したいんですが……), and closing (しつれいします). (4) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (5) Never go above N5 except fixed phone phrases. (6) After 6-8 exchanges, end the call politely and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "はい、コンビニ ひまわりです。",
+    "initial_ai_message_ar": "نعم، هنا كومبيني هيماواري."
+  }
+}

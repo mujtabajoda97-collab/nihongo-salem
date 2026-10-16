@@ -1,0 +1,195 @@
+{
+  "episode_id": 20,
+  "season": 2,
+  "level": "JLPT_N5",
+  "title_ar": "استعارة الأشياء وإعادتها",
+  "title_jp": "ものを かります・かえします",
+  "background_image": "assets/images/scenes/ep20_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep20_line_01.mp3",
+      "japanese": "すみません。じてんしゃを かりても いいですか。",
+      "romaji": "Sumimasen. Jitensha o karite mo ii desu ka.",
+      "arabic": "عذراً. هل يمكنني استعارة دراجتك؟"
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep20_line_02.mp3",
+      "japanese": "いいですよ。どこへ 行きますか。",
+      "romaji": "Ii desu yo. Doko e ikimasu ka.",
+      "arabic": "طبعاً. إلى أين ستذهب؟"
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep20_line_03.mp3",
+      "japanese": "がっこうへ 行きます。えきまで とおいですから。",
+      "romaji": "Gakkō e ikimasu. Eki made tooi desu kara.",
+      "arabic": "إلى المدرسة. لأن المحطة بعيدة."
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep20_line_04.mp3",
+      "japanese": "あしたの あさは ぼくが つかいます。ごごに かえして ください。",
+      "romaji": "Ashita no asa wa boku ga tsukaimasu. Gogo ni kaeshite kudasai.",
+      "arabic": "صباح الغد سأستخدمها أنا. أعدها بعد الظهر من فضلك."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep20_line_05.mp3",
+      "japanese": "わかりました。ごご 四時に かえします。",
+      "romaji": "Wakarimashita. Gogo yoji ni kaeshimasu.",
+      "arabic": "فهمت. سأعيدها الساعة الرابعة بعد الظهر."
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep20_line_06.mp3",
+      "japanese": "じゃ、どうぞ。この じしょも かしますよ。",
+      "romaji": "Ja, dōzo. Kono jisho mo kashimasu yo.",
+      "arabic": "تفضل إذن. وسأعيرك هذا القاموس أيضاً."
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep20_line_07.mp3",
+      "japanese": "ほんとうですか。うれしいです。",
+      "romaji": "Hontō desu ka. Ureshii desu.",
+      "arabic": "حقاً؟ أنا سعيد جداً."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep20_line_08.mp3",
+      "japanese": "ぼくは もう つかいませんから、じしょは あげます。",
+      "romaji": "Boku wa mō tsukaimasen kara, jisho wa agemasu.",
+      "arabic": "أنا لم أعد أستخدمه، لذلك سأعطيك القاموس هدية."
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep20_line_09.mp3",
+      "japanese": "いいですか。ありがとうございます!じゃ、わたしは ケンタさんに ドバイの おかしを あげます。",
+      "romaji": "Ii desu ka. Arigatō gozaimasu! Ja, watashi wa Kenta-san ni Dobai no okashi o agemasu.",
+      "arabic": "حقاً؟ شكراً جزيلاً! إذن سأعطيك أنا حلويات من دبي."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep20_line_10.mp3",
+      "japanese": "わあ、ありがとう!もらいます。",
+      "romaji": "Waa, arigatō! Moraimasu.",
+      "arabic": "واو، شكراً! سآخذها بسرور."
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep20_line_11.mp3",
+      "japanese": "ケンタさん、じてんしゃを かえします。ありがとうございました。",
+      "romaji": "Kenta-san, jitensha o kaeshimasu. Arigatō gozaimashita.",
+      "arabic": "كينتا، سأعيد لك الدراجة. شكراً جزيلاً."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep20_line_12.mp3",
+      "japanese": "どういたしまして。ごはんの あとで、いっしょに おかしを たべませんか。",
+      "romaji": "Dō itashimashite. Gohan no ato de, issho ni okashi o tabemasen ka.",
+      "arabic": "على الرحب والسعة. بعد العشاء، ما رأيك أن نأكل الحلويات معاً؟"
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep20_line_13.mp3",
+      "japanese": "いいですね。ごはんの まえに、シャワーを あびても いいですか。",
+      "romaji": "Ii desu ne. Gohan no mae ni, shawā o abite mo ii desu ka.",
+      "arabic": "فكرة جميلة. قبل العشاء، هل يمكنني أن آخذ دشاً؟"
+    },
+    {
+      "id": 14,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep20_line_14.mp3",
+      "japanese": "はい、どうぞ。",
+      "romaji": "Hai, dōzo.",
+      "arabic": "نعم، تفضل."
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "自転車", "kana": "じてんしゃ", "romaji": "jitensha", "arabic": "دراجة هوائية", "audio": "assets/audio/ep20_v_01.mp3"},
+    {"kanji": "貸します", "kana": "かします", "romaji": "kashimasu", "arabic": "يُعير / يُقرض", "audio": "assets/audio/ep20_v_02.mp3"},
+    {"kanji": "返します", "kana": "かえします", "romaji": "kaeshimasu", "arabic": "يُرجِع (شيئاً)", "audio": "assets/audio/ep20_v_03.mp3"},
+    {"kanji": "", "kana": "あげます", "romaji": "agemasu", "arabic": "يعطي (هدية)", "audio": "assets/audio/ep20_v_04.mp3"},
+    {"kanji": "", "kana": "もらいます", "romaji": "moraimasu", "arabic": "يحصل على / يتلقى", "audio": "assets/audio/ep20_v_05.mp3"},
+    {"kanji": "辞書", "kana": "じしょ", "romaji": "jisho", "arabic": "قاموس", "audio": "assets/audio/ep20_v_06.mp3"},
+    {"kanji": "", "kana": "うれしい", "romaji": "ureshii", "arabic": "سعيد / مسرور", "audio": "assets/audio/ep20_v_07.mp3"},
+    {"kanji": "後で", "kana": "あとで", "romaji": "ato de", "arabic": "بعد / لاحقاً", "audio": "assets/audio/ep20_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "الإعارة والإهداء: かします / かりる / あげます / もらいます",
+      "pattern": "[المعطي] が [المتلقي] に N を あげます / [المتلقي] は [المعطي] に N を もらいます",
+      "explanation_ar": "في اليابانية أفعال تدل على اتجاه المعطيات. (1) あげます = أعطي هدية للآخر: わたしは ケンタさんに おかしを あげます = أعطي كينتا حلويات. (2) もらいます = أتلقى من الآخر، فالمتلقي هو الفاعل: ケンタさんに じしょを もらいます = أحصل على قاموس من كينتا. (3) かします = أُعير، かります = أستعير، かえします = أُرجِع. أمثلة: ケンタさんは わたしに じしょを かします = كينتا يعيرني قاموساً، わたしは ケンタさんに じてんしゃを かります = أستعير دراجة من كينتا. والمتلقي أو المعطي يأخذ الأداة に (أو から للمعطي). وللاستئذان بالاستعارة نجمع ما تعلمناه: じてんしゃを かりても いいですか = هل يمكنني استعارة الدراجة؟ وللطلب: かして ください (أعرني) و かえして ください (أعدها)."
+    },
+    {
+      "title_ar": "«قبل» و«بعد» مع الأسماء",
+      "pattern": "N の まえに / N の あとで",
+      "explanation_ar": "للتعبير عن الترتيب الزمني بين حدثين نستخدم まえに (قبل) و あとで (بعد) بعد اسم الحدث مع الأداة の: ごはんの まえに、シャワーを あびます = قبل الطعام آخذ دشاً، ごはんの あとで、おかしを たべます = بعد الطعام آكل الحلويات. ومع الأزمنة: 三時の まえに (قبل الثالثة)، じゅぎょうの あとで (بعد الدرس). وإذا كان الحدث فعلاً فنحتاج صيغاً مختلفة سنتعلمها لاحقاً، لكن يمكن استخدام صيغة て から التي تعلمناها: シャワーを あびてから たべます = آكل بعد أن آخذ دشاً. وللتفاصيل الزمنية: まえ = قبل، あと = بعد، つぎ = التالي، さいしょ = الأول."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "من يعطي ومن يتلقى في الجملة: サーレムさんは ケンタさんに おかしを あげます؟",
+      "options": ["سالم يعطي كينتا", "كينتا يعطي سالم", "كلاهما يتبادلان الهدايا"],
+      "correct_index": 0,
+      "explanation_ar": "الفاعل مع は هو المعطي (سالم)، والمتلقي مع に هو كينتا. ولو أراد أن يقول إنه يتلقى لاستخدم もらいます."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «بعد الطعام آكل الحلويات».",
+      "words": ["たべます", "あとで", "おかしを", "ごはんの"],
+      "correct_order": ["ごはんの", "あとで", "おかしを", "たべます"],
+      "explanation_ar": "الاسم مع の ثم あとで للدلالة على الزمن، ثم المفعول به، ثم الفعل في النهاية."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are Kenta, a friendly Japanese housemate. The learner (Arabic speaker, JLPT N5) wants to borrow things from you (a bicycle, a dictionary, an umbrella) and later return them. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Let the learner ask permission with 〜かりても いいですか and 〜かして ください; answer with いいですよ and tell them when to return it (あしたの ごご 四時に かえして ください). Occasionally refuse politely (すみません、きょうは ぼくが つかいます). (3) Make the learner practice あげます / もらいます / かします / かります / かえします with the correct particles (に, を), and 〜の まえに / 〜の あとで (ごはんの まえに, じゅぎょうの あとで). Offer to give them something (これは あげます) so they must respond with もらいます / ありがとうございます. (4) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (5) Never go above N5. (6) After 6-8 exchanges, close the scene (どういたしまして) and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "サーレムさん、なにか ありますか。",
+    "initial_ai_message_ar": "سالم، هل تحتاج شيئاً؟"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "episode_id": 5,
+  "season": 1,
+  "level": "JLPT_N5",
+  "title_ar": "متجر الكومبيني 7-Eleven",
+  "title_jp": "コンビニで かいもの",
+  "background_image": "assets/images/scenes/ep05_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظف المتجر",
+      "character_avatar": "assets/images/characters/konbini_clerk.webp",
+      "audio_file": "assets/audio/ep05_line_01.mp3",
+      "japanese": "いらっしゃいませ。",
+      "romaji": "Irasshaimase.",
+      "arabic": "أهلاً وسهلاً بك."
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep05_line_02.mp3",
+      "japanese": "すみません。これは なんの おにぎりですか。",
+      "romaji": "Sumimasen. Kore wa nan no onigiri desu ka.",
+      "arabic": "عذراً. بماذا تُحشى كرة الأرز هذه؟"
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظف المتجر",
+      "character_avatar": "assets/images/characters/konbini_clerk.webp",
+      "audio_file": "assets/audio/ep05_line_03.mp3",
+      "japanese": "それは さけです。さかなですよ。",
+      "romaji": "Sore wa sake desu. Sakana desu yo.",
+      "arabic": "تلك بالسلمون. إنه سمك."
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep05_line_04.mp3",
+      "japanese": "じゃ、さけの おにぎりと この おべんとうを ください。",
+      "romaji": "Ja, sake no onigiri to kono obentō o kudasai.",
+      "arabic": "إذن، أعطني كرة الأرز بالسلمون وهذه الوجبة من فضلك."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظف المتجر",
+      "character_avatar": "assets/images/characters/konbini_clerk.webp",
+      "audio_file": "assets/audio/ep05_line_05.mp3",
+      "japanese": "おべんとうは あたためますか。",
+      "romaji": "Obentō wa atatamemasu ka.",
+      "arabic": "هل أسخّن لك الوجبة؟"
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep05_line_06.mp3",
+      "japanese": "はい、おねがいします。それから、あたたかい おちゃは ありますか。",
+      "romaji": "Hai, onegaishimasu. Sorekara, atatakai ocha wa arimasu ka.",
+      "arabic": "نعم، من فضلك. وأيضاً، هل يوجد شاي ساخن؟"
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظف المتجر",
+      "character_avatar": "assets/images/characters/konbini_clerk.webp",
+      "audio_file": "assets/audio/ep05_line_07.mp3",
+      "japanese": "すみません、あたたかい おちゃは ありません。つめたい おちゃは あそこに あります。",
+      "romaji": "Sumimasen, atatakai ocha wa arimasen. Tsumetai ocha wa asoko ni arimasu.",
+      "arabic": "آسف، لا يوجد شاي ساخن. الشاي البارد موجود هناك."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep05_line_08.mp3",
+      "japanese": "じゃ、つめたい おちゃも おねがいします。",
+      "romaji": "Ja, tsumetai ocha mo onegaishimasu.",
+      "arabic": "إذن، الشاي البارد أيضاً من فضلك."
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظف المتجر",
+      "character_avatar": "assets/images/characters/konbini_clerk.webp",
+      "audio_file": "assets/audio/ep05_line_09.mp3",
+      "japanese": "ふくろは いりますか。",
+      "romaji": "Fukuro wa irimasu ka.",
+      "arabic": "هل تحتاج كيساً؟"
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep05_line_10.mp3",
+      "japanese": "いいえ、いりません。",
+      "romaji": "Iie, irimasen.",
+      "arabic": "لا، لا أحتاج."
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظف المتجر",
+      "character_avatar": "assets/images/characters/konbini_clerk.webp",
+      "audio_file": "assets/audio/ep05_line_11.mp3",
+      "japanese": "ぜんぶで 八百五十円です。",
+      "romaji": "Zenbu de happyaku gojū-en desu.",
+      "arabic": "المجموع ثمانمئة وخمسون يناً."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep05_line_12.mp3",
+      "japanese": "Suicaで おねがいします。",
+      "romaji": "Suica de onegaishimasu.",
+      "arabic": "سأدفع ببطاقة سويكا من فضلك."
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظف المتجر",
+      "character_avatar": "assets/images/characters/konbini_clerk.webp",
+      "audio_file": "assets/audio/ep05_line_13.mp3",
+      "japanese": "はい、ここに タッチして ください。ありがとうございました。",
+      "romaji": "Hai, koko ni tatchi shite kudasai. Arigatō gozaimashita.",
+      "arabic": "حسناً، المس البطاقة هنا من فضلك. شكراً لك."
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "お弁当", "kana": "おべんとう", "romaji": "obentō", "arabic": "وجبة جاهزة في علبة (بينتو)", "audio": "assets/audio/ep05_v_01.mp3"},
+    {"kanji": "お茶", "kana": "おちゃ", "romaji": "ocha", "arabic": "شاي (أخضر غالباً)", "audio": "assets/audio/ep05_v_02.mp3"},
+    {"kanji": "魚", "kana": "さかな", "romaji": "sakana", "arabic": "سمك", "audio": "assets/audio/ep05_v_03.mp3"},
+    {"kanji": "温かい", "kana": "あたたかい", "romaji": "atatakai", "arabic": "دافئ / ساخن (للطعام والشراب)", "audio": "assets/audio/ep05_v_04.mp3"},
+    {"kanji": "冷たい", "kana": "つめたい", "romaji": "tsumetai", "arabic": "بارد (عند اللمس أو الشرب)", "audio": "assets/audio/ep05_v_05.mp3"},
+    {"kanji": "袋", "kana": "ふくろ", "romaji": "fukuro", "arabic": "كيس", "audio": "assets/audio/ep05_v_06.mp3"},
+    {"kanji": "要ります", "kana": "いります", "romaji": "irimasu", "arabic": "يحتاج", "audio": "assets/audio/ep05_v_07.mp3"},
+    {"kanji": "", "kana": "あそこ", "romaji": "asoko", "arabic": "هناك (مكان بعيد)", "audio": "assets/audio/ep05_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "العطف بين الأسماء «و» و«أيضاً»",
+      "pattern": "N1 と N2 / N も",
+      "explanation_ar": "الأداة と تعني «و» وتربط بين اسمين فقط (لا تربط بين جملتين أو فعلين): さけの おにぎりと おべんとう = كرة أرز بالسلمون ووجبة. ويمكن أن تربط أكثر من اسمين: おふろと トイレと だいどころ. أما الأداة も فتعني «أيضاً» وتأخذ مكان は أو を أو が: つめたい おちゃも おねがいします = الشاي البارد أيضاً من فضلك. لاحظ أن も تأتي بعد الاسم مباشرة وليس في آخر الجملة كما في العربية."
+    },
+    {
+      "title_ar": "صفات «い» قبل الاسم وفي آخر الجملة",
+      "pattern": "い-adj + N / N は い-adj です / い-adj (くない)",
+      "explanation_ar": "معظم الصفات اليابانية تنتهي بالحرف い مثل あたたかい (دافئ) و つめたい (بارد). وتأتي الصفة قبل الاسم مباشرة عكس العربية: あたたかい おちゃ = شاي دافئ (حرفياً: دافئ شاي). ويمكن وضعها في آخر الجملة مع です: この おちゃは つめたいです = هذا الشاي بارد. وللنفي نحذف い الأخيرة ونضيف くないです: つめたくないです = ليس بارداً. ملاحظة: الصفة いい (جيد) شاذة، ونفيها よくないです."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "سألك موظف الكومبيني: ふくろは いりますか. ماذا يقصد؟",
+      "options": ["هل تحتاج كيساً؟", "هل أسخّن الطعام؟", "هل تدفع ببطاقة سويكا؟"],
+      "correct_index": 0,
+      "explanation_ar": "ふくろ تعني كيس، و いりますか تعني هل تحتاج. وسؤال تسخين الطعام هو あたためますか."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «أعطني كرة أرز وشاياً من فضلك».",
+      "words": ["ください", "おちゃ", "と", "おにぎり", "を"],
+      "correct_order": ["おにぎり", "と", "おちゃ", "を", "ください"],
+      "explanation_ar": "نربط الاسمين بـ と، ثم نضع を بعد الاسم الأخير، ثم ください في النهاية."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are a cashier at a 7-Eleven convenience store (コンビニ) in Tokyo. The learner (Arabic speaker, JLPT N5) is buying food and drinks. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Follow real konbini flow: greet with いらっしゃいませ, answer questions about items (fillings: さけ, ツナ, うめ), ask whether to heat a bento (あたためますか), whether they need a bag (ふくろは いりますか), state the total (ぜんぶで 〜円です), and ask payment method. (3) Make the learner use と to combine items, も for 'also', and い-adjectives like あたたかい / つめたい / おおきい / ちいさい. Sometimes say an item is out of stock (〜は ありません) so they must choose another. (4) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (5) Never go above N5 except fixed shop phrases (いらっしゃいませ, ありがとうございました). (6) After 6-8 exchanges, finish the purchase and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "いらっしゃいませ。",
+    "initial_ai_message_ar": "أهلاً وسهلاً بك."
+  }
+}

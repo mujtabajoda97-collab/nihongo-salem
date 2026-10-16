@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -6,6 +8,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'app_router.dart';
 import 'providers/providers.dart';
 import 'services/entitlement_service.dart';
+import 'services/tutor_api.dart';
 import 'ui/theme.dart';
 
 Future<void> main() async {
@@ -13,6 +16,8 @@ Future<void> main() async {
 
   final prefs = await SharedPreferences.getInstance();
   final entitlement = await createEntitlementService(prefs);
+
+  unawaited(wakeUpServer()); // wakes the (free-plan) server while the app opens
 
   runApp(
     ProviderScope(

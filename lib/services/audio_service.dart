@@ -34,6 +34,23 @@ class JustAudioService implements AudioService {
       unawaited(_player.play().catchError((Object _) {}));
       return true;
     } on Object {
+      // The mp3 is not bundled in the app: ask the server, which generates the
+      // lesson clip the first time and serves it from its cache afterwards.
+      return _playFromServer(assetPath, slow);
+    }
+  }
+
+  Future<bool> _playFromServer(String assetPath, bool slow) async {
+    final base = AppConfig.apiBaseUrl;
+    final file = assetPath.split('/').last;
+    if (base.isEmpty || !file.endsWith('.mp3')) return false;
+    try {
+      await _player.stop();
+      await _player.setUrl('$base/v1/lesson-audio/$file');
+      await _player.setSpeed(slow ? AppRules.slowAudioSpeed : 1.0);
+      unawaited(_player.play().catchError((Object _) {}));
+      return true;
+    } on Object {
       return false;
     }
   }

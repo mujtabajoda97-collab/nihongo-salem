@@ -1,0 +1,195 @@
+{
+  "episode_id": 18,
+  "season": 2,
+  "level": "JLPT_N5",
+  "title_ar": "الطلب في مقهى",
+  "title_jp": "カフェで ちゅうもん",
+  "background_image": "assets/images/scenes/ep18_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظف المقهى",
+      "character_avatar": "assets/images/characters/cafe_staff.webp",
+      "audio_file": "assets/audio/ep18_line_01.mp3",
+      "japanese": "いらっしゃいませ。メニューです。どうぞ。",
+      "romaji": "Irasshaimase. Menyū desu. Dōzo.",
+      "arabic": "أهلاً بكم. هذه قائمة الطعام. تفضلوا."
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep18_line_02.mp3",
+      "japanese": "何に しますか、サーレムさん。",
+      "romaji": "Nani ni shimasu ka, Sāremu-san.",
+      "arabic": "ماذا ستختار يا سالم؟"
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep18_line_03.mp3",
+      "japanese": "コーヒーに します。ホットが いいです。",
+      "romaji": "Kōhī ni shimasu. Hotto ga ii desu.",
+      "arabic": "سأختار القهوة. أريدها ساخنة."
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "ミナ",
+      "speaker_name_ar": "مينا",
+      "character_avatar": "assets/images/characters/mina.webp",
+      "audio_file": "assets/audio/ep18_line_04.mp3",
+      "japanese": "わたしは こうちゃを ください。アイスで おねがいします。",
+      "romaji": "Watashi wa kōcha o kudasai. Aisu de onegaishimasu.",
+      "arabic": "أنا أريد شاياً أسود من فضلك. بارداً (مع الثلج) لو سمحت."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep18_line_05.mp3",
+      "japanese": "わたしは ミルクティーを おねがいします。ケーキも ありますか。",
+      "romaji": "Watashi wa miruku tī o onegaishimasu. Kēki mo arimasu ka.",
+      "arabic": "أنا سآخذ شاي بالحليب من فضلك. وهل توجد كعك أيضاً؟"
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظف المقهى",
+      "character_avatar": "assets/images/characters/cafe_staff.webp",
+      "audio_file": "assets/audio/ep18_line_06.mp3",
+      "japanese": "はい。チーズケーキと チョコレートケーキが あります。",
+      "romaji": "Hai. Chīzu kēki to chokorēto kēki ga arimasu.",
+      "arabic": "نعم. يوجد كعك الجبن وكعك الشوكولاتة."
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "ミナ",
+      "speaker_name_ar": "مينا",
+      "character_avatar": "assets/images/characters/mina.webp",
+      "audio_file": "assets/audio/ep18_line_07.mp3",
+      "japanese": "じゃ、チーズケーキを ひとつ ください。",
+      "romaji": "Ja, chīzu kēki o hitotsu kudasai.",
+      "arabic": "إذن، قطعة كعك جبن واحدة من فضلك."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep18_line_08.mp3",
+      "japanese": "わたしは チョコレートケーキを ひとつ おねがいします。サーレムさんは?",
+      "romaji": "Watashi wa chokorēto kēki o hitotsu onegaishimasu. Sāremu-san wa?",
+      "arabic": "وأنا قطعة كعك شوكولاتة واحدة. وأنت يا سالم؟"
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep18_line_09.mp3",
+      "japanese": "わたしは ケーキは いりません。",
+      "romaji": "Watashi wa kēki wa irimasen.",
+      "arabic": "أنا لا أريد كعكاً."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظف المقهى",
+      "character_avatar": "assets/images/characters/cafe_staff.webp",
+      "audio_file": "assets/audio/ep18_line_10.mp3",
+      "japanese": "コーヒーが 一ぱい、こうちゃが 一ぱい、ミルクティーが 一ぱいですね。ケーキは ふたつです。",
+      "romaji": "Kōhī ga ippai, kōcha ga ippai, miruku tī ga ippai desu ne. Kēki wa futatsu desu.",
+      "arabic": "قهوة واحدة، وشاي أسود واحد، وشاي بالحليب واحد. والكعك قطعتان."
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "店員",
+      "speaker_name_ar": "موظف المقهى",
+      "character_avatar": "assets/images/characters/cafe_staff.webp",
+      "audio_file": "assets/audio/ep18_line_11.mp3",
+      "japanese": "ここで たべますか。もって かえりますか。",
+      "romaji": "Koko de tabemasu ka. Motte kaerimasu ka.",
+      "arabic": "هل ستتناولونه هنا أم ستأخذونه معكم؟"
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "ユキ",
+      "speaker_name_ar": "يوكي",
+      "character_avatar": "assets/images/characters/yuki.webp",
+      "audio_file": "assets/audio/ep18_line_12.mp3",
+      "japanese": "ここで たべます。",
+      "romaji": "Koko de tabemasu.",
+      "arabic": "سنتناوله هنا."
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep18_line_13.mp3",
+      "japanese": "ミナさん、おみずを もらいましょうか。",
+      "romaji": "Mina-san, omizu o moraimashō ka.",
+      "arabic": "مينا، هل أطلب لكِ ماءً؟"
+    },
+    {
+      "id": 14,
+      "speaker_name_jp": "ミナ",
+      "speaker_name_ar": "مينا",
+      "character_avatar": "assets/images/characters/mina.webp",
+      "audio_file": "assets/audio/ep18_line_14.mp3",
+      "japanese": "ありがとう。おねがいします。",
+      "romaji": "Arigatō. Onegaishimasu.",
+      "arabic": "شكراً. من فضلك."
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "", "kana": "メニュー", "romaji": "menyū", "arabic": "قائمة الطعام", "audio": "assets/audio/ep18_v_01.mp3"},
+    {"kanji": "", "kana": "ホット", "romaji": "hotto", "arabic": "ساخن (للمشروبات)", "audio": "assets/audio/ep18_v_02.mp3"},
+    {"kanji": "", "kana": "アイス", "romaji": "aisu", "arabic": "بارد / مثلج (للمشروبات)", "audio": "assets/audio/ep18_v_03.mp3"},
+    {"kanji": "紅茶", "kana": "こうちゃ", "romaji": "kōcha", "arabic": "شاي أسود", "audio": "assets/audio/ep18_v_04.mp3"},
+    {"kanji": "お水", "kana": "おみず", "romaji": "omizu", "arabic": "ماء", "audio": "assets/audio/ep18_v_05.mp3"},
+    {"kanji": "", "kana": "もらいます", "romaji": "moraimasu", "arabic": "يحصل على / يتلقى", "audio": "assets/audio/ep18_v_06.mp3"},
+    {"kanji": "一杯", "kana": "いっぱい", "romaji": "ippai", "arabic": "كوب واحد", "audio": "assets/audio/ep18_v_07.mp3"},
+    {"kanji": "帰ります", "kana": "かえります", "romaji": "kaerimasu", "arabic": "يعود (إلى البيت)", "audio": "assets/audio/ep18_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "عدّ الأكواب والقطع: はい و こ و つ",
+      "pattern": "N が [عدد + はい / こ / つ] です / N を [عدد + はい / こ / つ] ください",
+      "explanation_ar": "عند الطلب في المقاهي نحتاج عدّ أنواع مختلفة. الأكواب والفناجين تُعدّ بـ ～はい، وتتغير القراءة حسب الرقم: いっぱい (1)، にはい (2)، さんばい (3)، よんはい (4)، ごはい (5)، ろっぱい (6)، ななはい (7)، はっぱい (8)، きゅうはい (9)، じゅっぱい (10)، وللسؤال: なんばい. والأشياء الصغيرة المستديرة كقطع الكعك تُعدّ بـ ～こ: いっこ، にこ، さんこ، ... وإذا لم تتذكر العدّاد الصحيح فنظام ひとつ، ふたつ، みっつ الذي تعلمناه في الحلقة 7 ينفع دائماً. وموقع العدد في الجملة: بعد الأداة وقبل الفعل: コーヒーを 二はい ください = أعطني فنجانين من القهوة. وبعد الاسم مع が عند عرض الطلب: コーヒーが 一ぱいですね."
+    },
+    {
+      "title_ar": "العرض والاقتراح: «هل أفعل لك...؟»",
+      "pattern": "V-ましょうか / V-て V (ربط الأفعال)",
+      "explanation_ar": "تعلمنا V-ましょう للدعوة المشتركة (لنفعل)، أما V-ましょうか فهي عرض مساعدة أو اقتراح متفق عليه: おみずを もらいましょうか = هل أطلب لكِ ماءً؟ تَرِد غالباً عندما يتطوع المتحدث لفعل شيء للمخاطَب. ويُجاب بالقبول: おねがいします (من فضلك)، وبالرفض اللطيف: いいえ、だいじょうぶです (لا شكراً، لا داعي). وبالإضافة إلى ذلك يتكرر في المطاعم سؤال: ここで たべますか。もって かえりますか = هل تأكل هنا أم تأخذه معك؟ والفعل もって かえります مركّب من もちます (يحمل) بصيغة て + かえります (يعود)، فمعناه «يأخذه معه إلى البيت». وللاختيار من اثنين نقول: ここで たべます أو もって かえります."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "كيف تطلب فنجانين من القهوة؟",
+      "options": ["コーヒーを 二はい ください。", "コーヒーを 二まい ください。", "コーヒーを 二にん ください。"],
+      "correct_index": 0,
+      "explanation_ar": "الأكواب والفناجين تُعدّ بـ ～はい. أما まい فللأشياء المسطحة كالأوراق، و にん للأشخاص."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «هل أطلب لكِ ماءً؟».",
+      "words": ["もらいましょうか", "おみずを"],
+      "correct_order": ["おみずを", "もらいましょうか"],
+      "explanation_ar": "المفعول به مع を أولاً، ثم الفعل بصيغة ましょうか للعرض."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are a staff member at a cozy cafe in Tokyo. The learner (Arabic speaker, JLPT N5) wants to order drinks and cake. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Flow: greet and hand the menu (メニューです), ask what they choose (何に しますか), ask hot or iced (ホットですか、アイスですか), offer cake (チーズケーキ, チョコレートケーキ), repeat the order using counters (コーヒーが 一ぱい、ケーキが ひとつ), ask for-here or to-go (ここで たべますか。もって かえりますか), and state the price (ぜんぶで 〜円です). (3) Make the learner practice counters ～はい / ～こ / ひとつ ふたつ, ordering with 〜を ください / 〜に します, and offering help with 〜ましょうか (e.g., teach them to say おみずを もらいましょうか to a friend). (4) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (5) Never go above N5 except fixed shop phrases (かしこまりました, しょうしょう おまち ください). (6) After 6-8 exchanges, finish the order and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "いらっしゃいませ。メニューです。どうぞ。",
+    "initial_ai_message_ar": "أهلاً بك. هذه قائمة الطعام. تفضل."
+  }
+}

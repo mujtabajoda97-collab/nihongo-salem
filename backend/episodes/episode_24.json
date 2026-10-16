@@ -1,0 +1,215 @@
+{
+  "episode_id": 24,
+  "season": 3,
+  "level": "JLPT_N5",
+  "title_ar": "وصف الأعراض في الصيدلية",
+  "title_jp": "やっきょくで びょうきを はなします",
+  "background_image": "assets/images/scenes/ep24_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "薬剤師",
+      "speaker_name_ar": "الصيدلاني",
+      "character_avatar": "assets/images/characters/pharmacist.webp",
+      "audio_file": "assets/audio/ep24_line_01.mp3",
+      "japanese": "いらっしゃいませ。どうしましたか。",
+      "romaji": "Irasshaimase. Dō shimashita ka.",
+      "arabic": "أهلاً بك. ما الذي يؤلمك؟"
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep24_line_02.mp3",
+      "japanese": "あたまが いたいです。それから、ねつも あります。",
+      "romaji": "Atama ga itai desu. Sorekara, netsu mo arimasu.",
+      "arabic": "رأسي يؤلمني. وأيضاً عندي حرارة."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "薬剤師",
+      "speaker_name_ar": "الصيدلاني",
+      "character_avatar": "assets/images/characters/pharmacist.webp",
+      "audio_file": "assets/audio/ep24_line_03.mp3",
+      "japanese": "いつから いたいですか。",
+      "romaji": "Itsu kara itai desu ka.",
+      "arabic": "منذ متى يؤلمك؟"
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep24_line_04.mp3",
+      "japanese": "きのうの よるからです。",
+      "romaji": "Kinō no yoru kara desu.",
+      "arabic": "منذ ليلة أمس."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "薬剤師",
+      "speaker_name_ar": "الصيدلاني",
+      "character_avatar": "assets/images/characters/pharmacist.webp",
+      "audio_file": "assets/audio/ep24_line_05.mp3",
+      "japanese": "のども いたいですか。",
+      "romaji": "Nodo mo itai desu ka.",
+      "arabic": "هل حلقك يؤلمك أيضاً؟"
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep24_line_06.mp3",
+      "japanese": "はい、すこし いたいです。せきも でます。",
+      "romaji": "Hai, sukoshi itai desu. Seki mo demasu.",
+      "arabic": "نعم، يؤلمني قليلاً. وأسعل أيضاً."
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "薬剤師",
+      "speaker_name_ar": "الصيدلاني",
+      "character_avatar": "assets/images/characters/pharmacist.webp",
+      "audio_file": "assets/audio/ep24_line_07.mp3",
+      "japanese": "かぜですね。ねつは 何度 ありますか。",
+      "romaji": "Kaze desu ne. Netsu wa nando arimasu ka.",
+      "arabic": "إنه نزلة برد. كم درجة حرارتك؟"
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep24_line_08.mp3",
+      "japanese": "三十八度です。",
+      "romaji": "Sanjūhachi-do desu.",
+      "arabic": "ثمانٍ وثلاثون درجة."
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "薬剤師",
+      "speaker_name_ar": "الصيدلاني",
+      "character_avatar": "assets/images/characters/pharmacist.webp",
+      "audio_file": "assets/audio/ep24_line_09.mp3",
+      "japanese": "それは たかいですね。この くすりを のんで ください。",
+      "romaji": "Sore wa takai desu ne. Kono kusuri o nonde kudasai.",
+      "arabic": "هذه مرتفعة. تناول هذا الدواء من فضلك."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep24_line_10.mp3",
+      "japanese": "いつ のみますか。一日に 何回ですか。",
+      "romaji": "Itsu nomimasu ka. Ichinichi ni nankai desu ka.",
+      "arabic": "متى أتناوله؟ كم مرة في اليوم؟"
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "薬剤師",
+      "speaker_name_ar": "الصيدلاني",
+      "character_avatar": "assets/images/characters/pharmacist.webp",
+      "audio_file": "assets/audio/ep24_line_11.mp3",
+      "japanese": "ごはんの あとで、一日に 三回 のんで ください。",
+      "romaji": "Gohan no ato de, ichinichi ni sankai nonde kudasai.",
+      "arabic": "بعد الطعام، ثلاث مرات في اليوم."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep24_line_12.mp3",
+      "japanese": "三回ですね。わかりました。コーヒーは のんでも いいですか。",
+      "romaji": "Sankai desu ne. Wakarimashita. Kōhī wa nonde mo ii desu ka.",
+      "arabic": "ثلاث مرات، فهمت. هل يمكنني شرب القهوة؟"
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "薬剤師",
+      "speaker_name_ar": "الصيدلاني",
+      "character_avatar": "assets/images/characters/pharmacist.webp",
+      "audio_file": "assets/audio/ep24_line_13.mp3",
+      "japanese": "いいえ、コーヒーは のまないで ください。おみずを たくさん のんで、ゆっくり ねて ください。",
+      "romaji": "Iie, kōhī wa nomanai de kudasai. Omizu o takusan nonde, yukkuri nete kudasai.",
+      "arabic": "لا، لا تشرب القهوة. اشرب ماءً كثيراً وارتح ونم جيداً."
+    },
+    {
+      "id": 14,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep24_line_14.mp3",
+      "japanese": "わかりました。いくらですか。",
+      "romaji": "Wakarimashita. Ikura desu ka.",
+      "arabic": "فهمت. كم الحساب؟"
+    },
+    {
+      "id": 15,
+      "speaker_name_jp": "薬剤師",
+      "speaker_name_ar": "الصيدلاني",
+      "character_avatar": "assets/images/characters/pharmacist.webp",
+      "audio_file": "assets/audio/ep24_line_15.mp3",
+      "japanese": "八百円です。おだいじに。",
+      "romaji": "Happyaku-en desu. Odaijini.",
+      "arabic": "ثمانمئة ين. أتمنى لك الشفاء العاجل."
+    },
+    {
+      "id": 16,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep24_line_16.mp3",
+      "japanese": "ありがとうございます。",
+      "romaji": "Arigatō gozaimasu.",
+      "arabic": "شكراً جزيلاً."
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "頭", "kana": "あたま", "romaji": "atama", "arabic": "رأس", "audio": "assets/audio/ep24_v_01.mp3"},
+    {"kanji": "喉", "kana": "のど", "romaji": "nodo", "arabic": "حلق", "audio": "assets/audio/ep24_v_02.mp3"},
+    {"kanji": "熱", "kana": "ねつ", "romaji": "netsu", "arabic": "حرارة / حمّى", "audio": "assets/audio/ep24_v_03.mp3"},
+    {"kanji": "咳", "kana": "せき", "romaji": "seki", "arabic": "سعال", "audio": "assets/audio/ep24_v_04.mp3"},
+    {"kanji": "薬", "kana": "くすり", "romaji": "kusuri", "arabic": "دواء", "audio": "assets/audio/ep24_v_05.mp3"},
+    {"kanji": "風邪", "kana": "かぜ", "romaji": "kaze", "arabic": "نزلة برد", "audio": "assets/audio/ep24_v_06.mp3"},
+    {"kanji": "痛い", "kana": "いたい", "romaji": "itai", "arabic": "مؤلم", "audio": "assets/audio/ep24_v_07.mp3"},
+    {"kanji": "〜回", "kana": "〜かい", "romaji": "~kai", "arabic": "مرة (عدد المرات)", "audio": "assets/audio/ep24_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "وصف الأعراض: «が いたいです» و«が あります / でます»",
+      "pattern": "[عضو] が いたいです / ねつが あります / せきが でます / いつ から",
+      "explanation_ar": "لوصف ألم في عضو نضع اسم العضو مع が ثم いたいです: あたまが いたいです = رأسي يؤلمني، おなかが いたいです = بطني يؤلمني. وللحرارة نقول: ねつが あります = عندي حرارة، ولأعراض أخرى نستخدم فعل でます (يخرج): せきが でます = أسعل، はなが でます = أنفي يسيل. وللإضافة نستخدم も بدل が: のども いたいです = حلقي يؤلمني أيضاً، ねつも あります = وعندي حرارة أيضاً. ولتحديد الشدة: すこし (قليلاً)، ちょっと (قليلاً/بعض الشيء)، とても (جداً)، あまり ～ない (ليس كثيراً). وللسؤال عن بداية الأعراض: いつから いたいですか = منذ متى يؤلمك؟ ويُجاب: きのうの よるからです. وللسؤال عن الحرارة: ねつは 何度 ありますか = كم درجة حرارتك؟ ويُجاب: 三十八度です (さんじゅうはちど)."
+    },
+    {
+      "title_ar": "تعليمات الدواء: عدد المرات والتوقيت",
+      "pattern": "[فترة] に [عدد] かい / N の あとで + V-て ください / V-ないで ください",
+      "explanation_ar": "للتعبير عن عدد مرات تناول الدواء نستخدم かい (مرة): いっかい (1)، にかい (2)، さんかい (3)، よんかい (4)، ごかい (5)، ろっかい (6)، はっかい (8)، じゅっかい (10)، والسؤال: 何かい. وتحدد الفترة بـ に: 一日に 三回 = ثلاث مرات في اليوم، 一しゅうかんに 二回 = مرتين في الأسبوع. وتوقيت الدواء نربطه بالطعام بما تعلمناه: ごはんの あとで (بعد الطعام)، ごはんの まえに (قبل الطعام). وتعليمات الصيدلاني تجمع ما درسناه في الحلقات السابقة: のんで ください (تناول)، ねて ください (نم)، のまないで ください (لا تشرب). ولطلب الراحة نقول: ゆっくり ねて ください. وعبارة おだいじに تُقال للمريض وتعني «اعتنِ بنفسك وأتمنى لك الشفاء»."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "كيف تقول: «بطني يؤلمني وعندي حرارة أيضاً»؟",
+      "options": ["おなかが いたいです。ねつも あります。", "おなかを いたいです。ねつが あります。", "おなかが いたいです。ねつを あります。"],
+      "correct_index": 0,
+      "explanation_ar": "الألم والحرارة يأخذان الأداة が. وللإضافة نستخدم も بدل が في الجملة الثانية: ねつも あります."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «تناول الدواء ثلاث مرات في اليوم بعد الطعام».",
+      "words": ["のんで ください", "三回", "ごはんの あとで", "一日に"],
+      "correct_order": ["ごはんの あとで", "一日に", "三回", "のんで ください"],
+      "explanation_ar": "التوقيت بالنسبة للطعام أولاً، ثم الفترة مع に، ثم عدد المرات، ثم الفعل مع ください."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are a kind pharmacist at a drugstore in Tokyo. The learner (Arabic speaker, JLPT N5) has a cold and wants medicine. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Ask about symptoms one at a time (どうしましたか / あたまが いたいですか / のども いたいですか / せきが でますか / ねつは 何度 ありますか) and since when (いつから ですか). (3) Make the learner practice 〜が いたいです, 〜が あります / でます, degree words (すこし, ちょっと, とても, あまり), and dosage instructions with 〜かい: (一日に 三回, ごはんの あとで のんで ください). Include a prohibition (コーヒーは のまないで ください) and rest advice (ゆっくり ねて ください). (4) Let them ask permission with 〜ても いいですか, answer yes or no, and quote the price at the end. (5) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (6) Never go above N5 except fixed phrases (おだいじに). (7) Do not give real medical advice beyond this simple practice script; if the learner says it is serious, tell them to go to a doctor (びょういんへ 行って ください). (8) After 6-8 exchanges, finish and give a 2-line feedback summary in Arabic.",
+    "initial_ai_message_jp": "いらっしゃいませ。どうしましたか。",
+    "initial_ai_message_ar": "أهلاً بك. ما الذي يؤلمك؟"
+  }
+}

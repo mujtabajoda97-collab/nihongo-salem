@@ -1,0 +1,185 @@
+{
+  "episode_id": 4,
+  "season": 1,
+  "level": "JLPT_N5",
+  "title_ar": "الوصول إلى السكن والتعارف",
+  "title_jp": "あたらしい 家と じこしょうかい",
+  "background_image": "assets/images/scenes/ep04_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "山田さん",
+      "speaker_name_ar": "السيدة يامادا",
+      "character_avatar": "assets/images/characters/yamada.webp",
+      "audio_file": "assets/audio/ep04_line_01.mp3",
+      "japanese": "サーレムさんですか。はじめまして。わたしは 山田です。この シェアハウスの 大家です。",
+      "romaji": "Sāremu-san desu ka. Hajimemashite. Watashi wa Yamada desu. Kono shea hausu no ōya desu.",
+      "arabic": "هل أنت سالم؟ تشرفنا. أنا يامادا، مالكة هذا السكن المشترك."
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep04_line_02.mp3",
+      "japanese": "はじめまして。サーレムです。どうぞ よろしく おねがいします。",
+      "romaji": "Hajimemashite. Sāremu desu. Dōzo yoroshiku onegaishimasu.",
+      "arabic": "تشرفنا. أنا سالم. يسعدني التعرف عليكِ."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "山田さん",
+      "speaker_name_ar": "السيدة يامادا",
+      "character_avatar": "assets/images/characters/yamada.webp",
+      "audio_file": "assets/audio/ep04_line_03.mp3",
+      "japanese": "こちらこそ。サーレムさんの へやは 二かいです。",
+      "romaji": "Kochira koso. Sāremu-san no heya wa ni-kai desu.",
+      "arabic": "وأنا كذلك. غرفتك في الطابق الثاني."
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep04_line_04.mp3",
+      "japanese": "わかりました。だいどころは どこに ありますか。",
+      "romaji": "Wakarimashita. Daidokoro wa doko ni arimasu ka.",
+      "arabic": "فهمت. أين يوجد المطبخ؟"
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "山田さん",
+      "speaker_name_ar": "السيدة يامادا",
+      "character_avatar": "assets/images/characters/yamada.webp",
+      "audio_file": "assets/audio/ep04_line_05.mp3",
+      "japanese": "一かいに あります。おふろと トイレも 一かいに あります。",
+      "romaji": "Ikkai ni arimasu. Ofuro to toire mo ikkai ni arimasu.",
+      "arabic": "في الطابق الأول. الحمام ودورة المياه أيضاً في الطابق الأول."
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep04_line_06.mp3",
+      "japanese": "あ、こんにちは!あたらしい 人ですか。",
+      "romaji": "A, konnichiwa! Atarashii hito desu ka.",
+      "arabic": "آه، مرحباً! هل أنت الساكن الجديد؟"
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "山田さん",
+      "speaker_name_ar": "السيدة يامادا",
+      "character_avatar": "assets/images/characters/yamada.webp",
+      "audio_file": "assets/audio/ep04_line_07.mp3",
+      "japanese": "はい、サーレムさんです。サーレムさん、こちらは ケンタさんです。",
+      "romaji": "Hai, Sāremu-san desu. Sāremu-san, kochira wa Kenta-san desu.",
+      "arabic": "نعم، هذا سالم. سالم، أقدّم لك كينتا."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep04_line_08.mp3",
+      "japanese": "ケンタです。かいしゃいんです。よろしく!",
+      "romaji": "Kenta desu. Kaishain desu. Yoroshiku!",
+      "arabic": "أنا كينتا. موظف في شركة. تشرفنا!"
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep04_line_09.mp3",
+      "japanese": "よろしく おねがいします。ケンタさんの へやは どこですか。",
+      "romaji": "Yoroshiku onegaishimasu. Kenta-san no heya wa doko desu ka.",
+      "arabic": "تشرفنا. أين غرفتك يا كينتا؟"
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep04_line_10.mp3",
+      "japanese": "ぼくの へやは サーレムさんの へやの となりです。",
+      "romaji": "Boku no heya wa Sāremu-san no heya no tonari desu.",
+      "arabic": "غرفتي بجانب غرفتك."
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep04_line_11.mp3",
+      "japanese": "あ、ねこが いますね!",
+      "romaji": "A, neko ga imasu ne!",
+      "arabic": "آه، توجد قطة هنا!"
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep04_line_12.mp3",
+      "japanese": "はい、山田さんの ねこです。なまえは モチです。",
+      "romaji": "Hai, Yamada-san no neko desu. Namae wa Mochi desu.",
+      "arabic": "نعم، إنها قطة السيدة يامادا. اسمها موتشي."
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep04_line_13.mp3",
+      "japanese": "かわいいですね!",
+      "romaji": "Kawaii desu ne!",
+      "arabic": "ما ألطفها!"
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "部屋", "kana": "へや", "romaji": "heya", "arabic": "غرفة", "audio": "assets/audio/ep04_v_01.mp3"},
+    {"kanji": "台所", "kana": "だいどころ", "romaji": "daidokoro", "arabic": "مطبخ", "audio": "assets/audio/ep04_v_02.mp3"},
+    {"kanji": "〜階", "kana": "〜かい", "romaji": "~kai", "arabic": "الطابق (一階 ikkai = الأول، 二階 nikai = الثاني)", "audio": "assets/audio/ep04_v_03.mp3"},
+    {"kanji": "隣", "kana": "となり", "romaji": "tonari", "arabic": "بجانب / المجاور", "audio": "assets/audio/ep04_v_04.mp3"},
+    {"kanji": "会社員", "kana": "かいしゃいん", "romaji": "kaishain", "arabic": "موظف شركة", "audio": "assets/audio/ep04_v_05.mp3"},
+    {"kanji": "猫", "kana": "ねこ", "romaji": "neko", "arabic": "قطة", "audio": "assets/audio/ep04_v_06.mp3"},
+    {"kanji": "新しい", "kana": "あたらしい", "romaji": "atarashii", "arabic": "جديد", "audio": "assets/audio/ep04_v_07.mp3"},
+    {"kanji": "", "kana": "はじめまして", "romaji": "hajimemashite", "arabic": "تشرفنا (عند اللقاء الأول فقط)", "audio": "assets/audio/ep04_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "أداة الإضافة والملكية «の»",
+      "pattern": "N1 の N2",
+      "explanation_ar": "الأداة の تربط اسمين، والاسم الأول يصف الثاني أو يملكه، وهي تشبه الإضافة في العربية لكن بترتيب معكوس: サーレムさんの へや = غرفة سالم (حرفياً: سالم-الـ-غرفة). ومثلها: 山田さんの ねこ = قطة يامادا، و シェアハウスの 大家 = مالكة السكن المشترك. ويمكن تكرار の أكثر من مرة: サーレムさんの へやの となり = بجانب غرفة سالم. وقاعدة الحفظ: المالك أولاً، ثم の، ثم الشيء المملوك."
+    },
+    {
+      "title_ar": "التعبير عن الوجود: «يوجد» للجماد والكائن الحي",
+      "pattern": "[مكان] に N が あります / います",
+      "explanation_ar": "في اليابانية فعلان للوجود: あります (arimasu) للأشياء غير الحية كالمطبخ والحمام والأثاث، و います (imasu) للكائنات الحية التي تتحرك بإرادتها كالبشر والحيوانات. لذلك قال سالم だいどころは どこに ありますか لأن المطبخ جماد، وقال ねこが います لأن القطة كائن حي. والأداة に بعد المكان تعني «في»: 一かいに あります = يوجد في الطابق الأول. وعند السؤال عن مكان شيء نستخدم: N は どこに ありますか / いますか."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "أي فعل نستخدم في جملة: ねこが ＿＿.",
+      "options": ["います", "あります", "です"],
+      "correct_index": 0,
+      "explanation_ar": "القطة كائن حي، لذلك نستخدم います. أما あります فللجمادات مثل المطبخ والحمام."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «غرفة سالم في الطابق الثاني».",
+      "words": ["二かいです", "へやは", "サーレムさんの"],
+      "correct_order": ["サーレムさんの", "へやは", "二かいです"],
+      "explanation_ar": "المالك ثم の ثم الشيء المملوك (サーレムさんの へや)، ثم は للموضوع، ثم الخبر مع です."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are Kenta, a cheerful Japanese office worker (かいしゃいん) living in a Tokyo share house. The learner (Arabic speaker, JLPT N5) is the new housemate who just arrived. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form (you may use casual よろしく once); 1-2 short sentences per turn. (2) Start with a self-introduction exchange (はじめまして, 〜です, よろしく おねがいします), then let the learner ask where things are in the house. (3) House layout: kitchen, bath and toilet on 1F (一かい); learner's room on 2F (二かい); your room is next to theirs (となり); the landlady Yamada-san has a cat named Mochi. (4) Actively use の (possession) and the difference between あります (things) and います (people/animals). Ask the learner questions such as 'Is there a cat in Dubai at your house?' using います. (5) If the learner confuses あります/います or misuses の, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (6) Never go above N5. (7) After 6-8 exchanges, end warmly and give a 2-line feedback summary in Arabic.",
+    "initial_ai_message_jp": "あ、こんにちは!あたらしい 人ですか。ぼくは ケンタです。",
+    "initial_ai_message_ar": "آه، مرحباً! هل أنت الساكن الجديد؟ أنا كينتا."
+  }
+}

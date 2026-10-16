@@ -15,6 +15,7 @@ COPY package.json package-lock.json* ./
 RUN (npm ci --omit=dev --no-audit --no-fund || npm install --omit=dev --no-audit --no-fund) && npm cache clean --force
 COPY --from=build /app/dist ./dist
 COPY prompts ./prompts
+COPY episodes ./episodes
 USER node
 EXPOSE 8080
 HEALTHCHECK --interval=30s --timeout=3s CMD wget -qO- http://127.0.0.1:${PORT}/health || exit 1

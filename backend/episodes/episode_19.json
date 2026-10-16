@@ -1,0 +1,195 @@
+{
+  "episode_id": 19,
+  "season": 2,
+  "level": "JLPT_N5",
+  "title_ar": "زيارة المكتبة",
+  "title_jp": "としょかんで ほんを かります",
+  "background_image": "assets/images/scenes/ep19_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "図書館員",
+      "speaker_name_ar": "أمين المكتبة",
+      "character_avatar": "assets/images/characters/librarian.webp",
+      "audio_file": "assets/audio/ep19_line_01.mp3",
+      "japanese": "こんにちは。どうしましたか。",
+      "romaji": "Konnichiwa. Dō shimashita ka.",
+      "arabic": "مرحباً. كيف يمكنني مساعدتك؟"
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep19_line_02.mp3",
+      "japanese": "本を かりたいです。でも、カードが ありません。",
+      "romaji": "Hon o karitai desu. Demo, kādo ga arimasen.",
+      "arabic": "أريد استعارة كتاب. لكن ليس لدي بطاقة."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "図書館員",
+      "speaker_name_ar": "أمين المكتبة",
+      "character_avatar": "assets/images/characters/librarian.webp",
+      "audio_file": "assets/audio/ep19_line_03.mp3",
+      "japanese": "では、カードを つくりましょう。パスポートを 見せて ください。じゅうしょも かいて ください。",
+      "romaji": "Dewa, kādo o tsukurimashō. Pasupōto o misete kudasai. Jūsho mo kaite kudasai.",
+      "arabic": "إذن، لنُصدر لك بطاقة. أرني جواز السفر من فضلك. واكتب عنوانك أيضاً."
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep19_line_04.mp3",
+      "japanese": "はい。……かきました。",
+      "romaji": "Hai. ... Kakimashita.",
+      "arabic": "حسناً... كتبت."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "図書館員",
+      "speaker_name_ar": "أمين المكتبة",
+      "character_avatar": "assets/images/characters/librarian.webp",
+      "audio_file": "assets/audio/ep19_line_05.mp3",
+      "japanese": "ありがとうございます。カードが できました。五さつまで かりても いいです。二しゅうかんで かえして ください。",
+      "romaji": "Arigatō gozaimasu. Kādo ga dekimashita. Go-satsu made karite mo ii desu. Nishūkan de kaeshite kudasai.",
+      "arabic": "شكراً. أصبحت البطاقة جاهزة. يمكنك استعارة حتى خمسة كتب. أعدها خلال أسبوعين من فضلك."
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep19_line_06.mp3",
+      "japanese": "二しゅうかんですね。日本語の 本は どこに ありますか。",
+      "romaji": "Nishūkan desu ne. Nihongo no hon wa doko ni arimasu ka.",
+      "arabic": "أسبوعان، فهمت. أين كتب اللغة اليابانية؟"
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "図書館員",
+      "speaker_name_ar": "أمين المكتبة",
+      "character_avatar": "assets/images/characters/librarian.webp",
+      "audio_file": "assets/audio/ep19_line_07.mp3",
+      "japanese": "二かいに あります。エレベーターで 行って ください。",
+      "romaji": "Nikai ni arimasu. Erebētā de itte kudasai.",
+      "arabic": "في الطابق الثاني. اذهب بالمصعد من فضلك."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep19_line_08.mp3",
+      "japanese": "みんな べんきょうして いますね。あの 人は 日本語の 本を よんで います。",
+      "romaji": "Minna benkyō shite imasu ne. Ano hito wa Nihongo no hon o yonde imasu.",
+      "arabic": "الجميع يدرسون. وذلك الشخص يقرأ كتاباً باللغة اليابانية."
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "図書館員",
+      "speaker_name_ar": "أمين المكتبة",
+      "character_avatar": "assets/images/characters/librarian.webp",
+      "audio_file": "assets/audio/ep19_line_09.mp3",
+      "japanese": "はい。ここは しずかな ばしょです。しずかに して ください。",
+      "romaji": "Hai. Koko wa shizuka na basho desu. Shizuka ni shite kudasai.",
+      "arabic": "نعم. هذا مكان هادئ. التزم الهدوء من فضلك."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep19_line_10.mp3",
+      "japanese": "わかりました。ここで のみものを のんでも いいですか。",
+      "romaji": "Wakarimashita. Koko de nomimono o nonde mo ii desu ka.",
+      "arabic": "فهمت. هل يمكنني شرب مشروب هنا؟"
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "図書館員",
+      "speaker_name_ar": "أمين المكتبة",
+      "character_avatar": "assets/images/characters/librarian.webp",
+      "audio_file": "assets/audio/ep19_line_11.mp3",
+      "japanese": "すみません。ここでは のまないで ください。ロビーで のんで ください。",
+      "romaji": "Sumimasen. Koko de wa nomanai de kudasai. Robī de nonde kudasai.",
+      "arabic": "آسف. لا تشرب هنا من فضلك. اشرب في البهو."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep19_line_12.mp3",
+      "japanese": "ロビーですね。わかりました。",
+      "romaji": "Robī desu ne. Wakarimashita.",
+      "arabic": "في البهو، حسناً. فهمت."
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "図書館員",
+      "speaker_name_ar": "أمين المكتبة",
+      "character_avatar": "assets/images/characters/librarian.webp",
+      "audio_file": "assets/audio/ep19_line_13.mp3",
+      "japanese": "ケータイは マナーモードに して ください。",
+      "romaji": "Kētai wa manā mōdo ni shite kudasai.",
+      "arabic": "ضع هاتفك على الوضع الصامت من فضلك."
+    },
+    {
+      "id": 14,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep19_line_14.mp3",
+      "japanese": "はい。ありがとうございました。",
+      "romaji": "Hai. Arigatō gozaimashita.",
+      "arabic": "حسناً. شكراً جزيلاً."
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "図書館", "kana": "としょかん", "romaji": "toshokan", "arabic": "مكتبة", "audio": "assets/audio/ep19_v_01.mp3"},
+    {"kanji": "本", "kana": "ほん", "romaji": "hon", "arabic": "كتاب", "audio": "assets/audio/ep19_v_02.mp3"},
+    {"kanji": "読みます", "kana": "よみます", "romaji": "yomimasu", "arabic": "يقرأ", "audio": "assets/audio/ep19_v_03.mp3"},
+    {"kanji": "借ります", "kana": "かります", "romaji": "karimasu", "arabic": "يستعير", "audio": "assets/audio/ep19_v_04.mp3"},
+    {"kanji": "作ります", "kana": "つくります", "romaji": "tsukurimasu", "arabic": "يصنع / يُصدر", "audio": "assets/audio/ep19_v_05.mp3"},
+    {"kanji": "静か", "kana": "しずか", "romaji": "shizuka", "arabic": "هادئ", "audio": "assets/audio/ep19_v_06.mp3"},
+    {"kanji": "飲み物", "kana": "のみもの", "romaji": "nomimono", "arabic": "مشروب", "audio": "assets/audio/ep19_v_07.mp3"},
+    {"kanji": "勉強します", "kana": "べんきょうします", "romaji": "benkyō shimasu", "arabic": "يدرس", "audio": "assets/audio/ep19_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "المضارع المستمر والحالة: V-て います",
+      "pattern": "V-て います",
+      "explanation_ar": "صيغة て + います لها استخدامان رئيسيان. (1) فعل يحدث الآن (مثل ing بالإنجليزية): あの 人は 本を よんで います = ذلك الشخص يقرأ كتاباً (الآن)، みんな べんきょうして います = الجميع يدرسون. (2) حالة مستمرة أو عادة ثابتة: とうきょうに すんで います = أسكن في طوكيو، けっこんして います = متزوج، だいがくで べんきょうして います = أدرس في الجامعة. ولا يوجد في اليابانية مضارع مستمر منفصل، فنفس الصيغة تخدم المعنيين، والسياق يحدد. وللنفي نقول: V-て いません، وللسؤال: V-て いますか. تذكر تكوين て من الحلقة 11: よみます ← よんで، べんきょうします ← べんきょうして."
+    },
+    {
+      "title_ar": "«に する»: جعل الشيء على حال، و«して ください»",
+      "pattern": "N / な-adj + に して ください / い-adj + く して ください",
+      "explanation_ar": "الفعل します (يفعل/يجعل) يتصل بالأداة に ليعني «يجعل الشيء على حال معينة»: しずかに して ください = كن هادئاً/اجعله هادئاً، マナーモードに して ください = ضع الهاتف على الوضع الصامت. وتتصل أسماء وصفات な بـ に، أما صفات い فنستبدل い بـ く: ちいさく して ください = اجعله أصغر. وهي شبيهة بـ なります (يصبح) التي تعلمناها في الحلقة 17، لكنها تدل على فعل إرادي من المتحدث. وفي المكتبة أيضاً نتعلم عدّ الكتب بـ ～さつ: いっさつ (1)، にさつ (2)، さんさつ (3)، よんさつ (4)، ごさつ (5)، وعبارة 五さつまで تعني «حتى خمسة كتب». ومدة الاستعارة: 二しゅうかん = أسبوعان."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "ما معنى: あの 人は 本を よんで います؟",
+      "options": ["ذلك الشخص يقرأ كتاباً الآن", "ذلك الشخص قرأ كتاباً أمس", "ذلك الشخص يريد أن يقرأ كتاباً"],
+      "correct_index": 0,
+      "explanation_ar": "V-て います تدل على فعل جارٍ الآن. الماضي يكون بـ よみました، والرغبة بـ よみたいです."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «اجعل الأمر هادئاً من فضلك / التزم الهدوء».",
+      "words": ["ください", "しずかに", "して"],
+      "correct_order": ["しずかに", "して", "ください"],
+      "explanation_ar": "الصفة な مع に أولاً، ثم الفعل して، ثم ください للطلب المهذب."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are a kind librarian at a public library in Tokyo. The learner (Arabic speaker, JLPT N5) wants to make a library card and borrow books. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Flow: ask what they need (どうしましたか), explain registration (パスポートを 見せて ください / じゅうしょを かいて ください), make the card, explain borrowing limits (五さつまで, 二しゅうかん), and where the Japanese-learning books are (二かい, エレベーター). (3) Explain library rules using 〜ないで ください (ここで たべないで ください), 〜に して ください (しずかに して ください, マナーモードに して ください), and ask the learner questions using 〜て います (なにを べんきょうして いますか / どこに すんで いますか / なにを よんで いますか). (4) Make the learner practice counters ～さつ and the question 〜ても いいですか. (5) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (6) Never go above N5. (7) After 6-8 exchanges, hand over the card and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "こんにちは。としょかんへ ようこそ。どうしましたか。",
+    "initial_ai_message_ar": "مرحباً بك في المكتبة. كيف يمكنني مساعدتك؟"
+  }
+}

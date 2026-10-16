@@ -1,0 +1,70 @@
+{
+  "episode_id": 30,
+  "season": 3,
+  "level": "JLPT_N5",
+  "title_ar": "الإبلاغ عن محفظة مفقودة في مركز الشرطة",
+  "title_jp": "こうばんで さいふを さがします",
+  "background_image": "assets/images/scenes/ep30_bg.webp",
+  "dialogues": [
+    {"id": 1, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep30_line_01.mp3", "japanese": "すみません。さいふを なくしました。", "romaji": "Sumimasen. Saifu o nakushimashita.", "arabic": "عفواً. لقد أضعت محفظتي."},
+    {"id": 2, "speaker_name_jp": "おまわりさん", "speaker_name_ar": "الشرطي", "character_avatar": "assets/images/characters/police_officer.webp", "audio_file": "assets/audio/ep30_line_02.mp3", "japanese": "それは たいへんですね。どうぞ、すわって ください。", "romaji": "Sore wa taihen desu ne. Dōzo, suwatte kudasai.", "arabic": "هذا صعب عليك. تفضل بالجلوس."},
+    {"id": 3, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep30_line_03.mp3", "japanese": "ありがとうございます。", "romaji": "Arigatō gozaimasu.", "arabic": "شكراً لك."},
+    {"id": 4, "speaker_name_jp": "おまわりさん", "speaker_name_ar": "الشرطي", "character_avatar": "assets/images/characters/police_officer.webp", "audio_file": "assets/audio/ep30_line_04.mp3", "japanese": "いつ、どこで なくしましたか。", "romaji": "Itsu, doko de nakushimashita ka.", "arabic": "متى وأين أضعتها؟"},
+    {"id": 5, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep30_line_05.mp3", "japanese": "きょうの ごご、あさくさで おとしたと おもいます。", "romaji": "Kyō no gogo, Asakusa de otoshita to omoimasu.", "arabic": "أظنني أسقطتها بعد ظهر اليوم في أساكوسا."},
+    {"id": 6, "speaker_name_jp": "おまわりさん", "speaker_name_ar": "الشرطي", "character_avatar": "assets/images/characters/police_officer.webp", "audio_file": "assets/audio/ep30_line_06.mp3", "japanese": "どんな さいふですか。", "romaji": "Donna saifu desu ka.", "arabic": "كيف شكل المحفظة؟"},
+    {"id": 7, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep30_line_07.mp3", "japanese": "くろくて ちいさい さいふです。きのう かった さいふです。", "romaji": "Kurokute chiisai saifu desu. Kinō katta saifu desu.", "arabic": "محفظة سوداء وصغيرة. هي محفظة اشتريتها أمس."},
+    {"id": 8, "speaker_name_jp": "おまわりさん", "speaker_name_ar": "الشرطي", "character_avatar": "assets/images/characters/police_officer.webp", "audio_file": "assets/audio/ep30_line_08.mp3", "japanese": "なかに なにが はいって いましたか。", "romaji": "Naka ni nani ga haitte imashita ka.", "arabic": "ماذا كان بداخلها؟"},
+    {"id": 9, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep30_line_09.mp3", "japanese": "おかねと ざいりゅうカードと スイカが はいって いました。", "romaji": "Okane to zairyū kādo to Suika ga haitte imashita.", "arabic": "كان بها نقود وبطاقة الإقامة وبطاقة سويكا."},
+    {"id": 10, "speaker_name_jp": "おまわりさん", "speaker_name_ar": "الشرطي", "character_avatar": "assets/images/characters/police_officer.webp", "audio_file": "assets/audio/ep30_line_10.mp3", "japanese": "おかねは いくらぐらい ありましたか。", "romaji": "Okane wa ikura gurai arimashita ka.", "arabic": "كم كان المبلغ تقريباً؟"},
+    {"id": 11, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep30_line_11.mp3", "japanese": "一万円ぐらいです。", "romaji": "Ichiman-en gurai desu.", "arabic": "حوالي عشرة آلاف ين."},
+    {"id": 12, "speaker_name_jp": "おまわりさん", "speaker_name_ar": "الشرطي", "character_avatar": "assets/images/characters/police_officer.webp", "audio_file": "assets/audio/ep30_line_12.mp3", "japanese": "この かみに なまえと でんわばんごうを かいて ください。", "romaji": "Kono kami ni namae to denwa bangō o kaite kudasai.", "arabic": "اكتب اسمك ورقم هاتفك على هذه الورقة من فضلك."},
+    {"id": 13, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep30_line_13.mp3", "japanese": "はい。……かきました。さいふは もう みつかりましたか。", "romaji": "Hai. ... Kakimashita. Saifu wa mō mitsukarimashita ka.", "arabic": "حسناً... كتبت. هل وُجدت المحفظة بعد؟"},
+    {"id": 14, "speaker_name_jp": "おまわりさん", "speaker_name_ar": "الشرطي", "character_avatar": "assets/images/characters/police_officer.webp", "audio_file": "assets/audio/ep30_line_14.mp3", "japanese": "いいえ、まだ みつかって いません。あした また きて ください。", "romaji": "Iie, mada mitsukatte imasen. Ashita mata kite kudasai.", "arabic": "لا، لم تُوجد بعد. تعال غداً مرة أخرى."},
+    {"id": 15, "speaker_name_jp": "サーレム", "speaker_name_ar": "سالم", "character_avatar": "assets/images/characters/salem.webp", "audio_file": "assets/audio/ep30_line_15.mp3", "japanese": "わかりました。よろしく おねがいします。", "romaji": "Wakarimashita. Yoroshiku onegai shimasu.", "arabic": "فهمت. أرجو مساعدتك."}
+  ],
+  "vocabulary": [
+    {"kanji": "交番", "kana": "こうばん", "romaji": "kōban", "arabic": "مركز شرطة صغير في الحي", "audio": "assets/audio/ep30_v_01.mp3"},
+    {"kanji": "財布", "kana": "さいふ", "romaji": "saifu", "arabic": "محفظة نقود", "audio": "assets/audio/ep30_v_02.mp3"},
+    {"kanji": "無くします", "kana": "なくします", "romaji": "nakushimasu", "arabic": "يضيّع", "audio": "assets/audio/ep30_v_03.mp3"},
+    {"kanji": "落とします", "kana": "おとします", "romaji": "otoshimasu", "arabic": "يُسقط (شيئاً)", "audio": "assets/audio/ep30_v_04.mp3"},
+    {"kanji": "在留カード", "kana": "ざいりゅうカード", "romaji": "zairyū kādo", "arabic": "بطاقة الإقامة", "audio": "assets/audio/ep30_v_05.mp3"},
+    {"kanji": "見つかります", "kana": "みつかります", "romaji": "mitsukarimasu", "arabic": "يُعثر عليه", "audio": "assets/audio/ep30_v_06.mp3"},
+    {"kanji": "", "kana": "もう", "romaji": "mō", "arabic": "بالفعل / الآن", "audio": "assets/audio/ep30_v_07.mp3"},
+    {"kanji": "", "kana": "まだ", "romaji": "mada", "arabic": "ليس بعد / ما زال", "audio": "assets/audio/ep30_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "وصف الأشياء: الفعل أو الصفة قبل الاسم",
+      "pattern": "V (الصيغة العادية) + N / い-adj + N",
+      "explanation_ar": "في اليابانية، كل ما يصف الاسم يأتي قبله، وبالصيغة العادية (غير المهذبة). مع الصفات: ちいさい さいふ = محفظة صغيرة، وإذا كانت هناك صفتان نربطهما بصيغة て: くろくて ちいさい さいふ = محفظة سوداء وصغيرة. ومع الأفعال نضع الفعل بصيغة た أو الصيغة المعجمية قبل الاسم: きのう かった さいふ = المحفظة التي اشتريتها أمس، わたしが なくした さいふ = المحفظة التي أضعتها أنا، ともだちが くれた おみやげ = الهدية التي أعطاني إياها صديقي. وهذه الطريقة بديل عن «الذي» و«التي» في العربية. وتفيدك عند وصف شيء ضائع لشخص ما: どんな さいふですか؟ (كيف هي المحفظة؟) تجيب بصفات أو بفعل يصفها."
+    },
+    {
+      "title_ar": "«もう» و«まだ» مع السؤال عن اكتمال الفعل",
+      "pattern": "もう V-ました / まだ V-て いません",
+      "explanation_ar": "もう تعني «بالفعل / الآن»، وتُستخدم مع الماضي المثبت: もう みつかりましたか = هل وُجدت بالفعل؟ والجواب المثبت: はい、もう みつかりました. أما الجواب المنفي فيكون: いいえ、まだ みつかって いません = لا، لم تُوجد بعد. لاحظ أن نفي الفعل مع まだ يكون بصيغة V-て いません (وليس ませんでした)، لأنها حالة مستمرة حتى الآن. أمثلة: もう ごはんを たべましたか。 ← いいえ、まだ たべて いません. وفي بعض الأحيان تقال まだです (ليس بعد) كاختصار. تذكّر أن まだ مع أفعال الحالة (مثل あります) أو مع الصفات تعني «ما زال»: まだ あついです = ما زال الجو حاراً."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "كيف تجيب بالنفي عن سؤال: もう たべましたか؟",
+      "options": ["いいえ、まだ たべて いません。", "いいえ、もう たべません。", "いいえ、まだ たべました。"],
+      "correct_index": 0,
+      "explanation_ar": "الجواب المنفي لـ もう ～ましたか يكون まだ ～て いません (لم أفعل بعد)."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «هذه المحفظة التي اشتريتها أمس».",
+      "words": ["さいふです", "かった", "きのう", "これは"],
+      "correct_order": ["これは", "きのう", "かった", "さいふです"],
+      "explanation_ar": "الجملة الواصفة (きのう かった) تأتي قبل الاسم さいふ مباشرة."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are a friendly police officer at a Japanese koban (neighborhood police box). The learner (Arabic speaker, JLPT N5) has lost their wallet. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Take the report step by step: what was lost (なにを なくしましたか), when and where (いつ / どこで), what it looks like (どんな さいふですか → くろくて ちいさい さいふです), what was inside (なかに なにが はいって いましたか), how much money (いくらぐらい), then ask them to write name and phone number on the paper (かみに なまえと でんわばんごうを かいて ください). (3) Practice describing objects with adjectives and verbs before nouns (きのう かった さいふ) and もう / まだ (もう みつかりましたか → まだ みつかって いません). Be kind and reassuring (たいへんですね). (4) This is a language-practice script only; do not give real legal advice. (5) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (6) Never go above N5. (7) After 6-8 exchanges, tell them to come again tomorrow and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "こんにちは。どうしましたか。",
+    "initial_ai_message_ar": "مرحباً. ماذا حدث؟"
+  }
+}

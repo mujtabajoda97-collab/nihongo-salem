@@ -1,0 +1,185 @@
+{
+  "episode_id": 9,
+  "season": 1,
+  "level": "JLPT_N5",
+  "title_ar": "قواعد فرز النفايات وأيام الأسبوع",
+  "title_jp": "ごみの ルールと ようび",
+  "background_image": "assets/images/scenes/ep09_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "山田さん",
+      "speaker_name_ar": "السيدة يامادا",
+      "character_avatar": "assets/images/characters/yamada.webp",
+      "audio_file": "assets/audio/ep09_line_01.mp3",
+      "japanese": "サーレムさん、ごみの ルールを おしえます。",
+      "romaji": "Sāremu-san, gomi no rūru o oshiemasu.",
+      "arabic": "سالم، سأعلّمك قواعد النفايات."
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep09_line_02.mp3",
+      "japanese": "おねがいします。",
+      "romaji": "Onegaishimasu.",
+      "arabic": "تفضلي، من فضلك."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "山田さん",
+      "speaker_name_ar": "السيدة يامادا",
+      "character_avatar": "assets/images/characters/yamada.webp",
+      "audio_file": "assets/audio/ep09_line_03.mp3",
+      "japanese": "もえる ごみは 月よう日と 木よう日に だします。",
+      "romaji": "Moeru gomi wa getsuyōbi to mokuyōbi ni dashimasu.",
+      "arabic": "النفايات القابلة للحرق نُخرجها يومي الاثنين والخميس."
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep09_line_04.mp3",
+      "japanese": "月よう日と 木よう日ですね。ペットボトルは 何よう日ですか。",
+      "romaji": "Getsuyōbi to mokuyōbi desu ne. Pettobotoru wa nan-yōbi desu ka.",
+      "arabic": "الاثنين والخميس، صحيح. وما يوم زجاجات البلاستيك؟"
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "山田さん",
+      "speaker_name_ar": "السيدة يامادا",
+      "character_avatar": "assets/images/characters/yamada.webp",
+      "audio_file": "assets/audio/ep09_line_05.mp3",
+      "japanese": "ペットボトルは 水よう日です。ビンは 金よう日です。",
+      "romaji": "Pettobotoru wa suiyōbi desu. Bin wa kinyōbi desu.",
+      "arabic": "زجاجات البلاستيك يوم الأربعاء. والزجاجات الزجاجية يوم الجمعة."
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep09_line_06.mp3",
+      "japanese": "土よう日と 日よう日は ごみを だしますか。",
+      "romaji": "Doyōbi to nichiyōbi wa gomi o dashimasu ka.",
+      "arabic": "هل نُخرج النفايات يومي السبت والأحد؟"
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "山田さん",
+      "speaker_name_ar": "السيدة يامادا",
+      "character_avatar": "assets/images/characters/yamada.webp",
+      "audio_file": "assets/audio/ep09_line_07.mp3",
+      "japanese": "いいえ、だしません。土よう日と 日よう日は ごみの やすみです。",
+      "romaji": "Iie, dashimasen. Doyōbi to nichiyōbi wa gomi no yasumi desu.",
+      "arabic": "لا، لا نُخرجها. السبت والأحد عطلة جمع النفايات."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep09_line_08.mp3",
+      "japanese": "ごみは 朝に だして ください。夜に ださないで くださいね。",
+      "romaji": "Gomi wa asa ni dashite kudasai. Yoru ni dasanai de kudasai ne.",
+      "arabic": "أخرِج النفايات في الصباح من فضلك. ولا تُخرجها في الليل، حسناً؟"
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep09_line_09.mp3",
+      "japanese": "わかりました。あの、きょうは 何よう日ですか。",
+      "romaji": "Wakarimashita. Ano, kyō wa nan-yōbi desu ka.",
+      "arabic": "فهمت. عفواً، أي يوم هو اليوم؟"
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "ケンタ",
+      "speaker_name_ar": "كينتا",
+      "character_avatar": "assets/images/characters/kenta.webp",
+      "audio_file": "assets/audio/ep09_line_10.mp3",
+      "japanese": "きょうは 火よう日です。あしたは 水よう日ですよ。",
+      "romaji": "Kyō wa kayōbi desu. Ashita wa suiyōbi desu yo.",
+      "arabic": "اليوم هو الثلاثاء. وغداً الأربعاء."
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep09_line_11.mp3",
+      "japanese": "じゃ、あした ペットボトルを だします。",
+      "romaji": "Ja, ashita pettobotoru o dashimasu.",
+      "arabic": "إذن، سأُخرج زجاجات البلاستيك غداً."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "山田さん",
+      "speaker_name_ar": "السيدة يامادا",
+      "character_avatar": "assets/images/characters/yamada.webp",
+      "audio_file": "assets/audio/ep09_line_12.mp3",
+      "japanese": "そうです。わすれないで くださいね。",
+      "romaji": "Sō desu. Wasurenai de kudasai ne.",
+      "arabic": "صحيح. لا تنسَ ذلك، حسناً؟"
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep09_line_13.mp3",
+      "japanese": "はい、わすれません!ありがとうございます。",
+      "romaji": "Hai, wasuremasen! Arigatō gozaimasu.",
+      "arabic": "نعم، لن أنسى! شكراً جزيلاً."
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "", "kana": "ごみ", "romaji": "gomi", "arabic": "نفايات / قمامة", "audio": "assets/audio/ep09_v_01.mp3"},
+    {"kanji": "何曜日", "kana": "なんようび", "romaji": "nan-yōbi", "arabic": "أي يوم من الأسبوع؟", "audio": "assets/audio/ep09_v_02.mp3"},
+    {"kanji": "出します", "kana": "だします", "romaji": "dashimasu", "arabic": "يُخرج / يضع (النفايات) خارجاً", "audio": "assets/audio/ep09_v_03.mp3"},
+    {"kanji": "教えます", "kana": "おしえます", "romaji": "oshiemasu", "arabic": "يعلّم / يخبر", "audio": "assets/audio/ep09_v_04.mp3"},
+    {"kanji": "朝", "kana": "あさ", "romaji": "asa", "arabic": "صباح", "audio": "assets/audio/ep09_v_05.mp3"},
+    {"kanji": "夜", "kana": "よる", "romaji": "yoru", "arabic": "ليل", "audio": "assets/audio/ep09_v_06.mp3"},
+    {"kanji": "明日", "kana": "あした", "romaji": "ashita", "arabic": "غداً", "audio": "assets/audio/ep09_v_07.mp3"},
+    {"kanji": "忘れます", "kana": "わすれます", "romaji": "wasuremasu", "arabic": "ينسى", "audio": "assets/audio/ep09_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "أيام الأسبوع والأداة «に»",
+      "pattern": "[يوم] + に + V / 何曜日",
+      "explanation_ar": "أيام الأسبوع اليابانية مأخوذة من الكواكب والعناصر، وكلها تنتهي بـ ようび (يوم): 日よう日 (الأحد: الشمس)، 月よう日 (الاثنين: القمر)، 火よう日 (الثلاثاء: النار)، 水よう日 (الأربعاء: الماء)، 木よう日 (الخميس: الشجر)، 金よう日 (الجمعة: الذهب)، 土よう日 (السبت: التراب). وللسؤال: 何よう日ですか = أي يوم هو؟ ولتحديد يوم حدوث الفعل نضع に بعد اليوم: 月よう日に だします = أُخرجها يوم الاثنين. أما كلمات الزمن النسبي مثل きょう (اليوم) و あした (غداً) و きのう (أمس) فلا تأخذ に: あした ペットボトルを だします."
+    },
+    {
+      "title_ar": "النهي المهذب: «لا تفعل من فضلك»",
+      "pattern": "V-ない + で ください",
+      "explanation_ar": "تعلمنا في الحلقة 8 صيغة て ください للطلب، وهنا نتعلم عكسها: النهي المهذب. نحول الفعل إلى صيغة ない ثم نضيف で ください. القاعدة: (1) أفعال المجموعة الأولى (التي ينتهي جذعها بحرف يتغير): نبدل الحرف الأخير من う إلى あ ثم نضيف ない: だします ← ださない، いきます ← いかない. (2) أفعال المجموعة الثانية: نحذف ます ونضيف ない: わすれます ← わすれない، たべます ← たべない. (3) الشاذة: します ← しない، きます ← こない. فنقول: ださないで ください = لا تُخرج (النفايات) من فضلك، わすれないで ください = لا تنسَ من فضلك. ويمكن إضافة ね في الآخر للتلطيف: わすれないで くださいね."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "قال لك كينتا: 夜に ごみを ださないで ください. ماذا يقصد؟",
+      "options": ["لا تُخرج النفايات في الليل", "أخرِج النفايات في الليل", "هل أخرجت النفايات ليلاً؟"],
+      "correct_index": 0,
+      "explanation_ar": "ださないで ください تعني «لا تُخرج من فضلك»، و 夜に تعني في الليل. أما الأمر بالفعل فيكون بصيغة だして ください."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «أُخرج النفايات القابلة للحرق يوم الاثنين».",
+      "words": ["だします", "月よう日に", "ごみを", "もえる"],
+      "correct_order": ["月よう日に", "もえる", "ごみを", "だします"],
+      "explanation_ar": "اليوم مع に أولاً، ثم الصفة もえる قبل الاسم ごみ، ثم الأداة を، ثم الفعل في النهاية."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are Yamada-san, the kind landlady of a share house in Tokyo. The learner (Arabic speaker, JLPT N5) is the new tenant asking about garbage rules. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Use this schedule: burnable garbage (もえる ごみ) Monday and Thursday; plastic bottles (ペットボトル) Wednesday; glass bottles (ビン) Friday; no collection Saturday and Sunday; put garbage out in the morning, never at night. (3) Make the learner practice the days of the week with に (月よう日に だします), asking 何よう日ですか, and use 〜ないで ください for prohibitions (よるに ださないで ください, わすれないで ください). (4) Quiz them naturally: pretend today is a certain day and ask what they should put out (きょうは 水よう日です。なにを だしますか). (5) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (6) Never go above N5. (7) After 6-8 exchanges, praise them and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "サーレムさん、きょうは 火よう日です。ごみの ルールを おぼえて いますか。",
+    "initial_ai_message_ar": "سالم، اليوم هو الثلاثاء. هل تتذكر قواعد النفايات؟"
+  }
+}

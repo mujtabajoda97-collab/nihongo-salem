@@ -1,0 +1,205 @@
+{
+  "episode_id": 21,
+  "season": 3,
+  "level": "JLPT_N5",
+  "title_ar": "اليوم الأول في مدرسة اللغة",
+  "title_jp": "にほんごがっこうの はじめての 日",
+  "background_image": "assets/images/scenes/ep21_bg.webp",
+  "dialogues": [
+    {
+      "id": 1,
+      "speaker_name_jp": "田中先生",
+      "speaker_name_ar": "الأستاذة تاناكا",
+      "character_avatar": "assets/images/characters/tanaka_sensei.webp",
+      "audio_file": "assets/audio/ep21_line_01.mp3",
+      "japanese": "みなさん、おはようございます。きょうから いっしょに べんきょうします。",
+      "romaji": "Minasan, ohayō gozaimasu. Kyō kara issho ni benkyō shimasu.",
+      "arabic": "صباح الخير جميعاً. من اليوم سندرس معاً."
+    },
+    {
+      "id": 2,
+      "speaker_name_jp": "田中先生",
+      "speaker_name_ar": "الأستاذة تاناكا",
+      "character_avatar": "assets/images/characters/tanaka_sensei.webp",
+      "audio_file": "assets/audio/ep21_line_02.mp3",
+      "japanese": "じゃ、じこしょうかいを して ください。サーレムさんから おねがいします。",
+      "romaji": "Ja, jikoshōkai o shite kudasai. Sāremu-san kara onegaishimasu.",
+      "arabic": "إذن، قدّموا أنفسكم من فضلكم. نبدأ بسالم."
+    },
+    {
+      "id": 3,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep21_line_03.mp3",
+      "japanese": "はじめまして。サーレムです。ドバイから 来ました。二十三さいです。",
+      "romaji": "Hajimemashite. Sāremu desu. Dobai kara kimashita. Nijūsan-sai desu.",
+      "arabic": "تشرفنا. أنا سالم. جئت من دبي. عمري ثلاثة وعشرون عاماً."
+    },
+    {
+      "id": 4,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep21_line_04.mp3",
+      "japanese": "ドバイは なつが とても あついです。どうぞ よろしく おねがいします。",
+      "romaji": "Dobai wa natsu ga totemo atsui desu. Dōzo yoroshiku onegaishimasu.",
+      "arabic": "الصيف في دبي حار جداً. يسعدني التعرف عليكم."
+    },
+    {
+      "id": 5,
+      "speaker_name_jp": "田中先生",
+      "speaker_name_ar": "الأستاذة تاناكا",
+      "character_avatar": "assets/images/characters/tanaka_sensei.webp",
+      "audio_file": "assets/audio/ep21_line_05.mp3",
+      "japanese": "ありがとうございます。日本語は どのぐらい べんきょうしましたか。",
+      "romaji": "Arigatō gozaimasu. Nihongo wa dono gurai benkyō shimashita ka.",
+      "arabic": "شكراً لك. كم من الوقت درست اللغة اليابانية؟"
+    },
+    {
+      "id": 6,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep21_line_06.mp3",
+      "japanese": "ドバイで 三か月 べんきょうしました。まだ へたです。",
+      "romaji": "Dobai de sankagetsu benkyō shimashita. Mada heta desu.",
+      "arabic": "درست ثلاثة أشهر في دبي. ما زلت ضعيفاً."
+    },
+    {
+      "id": 7,
+      "speaker_name_jp": "田中先生",
+      "speaker_name_ar": "الأستاذة تاناكا",
+      "character_avatar": "assets/images/characters/tanaka_sensei.webp",
+      "audio_file": "assets/audio/ep21_line_07.mp3",
+      "japanese": "じょうずですよ。つぎは アンナさんです。",
+      "romaji": "Jōzu desu yo. Tsugi wa Anna-san desu.",
+      "arabic": "أنت جيد. والتالية آنا."
+    },
+    {
+      "id": 8,
+      "speaker_name_jp": "アンナ",
+      "speaker_name_ar": "آنا",
+      "character_avatar": "assets/images/characters/anna.webp",
+      "audio_file": "assets/audio/ep21_line_08.mp3",
+      "japanese": "こんにちは。アンナです。ブラジルから 来ました。二十一さいです。しゅみは ダンスです。",
+      "romaji": "Konnichiwa. Anna desu. Burajiru kara kimashita. Nijūissai desu. Shumi wa dansu desu.",
+      "arabic": "مرحباً. أنا آنا. جئت من البرازيل. عمري واحد وعشرون عاماً. هوايتي الرقص."
+    },
+    {
+      "id": 9,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep21_line_09.mp3",
+      "japanese": "ブラジルは とおいですね。",
+      "romaji": "Burajiru wa tooi desu ne.",
+      "arabic": "البرازيل بعيدة جداً."
+    },
+    {
+      "id": 10,
+      "speaker_name_jp": "アンナ",
+      "speaker_name_ar": "آنا",
+      "character_avatar": "assets/images/characters/anna.webp",
+      "audio_file": "assets/audio/ep21_line_10.mp3",
+      "japanese": "はい。日本から とても とおいです。でも、ブラジルは ごはんが おいしいですよ。",
+      "romaji": "Hai. Nihon kara totemo tooi desu. Demo, Burajiru wa gohan ga oishii desu yo.",
+      "arabic": "نعم. بعيدة جداً عن اليابان. لكن الطعام في البرازيل لذيذ."
+    },
+    {
+      "id": 11,
+      "speaker_name_jp": "ワン",
+      "speaker_name_ar": "وانغ",
+      "character_avatar": "assets/images/characters/wang.webp",
+      "audio_file": "assets/audio/ep21_line_11.mp3",
+      "japanese": "はじめまして。ワンです。中国から 来ました。まえは 会社員でした。いまは 学生です。",
+      "romaji": "Hajimemashite. Wan desu. Chūgoku kara kimashita. Mae wa kaishain deshita. Ima wa gakusei desu.",
+      "arabic": "تشرفنا. أنا وانغ. جئت من الصين. كنت سابقاً موظف شركة. والآن أنا طالب."
+    },
+    {
+      "id": 12,
+      "speaker_name_jp": "田中先生",
+      "speaker_name_ar": "الأستاذة تاناكا",
+      "character_avatar": "assets/images/characters/tanaka_sensei.webp",
+      "audio_file": "assets/audio/ep21_line_12.mp3",
+      "japanese": "ありがとうございます。では、きょうかしょの 三ページを あけて ください。",
+      "romaji": "Arigatō gozaimasu. Dewa, kyōkasho no san-pēji o akete kudasai.",
+      "arabic": "شكراً لكم. والآن افتحوا الكتاب المدرسي على الصفحة الثالثة."
+    },
+    {
+      "id": 13,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep21_line_13.mp3",
+      "japanese": "すみません、せんせい。何ページですか。",
+      "romaji": "Sumimasen, sensei. Nan-pēji desu ka.",
+      "arabic": "عذراً يا أستاذة. أي صفحة؟"
+    },
+    {
+      "id": 14,
+      "speaker_name_jp": "田中先生",
+      "speaker_name_ar": "الأستاذة تاناكا",
+      "character_avatar": "assets/images/characters/tanaka_sensei.webp",
+      "audio_file": "assets/audio/ep21_line_14.mp3",
+      "japanese": "三ページです。",
+      "romaji": "San-pēji desu.",
+      "arabic": "الصفحة الثالثة."
+    },
+    {
+      "id": 15,
+      "speaker_name_jp": "サーレム",
+      "speaker_name_ar": "سالم",
+      "character_avatar": "assets/images/characters/salem.webp",
+      "audio_file": "assets/audio/ep21_line_15.mp3",
+      "japanese": "ありがとうございます。",
+      "romaji": "Arigatō gozaimasu.",
+      "arabic": "شكراً لك."
+    }
+  ],
+  "vocabulary": [
+    {"kanji": "先生", "kana": "せんせい", "romaji": "sensei", "arabic": "معلم / أستاذ", "audio": "assets/audio/ep21_v_01.mp3"},
+    {"kanji": "自己紹介", "kana": "じこしょうかい", "romaji": "jikoshōkai", "arabic": "تعريف بالنفس", "audio": "assets/audio/ep21_v_02.mp3"},
+    {"kanji": "歳", "kana": "さい", "romaji": "sai", "arabic": "سنة (من العمر)", "audio": "assets/audio/ep21_v_03.mp3"},
+    {"kanji": "教科書", "kana": "きょうかしょ", "romaji": "kyōkasho", "arabic": "كتاب مدرسي", "audio": "assets/audio/ep21_v_04.mp3"},
+    {"kanji": "夏", "kana": "なつ", "romaji": "natsu", "arabic": "صيف", "audio": "assets/audio/ep21_v_05.mp3"},
+    {"kanji": "", "kana": "まだ", "romaji": "mada", "arabic": "ما زال / بعد", "audio": "assets/audio/ep21_v_06.mp3"},
+    {"kanji": "今", "kana": "いま", "romaji": "ima", "arabic": "الآن", "audio": "assets/audio/ep21_v_07.mp3"},
+    {"kanji": "開けます", "kana": "あけます", "romaji": "akemasu", "arabic": "يفتح", "audio": "assets/audio/ep21_v_08.mp3"}
+  ],
+  "grammar_points": [
+    {
+      "title_ar": "العمر والتعريف بالنفس",
+      "pattern": "[رقم] さい です / 何さいですか / おいくつですか",
+      "explanation_ar": "العمر يُقال بالرقم ثم さい (سنة). والقراءات: いっさい (1)، にさい (2)، さんさい (3)، よんさい (4)، ごさい (5)، ろくさい (6)، ななさい (7)، はっさい (8)، きゅうさい (9)، じゅっさい (10). وللأعمار الأكبر نجمع: じゅういっさい (11)، にじゅうさい، لكن العمر 20 له قراءة خاصة: はたち. فنقول: 二十三さい = にじゅうさんさい، 二十一さい = にじゅういっさい. وللسؤال: 何さいですか (عادي)، أو おいくつですか (أكثر أدباً). وقالب التعريف بالنفس الكامل: はじめまして + الاسم + です + من أين + から 来ました + العمر + しゅみは ～です + どうぞ よろしく おねがいします. وكلمة まだ تعني «ما زال» وتأتي مع الإثبات (まだ へたです) ومع النفي (まだ わかりません = لا أفهم بعد)."
+    },
+    {
+      "title_ar": "الجملة ذات الموضوعين: «أ ب جميل»",
+      "pattern": "A は B が [صفة] です",
+      "explanation_ar": "من أهم أنماط اليابانية وصف جزء أو صفة من الموضوع الكبير. الموضوع الكبير مع は، ثم الجزء الموصوف مع が، ثم الصفة: ドバイは なつが あついです = (بالنسبة إلى دبي) الصيف حار. ومعناه الحرفي: «دبي، صيفها حار». ومثله: ブラジルは ごはんが おいしいです = الطعام في البرازيل لذيذ، 日本語は 漢字が むずかしいです = اللغة اليابانية كتابتها بالكانجي صعبة. هذا النمط يشبه في العربية «زيد طويل القامة». وتذكر أن が هنا تحدد الجزء الذي نصفه، فلا يمكن استبداله بـ は إلا للتأكيد والمقارنة. وعند الحديث عن ماضٍ تتغير الصفة فقط: ドバイは なつが あつかったです."
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_ar": "ما معنى: ブラジルは ごはんが おいしいです؟",
+      "options": ["الطعام في البرازيل لذيذ", "أحب أكل الأرز في البرازيل", "ذهبت إلى البرازيل لأتناول الطعام"],
+      "correct_index": 0,
+      "explanation_ar": "النمط A は B が صفة يصف جزءاً من الموضوع الكبير. فالبرازيل هي الموضوع، والطعام هو الجزء الموصوف، ولذيذ هي الصفة."
+    },
+    {
+      "id": 2,
+      "type": "word_order",
+      "question_ar": "رتّب الكلمات لتكوين جملة: «عمري ثلاثة وعشرون عاماً».",
+      "words": ["です", "わたしは", "二十三さい"],
+      "correct_order": ["わたしは", "二十三さい", "です"],
+      "explanation_ar": "الموضوع مع は أولاً، ثم العمر، ثم です في النهاية."
+    }
+  ],
+  "ai_roleplay": {
+    "system_scenario": "You are Tanaka-sensei, a warm Japanese language teacher on the first day of class at a Japanese language school in Tokyo. The learner (Arabic speaker, JLPT N5) is a new student. RULES: (1) Speak ONLY simple JLPT N5 Japanese in polite です/ます form; 1-2 short sentences per turn. (2) Guide a self-introduction step by step: name (おなまえは?), country (どこから 来ましたか), age (何さいですか), hobby (しゅみは なんですか), how long they studied Japanese (どのぐらい べんきょうしましたか), and one comment on their hometown using the 'A は B が adjective' pattern (ドバイは なつが あついです). (3) Then give classroom instructions with 〜て ください (きょうかしょの 〜ページを あけて ください) and ask the learner to confirm the page with 何ページですか. (4) If the learner makes a mistake, naturally restate the correct sentence once and continue. If stuck or speaking Arabic, give a short Arabic hint plus the Japanese phrase. (5) Never go above N5. (6) After 6-8 exchanges, welcome them to the class and give a 2-line feedback summary in Arabic (one strength, one phrase to practice).",
+    "initial_ai_message_jp": "みなさん、おはようございます。じこしょうかいを おねがいします。",
+    "initial_ai_message_ar": "صباح الخير جميعاً. قدّم نفسك من فضلك."
+  }
+}
