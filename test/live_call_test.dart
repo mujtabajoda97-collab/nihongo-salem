@@ -205,7 +205,7 @@ void main() {
     final e = await _setup();
     final hold = Completer<TutorReply>();
     e.api.hold = hold;
-    await e.ctl.start();
+    final started = e.ctl.start(); // waits for the held answer
     await settle();
     expect(e.state.phase, CallPhase.thinking);
     for (var i = 0; i < 30; i++) {
@@ -220,6 +220,7 @@ void main() {
     hold.complete(_reply());
     await settle();
     expect(e.state.phase, CallPhase.error);
+    await started;
   });
 
   test('start: shows the greeting, asks for the first turn, then listens',

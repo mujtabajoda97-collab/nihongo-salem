@@ -3,6 +3,11 @@ name: Build Android APK
 # Manual only: Actions tab > "Build Android APK" > Run workflow.
 on:
   workflow_dispatch:
+    inputs:
+      api_base_url:
+        description: "Server address for this build (empty = repository variable API_BASE_URL, else the Render server)"
+        required: false
+        default: ""
 
 permissions:
   contents: write   # to publish the APK as a release
@@ -12,8 +17,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 40
     env:
-      # The repository variable API_BASE_URL wins; otherwise this default is used.
-      API_BASE_URL: ${{ vars.API_BASE_URL || 'https://japanese-backend-cn68.onrender.com' }}
+      # Order: the address typed when running the workflow, then the repository
+      # variable API_BASE_URL, then the Render server.
+      API_BASE_URL: ${{ inputs.api_base_url || vars.API_BASE_URL || 'https://japanese-backend-cn68.onrender.com' }}
       APP_API_KEY: ${{ secrets.APP_API_KEY }}
     steps:
       - name: Check the server address
