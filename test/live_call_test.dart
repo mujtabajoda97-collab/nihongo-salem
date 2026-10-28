@@ -61,6 +61,7 @@ class _FakeApi implements TutorApi {
   final audioPaths = <String?>[];
   TutorReply Function(FreeTalkTurnRequest) reply = (_) => _reply();
   Object? failWith;
+  Completer<TutorReply>? hold;
 
   @override
   Future<TutorReply> sendTurn(TutorTurnRequest request, {String? audioPath}) =>
@@ -73,6 +74,8 @@ class _FakeApi implements TutorApi {
     audioPaths.add(audioPath);
     final e = failWith;
     if (e != null) throw e;
+    final h = hold;
+    if (h != null) return h.future;
     return reply(request);
   }
 }
@@ -120,7 +123,11 @@ class _Clock {
   DateTime call() => now;
 }
 
-Future<_Env> _setup({bool premium = false, int usedSeconds = 0}) async {
+Future<_Env> _setup({
+  bool premium = false,
+  int usedSeconds = 0,
+  Future<bool> Function()? wake,
+}) async {
   SharedPreferences.setMockInitialValues({});
   final prefs = await SharedPreferences.getInstance();
   final recorder = _FakeRecorder();
@@ -135,6 +142,7 @@ Future<_Env> _setup({bool premium = false, int usedSeconds = 0}) async {
     tutorApiProvider.overrideWithValue(api),
     audioServiceProvider.overrideWithValue(audio),
     clockProvider.overrideWithValue(clock.call),
+    serverWakeProvider.overrideWithValue(wake ?? () async => true),
   ]);
   addTearDown(c.dispose);
   LiveCallController.silentReplyPause = Duration.zero;
@@ -152,6 +160,68 @@ Future<_Env> _setup({bool premium = false, int usedSeconds = 0}) async {
 }
 
 void main() {
+  test('server unreachable: clear error with a code, retry wakes it again',
+      () async {
+    var awake = false;
+    final e = await _setup(wake: () async => awake);
+    await e.ctl.start();
+    await settle();
+    expect(e.state.phase, CallPhase.error);
+    expect(e.state.errorCode, 'health_unreachable');
+    expect(e.api.requests, isEmpty);
+
+    awake = true;
+    await e.ctl.retry();
+    await settle();
+    expect(e.api.requests.single.isFirstTurn, isTrue);
+    expect(e.state.phase, CallPhase.listening);
+  });
+
+  test('server error code reaches the screen', () async {
+    final e = await _setup();
+    e.api.failWith =
+        const TutorApiException('تعذّر', code: 'HTTP 502 · llm_failed');
+    await e.ctl.start();
+    await settle();
+    expect(e.state.phase, CallPhase.error);
+    expect(e.state.errorCode, 'HTTP 502 · llm_failed');
+  });
+
+  test('ending before any reply closes at once, without a server call',
+      () async {
+    final e = await _setup();
+    e.api.failWith = const TutorApiException('تعذّر', code: 'receiveTimeout');
+    await e.ctl.start();
+    await settle();
+    final sent = e.api.requests.length;
+
+    await e.ctl.endCall();
+    expect(e.state.phase, CallPhase.ended);
+    expect(e.api.requests.length, sent);
+    expect(e.state.errorAr, isNotNull);
+  });
+
+  test('waiting can be cancelled; a late answer is then ignored', () async {
+    final e = await _setup();
+    final hold = Completer<TutorReply>();
+    e.api.hold = hold;
+    await e.ctl.start();
+    await settle();
+    expect(e.state.phase, CallPhase.thinking);
+    for (var i = 0; i < 30; i++) {
+      e.ctl.tick();
+    }
+    expect(e.state.waitSeconds, 30);
+
+    e.ctl.cancelWait();
+    expect(e.state.phase, CallPhase.error);
+    expect(e.state.errorCode, 'client_wait_30s');
+
+    hold.complete(_reply());
+    await settle();
+    expect(e.state.phase, CallPhase.error);
+  });
+
   test('start: shows the greeting, asks for the first turn, then listens',
       () async {
     final e = await _setup();

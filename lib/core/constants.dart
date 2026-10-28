@@ -58,6 +58,10 @@ abstract final class AppRules {
 abstract final class AppConfig {
   static const String apiBaseUrl = String.fromEnvironment('API_BASE_URL');
 
+  /// Build stamp shown in Settings, e.g. "a1b2c3d · 2026-10-28" (set by CI).
+  static const String buildId =
+      String.fromEnvironment('APP_BUILD', defaultValue: 'dev');
+
   /// Optional shared secret, sent as `x-app-key` (must match APP_API_KEY on the server).
   static const String appApiKey = String.fromEnvironment('APP_API_KEY');
   static const String revenueCatKeyAndroid =

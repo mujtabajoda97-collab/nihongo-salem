@@ -61,6 +61,9 @@ final voiceRecorderProvider = Provider<VoiceRecorder>((ref) {
 /// Server client of station D and the live call. Replace in tests with a fake.
 final tutorApiProvider = Provider<TutorApi>((ref) => DioTutorApi());
 
+/// Wakes the server before a call (true = it answered). Replace in tests.
+final serverWakeProvider = Provider<Future<bool> Function()>((ref) => wakeUpServer);
+
 // ---------------------------------------------------------------------------
 // Content
 // ---------------------------------------------------------------------------

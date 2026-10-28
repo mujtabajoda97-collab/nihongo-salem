@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../core/constants.dart';
 import '../models/enums.dart';
 import '../providers/cloud.dart';
 import '../providers/providers.dart';
@@ -124,6 +125,15 @@ class SettingsSheet extends ConsumerWidget {
               title: Text('مسح التقدّم وإعادة البدء',
                   style: TextStyle(color: theme.colorScheme.error)),
               onTap: () => _confirmReset(context, ref),
+            ),
+            const SizedBox(height: 8),
+            Directionality(
+              textDirection: TextDirection.ltr,
+              child: Text(
+                'build ${AppConfig.buildId} · ${Uri.tryParse(AppConfig.apiBaseUrl)?.host ?? '-'}',
+                textAlign: TextAlign.center,
+                style: theme.textTheme.bodySmall?.copyWith(color: Colors.grey),
+              ),
             ),
           ],
         ),

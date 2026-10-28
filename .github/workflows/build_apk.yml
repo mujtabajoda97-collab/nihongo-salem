@@ -57,7 +57,8 @@ jobs:
           sh tool/ci_report.sh "build" flutter build apk --release \
             --dart-define=MOCK_PURCHASES=true \
             --dart-define=API_BASE_URL="$API_BASE_URL" \
-            --dart-define=APP_API_KEY="$APP_API_KEY"
+            --dart-define=APP_API_KEY="$APP_API_KEY" \
+            --dart-define=APP_BUILD="$(echo "$GITHUB_SHA" | cut -c1-7) · $(date -u +%Y-%m-%d)"
 
       - uses: actions/upload-artifact@v4
         with:

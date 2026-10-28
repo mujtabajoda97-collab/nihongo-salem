@@ -55,6 +55,8 @@ class LiveCallState {
     this.remainingSeconds,
     this.correctionVisible = false,
     this.errorAr,
+    this.errorCode,
+    this.waitSeconds = 0,
     this.summary,
     this.heardSpeech = false,
     this.paused = false,
@@ -83,6 +85,12 @@ class LiveCallState {
   final bool correctionVisible;
   final String? errorAr;
 
+  /// Short technical reason of the error (small print, for support).
+  final String? errorCode;
+
+  /// Seconds spent waiting for the server in `connecting` / `thinking`.
+  final int waitSeconds;
+
   /// Final summary turn (call finished).
   final AiTurnResponse? summary;
   final bool heardSpeech;
@@ -109,6 +117,8 @@ class LiveCallState {
     int? remainingSeconds,
     bool? correctionVisible,
     String? errorAr,
+    String? errorCode,
+    int? waitSeconds,
     bool clearError = false,
     AiTurnResponse? summary,
     bool? heardSpeech,
@@ -127,6 +137,8 @@ class LiveCallState {
         remainingSeconds: remainingSeconds ?? this.remainingSeconds,
         correctionVisible: correctionVisible ?? this.correctionVisible,
         errorAr: clearError ? null : (errorAr ?? this.errorAr),
+        errorCode: clearError ? null : (errorCode ?? this.errorCode),
+        waitSeconds: waitSeconds ?? this.waitSeconds,
         summary: summary ?? this.summary,
         heardSpeech: heardSpeech ?? this.heardSpeech,
         paused: paused ?? this.paused,
@@ -179,6 +191,12 @@ class LiveCallController extends AutoDisposeNotifier<LiveCallState> {
   bool _speech = false;
 
   bool _started = false;
+
+  /// Bumped for every request; a late answer of an abandoned request is ignored.
+  int _seq = 0;
+
+  /// At least one reply arrived (otherwise ending needs no server summary).
+  bool _gotReply = false;
   bool _ending = false;
   bool _disposed = false;
   Future<void> Function()? _retryAction;
@@ -251,6 +269,25 @@ class LiveCallController extends AutoDisposeNotifier<LiveCallState> {
     }
     if (_disposed || _ending) return;
 
+    await _firstTurn();
+  }
+
+  /// Wakes the server (free hosting sleeps when idle), then asks for the greeting.
+  Future<void> _firstTurn() async {
+    _retryAction = _firstTurn;
+    final seq = ++_seq;
+    state = state.copyWith(
+        phase: CallPhase.connecting, waitSeconds: 0, clearError: true);
+    final awake = await ref.read(serverWakeProvider)();
+    if (_disposed || _ending || seq != _seq) return;
+    if (!awake) {
+      state = state.copyWith(
+        phase: CallPhase.error,
+        errorAr: 'تعذّر الوصول إلى خادم المعلم. تأكد من الإنترنت ثم أعد المحاولة.',
+        errorCode: 'health_unreachable',
+      );
+      return;
+    }
     await _exchange(_request(first: true));
   }
 
@@ -276,9 +313,12 @@ class LiveCallController extends AutoDisposeNotifier<LiveCallState> {
     final remaining = _startRemaining == null
         ? null
         : max(0, _startRemaining! - _used);
+    final waiting = state.phase == CallPhase.connecting ||
+        state.phase == CallPhase.thinking;
     state = state.copyWith(
       elapsedSeconds: state.elapsedSeconds + 1,
       remainingSeconds: remaining,
+      waitSeconds: waiting ? state.waitSeconds + 1 : null,
     );
     if (_unflushed >= 5) _flushUsage();
     if (remaining != null && remaining <= 0) unawaited(endCall());
@@ -299,21 +339,28 @@ class LiveCallController extends AutoDisposeNotifier<LiveCallState> {
 
   Future<void> _exchange(FreeTalkTurnRequest request, {String? audioPath}) async {
     _retryAction = () => _exchange(request, audioPath: audioPath);
-    state = state.copyWith(phase: CallPhase.thinking, level: 0, clearError: true);
+    final seq = ++_seq;
+    state = state.copyWith(
+        phase: CallPhase.thinking, level: 0, waitSeconds: 0, clearError: true);
     try {
       final reply = await ref
           .read(tutorApiProvider)
           .sendFreeTalkTurn(request, audioPath: audioPath);
-      if (_disposed || _ending) return;
+      if (_disposed || _ending || seq != _seq) return;
       _retryAction = null;
+      _gotReply = true;
       await _present(reply);
     } on TutorApiException catch (e) {
-      if (_disposed || _ending) return;
-      state = state.copyWith(phase: CallPhase.error, errorAr: e.messageAr);
-    } on Object {
-      if (_disposed || _ending) return;
+      if (_disposed || _ending || seq != _seq) return;
       state = state.copyWith(
-          phase: CallPhase.error, errorAr: 'حدث خطأ غير متوقع. حاول مرة أخرى.');
+          phase: CallPhase.error, errorAr: e.messageAr, errorCode: e.code);
+    } on Object catch (e) {
+      if (_disposed || _ending || seq != _seq) return;
+      state = state.copyWith(
+        phase: CallPhase.error,
+        errorAr: 'حدث خطأ غير متوقع. حاول مرة أخرى.',
+        errorCode: e.runtimeType.toString(),
+      );
     }
   }
 
@@ -502,8 +549,23 @@ class LiveCallController extends AutoDisposeNotifier<LiveCallState> {
     await action();
   }
 
+  /// The learner gave up waiting: abandon the request, offer retry / skip.
+  void cancelWait() {
+    if (state.phase != CallPhase.thinking &&
+        state.phase != CallPhase.connecting) {
+      return;
+    }
+    _seq++;
+    state = state.copyWith(
+      phase: CallPhase.error,
+      errorAr: 'تأخّر رد المعلم. أعد المحاولة، أو تخطَّ وتحدّث مباشرة.',
+      errorCode: 'client_wait_${state.waitSeconds}s',
+    );
+  }
+
   /// After an error: forget the failed turn and listen again.
   Future<void> skipError() async {
+    _seq++;
     _retryAction = null;
     state = state.copyWith(clearError: true);
     await _listen();
@@ -515,7 +577,19 @@ class LiveCallController extends AutoDisposeNotifier<LiveCallState> {
   Future<void> endCall() async {
     if (_ending || state.phase == CallPhase.ended) return;
     _ending = true;
+    _seq++;
     await _stopEverything();
+    if (!_gotReply) {
+      // The teacher never answered: nothing to summarise, close at once.
+      state = state.copyWith(
+        phase: CallPhase.ended,
+        level: 0,
+        errorAr: state.errorAr == null
+            ? 'انتهت المكالمة قبل أن يصل رد المعلم.'
+            : 'انتهت المكالمة. آخر مشكلة: ${state.errorAr}',
+      );
+      return;
+    }
     state = state.copyWith(phase: CallPhase.ending, level: 0, clearError: true);
 
     try {
@@ -529,12 +603,27 @@ class LiveCallController extends AutoDisposeNotifier<LiveCallState> {
               localTime: hhmm(_now()),
               ttsProvider: _tts,
             ),
-          );
+          )
+          .timeout(const Duration(seconds: 30));
       if (_disposed) return;
       _showSummary(reply.turn, reply.audioUrl);
-    } on Object {
-      // No summary available (offline): still close the call cleanly.
-      if (!_disposed) state = state.copyWith(phase: CallPhase.ended);
+    } on TutorApiException catch (e) {
+      // No summary available: still close the call, and say why.
+      if (!_disposed) {
+        state = state.copyWith(
+          phase: CallPhase.ended,
+          errorAr: 'انتهت المكالمة، لكن تعذّر الحصول على ملخصها. ${e.messageAr}',
+          errorCode: e.code,
+        );
+      }
+    } on Object catch (e) {
+      if (!_disposed) {
+        state = state.copyWith(
+          phase: CallPhase.ended,
+          errorAr: 'انتهت المكالمة، لكن تعذّر الحصول على ملخصها.',
+          errorCode: e is TimeoutException ? 'summary_timeout' : e.runtimeType.toString(),
+        );
+      }
     }
   }
 

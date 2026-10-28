@@ -58,7 +58,9 @@ export async function buildApp(deps: AppDeps): Promise<FastifyInstance> {
     limits: { fileSize: cfg.maxAudioBytes, files: 1, fields: 4, parts: 6 },
   });
 
-  app.get('/health', { config: { rateLimit: false } }, async () => ({ ok: true }));
+  // `commit` tells which code is live (Render sets RENDER_GIT_COMMIT).
+  const commit = (process.env['RENDER_GIT_COMMIT'] ?? '').slice(0, 7);
+  app.get('/health', { config: { rateLimit: false } }, async () => (commit ? { ok: true, commit } : { ok: true }));
 
   // Generated speech (unguessable id, expires after AUDIO_TTL_MINUTES).
   app.get<{ Params: { file: string } }>('/v1/audio/:file', async (req, reply) => {
@@ -135,13 +137,22 @@ export async function buildApp(deps: AppDeps): Promise<FastifyInstance> {
 
     const request = validateRequest(payload, cfg, audioBytes);
     return runTurn(
-      { cfg, prompts, sessions, audio, baseUrl: baseUrlOf(cfg, req), log: (m) => req.log.warn(m) },
+      {
+        cfg,
+        prompts,
+        sessions,
+        audio,
+        baseUrl: baseUrlOf(cfg, req),
+        log: (m) => req.log.warn(m),
+        timing: (t) => req.log.info(t, 'turn timing'),
+      },
       request,
     );
   });
 
   app.setErrorHandler((err, req, reply) => {
     if (err instanceof RequestError) {
+      req.log.info({ code: err.code, status: err.status }, 'turn rejected');
       return reply.code(err.status).send({ error: err.code, message: err.message });
     }
     if (err instanceof UpstreamError) {

@@ -31,6 +31,8 @@ export interface TurnDeps {
   /** Public base URL used to build audio_url, e.g. https://api.example.com */
   baseUrl: string;
   log?: (msg: string) => void;
+  /** Receives how long each stage took (no learner content, safe to log). */
+  timing?: (t: Record<string, string | number | boolean>) => void;
 }
 
 // ---------------------------------------------------------------------------
@@ -159,13 +161,30 @@ function firstTurnNudge(mode: Mode): string {
 export async function runTurn(deps: TurnDeps, req: TurnRequest): Promise<TurnResponse> {
   const { cfg } = deps;
   const log = deps.log ?? (() => {});
+  const t: Record<string, string | number | boolean> = {
+    mode: req.mode,
+    first: req.isFirstTurn,
+    audioBytes: req.audio?.byteLength ?? 0,
+  };
+  const report = () => deps.timing?.(t);
+  let mark = Date.now();
+  const lap = (name: string) => {
+    const now = Date.now();
+    t[name] = now - mark;
+    mark = now;
+  };
 
   // 1. Listen
   let userText = req.userMessage;
   let transcript: string | undefined;
   if (req.audio) {
     const text = cleanTranscript(await transcribe(cfg, req.audio));
-    if (text === '') return notHeardReply();
+    lap('sttMs');
+    if (text === '') {
+      t.heard = false;
+      report();
+      return notHeardReply();
+    }
     transcript = text;
     userText = text;
   }
@@ -183,6 +202,7 @@ export async function runTurn(deps: TurnDeps, req: TurnRequest): Promise<TurnRes
   let turn: AiTurn;
   try {
     turn = await generateTurn(cfg, system, history, content);
+    lap('llmMs');
   } catch (e) {
     if (e instanceof LlmFormatError) {
       throw new UpstreamError('llm', 502, `llm answer was not valid: ${e.message}`);
@@ -223,6 +243,9 @@ export async function runTurn(deps: TurnDeps, req: TurnRequest): Promise<TurnRes
       else audioId = deps.audio.put(speech.data, speech.mime, cacheKey);
     }
   }
+  lap('ttsMs');
+  t.audio = Boolean(inline || audioId);
+  report();
   if (inline) {
     response.audio_url = `data:${inline.mime};base64,${Buffer.from(inline.data).toString('base64')}`;
   } else if (audioId) {

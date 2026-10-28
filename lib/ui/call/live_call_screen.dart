@@ -17,11 +17,15 @@ String _mmss(int seconds) {
   return '${m.toString().padLeft(2, '0')}:${s.toString().padLeft(2, '0')}';
 }
 
-String _phaseLabel(CallPhase p, bool heardSpeech) => switch (p) {
-      CallPhase.connecting => 'جارٍ الاتصال…',
+String _phaseLabel(LiveCallState s) => switch (s.phase) {
+      CallPhase.connecting => s.waitSeconds >= 5
+          ? 'جارٍ إيقاظ الخادم… (${s.waitSeconds} ث)\nقد يستغرق ذلك دقيقة في أول مكالمة'
+          : 'جارٍ الاتصال…',
       CallPhase.listening =>
-        heardSpeech ? 'أسمعك…' : 'تحدّث، ثم اضغط الدائرة عند الانتهاء',
-      CallPhase.thinking => 'يفكّر…',
+        s.heardSpeech ? 'أسمعك…' : 'تحدّث، ثم اضغط الدائرة عند الانتهاء',
+      CallPhase.thinking => s.waitSeconds >= 8
+          ? 'يفكّر… (${s.waitSeconds} ث)\nالرد يتأخر، ربما الخادم يستيقظ'
+          : 'يفكّر…',
       CallPhase.speaking => 'يتحدّث',
       CallPhase.paused => 'المكالمة متوقفة مؤقتاً',
       CallPhase.error => 'حدثت مشكلة',
@@ -125,12 +129,22 @@ class _ActiveCall extends ConsumerWidget {
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  _phaseLabel(state.phase, state.heardSpeech),
+                  _phaseLabel(state),
+                  textAlign: TextAlign.center,
                   style: const TextStyle(color: Colors.white70, fontSize: 15),
                 ),
+                if ((state.phase == CallPhase.thinking ||
+                        state.phase == CallPhase.connecting) &&
+                    state.waitSeconds >= 25)
+                  TextButton(
+                    style: TextButton.styleFrom(foregroundColor: Colors.white),
+                    onPressed: controller.cancelWait,
+                    child: const Text('إلغاء الانتظار'),
+                  ),
                 if (state.phase == CallPhase.error && state.errorAr != null)
                   _ErrorBox(
                     message: state.errorAr!,
+                    code: state.errorCode,
                     onRetry: controller.retry,
                     onSkip: controller.skipError,
                   ),
@@ -334,11 +348,13 @@ class _ReplyText extends StatelessWidget {
 class _ErrorBox extends StatelessWidget {
   const _ErrorBox({
     required this.message,
+    this.code,
     required this.onRetry,
     required this.onSkip,
   });
 
   final String message;
+  final String? code;
   final VoidCallback onRetry;
   final VoidCallback onSkip;
 
@@ -355,6 +371,7 @@ class _ErrorBox extends StatelessWidget {
             Text(message,
                 textAlign: TextAlign.center,
                 style: const TextStyle(color: Colors.white, height: 1.5)),
+            if (code != null) _CodeLine(code!),
             const SizedBox(height: 8),
             Wrap(
               spacing: 8,
@@ -373,6 +390,24 @@ class _ErrorBox extends StatelessWidget {
               ],
             ),
           ],
+        ),
+      );
+}
+
+/// Small technical reason under an error (helps reading the server logs).
+class _CodeLine extends StatelessWidget {
+  const _CodeLine(this.code);
+
+  final String code;
+
+  @override
+  Widget build(BuildContext context) => Padding(
+        padding: const EdgeInsets.only(top: 4),
+        child: Directionality(
+          textDirection: TextDirection.ltr,
+          child: Text('code: $code',
+              textAlign: TextAlign.center,
+              style: const TextStyle(color: Colors.white38, fontSize: 11)),
         ),
       );
 }
@@ -414,6 +449,7 @@ class _Summary extends ConsumerWidget {
                 textAlign: TextAlign.center,
                 style: const TextStyle(color: Colors.white, height: 1.5)),
           ),
+        if (state.errorCode != null && turn == null) _CodeLine(state.errorCode!),
         if (turn != null) ...[
           const SizedBox(height: 16),
           _ReplyText(
